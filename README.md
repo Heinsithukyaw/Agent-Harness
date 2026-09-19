@@ -468,11 +468,10 @@ subdirectory of this repository.
 3. **Trend detection** — flag projects crossing a velocity threshold. The signal a
    static list structurally cannot produce.
 4. **CycloneDX SBOMs** — reuses manifests already fetched; serves CRA reporting.
-5. **Require the validation check** — branch protection on `main` is already on
-   (no force pushes, no deletions, linear history, admins included), but GitHub
-   will not let a status check be required until it has run at least once. Add
-   `Validate the rendered artefacts` to the required checks once this workflow
-   has a green run on `main`.
+5. **Widen the required check** — branch protection requires the `registry` job,
+   but that workflow only triggers on four paths, so a pull request touching
+   anything else waits on a check that never runs. Either broaden the trigger or
+   move the artefact validation into its own always-running workflow.
 
 ---
 
