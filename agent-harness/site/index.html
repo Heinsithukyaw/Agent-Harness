@@ -69,11 +69,7 @@
   .hero{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,0.86fr);gap:30px;align-items:center}
   .brand{display:flex;align-items:center;gap:14px}
   .mark{width:44px;height:44px;flex:none;overflow:visible}
-  .mark .hex{stroke:url(#markGrad);stroke-width:1.6;fill:none;
-    stroke-dasharray:34 210;animation:spin 9s linear infinite;transform-origin:21px 21px}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
-  .mark .node{animation:pulse 3.2s var(--ease) infinite;transform-box:fill-box;transform-origin:center}
+  .mark *{vector-effect:non-scaling-stroke}
   h1{
     font-size:clamp(26px,3.4vw,34px);font-weight:600;color:var(--title);margin:0;
     letter-spacing:-.028em;line-height:1.12;
@@ -129,7 +125,6 @@
     animation:flow 5.5s linear infinite}
   @keyframes flow{to{stroke-dashoffset:-798}}
   .pipe-node{fill:#0B0C10;stroke:rgba(255,255,255,.20);stroke-width:1.1}
-  .pipe-dot{fill:var(--gold);animation:pulse 3.2s var(--ease) infinite;transform-box:fill-box;transform-origin:center}
   .pipe-label{fill:#8A8478;font:600 9.5px var(--mono);letter-spacing:.16em;text-anchor:middle}
   .pipe-big{fill:#C6C1B7;font:600 11px var(--mono);text-anchor:middle}
   .pipe-sub{fill:#5F5A51;font:9px var(--mono);text-anchor:middle}
@@ -306,15 +301,21 @@
       <div class="brand">
         <svg class="mark" viewBox="0 0 42 42" aria-hidden="true">
           <defs>
-            <linearGradient id="markGrad" x1="0" y1="0" x2="1" y2="1">
+            <!-- One gradient across the whole mark: gold agent → violet agent -->
+            <linearGradient id="markGrad" gradientUnits="userSpaceOnUse" x1="6.2" y1="11.8" x2="35.8" y2="30.2">
               <stop offset="0" stop-color="#E3B778"/><stop offset="1" stop-color="#7C5CFF"/>
             </linearGradient>
           </defs>
-          <path class="hex" d="M21 3.4 35.6 11.7v16.6L21 38.6 6.4 28.3V11.7z"/>
-          <circle class="node" cx="21" cy="13" r="2.4" fill="#E3B778"/>
-          <circle class="node" cx="29.5" cy="24" r="2.4" fill="#7C5CFF" style="animation-delay:.5s"/>
-          <circle class="node" cx="12.5" cy="24" r="2.4" fill="#38BDF8" style="animation-delay:1s"/>
-          <path d="M21 15.4v6.2M21 21.6 29.5 24M21 21.6 12.5 24" stroke="rgba(255,255,255,.22)" stroke-width="1.1" fill="none"/>
+          <!-- Two agents as overlapping orbits — the overlap is the harness -->
+          <circle cx="15.4" cy="21" r="9.2" fill="none" stroke="url(#markGrad)" stroke-width="1.2"/>
+          <circle cx="26.6" cy="21" r="9.2" fill="none" stroke="url(#markGrad)" stroke-width="1.2"/>
+          <!-- Harness strap: core to core -->
+          <path d="M15.4 21H26.6" stroke="url(#markGrad)" stroke-width="1.2" opacity="0.3"/>
+          <!-- One pulse: the left agent speaks, the right receives, then dissolves -->
+          <circle r="1.7" cy="21" fill="#E3B778" opacity="0">
+            <animate attributeName="cx" values="15.4;26.6;26.6" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.32 0 0.2 1;0 0 1 1" dur="3.6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.12;0.4;0.5;1" dur="3.6s" repeatCount="indefinite"/>
+          </circle>
         </svg>
         <h1>Agent-Harness</h1>
         <span class="live"><b></b>LIVE</span>
@@ -419,10 +420,10 @@
     <circle class="mo" r="3" fill="#E3B778" opacity="0"><animateMotion dur="2.4s" begin="0.80s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1" keyTimes="0;1" path="M386 32 L614 32"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.16;0.84;1" dur="2.4s" begin="0.80s" repeatCount="indefinite"/></circle>
     <circle class="mo" r="3" fill="#7C5CFF" opacity="0"><animateMotion dur="2.4s" begin="1.60s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1" keyTimes="0;1" path="M646 32 L874 32"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.16;0.84;1" dur="2.4s" begin="1.60s" repeatCount="indefinite"/></circle>
 
-    <g><circle class="mo" cx="110" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="110" cy="32" r="11"/><circle class="pipe-dot" cx="110" cy="32" r="3.4" style="animation-delay:0.0s"/><g class="mo"><g><animateTransform attributeName="transform" type="rotate" from="0 110 32" to="360 110 32" dur="18s" repeatCount="indefinite"/><circle cx="110" cy="16" r="1.9" fill="#E3B778" opacity="0.8"/></g></g><text class="pipe-label" x="110" y="60">DISCOVER</text><text class="pipe-big" x="110" y="76">1,831 candidates</text><text class="pipe-sub" x="110" y="90">search queries</text></g>
-    <g><circle class="mo" cx="370" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="370" cy="32" r="11"/><circle class="pipe-dot" cx="370" cy="32" r="3.4" style="animation-delay:0.4s"/><g class="mo"><g><animateTransform attributeName="transform" type="rotate" from="0 370 32" to="360 370 32" dur="22s" repeatCount="indefinite"/><circle cx="370" cy="16" r="1.9" fill="#E3B778" opacity="0.8"/></g></g><text class="pipe-label" x="370" y="60">ENRICH</text><text class="pipe-big" x="370" y="76">781 manifests</text><text class="pipe-sub" x="370" y="90">no clones</text></g>
-    <g><circle class="mo" cx="630" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="630" cy="32" r="11"/><circle class="pipe-dot" cx="630" cy="32" r="3.4" style="animation-delay:0.8s"/><g class="mo"><g><animateTransform attributeName="transform" type="rotate" from="0 630 32" to="360 630 32" dur="26s" repeatCount="indefinite"/><circle cx="630" cy="16" r="1.9" fill="#E3B778" opacity="0.8"/></g></g><text class="pipe-label" x="630" y="60">CLASSIFY</text><text class="pipe-big" x="630" y="76">1,153 projects</text><text class="pipe-sub" x="630" y="90">9 layers</text></g>
-    <g><circle class="mo" cx="890" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="1.8s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="890" cy="32" r="11"/><circle class="pipe-dot" cx="890" cy="32" r="3.4" style="animation-delay:1.2s"/><g class="mo"><g><animateTransform attributeName="transform" type="rotate" from="0 890 32" to="360 890 32" dur="30s" repeatCount="indefinite"/><circle cx="890" cy="16" r="1.9" fill="#E3B778" opacity="0.8"/></g></g><text class="pipe-label" x="890" y="60">RECORD</text><text class="pipe-big" x="890" y="76">chain intact</text><text class="pipe-sub" x="890" y="90">10 runs · append-only</text></g>
+    <g><circle class="mo" cx="110" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="110" cy="32" r="11"/><g transform="translate(110 32)" stroke="#E3B778" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"><g><animateTransform attributeName="transform" type="rotate" values="-10 0 0;10 0 0;-10 0 0" keyTimes="0;0.5;1" dur="4.4s" begin="0.00s" repeatCount="indefinite"/><circle cx="-2.2" cy="-2.2" r="3.4"/><path d="M0.5 0.5 L4.2 4.2"/></g></g><text class="pipe-label" x="110" y="60">DISCOVER</text><text class="pipe-big" x="110" y="76">1,831 candidates</text><text class="pipe-sub" x="110" y="90">search queries</text></g>
+    <g><circle class="mo" cx="370" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="370" cy="32" r="11"/><g transform="translate(370 32)" stroke="#E3B778" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"><rect x="-5.2" y="3" width="10.4" height="2.4" rx="0.7" opacity="0.45"/><rect x="-5.2" y="-0.2" width="10.4" height="2.4" rx="0.7" opacity="0.7"/><rect x="-5.2" y="-3.4" width="10.4" height="2.4" rx="0.7"><animate attributeName="y" values="-6.6;-3.4;-6.6" keyTimes="0;0.5;1" dur="3.6s" begin="0.60s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="3.6s" begin="0.60s" repeatCount="indefinite"/></rect></g><text class="pipe-label" x="370" y="60">ENRICH</text><text class="pipe-big" x="370" y="76">781 manifests</text><text class="pipe-sub" x="370" y="90">no clones</text></g>
+    <g><circle class="mo" cx="630" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="630" cy="32" r="11"/><g transform="translate(630 32)" stroke="#E3B778" stroke-width="1.3" fill="none" stroke-linejoin="round"><rect x="-5.3" y="-5.3" width="4.6" height="4.6" rx="0.8"><animate attributeName="stroke-opacity" values="0.35;1;0.35" keyTimes="0;0.5;1" dur="3.6s" begin="1.20s" repeatCount="indefinite"/></rect><rect x="0.7" y="-5.3" width="4.6" height="4.6" rx="0.8"><animate attributeName="stroke-opacity" values="0.35;1;0.35" keyTimes="0;0.5;1" dur="3.6s" begin="1.65s" repeatCount="indefinite"/></rect><rect x="-5.3" y="0.7" width="4.6" height="4.6" rx="0.8"><animate attributeName="stroke-opacity" values="0.35;1;0.35" keyTimes="0;0.5;1" dur="3.6s" begin="2.10s" repeatCount="indefinite"/></rect><rect x="0.7" y="0.7" width="4.6" height="4.6" rx="0.8"><animate attributeName="stroke-opacity" values="0.35;1;0.35" keyTimes="0;0.5;1" dur="3.6s" begin="2.55s" repeatCount="indefinite"/></rect></g><text class="pipe-label" x="630" y="60">CLASSIFY</text><text class="pipe-big" x="630" y="76">1,153 projects</text><text class="pipe-sub" x="630" y="90">9 layers</text></g>
+    <g><circle class="mo" cx="890" cy="32" r="11" fill="none" stroke="rgba(227,183,120,0.5)" stroke-width="1"><animate attributeName="r" values="11;21;11" dur="3.2s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="1.8s" repeatCount="indefinite"/></circle><circle class="pipe-node" cx="890" cy="32" r="11"/><g transform="translate(890 32)" stroke="#E3B778" stroke-width="1.4" fill="none" stroke-linecap="round"><g><animateTransform attributeName="transform" type="rotate" values="-16 0 0;16 0 0;-16 0 0" keyTimes="0;0.5;1" dur="5.6s" begin="1.80s" repeatCount="indefinite"/><circle cx="-2" cy="-2" r="3.1"/><circle cx="2" cy="2" r="3.1"/></g></g><text class="pipe-label" x="890" y="60">RECORD</text><text class="pipe-big" x="890" y="76">chain intact</text><text class="pipe-sub" x="890" y="90">10 runs · append-only</text></g>
   </svg>
   </div>
   <div class="ledger">run #10   ·   2026-09-19 23:11 UTC   ·   hash chain intact   ·   GraphQL 4,768 / 5,000 left   ·   head 5dfdc437</div>

@@ -566,6 +566,70 @@ function renderMesh(counts, opts = {}) {
 // The run strip — real numbers out of history/runs.jsonl
 // ---------------------------------------------------------------------------
 
+// Thematic agent glyphs that replace the gold pipe-dot at each stage.
+// Each glyph is ~14px, stroked in gold, with a stage-specific micro-motion
+// so the strip reads as four agents acting rather than four static dots.
+const PIPE_GLYPHS = {
+  // magnifier — gentle wobble, scanning side to side
+  DISCOVER: (d, i) => {
+    const t = (i * 0.6).toFixed(2);
+    return (
+      `<g transform="translate(${d.x} ${32})" stroke="${GOLD}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none">` +
+      `<g><animateTransform attributeName="transform" type="rotate" values="-10 0 0;10 0 0;-10 0 0" keyTimes="0;0.5;1" dur="4.4s" begin="${t}s" repeatCount="indefinite"/>` +
+      `<circle cx="-2.2" cy="-2.2" r="3.4"/>` +
+      `<path d="M0.5 0.5 L4.2 4.2"/>` +
+      `</g></g>`
+    );
+  },
+  // stacked manifests — top card slides up to reveal, in a loop
+  ENRICH: (d, i) => {
+    const t = (i * 0.6).toFixed(2);
+    return (
+      `<g transform="translate(${d.x} ${32})" stroke="${GOLD}" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none">` +
+      `<rect x="-5.2" y="3" width="10.4" height="2.4" rx="0.7" opacity="0.45"/>` +
+      `<rect x="-5.2" y="-0.2" width="10.4" height="2.4" rx="0.7" opacity="0.7"/>` +
+      `<rect x="-5.2" y="-3.4" width="10.4" height="2.4" rx="0.7">` +
+      `<animate attributeName="y" values="-6.6;-3.4;-6.6" keyTimes="0;0.5;1" dur="3.6s" begin="${t}s" repeatCount="indefinite"/>` +
+      `<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="3.6s" begin="${t}s" repeatCount="indefinite"/>` +
+      `</rect></g>`
+    );
+  },
+  // 2x2 grid — each cell highlights in turn, clockwise
+  CLASSIFY: (d, i) => {
+    const base = (i * 0.6).toFixed(2);
+    const cell = (off) =>
+      `<rect x="${off.x}" y="${off.y}" width="4.6" height="4.6" rx="0.8">` +
+      `<animate attributeName="stroke-opacity" values="0.35;1;0.35" keyTimes="0;0.5;1" dur="3.6s" begin="${(Number(base) + off.t).toFixed(2)}s" repeatCount="indefinite"/>` +
+      `</rect>`;
+    return (
+      `<g transform="translate(${d.x} ${32})" stroke="${GOLD}" stroke-width="1.3" fill="none" stroke-linejoin="round">` +
+      cell({ x: -5.3, y: -5.3, t: 0.0 }) +
+      cell({ x: 0.7, y: -5.3, t: 0.45 }) +
+      cell({ x: -5.3, y: 0.7, t: 0.9 }) +
+      cell({ x: 0.7, y: 0.7, t: 1.35 }) +
+      `</g>`
+    );
+  },
+  // linked rings — held on the diagonal and only rocked, never spun: a horizontal
+  // chain would sit at the same angle as the brand mark and read as a repeat of it
+  RECORD: (d, i) => {
+    const t = (i * 0.6).toFixed(2);
+    return (
+      `<g transform="translate(${d.x} ${32})" stroke="${GOLD}" stroke-width="1.4" fill="none" stroke-linecap="round">` +
+      `<g><animateTransform attributeName="transform" type="rotate" values="-16 0 0;16 0 0;-16 0 0" keyTimes="0;0.5;1" dur="5.6s" begin="${t}s" repeatCount="indefinite"/>` +
+      `<circle cx="-2" cy="-2" r="3.1"/>` +
+      `<circle cx="2" cy="2" r="3.1"/>` +
+      `</g></g>`
+    );
+  },
+};
+
+function pipeGlyph(d, i) {
+  const fn = PIPE_GLYPHS[d.label];
+  if (!fn) return `<circle class="pipe-node" cx="${d.x}" cy="32" r="11"/>`;
+  return fn(d, i);
+}
+
 function renderRunStrip(ledger, layerCount, projectCount) {
   const run = ledger?.latest ?? {};
   const nodes = [
@@ -617,9 +681,7 @@ function renderRunStrip(ledger, layerCount, projectCount) {
           `<animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" begin="${(i * 0.6).toFixed(1)}s" repeatCount="indefinite"/>` +
           `</circle>` +
           `<circle class="pipe-node" cx="${d.x}" cy="32" r="11"/>` +
-          `<circle class="pipe-dot" cx="${d.x}" cy="32" r="3.4" style="animation-delay:${(i * 0.4).toFixed(1)}s"/>` +
-          `<g class="mo"><g><animateTransform attributeName="transform" type="rotate" from="0 ${d.x} 32" to="360 ${d.x} 32" dur="${18 + i * 4}s" repeatCount="indefinite"/>` +
-          `<circle cx="${d.x}" cy="16" r="1.9" fill="${GOLD}" opacity="0.8"/></g></g>` +
+          pipeGlyph(d, i) +
           `<text class="pipe-label" x="${d.x}" y="60">${d.label}</text>` +
           `<text class="pipe-big" x="${d.x}" y="76">${esc(d.big)}</text>` +
           `<text class="pipe-sub" x="${d.x}" y="90">${esc(d.sub)}</text>` +
@@ -1107,11 +1169,7 @@ function renderSite(projects, ledger, rank) {
   .hero{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,0.86fr);gap:30px;align-items:center}
   .brand{display:flex;align-items:center;gap:14px}
   .mark{width:44px;height:44px;flex:none;overflow:visible}
-  .mark .hex{stroke:url(#markGrad);stroke-width:1.6;fill:none;
-    stroke-dasharray:34 210;animation:spin 9s linear infinite;transform-origin:21px 21px}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
-  .mark .node{animation:pulse 3.2s var(--ease) infinite;transform-box:fill-box;transform-origin:center}
+  .mark *{vector-effect:non-scaling-stroke}
   h1{
     font-size:clamp(26px,3.4vw,34px);font-weight:600;color:var(--title);margin:0;
     letter-spacing:-.028em;line-height:1.12;
@@ -1167,7 +1225,6 @@ function renderSite(projects, ledger, rank) {
     animation:flow 5.5s linear infinite}
   @keyframes flow{to{stroke-dashoffset:-798}}
   .pipe-node{fill:#0B0C10;stroke:rgba(255,255,255,.20);stroke-width:1.1}
-  .pipe-dot{fill:var(--gold);animation:pulse 3.2s var(--ease) infinite;transform-box:fill-box;transform-origin:center}
   .pipe-label{fill:#8A8478;font:600 9.5px var(--mono);letter-spacing:.16em;text-anchor:middle}
   .pipe-big{fill:#C6C1B7;font:600 11px var(--mono);text-anchor:middle}
   .pipe-sub{fill:#5F5A51;font:9px var(--mono);text-anchor:middle}
@@ -1344,15 +1401,21 @@ function renderSite(projects, ledger, rank) {
       <div class="brand">
         <svg class="mark" viewBox="0 0 42 42" aria-hidden="true">
           <defs>
-            <linearGradient id="markGrad" x1="0" y1="0" x2="1" y2="1">
+            <!-- One gradient across the whole mark: gold agent → violet agent -->
+            <linearGradient id="markGrad" gradientUnits="userSpaceOnUse" x1="6.2" y1="11.8" x2="35.8" y2="30.2">
               <stop offset="0" stop-color="${GOLD}"/><stop offset="1" stop-color="${VIOLET}"/>
             </linearGradient>
           </defs>
-          <path class="hex" d="M21 3.4 35.6 11.7v16.6L21 38.6 6.4 28.3V11.7z"/>
-          <circle class="node" cx="21" cy="13" r="2.4" fill="${GOLD}"/>
-          <circle class="node" cx="29.5" cy="24" r="2.4" fill="${VIOLET}" style="animation-delay:.5s"/>
-          <circle class="node" cx="12.5" cy="24" r="2.4" fill="#38BDF8" style="animation-delay:1s"/>
-          <path d="M21 15.4v6.2M21 21.6 29.5 24M21 21.6 12.5 24" stroke="rgba(255,255,255,.22)" stroke-width="1.1" fill="none"/>
+          <!-- Two agents as overlapping orbits — the overlap is the harness -->
+          <circle cx="15.4" cy="21" r="9.2" fill="none" stroke="url(#markGrad)" stroke-width="1.2"/>
+          <circle cx="26.6" cy="21" r="9.2" fill="none" stroke="url(#markGrad)" stroke-width="1.2"/>
+          <!-- Harness strap: core to core -->
+          <path d="M15.4 21H26.6" stroke="url(#markGrad)" stroke-width="1.2" opacity="0.3"/>
+          <!-- One pulse: the left agent speaks, the right receives, then dissolves -->
+          <circle r="1.7" cy="21" fill="${GOLD}" opacity="0">
+            <animate attributeName="cx" values="15.4;26.6;26.6" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.32 0 0.2 1;0 0 1 1" dur="3.6s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.12;0.4;0.5;1" dur="3.6s" repeatCount="indefinite"/>
+          </circle>
         </svg>
         <h1>Agent-Harness</h1>
         <span class="live"><b></b>LIVE</span>
