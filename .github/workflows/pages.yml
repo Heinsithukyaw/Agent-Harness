@@ -1,0 +1,119 @@
+name: Agent-Harness registry site
+
+# ─────────────────────────────────────────────────────────────────────────────
+# LIVE COPY. The readable master lives at `agent-harness/workflows/pages.yml`
+# and is written to be dropped into a repo whose root *is* the registry. This
+# copy is the same workflow adapted for this repository's layout, where the
+# registry sits one directory down, and it is the one GitHub actually runs.
+#
+# The adaptation is two paths: the `push` filter and the artifact `path`. Unlike
+# the registry workflow there is no CORPUS_ROOT here, because nothing in this
+# workflow runs the scripts — it publishes a directory that is already committed.
+#
+# If you change the pipeline, change the master first, then re-apply this.
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Why this workflow has to exist at all: **GitHub never renders an `.html` file
+# from a repository blob.** Opening `agent-harness/site/index.html` on github.com
+# shows its source, and `raw.githubusercontent.com` serves it as `text/plain` so
+# it shows source there too. Neither is a way to see the registry as a page.
+# GitHub Pages is the supported route.
+#
+# Why the Actions route rather than "deploy from a branch": a branch source can
+# only publish the repository root or a `/docs` folder, and the site lives at
+# `agent-harness/site/`. The Actions route takes any path.
+#
+# Why `workflow_run` and not only `push`: the registry workflow commits with
+# `[skip ci]`, which suppresses *every* workflow for that push — including this
+# one. Triggering on the registry workflow's completion is what makes the
+# published site follow the data. Without it the site would go stale on every
+# refresh and only update when somebody edited a file by hand, which is exactly
+# the failure mode this pipeline exists to avoid.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'agent-harness/site/**'
+      - '.github/workflows/pages.yml'
+  workflow_run:
+    workflows: ['Agent-Harness registry']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time. `cancel-in-progress: false` on purpose: a half
+# published site is worse than a slightly late one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # A failed registry run leaves the last good site up rather than publishing
+    # a half-rendered one. Only a *successful* refresh replaces it.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # A `workflow_run` trigger checks out the default branch, which is
+          # what we want: the newest committed site, not the tree of the run
+          # that happened to fire this.
+          ref: main
+
+      - name: Is Pages configured?
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # A repository where Pages was never switched on is a legitimate
+          # state, not a build failure — a fork, or a fresh clone of this
+          # registry. Without this gate the workflow would go red four times a
+          # day for a setting nobody has touched.
+          #
+          # 404 and "we cannot tell" are different answers, and only the first
+          # one is a reason to skip. Anything else fails loudly, because a
+          # silent skip here would look identical to a working deployment that
+          # simply never publishes.
+          code=$(curl -s -o /dev/null -w '%{http_code}' \
+            -H "Authorization: bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages")
+          case "$code" in
+            200) echo "enabled=true"  >> "$GITHUB_OUTPUT" ;;
+            404)
+              echo "enabled=false" >> "$GITHUB_OUTPUT"
+              echo "::notice::GitHub Pages is not enabled for ${GITHUB_REPOSITORY} — skipping. Enable it under Settings → Pages, source 'GitHub Actions'."
+              ;;
+            *)
+              echo "::error::could not determine Pages status (HTTP $code)"
+              exit 1
+              ;;
+          esac
+
+      # Deliberately *not* passing `enablement: true`. Enabling Pages is a
+      # repository setting and a public URL, so it stays a decision somebody
+      # makes rather than a side effect of a workflow running.
+      - uses: actions/configure-pages@v5
+        if: steps.gate.outputs.enabled == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.gate.outputs.enabled == 'true'
+        with:
+          path: agent-harness/site
+
+      - id: deploy
+        if: steps.gate.outputs.enabled == 'true'
+        uses: actions/deploy-pages@v4

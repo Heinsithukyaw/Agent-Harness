@@ -107,9 +107,30 @@ number is worse than a missing one — nothing about it looks broken. Project
 names are pinned in the table above, and the registry's own arrays are addressed
 by key or not at all.
 
-The full set is browsable as a self-contained page: [`site/index.html`](agent-harness/site/index.html).
-Machine-readable, the whole registry is one file: [`data/projects.json`](agent-harness/data/projects.json) —
-1,154 projects and 6,721,592 stars at the last run. A 2.4 KB
+### How to actually look at it
+
+Three routes, and they are not interchangeable:
+
+| Route | What you get |
+|---|---|
+| [`data/index.md`](agent-harness/data/index.md) | Every project as markdown tables grouped by layer, one page. **GitHub renders this one**, so it works with no setup, no host and no third party. |
+| GitHub Pages | The real UI — the whole registry as a single self-contained page. Driven by [`.github/workflows/pages.yml`](.github/workflows/pages.yml); needs Pages switched on once in repository settings. |
+| [`site/index.html`](agent-harness/site/index.html) | The source of that page. GitHub shows it as text, and `raw.githubusercontent.com` serves it as `text/plain`, so this link will never render. Kept because the file is the artefact. |
+
+That third row is not a bug and not fixable. GitHub will not execute HTML out of a
+repository blob, because doing so would let any repository run script on
+`github.com`. Markdown is rendered; HTML is served as source. A rendered page
+therefore needs a host, and Pages is the one that ships with GitHub.
+
+Why Pages is deployed by a workflow rather than from a branch: a branch source can
+only publish the repository root or a `/docs` folder, and the site lives at
+`agent-harness/site/`. The workflow also triggers on the registry workflow
+*completing*, not only on a push, because the registry commits with `[skip ci]` —
+which suppresses every workflow for that push, including the one that would
+publish the new site.
+
+Machine-readable, the whole registry is one file:
+[`data/projects.json`](agent-harness/data/projects.json). A 2.4 KB
 [`data/summary.json`](agent-harness/data/summary.json) carries just the scalars the
 badges on this page read.
 
@@ -182,8 +203,8 @@ artwork.
 | Compact live endpoint | `data/summary.json` | 2.4 KB — the scalars README badges fetch |
 | This repo's own traffic | `data/traffic.json` | views and clones, accumulated across runs |
 | Embeddable cards | `assets/cards/<owner>-<repo>.svg` | one SVG per project |
-| Browsable registry | `site/index.html` | self-contained, no CDN, no build step |
-| Markdown directory | `data/index.md` | grouped by layer |
+| Browsable registry | `site/index.html` | self-contained, no CDN, no build step — published via Pages |
+| Markdown directory | `data/index.md` | grouped by layer; renders natively on GitHub |
 | Append-only history | `history/` | per-project timelines, event stream, hash-chained runs |
 
 Every card and every row records the commit SHA and classifier version it was
@@ -272,6 +293,7 @@ agent-harness/
   render.mjs               SVG cards, markdown directory, the registry site, README assets
   config/sources.json      corpus definition, thresholds, tuning knobs
   workflows/registry.yml   Actions workflow: 6-hourly, weekly full, allowlist + chain checks
+  workflows/pages.yml      Actions workflow: publishes site/ to GitHub Pages
   data/                    derived state — the API
   assets/cards/            one embeddable SVG per project
   assets/*.svg             README artwork: banner, stats, mesh, featured, divider
@@ -456,7 +478,9 @@ subdirectory of this repository.
 3. **Trend detection** — flag projects crossing a velocity threshold. The signal a
    static list structurally cannot produce.
 4. **CycloneDX SBOMs** — reuses manifests already fetched; serves CRA reporting.
-5. **GitHub Pages** — publish `site/` for a real URL.
+5. **GitHub Pages** — the workflow is in `.github/workflows/pages.yml`; it needs
+   Pages enabled once under Settings → Pages with the source set to *GitHub
+   Actions*, after which every successful registry run republishes the site.
 6. **Require the validation check** — branch protection on `main` is already on
    (no force pushes, no deletions, linear history, admins included), but GitHub
    will not let a status check be required until it has run at least once. Add
