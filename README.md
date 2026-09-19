@@ -348,10 +348,17 @@ production control plane.
 | Tamper evidence | hash-chained run log, verified on every run |
 | Reproducibility | commit SHA + classifier version recorded per card |
 
-**Branch protection on `main` — no force-push, no deletion — is required for the
-append-only claim to hold.** Without it, "append-only history" describes git's
-defaults rather than a guarantee. Git history is the tamper-evident log; branch
-protection is what makes it one.
+**Branch protection on `main` — no force-push, no deletion, linear history,
+admins included — is required for the append-only claim to hold.** Without it,
+"append-only history" describes git's defaults rather than a guarantee. Git
+history is the tamper-evident log; branch protection is what makes it one.
+
+No status check is required, deliberately rather than by omission. A required
+check blocks direct pushes as well as merges, and this pipeline pushes to `main`
+four times a day with commits that do not trigger the workflow — so the check
+would stay at "expected" forever and every automated commit would be rejected.
+Enforcing the artefact validation means giving it an always-running workflow of
+its own; see the roadmap.
 
 ---
 
@@ -468,10 +475,13 @@ subdirectory of this repository.
 3. **Trend detection** — flag projects crossing a velocity threshold. The signal a
    static list structurally cannot produce.
 4. **CycloneDX SBOMs** — reuses manifests already fetched; serves CRA reporting.
-5. **Widen the required check** — branch protection requires the `registry` job,
-   but that workflow only triggers on four paths, so a pull request touching
-   anything else waits on a check that never runs. Either broaden the trigger or
-   move the artefact validation into its own always-running workflow.
+5. **Enforce the validation gate** — the `registry` job validates every rendered
+   artefact, but it cannot be made a required status check as things stand. A
+   required check blocks *direct pushes* as well as merges, and this pipeline
+   commits to `main` four times a day with changes that never trigger the
+   workflow, so the check would sit at "expected" forever and every automated
+   commit would be rejected. Requiring it means giving the artefact validation an
+   always-running workflow of its own.
 
 ---
 
