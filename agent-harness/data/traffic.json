@@ -4,10 +4,15 @@
   "firstDay": null,
   "lastDay": null,
   "recordedDays": 0,
+  "available": false,
+  "httpStatus": {
+    "views": 403,
+    "clones": 403
+  },
   "days": {},
   "views": 0,
   "visitorDays": 0,
   "clones": 0,
   "uniqueClonerDays": 0,
-  "stateChangedAt": "2026-09-19T20:37:10.000Z"
+  "stateChangedAt": "2026-09-19T22:55:18.596Z"
 }
