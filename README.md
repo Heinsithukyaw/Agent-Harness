@@ -107,27 +107,16 @@ number is worse than a missing one — nothing about it looks broken. Project
 names are pinned in the table above, and the registry's own arrays are addressed
 by key or not at all.
 
-### How to actually look at it
+### Browsing the registry
 
-Three routes, and they are not interchangeable:
-
-| Route | What you get |
+| Route | Use |
 |---|---|
-| [`data/index.md`](agent-harness/data/index.md) | Every project as markdown tables grouped by layer, one page. **GitHub renders this one**, so it works with no setup, no host and no third party. |
-| GitHub Pages | The real UI — the whole registry as a single self-contained page. Driven by [`.github/workflows/pages.yml`](.github/workflows/pages.yml); needs Pages switched on once in repository settings. |
-| [`site/index.html`](agent-harness/site/index.html) | The source of that page. GitHub shows it as text, and `raw.githubusercontent.com` serves it as `text/plain`, so this link will never render. Kept because the file is the artefact. |
+| [`data/index.md`](agent-harness/data/index.md) | Every project as tables grouped by layer, rendered directly by GitHub — no setup, no host, no third party. |
+| GitHub Pages | The full interface: search, layer filters and per-project cards on one self-contained page. Enable it once under Settings → Pages with the source set to *GitHub Actions*; the deployment is [`.github/workflows/pages.yml`](.github/workflows/pages.yml). |
+| [`site/index.html`](agent-harness/site/index.html) | The file Pages serves. GitHub presents HTML as source rather than rendering it, so this link opens the markup. |
 
-That third row is not a bug and not fixable. GitHub will not execute HTML out of a
-repository blob, because doing so would let any repository run script on
-`github.com`. Markdown is rendered; HTML is served as source. A rendered page
-therefore needs a host, and Pages is the one that ships with GitHub.
-
-Why Pages is deployed by a workflow rather than from a branch: a branch source can
-only publish the repository root or a `/docs` folder, and the site lives at
-`agent-harness/site/`. The workflow also triggers on the registry workflow
-*completing*, not only on a push, because the registry commits with `[skip ci]` —
-which suppresses every workflow for that push, including the one that would
-publish the new site.
+GitHub renders markdown but serves HTML as source, so a browsable interface needs
+a host — Pages is the one that ships with GitHub.
 
 Machine-readable, the whole registry is one file:
 [`data/projects.json`](agent-harness/data/projects.json). A 2.4 KB
@@ -249,7 +238,7 @@ The corpus is real and it was measured before anything was built:
 | `topic:agent-runtime` | 909 |
 | `topic:ai-agents` | 94,547 *(too broad to use directly)* |
 
-The binding constraint is not the one you would guess:
+The binding constraint is not the obvious one:
 
 | API | Limit | Verdict |
 |---|---|---|
