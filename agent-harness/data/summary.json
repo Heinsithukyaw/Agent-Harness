@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "classifierVersion": "1.0.0",
+  "stateChangedAt": "2026-09-19T20:14:01.677Z",
+  "stateChangedDate": "2026-09-19",
+  "projectCount": 1154,
+  "projectCountLabel": "1,154",
+  "totalStars": 6721592,
+  "totalStarsLabel": "6,721,592",
+  "totalStarsCompact": "6.72M",
+  "layerCount": 9,
+  "runs": 3,
+  "layers": [
+    {
+      "id": "orchestration",
+      "label": "Orchestration",
+      "short": "ORCHESTR",
+      "count": 396
+    },
+    {
+      "id": "tools",
+      "label": "Tools & MCP",
+      "short": "TOOLS",
+      "count": 301
+    },
+    {
+      "id": "memory",
+      "label": "Memory & Context",
+      "short": "MEMORY",
+      "count": 138
+    },
+    {
+      "id": "eval",
+      "label": "Eval & Tracing",
+      "short": "EVAL",
+      "count": 60
+    },
+    {
+      "id": "governance",
+      "label": "Governance",
+      "short": "GOVERN",
+      "count": 32
+    },
+    {
+      "id": "sandbox",
+      "label": "Sandboxing",
+      "short": "SANDBOX",
+      "count": 23
+    },
+    {
+      "id": "runtime",
+      "label": "Runtime",
+      "short": "RUNTIME",
+      "count": 18
+    },
+    {
+      "id": "protocol",
+      "label": "Protocols",
+      "short": "PROTO",
+      "count": 16
+    },
+    {
+      "id": "gateway",
+      "label": "Model Gateway",
+      "short": "GATEWAY",
+      "count": 9
+    }
+  ],
+  "top": [
+    {
+      "fullName": "affaan-m/ECC",
+      "stars": 262807,
+      "starsCompact": "262.8k",
+      "layer": "tools"
+    },
+    {
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "stars": 187447,
+      "starsCompact": "187.4k",
+      "layer": "other"
+    },
+    {
+      "fullName": "langgenius/dify",
+      "stars": 156469,
+      "starsCompact": "156.5k",
+      "layer": "tools"
+    },
+    {
+      "fullName": "DietrichGebert/ponytail",
+      "stars": 142469,
+      "starsCompact": "142.5k",
+      "layer": "tools"
+    },
+    {
+      "fullName": "Graphify-Labs/graphify",
+      "stars": 119600,
+      "starsCompact": "119.6k",
+      "layer": "memory"
+    },
+    {
+      "fullName": "thedotmack/claude-mem",
+      "stars": 94266,
+      "starsCompact": "94.3k",
+      "layer": "memory"
+    },
+    {
+      "fullName": "infiniflow/ragflow",
+      "stars": 91000,
+      "starsCompact": "91k",
+      "layer": "memory"
+    },
+    {
+      "fullName": "Panniantong/Agent-Reach",
+      "stars": 83409,
+      "starsCompact": "83.4k",
+      "layer": "tools"
+    }
+  ]
+}

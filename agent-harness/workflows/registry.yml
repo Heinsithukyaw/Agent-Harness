@@ -161,15 +161,24 @@ jobs:
       - name: Commit if anything changed
         run: |
           set -euo pipefail
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Attributed to the repository owner, not to github-actions[bot]. The
+          # default Actions identity is a bot account that never appears in the
+          # contributor list or on the contribution graph, so a pipeline that
+          # commits four times a day produced no visible contribution history at
+          # all. The commits are still obviously automated — the message says so
+          # and carries [skip ci] — but the work is now credited to the account
+          # that owns the pipeline. Replace both values if you drop this workflow
+          # into a different account.
+          git config user.name  "T@ungoodev"
+          git config user.email "56247368+Heinsithukyaw@users.noreply.github.com"
           git add data/ history/ assets/ site/
           if git diff --staged --quiet; then
             echo "nothing to commit"
             exit 0
           fi
           count=$(node -e 'const s=require("./data/projects.json");console.log(s.projectCount)')
-          git commit -m "chore: refresh agent-harness registry (${count} projects) [skip ci]"
+          git commit -m "chore: refresh agent-harness registry (${count} projects) [skip ci]" \
+                     -m "Automated registry refresh: discover, enrich, classify, record, render."
           for i in 1 2 3; do
             if git push; then exit 0; fi
             git pull --rebase --autostash

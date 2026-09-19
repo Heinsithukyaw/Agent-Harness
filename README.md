@@ -20,7 +20,7 @@
 </div>
 
 <div align="center">
-  <img src="./agent-harness/assets/stats.svg" alt="90 projects, 4,449,470 stars, 7 layers, 2 runs logged, state as of 2026-09-19, classifier v1.0.0" width="100%" />
+  <img src="./agent-harness/assets/stats.svg" alt="1,154 projects, 6,721,592 stars, 9 layers, 3 runs logged, state as of 2026-09-19, classifier v1.0.0" width="100%" />
 </div>
 
 <br />
@@ -54,10 +54,13 @@
 The six highest-starred projects in the registry, ranked against each other
 rather than against GitHub as a whole. Every tile carries the metadata the
 collector actually resolved — language, stars, assigned layer, licence — and the
-percentile is computed from the corpus, so it moves as the corpus moves.
+percentile is computed from the corpus, so it moves as the corpus moves. At this
+size the top six are all inside the top one percent, which is why every tile
+reads the same: the measure is honest but coarse.
 
 The full set is browsable as a self-contained page: [`site/index.html`](agent-harness/site/index.html).
-Machine-readable, the whole registry is one file: [`data/projects.json`](agent-harness/data/projects.json).
+Machine-readable, the whole registry is one file: [`data/projects.json`](agent-harness/data/projects.json) —
+1,154 projects and 6,721,592 stars at the last run.
 
 <div align="center">
   <img src="./agent-harness/assets/divider.svg" alt="" width="100%" />
@@ -79,23 +82,28 @@ Snapshot from the run of 2026-09-19 (live figures are in the artwork above and i
 
 | Layer | What lands here | Now |
 |---|---|---:|
-| Tools & MCP | tool servers, function calling, protocol adapters | **37** |
-| Orchestration | multi-agent coordination, workflow and state machines | **22** |
-| Memory & Context | vector stores, context windows, retrieval, state | **18** |
-| Sandboxing | microVMs, gVisor, containers, isolation boundaries | 2 |
-| Runtime | execution loops, agent loops, durable execution | 1 |
-| Protocols | MCP, A2A, agent-to-agent wire formats | 1 |
-| Model Gateway | routing, provider abstraction, rate limiting | 1 |
-| Eval & Tracing | benchmarks, observability, tracing, replay | **0** |
-| Governance | policy, guardrails, permissioning, audit | **0** |
-| *(other)* | catch-all for projects that match the gate but no layer | 8 |
+| Orchestration | multi-agent coordination, workflow and state machines | **396** |
+| Tools & MCP | tool servers, function calling, protocol adapters | **301** |
+| Memory & Context | vector stores, context windows, retrieval, state | **138** |
+| Eval & Tracing | benchmarks, observability, tracing, replay | 60 |
+| Governance | policy, guardrails, permissioning, audit | 32 |
+| Sandboxing | microVMs, gVisor, containers, isolation boundaries | 23 |
+| Runtime | execution loops, agent loops, durable execution | 18 |
+| Protocols | MCP, A2A, agent-to-agent wire formats | 16 |
+| Model Gateway | routing, provider abstraction, rate limiting | 9 |
+| *(other)* | catch-all for projects that match the gate but no layer | 161 |
 
-**Read the distribution honestly.** Three layers hold 82 of the 90 projects, and
-two layers of the taxonomy are entirely empty. That is either a real property of
-the ecosystem or a failure of the relevance gate — and the current design cannot
-tell you which. It is the strongest argument for the seed-based expansion below,
-because a corpus assembled from self-applied topics will over-represent whatever
-the loudest projects call themselves.
+**Read the distribution honestly.** Orchestration, tools and memory hold 835 of
+the 993 projects that were actually placed — 84% of the classified corpus — while
+the four smallest layers together hold 66. Concentration is expected in a corpus
+built from self-applied topics; the uncomfortable number is `other`.
+
+At 161 projects `other` is the third-largest bucket in the registry. Fourteen
+percent of the corpus cleared the relevance gate and then matched no layer at all.
+That is either a real property of the ecosystem or a failure of the classifier,
+and the current design cannot tell you which, because it is measuring vocabulary
+rather than capability. It is the strongest argument for the seed-based expansion
+below.
 
 `other` is a catch-all bucket, not a harness layer, so it is excluded from the
 constellation and from every "N layers" claim in the artwork.
@@ -228,8 +236,9 @@ scores 23, because the vocabulary overlaps almost completely: both kinds of
 project say *agent*, *tool*, *context*, *memory*.
 
 The shipped corpus shows the same failure from the other direction: AutoGPT — an
-autonomous agent loop by any reasonable reading — is assigned `other`, while two
-whole layers sit at zero. The gate is measuring vocabulary, not capability.
+autonomous agent loop by any reasonable reading — is assigned `other`, and `other`
+ends up the registry's third-largest bucket. The gate is measuring vocabulary, not
+capability.
 
 The real fix is **seed-based expansion**: curate roughly 40 unambiguous seed
 projects, then expand using signals that are hard to game — shared contributors,

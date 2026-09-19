@@ -142,8 +142,15 @@ function readLedger() {
 
 /**
  * Percentile by stars inside this corpus, as a fraction where 0 is the top.
- * Honest description of what it is: a rank within the ~90 projects here, not a
+ * Honest description of what it is: a rank within the projects held here, not a
  * claim about GitHub at large.
+ *
+ * The label is deliberately coarse (`ceil(rank * 100)`), which reads well on a
+ * card but collapses at scale: once the corpus passed a few hundred projects the
+ * top six all displayed "TOP 1%". That is accurate — they genuinely are — but it
+ * carries no information. Showing an ordinal instead would fix the strip and
+ * rewrite every card, so the coarse label stays until the card layout is next
+ * revisited.
  */
 function buildRank(projects) {
   const sorted = projects.map((p) => p.stars).sort((a, b) => b - a);
@@ -713,6 +720,55 @@ ${REDUCED_MOTION_STYLE}
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" fill="none" stroke="rgba(255,255,255,0.09)"/>
 </svg>
 `;
+}
+
+/**
+ * A small endpoint so the README's numbers can be fetched live.
+ *
+ * shields.io can pull a JSON document when a badge image is requested, which
+ * makes the badge current at *page-view* time rather than at commit time. Two
+ * things stop it using projects.json directly: that file is ~2.3 MB, and shields
+ * has no thousands separator. Hence this: scalars pre-formatted for display,
+ * plus the per-layer counts.
+ *
+ * Derived from committed state only — deliberately no wall-clock timestamp. A
+ * `generatedAt` field would differ on every run, and because the workflow commits
+ * only when the staged diff is non-empty, that would turn a change-gated pipeline
+ * into one that commits four times a day for nothing.
+ *
+ * Note what this does and does not buy. The badge is fetched live; the data
+ * behind it is as fresh as the last collect. A README cannot be more real-time
+ * than the pipeline that feeds it.
+ */
+function renderSummary(projects, counts, ledger) {
+  const totalStars = projects.reduce((a, p) => a + p.stars, 0);
+  const layers = populatedLayerIds(counts)
+    .map((k) => ({ id: k, label: LAYERS[k].label, short: LAYERS[k].short, count: counts[k] }))
+    .sort((a, b) => b.count - a.count);
+  const top = [...projects]
+    .sort((a, b) => b.stars - a.stars)
+    .slice(0, 8)
+    .map((p) => ({ fullName: p.fullName, stars: p.stars, starsCompact: compact(p.stars), layer: p.layer }));
+
+  return `${JSON.stringify(
+    {
+      schemaVersion: 1,
+      classifierVersion: state.classifierVersion,
+      stateChangedAt: state.stateChangedAt ?? null,
+      stateChangedDate: (state.stateChangedAt ?? '').slice(0, 10),
+      projectCount: projects.length,
+      projectCountLabel: nfmt(projects.length),
+      totalStars,
+      totalStarsLabel: nfmt(totalStars),
+      totalStarsCompact: compact(totalStars),
+      layerCount: layers.length,
+      runs: ledger?.runs ?? 0,
+      layers,
+      top,
+    },
+    null,
+    2,
+  )}\n`;
 }
 
 function renderStatsAsset(projects, counts, ledger) {
@@ -1505,6 +1561,11 @@ const readmeAssets = [
 ];
 for (const [rel, svg] of readmeAssets) {
   if (writeFile(rel, svg)) changed.push(rel);
+}
+
+// The compact endpoint the README's live badges fetch — see renderSummary.
+if (writeFile('data/summary.json', renderSummary(projects, counts, ledger))) {
+  changed.push('data/summary.json');
 }
 
 if (writeFile('site/index.html', renderSite(projects, ledger, rank))) changed.push('site/index.html');
