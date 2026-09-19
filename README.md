@@ -482,6 +482,12 @@ subdirectory of this repository.
    workflow, so the check would sit at "expected" forever and every automated
    commit would be rejected. Requiring it means giving the artefact validation an
    always-running workflow of its own.
+6. **Shard the site payload, when the budget trips** — the site is one
+   self-contained file, so its size is the corpus size. At 1,154 projects that is
+   1,544 KB on disk and **301 KB transferred**, about 267 B per project, and the
+   pipeline warns once it passes 500 KB. The remedy is one JSON file per layer
+   beside `site/index.html`, fetched on demand: still static files on a CDN, so
+   the architecture does not change to accommodate it.
 
 ---
 
