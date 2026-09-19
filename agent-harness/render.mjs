@@ -166,6 +166,7 @@ function readTraffic() {
     recordedDays: 0,
     firstDay: null,
     lastDay: null,
+    available: false,
   };
   if (!existsSync(p)) return empty;
   try {
@@ -178,6 +179,10 @@ function readTraffic() {
       recordedDays: t.recordedDays ?? Object.keys(t.days ?? {}).length,
       firstDay: t.firstDay ?? null,
       lastDay: t.lastDay ?? null,
+      // Only a successful fetch makes the counters meaningful. Without this the
+      // badge reads "0 views" when the truth is that the token cannot see views
+      // at all — the same confusion `visitorDays` exists to prevent.
+      available: t.available === true,
     };
   } catch {
     return empty;
@@ -833,14 +838,15 @@ function renderSummary(projects, counts, ledger, traffic = readTraffic()) {
       // so a badge renders a dash rather than the string "null".
       traffic: {
         views: traffic.views,
-        viewsLabel: nfmt(traffic.views),
+        viewsLabel: traffic.available ? nfmt(traffic.views) : 'n/a',
         visitorDays: traffic.visitorDays,
-        visitorDaysLabel: nfmt(traffic.visitorDays),
+        visitorDaysLabel: traffic.available ? nfmt(traffic.visitorDays) : 'n/a',
         clones: traffic.clones,
         recordedDays: traffic.recordedDays,
         firstDay: traffic.firstDay,
         lastDay: traffic.lastDay,
-        since: traffic.firstDay ?? '\u2014',
+        available: traffic.available,
+        since: traffic.available ? (traffic.firstDay ?? '\u2014') : 'not collected',
         windowDays: 14,
       },
     },

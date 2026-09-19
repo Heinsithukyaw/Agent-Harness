@@ -41,6 +41,13 @@ const SCHEMA_VERSION = 1;
 const TOKEN = process.env.GITHUB_TOKEN;
 if (!TOKEN) fail('GITHUB_TOKEN is not set');
 
+// The traffic endpoints need push access, and GITHUB_TOKEN does not have it:
+// `administration` is not a grantable workflow permission, so /traffic/* answers
+// 403 on every CI run. A fine-grained PAT with Administration: read, stored as the
+// TRAFFIC_TOKEN secret, is the only way in. Falls back to GITHUB_TOKEN so the
+// collector still runs — and reports the 403 honestly — before that secret exists.
+const TRAFFIC_TOKEN = process.env.TRAFFIC_TOKEN || TOKEN;
+
 const CORPUS_ROOT = resolve(
   process.env.CORPUS_ROOT ?? git(['rev-parse', '--show-toplevel']).trim(),
 );
@@ -662,14 +669,16 @@ async function collectTraffic() {
 
   const days = { ...(prev.days ?? {}) };
 
+  const status = {};
   for (const metric of ['views', 'clones']) {
     const res = await fetch(`https://api.github.com/repos/${repo}/traffic/${metric}`, {
       headers: {
-        Authorization: `bearer ${TOKEN}`,
+        Authorization: `bearer ${TRAFFIC_TOKEN}`,
         Accept: 'application/vnd.github+json',
         'User-Agent': 'agent-harness-collector',
       },
     });
+    status[metric] = res.status;
     if (!res.ok) {
       console.log(`  traffic/${metric} unavailable (HTTP ${res.status}) \u2014 keeping recorded days`);
       continue;
@@ -691,6 +700,14 @@ async function collectTraffic() {
     }
   }
 
+  // A 403 and a genuine zero are different facts, and only one of them is data.
+  // Every CI run since this was added has answered 403, so `views: 0` in this file
+  // has never meant "nobody looked" — it has meant "we cannot see". Downstream
+  // cannot tell the two apart unless the file records which one happened, and a
+  // badge that reads 0 when the truth is unknown is a lie of the same shape as
+  // calling summed `uniques` a headcount.
+  const available = status.views === 200 && status.clones === 200;
+
   const dates = Object.keys(days).sort();
   const sum = (k) => dates.reduce((a, d) => a + (days[d][k] ?? 0), 0);
   const views = sum('views');
@@ -706,6 +723,8 @@ async function collectTraffic() {
       firstDay: dates[0] ?? null,
       lastDay: dates[dates.length - 1] ?? null,
       recordedDays: dates.length,
+      available,
+      httpStatus: status,
       days,
       views,
       visitorDays,
@@ -716,8 +735,10 @@ async function collectTraffic() {
   );
 
   console.log(
-    `traffic            ${views} views / ${visitorDays} visitor-days` +
-      ` / ${clones} clones over ${dates.length} recorded day(s)` +
+    'traffic            ' +
+      (available
+        ? `${views} views / ${visitorDays} visitor-days / ${clones} clones over ${dates.length} recorded day(s)`
+        : `UNAVAILABLE (HTTP ${status.views ?? '?'}) \u2014 set the TRAFFIC_TOKEN secret to a PAT with administration: read`) +
       (wrote ? '' : ' (unchanged)'),
   );
   return wrote;

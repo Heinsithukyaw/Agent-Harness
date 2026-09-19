@@ -120,14 +120,15 @@
   ],
   "traffic": {
     "views": 0,
-    "viewsLabel": "0",
+    "viewsLabel": "n/a",
     "visitorDays": 0,
-    "visitorDaysLabel": "0",
+    "visitorDaysLabel": "n/a",
     "clones": 0,
     "recordedDays": 0,
     "firstDay": null,
     "lastDay": null,
-    "since": "—",
+    "available": false,
+    "since": "not collected",
     "windowDays": 14
   }
 }

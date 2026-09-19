@@ -96,6 +96,12 @@ jobs:
       - name: Collect
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # The traffic endpoints need push access, which GITHUB_TOKEN cannot have —
+          # `administration` is not a grantable workflow permission, so /traffic/*
+          # answers 403. Create a fine-grained PAT with Administration: read and
+          # store it as TRAFFIC_TOKEN; the collector prefers it and falls back to
+          # GITHUB_TOKEN, reporting the 403 honestly when neither can see traffic.
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
           FULL: ${{ steps.mode.outputs.full }}
         run: |
           set -euo pipefail
