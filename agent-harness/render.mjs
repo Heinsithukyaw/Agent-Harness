@@ -742,9 +742,19 @@ ${REDUCED_MOTION_STYLE}
  */
 function renderSummary(projects, counts, ledger) {
   const totalStars = projects.reduce((a, p) => a + p.stars, 0);
-  const layers = populatedLayerIds(counts)
+  const ordered = populatedLayerIds(counts)
     .map((k) => ({ id: k, label: LAYERS[k].label, short: LAYERS[k].short, count: counts[k] }))
     .sort((a, b) => b.count - a.count);
+
+  // Keyed by layer id rather than an array, so a badge addresses one layer by a
+  // path that cannot move. `$.layers.0.count` would silently resolve to a
+  // different layer the first time two layers swap rank — a wrong number is worse
+  // than a missing one, because nothing looks broken. `layerOrder` carries the
+  // ranking separately for anything that wants it.
+  const layers = Object.fromEntries(
+    ordered.map((l) => [l.id, { label: l.label, short: l.short, count: l.count }]),
+  );
+
   const top = [...projects]
     .sort((a, b) => b.stars - a.stars)
     .slice(0, 8)
@@ -761,8 +771,9 @@ function renderSummary(projects, counts, ledger) {
       totalStars,
       totalStarsLabel: nfmt(totalStars),
       totalStarsCompact: compact(totalStars),
-      layerCount: layers.length,
+      layerCount: ordered.length,
       runs: ledger?.runs ?? 0,
+      layerOrder: ordered.map((l) => l.id),
       layers,
       top,
     },

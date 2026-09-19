@@ -10,62 +10,64 @@
   "totalStarsCompact": "6.72M",
   "layerCount": 9,
   "runs": 3,
-  "layers": [
-    {
-      "id": "orchestration",
+  "layerOrder": [
+    "orchestration",
+    "tools",
+    "memory",
+    "eval",
+    "governance",
+    "sandbox",
+    "runtime",
+    "protocol",
+    "gateway"
+  ],
+  "layers": {
+    "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
       "count": 396
     },
-    {
-      "id": "tools",
+    "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
       "count": 301
     },
-    {
-      "id": "memory",
+    "memory": {
       "label": "Memory & Context",
       "short": "MEMORY",
       "count": 138
     },
-    {
-      "id": "eval",
+    "eval": {
       "label": "Eval & Tracing",
       "short": "EVAL",
       "count": 60
     },
-    {
-      "id": "governance",
+    "governance": {
       "label": "Governance",
       "short": "GOVERN",
       "count": 32
     },
-    {
-      "id": "sandbox",
+    "sandbox": {
       "label": "Sandboxing",
       "short": "SANDBOX",
       "count": 23
     },
-    {
-      "id": "runtime",
+    "runtime": {
       "label": "Runtime",
       "short": "RUNTIME",
       "count": 18
     },
-    {
-      "id": "protocol",
+    "protocol": {
       "label": "Protocols",
       "short": "PROTO",
       "count": 16
     },
-    {
-      "id": "gateway",
+    "gateway": {
       "label": "Model Gateway",
       "short": "GATEWAY",
       "count": 9
     }
-  ],
+  },
   "top": [
     {
       "fullName": "affaan-m/ECC",

@@ -32,6 +32,33 @@
   <img src="https://img.shields.io/badge/Node-%E2%89%A522-101218?style=for-the-badge&logo=nodedotjs&logoColor=E3B778" alt="Node 22 or newer" />
 </p>
 
+<!-- ─────────────  LIVE  ─────────────
+     The row below is fetched when the page is rendered, not when this file was
+     committed. shields.io pulls agent-harness/data/summary.json (2.4 KB) and reads
+     one field out of it, so these numbers cannot rot the way hard-coded text does.
+
+     What that does *not* buy is fresher data. The JSON is only rewritten when the
+     collector runs, so a badge is at best as current as the last collect. Live
+     fetch, scheduled data — the fetch is immediate, the data is not. Reaching
+     further back would mean running the collector more often, and search allows
+     only 30 requests a minute, so a full pass already takes minutes.
+
+     Layer and project paths are keyed by id, never by array index. $.layers.0.count
+     would resolve to a different layer the moment two layers swapped rank, and a
+     badge showing a confidently wrong number looks exactly like one showing a
+     right one. -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.projectCountLabel&label=projects&color=101218&style=for-the-badge&logo=github&logoColor=E3B778" alt="Live project count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.totalStarsLabel&label=stars&color=101218&style=for-the-badge&logo=github&logoColor=E3B778" alt="Live total stars" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layerCount&label=layers&color=101218&style=for-the-badge&logo=github&logoColor=E3B778" alt="Live populated layer count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.runs&label=runs%20logged&color=101218&style=for-the-badge&logo=githubactions&logoColor=E3B778" alt="Live run count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.stateChangedDate&label=state%20as%20of&color=101218&style=for-the-badge&logo=git&logoColor=E3B778" alt="Date the registry state last changed" />
+  <img src="https://img.shields.io/github/last-commit/Heinsithukyaw/Agent-Harness?label=last%20commit&color=101218&style=for-the-badge&logo=git&logoColor=E3B778" alt="Last commit" />
+</p>
+
+<p align="center"><sub>The first five are fetched live from <a href="agent-harness/data/summary.json"><code>data/summary.json</code></a>; the last is fetched live from GitHub. All six reflect the last collect, not the current second.</sub></p>
+
 <br />
 
 <p align="center">
@@ -58,9 +85,28 @@ percentile is computed from the corpus, so it moves as the corpus moves. At this
 size the top six are all inside the top one percent, which is why every tile
 reads the same: the measure is honest but coarse.
 
+The same three projects, fetched from GitHub at page-view time rather than from
+our own snapshot — these are the only numbers in this file that do not wait for
+the next collect:
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/AFFAAN-M/ECC?style=for-the-badge&label=ECC&color=101218&logo=github&logoColor=E3B778" alt="ECC live stars" />
+  <img src="https://img.shields.io/github/last-commit/AFFAAN-M/ECC?style=for-the-badge&label=ECC&color=101218&logo=git&logoColor=E3B778" alt="ECC live last commit" />
+  <br />
+  <img src="https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=for-the-badge&label=AutoGPT&color=101218&logo=github&logoColor=E3B778" alt="AutoGPT live stars" />
+  <img src="https://img.shields.io/github/last-commit/Significant-Gravitas/AutoGPT?style=for-the-badge&label=AutoGPT&color=101218&logo=git&logoColor=E3B778" alt="AutoGPT live last commit" />
+  <br />
+  <img src="https://img.shields.io/github/stars/langgenius/dify?style=for-the-badge&label=dify&color=101218&logo=github&logoColor=E3B778" alt="dify live stars" />
+  <img src="https://img.shields.io/github/last-commit/langgenius/dify?style=for-the-badge&label=dify&color=101218&logo=git&logoColor=E3B778" alt="dify live last commit" />
+</p>
+
+<p align="center"><sub>Read this as a live view of three named projects, not as a live ranking: the names are pinned here, so a project falling out of the top three would still show. The ranking above is the one that tracks the corpus.</sub></p>
+
 The full set is browsable as a self-contained page: [`site/index.html`](agent-harness/site/index.html).
 Machine-readable, the whole registry is one file: [`data/projects.json`](agent-harness/data/projects.json) —
-1,154 projects and 6,721,592 stars at the last run.
+1,154 projects and 6,721,592 stars at the last run. A 2.4 KB
+[`data/summary.json`](agent-harness/data/summary.json) carries just the scalars the
+badges on this page read.
 
 <div align="center">
   <img src="./agent-harness/assets/divider.svg" alt="" width="100%" />
@@ -77,36 +123,47 @@ Machine-readable, the whole registry is one file: [`data/projects.json`](agent-h
 Classification is weighted pattern matching over topics, description, README,
 manifests and workflow files — not a model call.
 
-Snapshot from the run of 2026-09-19 (live figures are in the artwork above and in
-`data/projects.json`):
+<p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.orchestration.count&label=Orchestration&color=101218&style=flat-square" alt="Live orchestration count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.tools.count&label=Tools%20%26%20MCP&color=101218&style=flat-square" alt="Live tools and MCP count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.memory.count&label=Memory%20%26%20Context&color=101218&style=flat-square" alt="Live memory and context count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.eval.count&label=Eval%20%26%20Tracing&color=101218&style=flat-square" alt="Live eval and tracing count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.governance.count&label=Governance&color=101218&style=flat-square" alt="Live governance count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.sandbox.count&label=Sandboxing&color=101218&style=flat-square" alt="Live sandboxing count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.runtime.count&label=Runtime&color=101218&style=flat-square" alt="Live runtime count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.protocol.count&label=Protocols&color=101218&style=flat-square" alt="Live protocols count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.layers.gateway.count&label=Model%20Gateway&color=101218&style=flat-square" alt="Live model gateway count" />
+</p>
 
-| Layer | What lands here | Now |
-|---|---|---:|
-| Orchestration | multi-agent coordination, workflow and state machines | **396** |
-| Tools & MCP | tool servers, function calling, protocol adapters | **301** |
-| Memory & Context | vector stores, context windows, retrieval, state | **138** |
-| Eval & Tracing | benchmarks, observability, tracing, replay | 60 |
-| Governance | policy, guardrails, permissioning, audit | 32 |
-| Sandboxing | microVMs, gVisor, containers, isolation boundaries | 23 |
-| Runtime | execution loops, agent loops, durable execution | 18 |
-| Protocols | MCP, A2A, agent-to-agent wire formats | 16 |
-| Model Gateway | routing, provider abstraction, rate limiting | 9 |
-| *(other)* | catch-all for projects that match the gate but no layer | 161 |
+<p align="center"><sub>Fetched live, so these cannot drift out of step with the registry. <code>other</code> is absent by design — see below.</sub></p>
 
-**Read the distribution honestly.** Orchestration, tools and memory hold 835 of
-the 993 projects that were actually placed — 84% of the classified corpus — while
-the four smallest layers together hold 66. Concentration is expected in a corpus
-built from self-applied topics; the uncomfortable number is `other`.
+| Layer | What lands here |
+|---|---|
+| Orchestration | multi-agent coordination, workflow and state machines |
+| Tools & MCP | tool servers, function calling, protocol adapters |
+| Memory & Context | vector stores, context windows, retrieval, state |
+| Eval & Tracing | benchmarks, observability, tracing, replay |
+| Governance | policy, guardrails, permissioning, audit |
+| Sandboxing | microVMs, gVisor, containers, isolation boundaries |
+| Runtime | execution loops, agent loops, durable execution |
+| Protocols | MCP, A2A, agent-to-agent wire formats |
+| Model Gateway | routing, provider abstraction, rate limiting |
 
-At 161 projects `other` is the third-largest bucket in the registry. Fourteen
-percent of the corpus cleared the relevance gate and then matched no layer at all.
-That is either a real property of the ecosystem or a failure of the classifier,
-and the current design cannot tell you which, because it is measuring vocabulary
-rather than capability. It is the strongest argument for the seed-based expansion
-below.
+**Read the distribution honestly.** As of the 2026-09-19 run, orchestration, tools
+and memory held 835 of the 993 projects that were actually placed — 84% of the
+classified corpus — while the four smallest layers together held 66. Concentration
+is expected in a corpus built from self-applied topics; the uncomfortable number
+is `other`.
+
+`other` was the third-largest bucket at 161 projects. Fourteen percent of the
+corpus cleared the relevance gate and then matched no layer at all. That is either
+a real property of the ecosystem or a failure of the classifier, and the current
+design cannot tell you which, because it is measuring vocabulary rather than
+capability. It is the strongest argument for the seed-based expansion below.
 
 `other` is a catch-all bucket, not a harness layer, so it is excluded from the
-constellation and from every "N layers" claim in the artwork.
+constellation, from the badges above, and from every "N layers" claim in the
+artwork.
 
 <div align="center">
   <img src="./agent-harness/assets/divider.svg" alt="" width="100%" />
@@ -117,6 +174,7 @@ constellation and from every "N layers" claim in the artwork.
 | Surface | Path | Use |
 |---|---|---|
 | Machine-readable state | `data/projects.json` | the API |
+| Compact live endpoint | `data/summary.json` | 2.4 KB — the scalars README badges fetch |
 | Embeddable cards | `assets/cards/<owner>-<repo>.svg` | one SVG per project |
 | Browsable registry | `site/index.html` | self-contained, no CDN, no build step |
 | Markdown directory | `data/index.md` | grouped by layer |
@@ -302,8 +360,24 @@ data the collector already fetches, which makes that roadmap item close to free.
 | Runner minutes | ~4 min × 4/day ≈ 500/month |
 | Free tier | 2,000 minutes/month — fits comfortably |
 
-There is no database, no server and no third-party card service. The repository is
-the store; `raw.githubusercontent.com` or jsDelivr is the CDN.
+The steady-state figure is not the cold-start figure, and the difference is large
+enough to matter against a 25-minute job timeout. The first run that actually
+reached Collect enriched **1,786 of 1,831 candidates in 19 minutes**, because the
+committed state held only the projects that had already passed the relevance gate —
+so almost nothing was recognised as unchanged. Once the full corpus is committed
+the diff has something to work with and later runs are proportional to churn. Worth
+knowing before concluding the pipeline is slow.
+
+There is no database, no server and no card-rendering service. The repository is
+the store; `raw.githubusercontent.com` or jsDelivr is the CDN. Nothing draws the
+artwork except `render.mjs`.
+
+One external dependency is accepted, and it is confined to the live badges:
+shields.io fetches `data/summary.json` and the GitHub API when a badge image is
+requested. If shields is unreachable those badges fail and the rest of this page
+still renders, because every other image is served from this repository. That is
+the trade being made — the badges are live, and liveness is not something a static
+file can provide on its own.
 
 ---
 
@@ -312,6 +386,23 @@ the store; `raw.githubusercontent.com` or jsDelivr is the CDN.
 ```
 https://raw.githubusercontent.com/<owner>/<repo>/main/agent-harness/data/projects.json
 https://cdn.jsdelivr.net/gh/<owner>/<repo>@main/agent-harness/data/projects.json
+https://raw.githubusercontent.com/<owner>/<repo>/main/agent-harness/data/summary.json
+```
+
+`summary.json` exists for one job: being small enough to fetch on every page view.
+It carries the totals, the per-layer counts keyed by layer id, and the top eight
+projects. Layers are an object rather than an array so a consumer can address one
+by a path that cannot move — `$.layers.orchestration.count` is orchestration's
+count forever, whereas an index would silently point elsewhere the first time two
+layers swapped rank.
+
+Reading one field out of it, which is what a live badge does:
+
+```
+https://img.shields.io/badge/dynamic/json
+  ?url=<url-encoded summary.json>
+  &query=$.projectCountLabel
+  &label=projects&color=101218&style=for-the-badge
 ```
 
 Embedding a card, which stays current because the SVG is regenerated:
