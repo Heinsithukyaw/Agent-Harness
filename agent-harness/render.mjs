@@ -63,6 +63,16 @@ const GOLD_DEEP = '#C98A4B';
 const VIOLET = '#7C5CFF';
 
 const layerOf = (id) => LAYERS[id] ?? LAYERS.other;
+
+// How many layers to claim. `other` is a catch-all bucket, not a harness layer —
+// the constellation draws one satellite per populated layer and omits it, so
+// counting it made every surface state a number one higher than the diagram
+// sitting next to it. One definition, used by the banner, the stats strip, the
+// run strip and the site, so the headline and the artwork cannot drift apart.
+const populatedLayerIds = (counts) =>
+  Object.keys(LAYERS).filter((k) => k !== 'other' && (counts[k] ?? 0) > 0);
+const populatedLayers = (counts) => populatedLayerIds(counts).length;
+
 const slug = (fullName) => fullName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const nfmt = (n) => Number(n ?? 0).toLocaleString('en-US');
 
@@ -365,9 +375,9 @@ function renderMarkdown(projects) {
  * animation is also the legend — the shape of the mesh is the shape of the
  * corpus.
  */
-function renderMesh(counts) {
-  const items = Object.keys(LAYERS)
-    .filter((k) => k !== 'other' && (counts[k] ?? 0) > 0)
+function renderMesh(counts, opts = {}) {
+  const standalone = opts.standalone === true;
+  const items = populatedLayerIds(counts)
     .map((k) => ({ id: k, short: LAYERS[k].short, accent: LAYERS[k].accent, n: counts[k] }))
     .sort((a, b) => b.n - a.n);
 
@@ -375,21 +385,34 @@ function renderMesh(counts) {
   const VBH = 420;
   const cx = 280;
   const cy = 208;
-  const rx = 186;
+  // 178 rather than 186: the right-hand labels now extend outward from the node
+  // edge instead of straddling it, so the ellipse gives back the margin the
+  // widest label ("ORCHESTR") needs to stay inside the viewBox.
+  const rx = 178;
   const ry = 134;
   const n = Math.max(items.length, 1);
   const maxN = Math.max(1, ...items.map((d) => d.n));
 
   const spokes = [];
   const nodes = [];
+  const labels = [];
   const packets = [];
+
+  // Labels are anchored to whichever side of the hub the node sits on, and painted
+  // after every node. The previous design put a centred label at a fixed radial
+  // offset, which meant any label wider than the gap between the node's edge and its
+  // own centre ran back under the node — and since the circles were painted last,
+  // they covered the first characters. "ORCHESTR" and "MEMORY" both rendered as
+  // half-words. Side anchoring cannot collide, because the label begins at the node
+  // edge plus a gap and extends outward, away from the circle.
+  const LABEL_GAP = 11;
 
   items.forEach((it, i) => {
     const a = ((-90 + (360 / n) * i) * Math.PI) / 180;
-    const x = cx + Math.cos(a) * rx;
-    const y = cy + Math.sin(a) * ry;
-    const lx = cx + Math.cos(a) * (rx + 31);
-    const ly = cy + Math.sin(a) * (ry + 31);
+    const ca = Math.cos(a);
+    const sa = Math.sin(a);
+    const x = cx + ca * rx;
+    const y = cy + sa * ry;
     const r = 15.5 + Math.sqrt(it.n / maxN) * 9;
     const delay = (i * 0.46).toFixed(2);
 
@@ -406,8 +429,23 @@ function renderMesh(counts) {
         `</circle>` +
         `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(1)}" fill="#0C0E13" stroke="${rgba(it.accent, 0.55)}" stroke-width="1.1"/>` +
         `<text x="${x.toFixed(1)}" y="${(y + 4.2).toFixed(1)}" font-size="11.5" font-weight="600" fill="${it.accent}" text-anchor="middle" font-family="${MONO}">${it.n}</text>` +
-        `<text x="${lx.toFixed(1)}" y="${(ly + 3.6).toFixed(1)}" font-size="8.6" letter-spacing="1.5" fill="#7C7669" text-anchor="middle" font-family="${MONO}">${esc(it.short)}</text>` +
         `</g>`,
+    );
+
+    let lx = x;
+    let ly = y + 3.6;
+    let anchor = 'middle';
+    if (ca > 0.3) {
+      anchor = 'start';
+      lx = x + r + LABEL_GAP;
+    } else if (ca < -0.3) {
+      anchor = 'end';
+      lx = x - r - LABEL_GAP;
+    } else {
+      ly = sa < 0 ? y - r - LABEL_GAP + 3 : y + r + LABEL_GAP + 3;
+    }
+    labels.push(
+      `<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" font-size="8.6" letter-spacing="1.5" fill="#7C7669" text-anchor="${anchor}" font-family="${MONO}">${esc(it.short)}</text>`,
     );
 
     packets.push(
@@ -419,9 +457,19 @@ function renderMesh(counts) {
     );
   });
 
-  return `<svg class="mesh" viewBox="0 0 ${VBW} ${VBH}" role="img" aria-label="Layer constellation: ${esc(
-    items.map((d) => `${d.short.toLowerCase()} ${d.n}`).join(', '),
-  )}">
+  const label = `Layer constellation: ${items
+    .map((d) => `${d.short.toLowerCase()} ${d.n}`)
+    .join(', ')}`;
+
+  // Same mesh, two hosts: an inline <svg> for the site, and a standalone
+  // document for the README. The standalone form carries its own reduced-motion
+  // rule, because SMIL inside an <img> cannot be stopped by the host page.
+  const open = standalone
+    ? `<svg xmlns="http://www.w3.org/2000/svg" width="${VBW}" height="${VBH}" viewBox="0 0 ${VBW} ${VBH}" role="img" aria-label="${esc(label)}">
+  <style>@media (prefers-reduced-motion: reduce){ .mo{ display:none } }</style>`
+    : `<svg class="mesh" viewBox="0 0 ${VBW} ${VBH}" role="img" aria-label="${esc(label)}">`;
+
+  return open + `
     <defs>
       <linearGradient id="hubGrad" x1="0" y1="0" x2="1" y2="1">
         <stop offset="0" stop-color="${GOLD}"/><stop offset="0.55" stop-color="${GOLD_DEEP}"/><stop offset="1" stop-color="${VIOLET}"/>
@@ -444,6 +492,7 @@ function renderMesh(counts) {
     </g>
 
     ${nodes.join('\n    ')}
+    ${labels.join('\n    ')}
     ${packets.join('\n    ')}
 
     <circle cx="${cx}" cy="${cy}" r="52" fill="none" stroke="${rgba(GOLD, 0.22)}" stroke-width="1"/>
@@ -525,6 +574,285 @@ function renderRunStrip(ledger, layerCount, projectCount) {
 }
 
 // ---------------------------------------------------------------------------
+// README assets
+// ---------------------------------------------------------------------------
+//
+// GitHub sanitises HTML in a README: <style>, <script> and your own CSS classes
+// are stripped, so a README cannot be styled. The one thing it does render is an
+// <img> pointing at an SVG file in the repo — GitHub serves the file and the
+// browser animates it. That is the whole trick behind a "profile README that
+// looks like a UI", and it is why these exist as files rather than as markup.
+//
+// They are regenerated by every run, so the numbers in them are never stale.
+// Same XML rule as the cards: the font stacks use single quotes internally.
+
+const compact = (n) => {
+  if (n >= 1e6) return `${(n / 1e6).toFixed(2).replace(/\.?0+$/, '')}M`;
+  if (n >= 1e3) return `${(n / 1e3).toFixed(1).replace(/\.0$/, '')}k`;
+  return String(n);
+};
+
+const REDUCED_MOTION_STYLE = `  <style>@media (prefers-reduced-motion: reduce){ .mo{ display:none } }</style>`;
+
+function renderBanner(projects, counts, ledger) {
+  const W = 1200;
+  const H = 320;
+  const totalStars = projects.reduce((a, p) => a + p.stars, 0);
+  const layerCount = populatedLayers(counts);
+  const runs = ledger?.runs ?? 0;
+
+  const rows = populatedLayerIds(counts)
+    .map((k) => ({ id: k, ...LAYERS[k], n: counts[k] }))
+    .sort((a, b) => b.n - a.n);
+
+  const maxN = Math.max(1, ...rows.map((r) => r.n));
+  const railX = 842;
+  const railW = 268;
+  const railTop = 62;
+  const step = 26;
+
+  const bars = rows
+    .map((r, i) => {
+      const y = railTop + i * step;
+      const w = Math.max(6, (r.n / maxN) * railW);
+      return (
+        `<text x="${railX - 12}" y="${y + 5}" font-size="9" letter-spacing="1.1" fill="#7C7669" text-anchor="end" font-family="${MONO}">${esc(r.short)}</text>` +
+        `<rect x="${railX}" y="${y}" width="${railW}" height="7" rx="3.5" fill="rgba(255,255,255,0.055)"/>` +
+        `<rect x="${railX}" y="${y}" width="${w.toFixed(1)}" height="7" rx="3.5" fill="${r.accent}" opacity="0.85">` +
+        `<animate attributeName="width" from="0" to="${w.toFixed(1)}" dur="1.2s" begin="${(i * 0.09).toFixed(2)}s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>` +
+        `</rect>` +
+        `<circle class="mo" r="2.4" fill="#F5F2EA" opacity="0">` +
+        `<animateMotion dur="4.4s" begin="${(i * 0.42).toFixed(2)}s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1" keyTimes="0;1" path="M${railX + 4} ${y + 3.5} L${(railX + w - 4).toFixed(1)} ${y + 3.5}"/>` +
+        `<animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.15;0.8;1" dur="4.4s" begin="${(i * 0.42).toFixed(2)}s" repeatCount="indefinite"/>` +
+        `</circle>` +
+        `<text x="${W - 44}" y="${y + 5}" font-size="9.5" fill="#C6C1B7" text-anchor="end" font-family="${MONO}">${r.n}</text>`
+      );
+    })
+    .join('\n    ');
+
+  const stats = [
+    `${nfmt(projects.length)} projects`,
+    `${compact(totalStars)} stars`,
+    `${layerCount} layers`,
+    `${runs} runs logged`,
+  ].join('   \u00b7   ');
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Agent-Harness — a live, versioned registry of the agent-harness ecosystem. ${esc(stats)}">
+${REDUCED_MOTION_STYLE}
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#101218"/>
+      <stop offset="0.55" stop-color="#0A0B0F"/>
+      <stop offset="1" stop-color="#08090C"/>
+    </linearGradient>
+    <radialGradient id="bloomL" cx="0.06" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="${rgba(VIOLET, 0.20)}"/>
+      <stop offset="1" stop-color="${rgba(VIOLET, 0)}"/>
+    </radialGradient>
+    <radialGradient id="bloomR" cx="0.94" cy="0.9" r="0.62">
+      <stop offset="0" stop-color="${rgba(GOLD, 0.15)}"/>
+      <stop offset="1" stop-color="${rgba(GOLD, 0)}"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFF8EC"/>
+      <stop offset="0.55" stop-color="${GOLD}"/>
+      <stop offset="1" stop-color="#B99BE8"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="${GOLD}" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="${VIOLET}" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="${GOLD}" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0 H0 V46" fill="none" stroke="#ffffff" stroke-opacity="0.028" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="${W}" height="${H}" fill="url(#bg)"/>
+  <rect width="${W}" height="${H}" fill="url(#grid)"/>
+  <rect width="${W}" height="${H}" fill="url(#bloomL)"/>
+  <rect width="${W}" height="${H}" fill="url(#bloomR)"/>
+  <rect width="${W}" height="2" fill="url(#edge)"/>
+
+  <g class="mo">
+    <rect x="-220" y="0" width="200" height="${H}" fill="url(#sheen)">
+      <animate attributeName="x" values="-220;${W + 40}" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="56" y="106" font-size="41" font-weight="700" letter-spacing="1.4" fill="url(#title)" font-family="${MONO}">AGENT-HARNESS</text>
+
+  <text x="56" y="144" font-size="14.5" fill="#A9A49A" font-family="${SANS}">A live, versioned registry of the agent-harness ecosystem.</text>
+  <text x="56" y="168" font-size="14.5" fill="#7C7669" font-family="${SANS}">Discovered from GitHub, enriched from real manifests, classified into layers,</text>
+  <text x="56" y="192" font-size="14.5" fill="#7C7669" font-family="${SANS}">and committed on a schedule — so every change is a diff.</text>
+
+  <g>
+    <rect x="56" y="216" width="118" height="26" rx="13" fill="${rgba(GOLD, 0.09)}" stroke="${rgba(GOLD, 0.34)}" stroke-width="1"/>
+    <circle cx="76" cy="229" r="3.4" fill="${GOLD}">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="76" cy="229" r="3.4" fill="none" stroke="${GOLD}" stroke-width="1">
+      <animate attributeName="r" values="3.4;10;3.4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="92" y="233" font-size="10" font-weight="600" letter-spacing="2" fill="${GOLD}" font-family="${MONO}">LIVE</text>
+  </g>
+
+  <text x="56" y="282" font-size="10.5" letter-spacing="0.6" fill="#6E695F" font-family="${MONO}">${esc(stats)}</text>
+
+  <g>
+    <text x="${W - 44}" y="42" font-size="9.5" letter-spacing="2.2" fill="#6E695F" text-anchor="end" font-family="${MONO}">LAYER DISTRIBUTION</text>
+    ${bars}
+  </g>
+
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" fill="none" stroke="rgba(255,255,255,0.09)"/>
+</svg>
+`;
+}
+
+function renderStatsAsset(projects, counts, ledger) {
+  const W = 1200;
+  const H = 148;
+  const totalStars = projects.reduce((a, p) => a + p.stars, 0);
+  const cells = [
+    { v: nfmt(projects.length), l: 'PROJECTS' },
+    { v: nfmt(totalStars), l: 'STARS' },
+    { v: String(populatedLayers(counts)), l: 'LAYERS' },
+    { v: String(ledger?.runs ?? 0), l: 'RUNS LOGGED' },
+    { v: (state.stateChangedAt ?? '—').slice(0, 10), l: 'STATE AS OF', small: true },
+    { v: `v${state.classifierVersion}`, l: 'CLASSIFIER', small: true },
+  ];
+
+  const cw = (W - 2) / cells.length;
+  const body = cells
+    .map((c, i) => {
+      const x = 1 + i * cw;
+      const right = i === cells.length - 1;
+      return (
+        (right ? '' : `<rect x="${(x + cw).toFixed(1)}" y="1" width="1" height="${H - 2}" fill="rgba(255,255,255,0.075)"/>`) +
+        `<text x="${(x + 26).toFixed(1)}" y="76" font-size="${c.small ? 19 : 27}" font-weight="600" fill="#F5F2EA" font-family="${MONO}" letter-spacing="-0.4">${esc(c.v)}</text>` +
+        `<text x="${(x + 26).toFixed(1)}" y="100" font-size="9.5" letter-spacing="1.7" fill="#8A8478" font-family="${MONO}">${c.l}</text>` +
+        (c.small
+          ? ''
+          : `<circle class="mo" cx="${(x + 26).toFixed(1)}" cy="118" r="2.2" fill="${GOLD}" opacity="0.7">` +
+            `<animate attributeName="opacity" values="0.7;0.15;0.7" dur="${(3 + i * 0.4).toFixed(1)}s" repeatCount="indefinite"/>` +
+            `</circle>`)
+      );
+    })
+    .join('\n    ');
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Registry state: ${esc(
+    cells.map((c) => `${c.l.toLowerCase()} ${c.v}`).join(', '),
+  )}">
+${REDUCED_MOTION_STYLE}
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.055)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.014)"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="${GOLD}" stop-opacity="0.8"/>
+      <stop offset="0.55" stop-color="${VIOLET}" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="${GOLD}" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="#0A0B0F"/>
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="url(#panel)"/>
+  <rect x="1" y="1" width="${W - 2}" height="2" fill="url(#top)"/>
+  ${body}
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="none" stroke="rgba(255,255,255,0.09)"/>
+</svg>
+`;
+}
+
+function renderFeatured(projects, rank) {
+  const tiles = [...projects].sort((a, b) => b.stars - a.stars).slice(0, 6);
+  const W = 1384;
+  const H = 240;
+  const tw = 440;
+  const th = 96;
+
+  const body = tiles
+    .map((p, i) => {
+      const x = 16 + (i % 3) * (tw + 16);
+      const y = 16 + Math.floor(i / 3) * (th + 16);
+      const layer = layerOf(p.layer);
+      const r = rank.get(p.fullName) ?? 0;
+      const topPct = Math.max(1, Math.ceil(r * 100));
+      const fill = Math.round((1 - r) * 100);
+
+      return (
+        `<g>` +
+        `<rect x="${x}" y="${y}" width="${tw}" height="${th}" rx="12" fill="#0C0E13" stroke="rgba(255,255,255,0.09)"/>` +
+        `<rect x="${x}" y="${y}" width="${tw}" height="${th}" rx="12" fill="${rgba(layer.accent, 0.035)}"/>` +
+        `<clipPath id="tile${i}"><rect x="${x}" y="${y}" width="${tw}" height="${th}" rx="12"/></clipPath>` +
+        `<g clip-path="url(#tile${i})">` +
+        `<rect x="${x}" y="${y}" width="3" height="${th}" fill="${layer.accent}" opacity="0.9"/>` +
+        `<rect x="${x}" y="${y}" width="${tw}" height="1.2" fill="${layer.accent}" opacity="0.35"/>` +
+        `<g class="mo"><rect x="${x - 150}" y="${y}" width="120" height="${th}" fill="url(#tileSheen)" opacity="0.5">` +
+        `<animate attributeName="x" values="${x - 150};${x + tw + 20}" dur="${(5.5 + i * 0.6).toFixed(1)}s" repeatCount="indefinite"/>` +
+        `</rect></g>` +
+        `</g>` +
+        `<text x="${x + 18}" y="${y + 24}" font-size="8.6" letter-spacing="1.3" fill="#6E695F" font-family="${MONO}">${esc(truncate(p.owner.toUpperCase(), 26))}</text>` +
+        `<text x="${x + 18}" y="${y + 48}" font-size="15.5" font-weight="600" fill="#F5F2EA" font-family="${SANS}">${esc(truncate(p.name, 26))}</text>` +
+        `<circle cx="${x + tw - 24}" cy="${y + 44}" r="4" fill="${p.languageColor || layer.accent}"/>` +
+        `<text x="${x + tw - 34}" y="${y + 47}" font-size="9.5" fill="#A9A49A" text-anchor="end" font-family="${MONO}">${esc(truncate(p.language ?? 'Unknown', 13))}</text>` +
+        `<text x="${x + 18}" y="${y + 70}" font-size="9.5" fill="#7C7669" font-family="${MONO}">\u2605 ${compact(p.stars)}   \u00b7   ${esc(layer.short)}${p.license ? `   \u00b7   ${esc(p.license)}` : ''}</text>` +
+        `<text x="${x + tw - 18}" y="${y + 70}" font-size="9.5" fill="${layer.accent}" text-anchor="end" font-family="${MONO}">TOP ${topPct}%</text>` +
+        `<rect x="${x + 18}" y="${y + 80}" width="${tw - 36}" height="3" rx="1.5" fill="rgba(255,255,255,0.07)"/>` +
+        `<rect x="${x + 18}" y="${y + 80}" width="${(((tw - 36) * fill) / 100).toFixed(1)}" height="3" rx="1.5" fill="${layer.accent}">` +
+        `<animate attributeName="width" from="0" to="${(((tw - 36) * fill) / 100).toFixed(1)}" dur="1.1s" begin="${(i * 0.08).toFixed(2)}s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>` +
+        `</rect>` +
+        `</g>`
+      );
+    })
+    .join('\n    ');
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Six highest-starred projects in the registry">
+${REDUCED_MOTION_STYLE}
+  <defs>
+    <linearGradient id="tileSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+    ${body}
+</svg>
+`;
+}
+
+function renderDivider() {
+  const W = 1200;
+  const H = 14;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="">
+  <defs>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="${GOLD}" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="${GOLD}" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="${VIOLET}" stop-opacity="0.75"/>
+      <stop offset="0.72" stop-color="${GOLD}" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="${GOLD}" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="6" width="${W}" height="1.4" fill="url(#rule)"/>
+  <g transform="translate(${W / 2} 7)">
+    <path d="M0 -6 L6 0 L0 6 L-6 0 Z" fill="#0A0B0F" stroke="${GOLD}" stroke-width="1.2" stroke-opacity="0.75"/>
+    <path d="M0 -2.6 L2.6 0 L0 2.6 L-2.6 0 Z" fill="${VIOLET}">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
+`;
+}
+
+// ---------------------------------------------------------------------------
 // The site
 // ---------------------------------------------------------------------------
 
@@ -547,7 +875,7 @@ function renderSite(projects, ledger, rank) {
   const layerOrder = Object.keys(LAYERS).filter((k) => k !== 'other');
   const counts = state.layerCounts ?? {};
   const totalStars = projects.reduce((a, p) => a + p.stars, 0);
-  const presentLayers = Object.keys(counts).length;
+  const presentLayers = populatedLayers(counts);
 
   const layerChips = layerOrder
     .filter((k) => counts[k])
@@ -1162,6 +1490,21 @@ if (!DRY_RUN && existsSync(cardsDir)) {
     rmSync(join(cardsDir, f), { force: true });
     changed.push(`assets/cards/${f} (removed)`);
   }
+}
+
+// README assets. These exist as files because a README cannot carry markup —
+// see the note above renderBanner. Referenced by the root README, regenerated
+// on every run so the numbers in them cannot go stale.
+const counts = state.layerCounts ?? {};
+const readmeAssets = [
+  ['assets/banner.svg', renderBanner(projects, counts, ledger)],
+  ['assets/mesh.svg', renderMesh(counts, { standalone: true })],
+  ['assets/stats.svg', renderStatsAsset(projects, counts, ledger)],
+  ['assets/featured.svg', renderFeatured(projects, rank)],
+  ['assets/divider.svg', renderDivider()],
+];
+for (const [rel, svg] of readmeAssets) {
+  if (writeFile(rel, svg)) changed.push(rel);
 }
 
 if (writeFile('site/index.html', renderSite(projects, ledger, rank))) changed.push('site/index.html');
