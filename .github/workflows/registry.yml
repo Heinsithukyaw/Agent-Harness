@@ -1,0 +1,212 @@
+name: Agent-Harness registry
+
+# ─────────────────────────────────────────────────────────────────────────────
+# LIVE COPY. The readable master lives at `agent-harness/workflows/registry.yml`
+# and is written to be dropped into a repo whose root *is* the registry. This
+# copy is the same workflow adapted for this repository's layout, where the
+# registry sits one directory down, and it is the one GitHub actually runs.
+#
+# If you change the pipeline, change the master first, then re-apply the three
+# layout adaptations marked `LAYOUT` below:
+#   1. `defaults.run.working-directory` for the steps that run the scripts
+#   2. `working-directory: ${{ github.workspace }}` for the git-facing steps,
+#      so `git status --porcelain` reports repo-root-relative paths
+#   3. the `agent-harness/` prefix on the allowlist patterns and `git add`
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Maintains the live registry: discovers agent-harness projects, enriches the
+# ones that moved, classifies them, renders cards and the site, and commits.
+#
+# Cadence is deliberately modest. Search allows only 30 requests/minute, and the
+# collector uses the search index as its change detector so GraphQL is spent
+# only on repositories that actually moved. Steady-state cost is proportional to
+# churn, not to corpus size, which is why four runs a day is affordable.
+#
+#   daily   incremental — enrich only repositories whose stars/push time changed
+#   weekly  full        — re-enrich everything, to catch what the search index
+#                         does not reflect (stack drift, new manifests, renames)
+
+on:
+  schedule:
+    - cron: '17 3,9,15,21' # every 6 hours
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Re-enrich every repository, ignoring the change diff'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: # LAYOUT
+      - 'agent-harness/collect.mjs'
+      - 'agent-harness/render.mjs'
+      - 'agent-harness/config/sources.json'
+      - '.github/workflows/registry.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agent-harness-registry
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: agent-harness # LAYOUT
+
+jobs:
+  registry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Decide the run mode
+        id: mode
+        run: |
+          set -euo pipefail
+          # Sunday's 03:17 run, or an explicit dispatch, does a full re-enrich.
+          if [ "${{ inputs.full }}" = "true" ] || [ "$(date -u +%u%H)" = "703" ]; then
+            echo "full=1" >> "$GITHUB_OUTPUT"
+            echo "mode: full re-enrichment"
+          else
+            echo "full=0" >> "$GITHUB_OUTPUT"
+            echo "mode: incremental"
+          fi
+
+      - name: Collect
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FULL: ${{ steps.mode.outputs.full }}
+        run: node collect.mjs
+
+      - name: Render
+        run: node render.mjs
+
+      - name: Validate the rendered artefacts
+        # A malformed SVG is invisible to any check on the generator itself: the
+        # file is written, looks plausible on disk, and renders as an empty box.
+        # This gate exists because that happened — a double quote inside a
+        # font-family attribute terminated the attribute and every card failed
+        # to parse while every other signal stayed green.
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          import glob, sys, xml.etree.ElementTree as ET
+
+          cards = sorted(glob.glob('assets/cards/*.svg'))
+          if not cards:
+              print('::error::no cards were rendered')
+              sys.exit(1)
+
+          bad = []
+          for f in cards:
+              try:
+                  ET.parse(f)
+              except Exception as exc:
+                  bad.append(f'{f}: {exc}')
+
+          if bad:
+              for b in bad[:20]:
+                  print(f'::error::malformed SVG — {b}')
+              print(f'::error::{len(bad)} of {len(cards)} cards are not well-formed XML')
+              sys.exit(1)
+          print(f'{len(cards)} cards are well-formed XML')
+          PY
+
+          # Template leakage: an un-interpolated placeholder is a build bug that
+          # is invisible until someone looks at the page.
+          leaks=$(grep -c -e '\${' -e '\bundefined\b' -e '\bNaN\b' site/index.html || true)
+          if [ "$leaks" -ne 0 ]; then
+            echo "::error::site/index.html has $leaks line(s) with un-interpolated placeholders"
+            grep -n -e '\${' -e '\bundefined\b' -e '\bNaN\b' site/index.html | head -10
+            exit 1
+          fi
+          echo "no template leakage in site/index.html"
+
+      - name: Enforce the write allowlist
+        # The collector confines itself to data/, history/ and assets/, and this
+        # is the outer check. It fails closed: any unexpected path aborts the
+        # run before anything is committed.
+        working-directory: ${{ github.workspace }} # LAYOUT
+        run: |
+          set -euo pipefail
+          changed=$(git status --porcelain | awk '{print $2}')
+          if [ -z "$changed" ]; then
+            echo "nothing changed"
+            exit 0
+          fi
+          bad=0
+          while IFS= read -r path; do
+            [ -z "$path" ] && continue
+            case "$path" in
+              agent-harness/data/*|agent-harness/history/*|agent-harness/assets/*|agent-harness/site/*) ;;
+              *) echo "::error::unexpected write outside allowlist: $path"; bad=1 ;;
+            esac
+          done <<< "$changed"
+          if [ "$bad" -ne 0 ]; then
+            git --no-pager diff --stat
+            exit 1
+          fi
+          echo "allowlist ok: $(echo "$changed" | wc -l) paths"
+
+      - name: Verify the history chain
+        run: |
+          set -euo pipefail
+          if [ ! -f history/runs.jsonl ]; then
+            echo "no history yet"
+            exit 0
+          fi
+          node -e '
+          const fs = require("fs");
+          const rows = fs.readFileSync("history/runs.jsonl", "utf8").trim().split("\n")
+            .filter(Boolean).map(JSON.parse);
+          let prev = "genesis";
+          for (const r of rows) {
+            if (r.prevHash !== prev) {
+              console.error("::error::hash chain broken at run " + r.runId);
+              process.exit(1);
+            }
+            prev = r.entryHash;
+          }
+          console.log("chain intact across " + rows.length + " runs");
+          '
+
+      - name: Commit if anything changed
+        working-directory: ${{ github.workspace }} # LAYOUT
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agent-harness/data agent-harness/history agent-harness/assets agent-harness/site
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          count=$(node -e 'const s=require("./agent-harness/data/projects.json");console.log(s.projectCount)')
+          git commit -m "chore: refresh agent-harness registry (${count} projects) [skip ci]"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase --autostash
+          done
+          echo "::error::push failed after 3 attempts"
+          exit 1
+
+      - name: Summarise
+        if: always()
+        working-directory: ${{ github.workspace }} # LAYOUT
+        run: |
+          {
+            echo "### Agent-Harness registry"
+            echo ""
+            echo "| | |"
+            echo "| --- | --- |"
+            echo "| mode | ${{ steps.mode.outputs.full == '1' && 'full' || 'incremental' }} |"
+            echo "| projects | $(node -e 'try{console.log(require("./agent-harness/data/projects.json").projectCount)}catch{console.log("n/a")}') |"
+            echo "| transitions this run | $(tail -1 agent-harness/history/events.jsonl 2>/dev/null | wc -l) |"
+          } >> "$GITHUB_STEP_SUMMARY"

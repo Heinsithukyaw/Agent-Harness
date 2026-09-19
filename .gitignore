@@ -1,0 +1,8 @@
+# Private working notes, session memory and identity files for the assistant.
+# Not part of the published project.
+.workbuddy-ai/
+
+# Generated preview artefacts — rebuild with the scripts named in each README.
+profile-cards/preview/*.html
+
+.DS_Store

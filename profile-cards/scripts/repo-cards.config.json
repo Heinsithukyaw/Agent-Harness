@@ -1,0 +1,64 @@
+{
+  "_comment": "Human overrides for the auto-generated repository cards. Anything set here wins over detection. Keys are repository names exactly as they appear on GitHub. Delete a key to fall back to auto-detection. This file is committed, so every override is versioned and reviewable.",
+
+  "_fields": {
+    "language": "Override the detected primary language (e.g. when bundled HTML outweighs the real source).",
+    "stack": "Replace the detected tech stack entirely, in display order.",
+    "description": "Override the card's description line.",
+    "hide": "true to keep the repo out of the card grid.",
+    "pin": "Sort key. Lower numbers appear first; unpinned repos follow by recency."
+  },
+
+  "Ominibridge": {
+    "language": "TypeScript",
+    "stack": ["MCP", "A2A", "OpenAPI", "REST", "TypeScript", "Node.js"],
+    "description": "One API configuration becomes four governed integration surfaces",
+    "pin": 1
+  },
+
+  "Callme.ai": {
+    "language": "Python",
+    "stack": ["FastAPI", "PostgreSQL", "Redis", "Docker"],
+    "description": "Burmese-speaking AI voice agents — multi-tenant SaaS",
+    "pin": 2
+  },
+
+  "DailyNews": {
+    "language": "TypeScript",
+    "stack": ["Next.js", "PostgreSQL", "Docker", "GitHub Actions"],
+    "description": "RSS ingestion to ranked feeds, served by a Next.js app",
+    "pin": 3
+  },
+
+  "Veridra": {
+    "language": "TypeScript",
+    "stack": ["TypeScript", "Node.js", "Docker"],
+    "description": "Briefs into structured, reviewable content artifacts",
+    "pin": 4
+  },
+
+  "PIG": {
+    "language": "TypeScript",
+    "stack": ["TypeScript", "PostgreSQL"],
+    "description": "Private investment gateway — deal flow and documents",
+    "pin": 5
+  },
+
+  "AgentOS": {
+    "language": "Go",
+    "stack": ["gRPC", "Kubernetes", "Docker", "Go"],
+    "description": "Agent orchestration runtime for multi-agent workflows",
+    "pin": 6
+  },
+
+  "Heinsithukyaw": {
+    "language": "JavaScript",
+    "stack": ["Node.js", "GitHub Actions"],
+    "description": "Profile README — two agents, one conversation",
+    "pin": 0
+  },
+
+  "viscosity-liquidityframeworkworkspace": {
+    "hide": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_comment": "The corpus definition for Agent-Harness. Each query is a GitHub search. Search is the scarce resource (30 requests/minute), so keep this list short and complementary, and rely on bulk GraphQL enrichment for depth.",
+
+  "_why": "Search caps at 1,000 results per query, so a single topic can never cover the corpus. Overlapping queries with different axes (topic, phrase, star band) are unioned and de-duplicated by node id.",
+
+  "qualityFloor": 25,
+  "_qualityFloor": "Minimum stars for a repository to enter the corpus. Keeps drive-by experiments out without needing a hand-curated allowlist.",
+
+  "minRelevance": 12,
+  "_minRelevance": "Minimum weighted harness-vocabulary score. Topic tags are self-applied and unreliable, and star count is not relevance, so this gate runs before ranking. Raise it to tighten the corpus, lower it to widen it.",
+
+  "maxProjects": 1500,
+
+  "queries": [
+    { "label": "topic: agent-harness", "q": "topic:agent-harness", "pages": 3 },
+    { "label": "topic: agent-framework", "q": "topic:agent-framework stars:>50", "pages": 3 },
+    { "label": "topic: agent-runtime", "q": "topic:agent-runtime", "pages": 2 },
+    { "label": "topic: agent-orchestration", "q": "topic:agent-orchestration", "pages": 2 },
+    { "label": "topic: agent-toolkit", "q": "topic:agent-toolkit", "pages": 1 },
+    { "label": "topic: llm-agent", "q": "topic:llm-agent stars:>100", "pages": 2 },
+    { "label": "topic: agentic-ai (high star)", "q": "topic:agentic-ai stars:>300", "pages": 3 },
+    { "label": "topic: ai-agents (high star)", "q": "topic:ai-agents stars:>500", "pages": 3 },
+    { "label": "phrase: agent harness", "q": "\"agent harness\" in:name,description", "pages": 3 },
+    { "label": "readme: agent harness", "q": "agent harness in:readme stars:>50", "pages": 2 },
+    { "label": "topic: mcp (high star)", "q": "topic:mcp stars:>300", "pages": 2 },
+    { "label": "topic: context-engineering", "q": "topic:context-engineering stars:>50", "pages": 1 }
+  ],
+
+  "_budget": "12 queries x up to 3 pages = at most 34 search requests. Search allows 30/minute, so the collector paces itself and fails loudly rather than getting throttled.",
+
+  "tiers": {
+    "_comment": "Refresh cadence by rank. The search index tells us cheaply which repositories moved; GraphQL is only spent on those.",
+    "hot": 300,
+    "warm": 1000
+  }
+}
