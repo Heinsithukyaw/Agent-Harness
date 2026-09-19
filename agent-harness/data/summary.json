@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-09-19T23:20:39.203Z",
+  "stateChangedAt": "2026-09-19T23:46:38.467Z",
   "stateChangedDate": "2026-09-19",
   "projectCount": 1153,
   "projectCountLabel": "1,153",
-  "totalStars": 6722737,
-  "totalStarsLabel": "6,722,737",
+  "totalStars": 6722858,
+  "totalStarsLabel": "6,722,858",
   "totalStarsCompact": "6.72M",
   "layerCount": 9,
-  "runs": 10,
+  "runs": 11,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,7 +71,7 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 262925,
+      "stars": 262940,
       "starsCompact": "262.9k",
       "layer": "tools"
     },
@@ -83,19 +83,19 @@
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 156482,
+      "stars": 156484,
       "starsCompact": "156.5k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 142507,
+      "stars": 142510,
       "starsCompact": "142.5k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 119628,
+      "stars": 119633,
       "starsCompact": "119.6k",
       "layer": "memory"
     },
@@ -113,7 +113,7 @@
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 83447,
+      "stars": 83449,
       "starsCompact": "83.4k",
       "layer": "tools"
     }
