@@ -28,7 +28,7 @@ name: Agent-Harness registry
 
 on:
   schedule:
-    - cron: '17 3,9,15,21' # every 6 hours
+    - cron: '17 3,9,15,21 * * *' # every 6 hours
   workflow_dispatch:
     inputs:
       full:
