@@ -391,12 +391,22 @@ Then commit. The workflow runs every 6 hours, on push, and on demand.
 collect.mjs              discovery, diff, enrichment, classification, history
 render.mjs               SVG cards, markdown directory, the registry site
 config/sources.json      corpus definition, thresholds, tiers
-workflows/registry.yml   the GitHub Actions workflow
+workflows/registry.yml   the GitHub Actions workflow (master copy)
 data/                    derived state (the API)
 assets/cards/            one embeddable SVG per project
 site/index.html          the browsable registry
 history/                 append-only timelines, events, hash-chained runs
 ```
+
+`workflows/registry.yml` is the readable master, written to be dropped into a
+repository whose root *is* the registry. When this project lives inside a larger
+repository, the live copy at `.github/workflows/registry.yml` is the same
+workflow adapted for that layout — change the master first, then re-apply the
+adaptation. The one substantive difference is that both scripts resolve their
+corpus root from `git rev-parse --show-toplevel`, so in a monorepo the workflow
+must pass `CORPUS_ROOT` rather than rely on the working directory. Neither a
+workflow-level `defaults.run.working-directory` nor a per-step one has any
+effect on that resolution.
 
 ---
 

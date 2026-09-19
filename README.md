@@ -260,17 +260,23 @@ Tuning lives in `config/sources.json`: `qualityFloor` (minimum stars),
 ## Roadmap
 
 1. **Seed-based corpus expansion** — the relevance fix described above.
-2. **Branch protection on `main`** — makes the history claim true.
-3. **Star velocity leaderboards** — the deltas are already in
+2. **Star velocity leaderboards** — the deltas are already in
    `history/events.jsonl`; a render change, not a collection change.
-4. **Trend detection** — flag projects crossing a velocity threshold. The signal a
+3. **Trend detection** — flag projects crossing a velocity threshold. The signal a
    static list structurally cannot produce.
-5. **CycloneDX SBOMs** — reuses manifests already fetched; serves CRA reporting.
-6. **GitHub Pages** — publish `site/` for a real URL.
+4. **CycloneDX SBOMs** — reuses manifests already fetched; serves CRA reporting.
+5. **GitHub Pages** — publish `site/` for a real URL.
+6. **Require the validation check** — branch protection on `main` is already on
+   (no force pushes, no deletions, linear history, admins included), but GitHub
+   will not let a status check be required until it has run at least once. Add
+   `Validate the rendered artefacts` to the required checks once this workflow
+   has a green run on `main`.
 
 ---
 
 ## License
 
-Code: MIT. Data in `data/` and `history/` is derived from public GitHub metadata;
-each project remains under its own licence, recorded per row as `license`.
+Code: MIT — see [`LICENSE`](LICENSE). Data in `data/` and `history/` is derived
+from public GitHub metadata; each project remains under its own licence, recorded
+per row as `license`.
+
