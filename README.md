@@ -111,12 +111,13 @@ by key or not at all.
 
 | Route | Use |
 |---|---|
-| [`data/index.md`](agent-harness/data/index.md) | Every project as tables grouped by layer, rendered directly by GitHub — no setup, no host, no third party. |
-| GitHub Pages | The full interface: search, layer filters and per-project cards on one self-contained page. Enable it once under Settings → Pages with the source set to *GitHub Actions*; the deployment is [`.github/workflows/pages.yml`](.github/workflows/pages.yml). |
+| **[heinsithukyaw.github.io/Agent-Harness](https://heinsithukyaw.github.io/Agent-Harness/)** | The full interface: search, layer filters and per-project cards on one self-contained page. Republished on every registry run. |
+| [`data/index.md`](agent-harness/data/index.md) | The same corpus as tables grouped by layer, rendered directly by GitHub — no host, no third party, nothing to load. |
 | [`site/index.html`](agent-harness/site/index.html) | The file Pages serves. GitHub presents HTML as source rather than rendering it, so this link opens the markup. |
 
 GitHub renders markdown but serves HTML as source, so a browsable interface needs
-a host — Pages is the one that ships with GitHub.
+a host — Pages is the one that ships with GitHub. The deployment is
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml).
 
 Machine-readable, the whole registry is one file:
 [`data/projects.json`](agent-harness/data/projects.json). A 2.4 KB
@@ -467,10 +468,7 @@ subdirectory of this repository.
 3. **Trend detection** — flag projects crossing a velocity threshold. The signal a
    static list structurally cannot produce.
 4. **CycloneDX SBOMs** — reuses manifests already fetched; serves CRA reporting.
-5. **GitHub Pages** — the workflow is in `.github/workflows/pages.yml`; it needs
-   Pages enabled once under Settings → Pages with the source set to *GitHub
-   Actions*, after which every successful registry run republishes the site.
-6. **Require the validation check** — branch protection on `main` is already on
+5. **Require the validation check** — branch protection on `main` is already on
    (no force pushes, no deletions, linear history, admins included), but GitHub
    will not let a status check be required until it has run at least once. Add
    `Validate the rendered artefacts` to the required checks once this workflow
