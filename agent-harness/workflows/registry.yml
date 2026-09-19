@@ -126,18 +126,24 @@ jobs:
           fi
           echo "no template leakage in site/index.html"
 
-          # Payload budget. The site embeds the whole corpus, so its size grows
-          # with the registry rather than with traffic. This advises, it does not
-          # fail: a hard failure here would stop the collector committing, which
-          # trades a heavy page for a stale one. The remedy, when the hard budget
-          # trips, is to emit one JSON file per layer beside site/index.html and
-          # fetch only the layers in view — still static files on a CDN, so the
-          # no-backend property survives. Do not add a backend to solve this.
+          # Payload and render budget. The site embeds the whole corpus, so both its
+          # weight and its first-paint cost grow with the registry rather than with
+          # traffic. Two cliffs, two remedies:
+          #
+          #   bytes -> shard the data: one JSON file per layer, fetched on demand.
+          #   cards -> window the grid: render the first N, append as you scroll.
+          #
+          # Both stay static files on a CDN, so neither is a reason to add a backend.
+          # The render budget exists because the grid rebuilds every matching card
+          # through innerHTML, and the initial paint matches everything.
+          #
+          # This advises, it does not fail: a red step would stop the collector
+          # committing, which trades a heavy page for a stale one.
           python3 - <<'PY'
           import gzip, json, os
 
-          WARN = 500 * 1024
-          HARD = 1024 * 1024
+          PAYLOAD_WARN, PAYLOAD_HARD = 500 * 1024, 1024 * 1024
+          CARDS_WARN, CARDS_HARD = 2500, 4000
           SITE = 'site/index.html'
           SUMMARY = 'data/summary.json'
 
@@ -147,34 +153,46 @@ jobs:
 
           n = json.load(open(SUMMARY)).get('projectCount', 0) or 0
           per = (gz / n) if n else 0
-          room = int((WARN - gz) / per) if per and gz < WARN else 0
+          room = int((PAYLOAD_WARN - gz) / per) if per and gz < PAYLOAD_WARN else 0
 
           def kb(b):
               return '%.0f KB' % (b / 1024.0)
+
+          def label(v, warn, hard):
+              return 'OVER HARD' if v >= hard else 'over soft' if v >= warn else 'within'
+
+          pay, dom = label(gz, PAYLOAD_WARN, PAYLOAD_HARD), label(n, CARDS_WARN, CARDS_HARD)
 
           print('site/index.html: %s raw, %s gzipped, %d projects, %d B/project'
                 % (kb(raw), kb(gz), n, round(per)))
 
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as s:
-              s.write('### Payload budget\n\n')
-              s.write('| Measure | Value |\n|---|---|\n')
-              s.write('| Raw | %s |\n' % kb(raw))
-              s.write('| Transferred, gzip -9 | %s |\n' % kb(gz))
-              s.write('| Projects | %d |\n' % n)
-              s.write('| Per project | %d B |\n' % round(per))
-              s.write('| Headroom to %s | %s |\n' % (kb(WARN),
-                      ('%d projects' % room) if room else 'none, already over'))
+              s.write('### Payload and render budget\n\n')
+              s.write('| Measure | Value | Budget |\n|---|---|---|\n')
+              s.write('| Raw | %s | — |\n' % kb(raw))
+              s.write('| Transferred, gzip -9 | %s | %s |\n' % (kb(gz), pay))
+              s.write('| First-paint cards | %d | %s |\n' % (n, dom))
+              s.write('| Per project | %d B | — |\n' % round(per))
               s.write('\n')
 
-          if gz >= HARD:
-              print('::warning::payload %s is over the hard budget %s — ship the per-layer shard now'
-                    % (kb(gz), kb(HARD)))
-          elif gz >= WARN:
-              left = int((HARD - gz) / per) if per else 0
+          if pay == 'OVER HARD':
+              print('::warning::payload %s is over the hard budget %s — shard the data per layer now'
+                    % (kb(gz), kb(PAYLOAD_HARD)))
+          elif pay == 'over soft':
               print('::warning::payload %s is over the soft budget %s — %d projects left before the hard budget'
-                    % (kb(gz), kb(WARN), left))
+                    % (kb(gz), kb(PAYLOAD_WARN), int((PAYLOAD_HARD - gz) / per) if per else 0))
           else:
               print('payload %s is within budget, %d projects of headroom' % (kb(gz), room))
+
+          if dom == 'OVER HARD':
+              print('::warning::%d first-paint cards is over the hard budget %d — window the grid now'
+                    % (n, CARDS_HARD))
+          elif dom == 'over soft':
+              print('::warning::%d first-paint cards is over the soft budget %d — %d left before the hard budget'
+                    % (n, CARDS_WARN, CARDS_HARD - n))
+          else:
+              print('render %d first-paint cards is within budget, %d projects of headroom'
+                    % (n, CARDS_WARN - n))
           PY
 
       - name: Enforce the write allowlist

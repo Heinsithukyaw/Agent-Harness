@@ -482,12 +482,15 @@ subdirectory of this repository.
    workflow, so the check would sit at "expected" forever and every automated
    commit would be rejected. Requiring it means giving the artefact validation an
    always-running workflow of its own.
-6. **Shard the site payload, when the budget trips** — the site is one
-   self-contained file, so its size is the corpus size. At 1,154 projects that is
-   1,544 KB on disk and **301 KB transferred**, about 267 B per project, and the
-   pipeline warns once it passes 500 KB. The remedy is one JSON file per layer
-   beside `site/index.html`, fetched on demand: still static files on a CDN, so
-   the architecture does not change to accommodate it.
+6. **Scale the site, when the budget trips** — the site embeds the whole corpus, so
+   it grows with the registry in two ways at once, and the pipeline warns on both.
+   At 1,154 projects it is 1,544 KB on disk but **301 KB transferred**, about 267 B
+   per project; that budget warns past 500 KB, and the remedy is one JSON file per
+   layer, fetched on demand. Separately, the grid rebuilds every matching card on
+   each keystroke and the initial paint matches everything, so a render budget warns
+   past 2,500 first-paint cards and the remedy there is windowing the grid — render
+   the first N and append as you scroll. Both remedies keep the output as static
+   files on a CDN; neither is a reason to add a backend.
 
 ---
 
