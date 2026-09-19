@@ -23,17 +23,17 @@
       "relevance": 18,
       "url": "https://github.com/affaan-m/ECC",
       "homepage": "https://ecc.tools",
-      "stars": 262838,
-      "forks": 39325,
+      "stars": 262877,
+      "forks": 39329,
       "openIssues": 63,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-01-18T00:51:51Z",
-      "pushedAt": "2026-09-19T20:41:20Z",
-      "updatedAt": "2026-09-19T20:41:43Z",
-      "commit": "91ba9b4cf6c47c8130829004f8bb64762a76ccbb",
-      "committedAt": "2026-09-19T20:41:20Z",
+      "pushedAt": "2026-09-19T21:09:21Z",
+      "updatedAt": "2026-09-19T21:42:34Z",
+      "commit": "b2279eb1d7504eaf363c298eaa9b8210ebb29f77",
+      "committedAt": "2026-09-19T21:09:20Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v1.0.0",
@@ -46,12 +46,12 @@
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 7263862
+          "size": 7349305
         },
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 1895266
+          "size": 1911228
         },
         {
           "name": "Python",
@@ -66,7 +66,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 103172
+          "size": 104707
         },
         {
           "name": "Swift",
@@ -122,15 +122,15 @@
       "relevance": 14,
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "homepage": "https://agpt.co",
-      "stars": 187452,
+      "stars": 187455,
       "forks": 46005,
       "openIssues": 313,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2023-03-16T09:21:07Z",
-      "pushedAt": "2026-09-19T20:29:55Z",
-      "updatedAt": "2026-09-19T20:41:41Z",
+      "pushedAt": "2026-09-19T21:22:31Z",
+      "updatedAt": "2026-09-19T21:40:48Z",
       "commit": "cdc8611c83a2b5270499c3f93437bfcab2d272c4",
       "committedAt": "2026-09-19T03:57:34Z",
       "defaultBranch": "master",
@@ -206,7 +206,7 @@
       "relevance": 26,
       "url": "https://github.com/langgenius/dify",
       "homepage": "https://dify.ai",
-      "stars": 156474,
+      "stars": 156477,
       "forks": 24689,
       "openIssues": 403,
       "archived": false,
@@ -214,7 +214,7 @@
       "license": "NOASSERTION",
       "createdAt": "2023-04-12T07:40:24Z",
       "pushedAt": "2026-09-19T10:30:07Z",
-      "updatedAt": "2026-09-19T20:42:16Z",
+      "updatedAt": "2026-09-19T21:32:25Z",
       "commit": "697a2442804fadf5a59e5a7801dd90bc02fc599d",
       "committedAt": "2026-09-19T09:27:05Z",
       "defaultBranch": "main",
@@ -302,15 +302,15 @@
       "relevance": 14,
       "url": "https://github.com/DietrichGebert/ponytail",
       "homepage": "https://ponytail.dev",
-      "stars": 142481,
-      "forks": 7644,
+      "stars": 142494,
+      "forks": 7646,
       "openIssues": 97,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-06-12T00:52:37Z",
       "pushedAt": "2026-09-14T14:34:56Z",
-      "updatedAt": "2026-09-19T20:42:53Z",
+      "updatedAt": "2026-09-19T21:33:45Z",
       "commit": "e3ba2aa6f1e6f0bc4d69eb09c9f0d0a93af56156",
       "committedAt": "2026-09-14T14:34:42Z",
       "defaultBranch": "main",
@@ -373,7 +373,7 @@
       "relevance": 12,
       "url": "https://github.com/Graphify-Labs/graphify",
       "homepage": "https://www.graphify.com",
-      "stars": 119605,
+      "stars": 119620,
       "forks": 11562,
       "openIssues": 656,
       "archived": false,
@@ -381,7 +381,7 @@
       "license": "Apache-2.0",
       "createdAt": "2026-04-03T15:49:07Z",
       "pushedAt": "2026-09-18T21:16:28Z",
-      "updatedAt": "2026-09-19T20:36:24Z",
+      "updatedAt": "2026-09-19T21:30:06Z",
       "commit": "b9cd9570728a5ff3485d2a1e36fe9a1272a368ae",
       "committedAt": "2026-09-18T21:16:16Z",
       "defaultBranch": "v8",
@@ -442,7 +442,7 @@
       "relevance": 13,
       "url": "https://github.com/thedotmack/claude-mem",
       "homepage": "https://claude-mem.ai",
-      "stars": 94267,
+      "stars": 94269,
       "forks": 8320,
       "openIssues": 42,
       "archived": false,
@@ -450,7 +450,7 @@
       "license": "Apache-2.0",
       "createdAt": "2025-08-31T20:50:03Z",
       "pushedAt": "2026-09-19T18:14:21Z",
-      "updatedAt": "2026-09-19T20:36:43Z",
+      "updatedAt": "2026-09-19T21:42:49Z",
       "commit": "adce0fdfaf1cd46646bbd0b22ae74cbd460ed787",
       "committedAt": "2026-09-19T05:48:14Z",
       "defaultBranch": "main",
@@ -532,7 +532,7 @@
       "relevance": 23,
       "url": "https://github.com/infiniflow/ragflow",
       "homepage": "https://ragflow.io",
-      "stars": 91000,
+      "stars": 91001,
       "forks": 10774,
       "openIssues": 1150,
       "archived": false,
@@ -540,7 +540,7 @@
       "license": "Apache-2.0",
       "createdAt": "2023-12-12T06:13:13Z",
       "pushedAt": "2026-09-19T15:32:27Z",
-      "updatedAt": "2026-09-19T20:38:13Z",
+      "updatedAt": "2026-09-19T20:48:57Z",
       "commit": "fa258db6a3b4ad07779feed91cd73859c4aea93a",
       "committedAt": "2026-09-19T15:32:26Z",
       "defaultBranch": "main",
@@ -630,15 +630,15 @@
       "relevance": 16,
       "url": "https://github.com/Panniantong/Agent-Reach",
       "homepage": null,
-      "stars": 83415,
-      "forks": 7312,
+      "stars": 83428,
+      "forks": 7311,
       "openIssues": 83,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-24T02:10:24Z",
       "pushedAt": "2026-09-15T16:16:24Z",
-      "updatedAt": "2026-09-19T20:32:53Z",
+      "updatedAt": "2026-09-19T21:39:18Z",
       "commit": "a19a171fa980a0785849596492e0af4db800c82f",
       "committedAt": "2026-09-15T16:16:24Z",
       "defaultBranch": "main",
@@ -796,15 +796,15 @@
       "relevance": 17,
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
       "homepage": "https://www.promptingguide.ai/",
-      "stars": 78469,
+      "stars": 78471,
       "forks": 8626,
-      "openIssues": 281,
+      "openIssues": 180,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2022-12-16T16:04:50Z",
       "pushedAt": "2026-03-11T20:09:13Z",
-      "updatedAt": "2026-09-19T19:17:07Z",
+      "updatedAt": "2026-09-19T21:22:19Z",
       "commit": "57673726396dd94acb23bdb1e67f27c78ee85a8e",
       "committedAt": "2026-03-11T20:07:25Z",
       "defaultBranch": "main",
@@ -875,7 +875,7 @@
       "relevance": 16,
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "homepage": null,
-      "stars": 75330,
+      "stars": 75336,
       "forks": 8730,
       "openIssues": 139,
       "archived": false,
@@ -883,7 +883,7 @@
       "license": null,
       "createdAt": "2025-10-17T07:15:01Z",
       "pushedAt": "2026-09-18T07:16:11Z",
-      "updatedAt": "2026-09-19T20:34:15Z",
+      "updatedAt": "2026-09-19T21:39:39Z",
       "commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
       "committedAt": "2026-07-24T07:48:01Z",
       "defaultBranch": "master",
@@ -936,15 +936,15 @@
       "relevance": 13,
       "url": "https://github.com/microsoft/ai-agents-for-beginners",
       "homepage": "https://aka.ms/ai-agents-beginners",
-      "stars": 75157,
-      "forks": 24762,
-      "openIssues": 17,
+      "stars": 75158,
+      "forks": 24763,
+      "openIssues": 2,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2024-11-28T10:42:52Z",
       "pushedAt": "2026-09-19T06:16:49Z",
-      "updatedAt": "2026-09-19T20:21:46Z",
+      "updatedAt": "2026-09-19T21:07:12Z",
       "commit": "25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595",
       "committedAt": "2026-09-09T23:35:03Z",
       "defaultBranch": "main",
@@ -1013,7 +1013,7 @@
       "relevance": 23,
       "url": "https://github.com/headroomlabs-ai/headroom",
       "homepage": "https://docs.headroomlabs.ai/docs",
-      "stars": 73087,
+      "stars": 73093,
       "forks": 5619,
       "openIssues": 328,
       "archived": false,
@@ -1021,7 +1021,7 @@
       "license": "Apache-2.0",
       "createdAt": "2026-01-07T19:58:51Z",
       "pushedAt": "2026-09-19T19:07:21Z",
-      "updatedAt": "2026-09-19T20:34:29Z",
+      "updatedAt": "2026-09-19T21:38:32Z",
       "commit": "67eb910e38b9879bb0bcbacdc36db69e36901075",
       "committedAt": "2026-09-19T18:58:29Z",
       "defaultBranch": "main",
@@ -1123,15 +1123,15 @@
       "relevance": 39,
       "url": "https://github.com/ruvnet/ruflo",
       "homepage": "https://Cognitum.One",
-      "stars": 72857,
+      "stars": 72859,
       "forks": 8647,
-      "openIssues": 979,
+      "openIssues": 669,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-06-02T21:24:20Z",
       "pushedAt": "2026-09-19T06:23:46Z",
-      "updatedAt": "2026-09-19T20:23:01Z",
+      "updatedAt": "2026-09-19T21:42:41Z",
       "commit": "e558f0c0fc29c1a658085f6e6f80ad27d4fe811f",
       "committedAt": "2026-09-17T21:35:43Z",
       "defaultBranch": "main",
@@ -1227,17 +1227,17 @@
       "relevance": 13,
       "url": "https://github.com/stablyai/orca",
       "homepage": "https://onOrca.dev",
-      "stars": 72542,
-      "forks": 4747,
-      "openIssues": 3021,
+      "stars": 72563,
+      "forks": 4748,
+      "openIssues": 3020,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-03-17T03:28:57Z",
-      "pushedAt": "2026-09-19T20:42:21Z",
-      "updatedAt": "2026-09-19T20:43:09Z",
-      "commit": "335d1112659be2e7684bb8081288a6cad7be4dfa",
-      "committedAt": "2026-09-19T20:36:21Z",
+      "pushedAt": "2026-09-19T21:37:39Z",
+      "updatedAt": "2026-09-19T21:45:56Z",
+      "commit": "2741bdad38289130c753d9fc0a756b6092e0f294",
+      "committedAt": "2026-09-19T21:30:25Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v1.0.12",
@@ -1250,12 +1250,12 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 155833560
+          "size": 155904092
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 5972105
+          "size": 5974872
         },
         {
           "name": "Swift",
@@ -1363,15 +1363,15 @@
       "relevance": 16,
       "url": "https://github.com/diegosouzapw/OmniRoute",
       "homepage": "https://omniroute.online",
-      "stars": 68208,
-      "forks": 9640,
+      "stars": 68221,
+      "forks": 9643,
       "openIssues": 233,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-13T12:38:31Z",
       "pushedAt": "2026-09-19T08:30:04Z",
-      "updatedAt": "2026-09-19T20:40:21Z",
+      "updatedAt": "2026-09-19T21:35:41Z",
       "commit": "7a921299c5b4c28dcf837f56a1c312b61414a646",
       "committedAt": "2026-09-19T05:54:34Z",
       "defaultBranch": "release/v3.8.51",
@@ -1472,15 +1472,15 @@
       "relevance": 13,
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "homepage": null,
-      "stars": 67642,
-      "forks": 10990,
+      "stars": 67652,
+      "forks": 10991,
       "openIssues": 20,
       "archived": false,
       "template": false,
       "license": "CC0-1.0",
       "createdAt": "2025-05-03T02:43:56Z",
       "pushedAt": "2026-09-17T22:06:05Z",
-      "updatedAt": "2026-09-19T20:41:32Z",
+      "updatedAt": "2026-09-19T21:43:33Z",
       "commit": "c7b2c31df51e64784603f5740a251b445fd88c46",
       "committedAt": "2026-09-17T22:06:05Z",
       "defaultBranch": "main",
@@ -1519,15 +1519,15 @@
       "relevance": 13,
       "url": "https://github.com/tt-a1i/archify",
       "homepage": "https://tt-a1i.github.io/archify/",
-      "stars": 67372,
-      "forks": 4505,
+      "stars": 67398,
+      "forks": 4506,
       "openIssues": 84,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-04-15T05:27:37Z",
-      "pushedAt": "2026-09-19T16:59:07Z",
-      "updatedAt": "2026-09-19T20:40:25Z",
+      "pushedAt": "2026-09-19T21:08:58Z",
+      "updatedAt": "2026-09-19T21:39:57Z",
       "commit": "72c750bb070d95171dbb2244e5b62b1b7da69c12",
       "committedAt": "2026-09-16T15:04:47Z",
       "defaultBranch": "main",
@@ -1589,15 +1589,15 @@
       "relevance": 24,
       "url": "https://github.com/Mintplex-Labs/anything-llm",
       "homepage": "https://anythingllm.com",
-      "stars": 66222,
-      "forks": 7359,
-      "openIssues": 317,
+      "stars": 66225,
+      "forks": 7360,
+      "openIssues": 295,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2023-06-04T02:29:14Z",
       "pushedAt": "2026-09-19T00:13:36Z",
-      "updatedAt": "2026-09-19T18:51:20Z",
+      "updatedAt": "2026-09-19T21:23:59Z",
       "commit": "da6685510ce691b2e1be417f739c7dffee3cfc49",
       "committedAt": "2026-09-17T23:23:16Z",
       "defaultBranch": "master",
@@ -1687,15 +1687,15 @@
       "relevance": 16,
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "homepage": "https://linkedin.com/in/shanraisshan",
-      "stars": 66119,
-      "forks": 6559,
-      "openIssues": 36,
+      "stars": 66121,
+      "forks": 6558,
+      "openIssues": 5,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-31T14:15:28Z",
       "pushedAt": "2026-09-19T06:40:19Z",
-      "updatedAt": "2026-09-19T18:59:43Z",
+      "updatedAt": "2026-09-19T21:43:43Z",
       "commit": "1a0c792ceaf108b98e0239593eb550f23a044ce0",
       "committedAt": "2026-09-19T06:40:12Z",
       "defaultBranch": "main",
@@ -1737,15 +1737,15 @@
       "relevance": 18,
       "url": "https://github.com/mem0ai/mem0",
       "homepage": "https://mem0.ai",
-      "stars": 65646,
-      "forks": 7709,
+      "stars": 65648,
+      "forks": 7710,
       "openIssues": 321,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2023-06-20T08:58:36Z",
       "pushedAt": "2026-09-19T01:14:39Z",
-      "updatedAt": "2026-09-19T20:40:51Z",
+      "updatedAt": "2026-09-19T21:29:36Z",
       "commit": "a39a802bbc93e85b820078cd3c4dbaf53af25dbe",
       "committedAt": "2026-09-18T17:49:15Z",
       "defaultBranch": "main",
@@ -1829,15 +1829,15 @@
       "relevance": 12,
       "url": "https://github.com/upstash/context7",
       "homepage": "https://context7.com",
-      "stars": 62207,
+      "stars": 62208,
       "forks": 3015,
-      "openIssues": 63,
+      "openIssues": 21,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-03-26T23:40:39Z",
       "pushedAt": "2026-09-19T10:22:03Z",
-      "updatedAt": "2026-09-19T20:27:16Z",
+      "updatedAt": "2026-09-19T21:15:13Z",
       "commit": "12db78ea043954de047277960fda7e1d28f1d420",
       "committedAt": "2026-09-18T13:54:24Z",
       "defaultBranch": "master",
@@ -1894,15 +1894,15 @@
       "relevance": 18,
       "url": "https://github.com/microsoft/autogen",
       "homepage": "https://microsoft.github.io/autogen/",
-      "stars": 61061,
+      "stars": 61062,
       "forks": 9235,
-      "openIssues": 1086,
+      "openIssues": 553,
       "archived": false,
       "template": false,
       "license": "CC-BY-4.0",
       "createdAt": "2023-08-18T11:43:45Z",
       "pushedAt": "2026-04-15T11:59:09Z",
-      "updatedAt": "2026-09-19T18:25:24Z",
+      "updatedAt": "2026-09-19T21:38:48Z",
       "commit": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
       "committedAt": "2026-04-06T22:35:32Z",
       "defaultBranch": "main",
@@ -1984,7 +1984,7 @@
       "relevance": 12,
       "url": "https://github.com/calesthio/OpenMontage",
       "homepage": "https://www.openmontage.video/",
-      "stars": 60141,
+      "stars": 60149,
       "forks": 7608,
       "openIssues": 98,
       "archived": false,
@@ -1992,7 +1992,7 @@
       "license": "AGPL-3.0",
       "createdAt": "2026-03-29T15:23:22Z",
       "pushedAt": "2026-09-06T05:02:34Z",
-      "updatedAt": "2026-09-19T20:38:56Z",
+      "updatedAt": "2026-09-19T21:26:02Z",
       "commit": "08e2151fa02de28a5d6a312b3d575692bf147ad7",
       "committedAt": "2026-09-06T05:02:12Z",
       "defaultBranch": "main",
@@ -2061,15 +2061,15 @@
       "relevance": 17,
       "url": "https://github.com/crewAIInc/crewAI",
       "homepage": "https://crewai.com",
-      "stars": 58774,
-      "forks": 8511,
-      "openIssues": 407,
+      "stars": 58776,
+      "forks": 8512,
+      "openIssues": 159,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2023-10-27T03:26:59Z",
       "pushedAt": "2026-09-19T00:49:11Z",
-      "updatedAt": "2026-09-19T19:55:17Z",
+      "updatedAt": "2026-09-19T21:31:21Z",
       "commit": "3831e8b6c86f78cb3cde18ebf7be0d197b958f0e",
       "committedAt": "2026-09-18T23:13:44Z",
       "defaultBranch": "main",
@@ -2140,15 +2140,15 @@
       "relevance": 12,
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "homepage": "https://aiengineeringfromscratch.com",
-      "stars": 55027,
+      "stars": 55026,
       "forks": 9674,
-      "openIssues": 114,
+      "openIssues": 23,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-03-18T18:38:02Z",
       "pushedAt": "2026-09-07T11:42:35Z",
-      "updatedAt": "2026-09-19T20:08:19Z",
+      "updatedAt": "2026-09-19T21:20:33Z",
       "commit": "d18b8fe5a913c46011a3b06cb6ebd6a924414fd3",
       "committedAt": "2026-09-07T11:34:38Z",
       "defaultBranch": "main",
@@ -2237,17 +2237,17 @@
       "relevance": 16,
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "homepage": null,
-      "stars": 54314,
+      "stars": 54315,
       "forks": 4734,
       "openIssues": 1083,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-04-19T20:55:59Z",
-      "pushedAt": "2026-09-19T18:10:40Z",
-      "updatedAt": "2026-09-19T20:31:28Z",
-      "commit": "00b1c3b1f5db266481c8e7e7743fcd5c3ddb4837",
-      "committedAt": "2026-09-19T18:10:39Z",
+      "pushedAt": "2026-09-19T21:07:33Z",
+      "updatedAt": "2026-09-19T21:28:47Z",
+      "commit": "dac655dde9e441dc299b145e8a94d79d4d4dba7b",
+      "committedAt": "2026-09-19T21:07:32Z",
       "defaultBranch": "main",
       "latestRelease": null,
       "releaseCount": 0,
@@ -2293,15 +2293,15 @@
       "relevance": 14,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "homepage": "https://developer.chrome.com/docs/devtools/agents",
-      "stars": 52308,
-      "forks": 4217,
-      "openIssues": 115,
+      "stars": 52312,
+      "forks": 4230,
+      "openIssues": 77,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-09-11T10:39:55Z",
       "pushedAt": "2026-09-18T17:11:10Z",
-      "updatedAt": "2026-09-19T20:24:53Z",
+      "updatedAt": "2026-09-19T21:44:19Z",
       "commit": "882f93e9a8809fe88eced35d793951fb456b7117",
       "committedAt": "2026-09-18T12:09:10Z",
       "defaultBranch": "main",
@@ -2360,7 +2360,7 @@
       "url": "https://github.com/bojieli/ai-agent-book",
       "homepage": null,
       "stars": 48670,
-      "forks": 5452,
+      "forks": 5451,
       "openIssues": 7,
       "archived": false,
       "template": false,
@@ -2465,15 +2465,15 @@
       "relevance": 38,
       "url": "https://github.com/HKUDS/nanobot",
       "homepage": "https://nanobot.wiki",
-      "stars": 48360,
+      "stars": 48362,
       "forks": 8546,
-      "openIssues": 782,
+      "openIssues": 214,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-01T07:16:15Z",
       "pushedAt": "2026-09-19T09:59:18Z",
-      "updatedAt": "2026-09-19T18:44:29Z",
+      "updatedAt": "2026-09-19T21:14:31Z",
       "commit": "73bc6d083ef478b9ec44757fc03b2da0c8b87571",
       "committedAt": "2026-09-19T09:59:17Z",
       "defaultBranch": "main",
@@ -2681,15 +2681,15 @@
       "relevance": 25,
       "url": "https://github.com/sickn33/agentic-awesome-skills",
       "homepage": "https://sickn33.github.io/agentic-awesome-skills/",
-      "stars": 46600,
-      "forks": 6798,
+      "stars": 46602,
+      "forks": 6799,
       "openIssues": 0,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-01-14T17:48:09Z",
       "pushedAt": "2026-09-19T18:30:54Z",
-      "updatedAt": "2026-09-19T20:39:19Z",
+      "updatedAt": "2026-09-19T21:43:30Z",
       "commit": "2fd5ecfeee025f7d8dd1ea6c683c8b32b7c40783",
       "committedAt": "2026-09-19T18:26:40Z",
       "defaultBranch": "main",
@@ -2773,15 +2773,15 @@
       "relevance": 18,
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
-      "stars": 43819,
+      "stars": 43823,
       "forks": 3569,
-      "openIssues": 595,
+      "openIssues": 483,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-24T22:01:00Z",
       "pushedAt": "2026-09-19T20:24:19Z",
-      "updatedAt": "2026-09-19T20:24:58Z",
+      "updatedAt": "2026-09-19T21:23:55Z",
       "commit": "59a05eb1bf9e11deb060d782cd7d3a29f2ae2866",
       "committedAt": "2026-09-16T02:32:40Z",
       "defaultBranch": "main",
@@ -3042,8 +3042,8 @@
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "homepage": "https://astrbot.app",
       "stars": 40707,
-      "forks": 2938,
-      "openIssues": 1517,
+      "forks": 2939,
+      "openIssues": 1518,
       "archived": false,
       "template": false,
       "license": "AGPL-3.0",
@@ -3137,17 +3137,17 @@
       "relevance": 22,
       "url": "https://github.com/tinyhumansai/openhuman",
       "homepage": "https://tinyhumans.ai/openhuman",
-      "stars": 39890,
+      "stars": 39891,
       "forks": 3940,
       "openIssues": 197,
       "archived": false,
       "template": false,
       "license": "GPL-3.0",
       "createdAt": "2026-02-18T20:01:27Z",
-      "pushedAt": "2026-09-19T18:53:29Z",
-      "updatedAt": "2026-09-19T20:33:16Z",
-      "commit": "b927d026d1440dc54d57ab175362ce449ae96eb5",
-      "committedAt": "2026-09-19T18:53:29Z",
+      "pushedAt": "2026-09-19T21:43:47Z",
+      "updatedAt": "2026-09-19T21:43:57Z",
+      "commit": "23c221248e2ad08a57b654488e0074552f24f9c5",
+      "committedAt": "2026-09-19T21:43:47Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.49.32",
@@ -3160,17 +3160,17 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 31480844
+          "size": 31151806
         },
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 21125834
+          "size": 21125411
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 1165737
+          "size": 1166037
         },
         {
           "name": "Shell",
@@ -3318,15 +3318,15 @@
       "relevance": 13,
       "url": "https://github.com/herdrdev/herdr",
       "homepage": "https://herdr.dev",
-      "stars": 39596,
-      "forks": 2988,
-      "openIssues": 319,
+      "stars": 39613,
+      "forks": 2987,
+      "openIssues": 318,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-03-27T17:54:33Z",
       "pushedAt": "2026-09-19T20:08:45Z",
-      "updatedAt": "2026-09-19T20:41:29Z",
+      "updatedAt": "2026-09-19T21:39:57Z",
       "commit": "856b64b9bfd41b9d3d82e2375ed5b4bf941fda28",
       "committedAt": "2026-09-19T18:21:46Z",
       "defaultBranch": "master",
@@ -3486,7 +3486,7 @@
       "relevance": 18,
       "url": "https://github.com/volcengine/OpenViking",
       "homepage": "https://openviking.ai/",
-      "stars": 38089,
+      "stars": 38092,
       "forks": 2954,
       "openIssues": 211,
       "archived": false,
@@ -3494,7 +3494,7 @@
       "license": "AGPL-3.0",
       "createdAt": "2026-01-05T07:11:17Z",
       "pushedAt": "2026-09-19T20:26:19Z",
-      "updatedAt": "2026-09-19T19:16:59Z",
+      "updatedAt": "2026-09-19T21:45:26Z",
       "commit": "4bccb1294c013e1485c72377afcbba5ffc435cc7",
       "committedAt": "2026-09-19T14:22:04Z",
       "defaultBranch": "main",
@@ -3587,7 +3587,7 @@
       "relevance": 13,
       "url": "https://github.com/patchy631/ai-engineering-hub",
       "homepage": "https://join.dailydoseofds.com",
-      "stars": 37770,
+      "stars": 37771,
       "forks": 6216,
       "openIssues": 23,
       "archived": false,
@@ -3595,7 +3595,7 @@
       "license": "MIT",
       "createdAt": "2024-10-21T10:43:24Z",
       "pushedAt": "2026-09-10T21:32:11Z",
-      "updatedAt": "2026-09-19T20:26:00Z",
+      "updatedAt": "2026-09-19T20:49:00Z",
       "commit": "7875e2c38855bf6cec5152eb32177d9ce480d709",
       "committedAt": "2026-09-10T21:32:11Z",
       "defaultBranch": "main",
@@ -3675,7 +3675,7 @@
       "relevance": 13,
       "url": "https://github.com/CopilotKit/CopilotKit",
       "homepage": "https://docs.copilotkit.ai",
-      "stars": 37418,
+      "stars": 37419,
       "forks": 4645,
       "openIssues": 107,
       "archived": false,
@@ -3683,7 +3683,7 @@
       "license": "MIT",
       "createdAt": "2023-06-19T04:08:31Z",
       "pushedAt": "2026-09-19T20:10:45Z",
-      "updatedAt": "2026-09-19T20:34:44Z",
+      "updatedAt": "2026-09-19T21:01:02Z",
       "commit": "6b3e2e60751f9fec301b64ad3df35f976effbdee",
       "committedAt": "2026-09-19T20:10:42Z",
       "defaultBranch": "main",
@@ -3910,15 +3910,15 @@
       "relevance": 17,
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "homepage": "http://reasonix.io/",
-      "stars": 35627,
+      "stars": 35628,
       "forks": 2409,
-      "openIssues": 1969,
+      "openIssues": 1473,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-04-21T08:27:02Z",
-      "pushedAt": "2026-09-19T20:01:35Z",
-      "updatedAt": "2026-09-19T19:58:53Z",
+      "pushedAt": "2026-09-19T21:29:20Z",
+      "updatedAt": "2026-09-19T20:48:42Z",
       "commit": "964da45fce7f4905f616b23233f9d1bc0111eb0c",
       "committedAt": "2026-09-19T19:58:45Z",
       "defaultBranch": "main-v2",
@@ -4002,7 +4002,7 @@
       "homepage": "http://qwenpaw.agentscope.io/",
       "stars": 35115,
       "forks": 3118,
-      "openIssues": 659,
+      "openIssues": 1000,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -4093,15 +4093,15 @@
       "relevance": 14,
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "homepage": "https://vibetrading.wiki/",
-      "stars": 33690,
+      "stars": 33693,
       "forks": 5499,
-      "openIssues": 42,
+      "openIssues": 17,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-04-01T09:52:20Z",
       "pushedAt": "2026-09-19T17:10:12Z",
-      "updatedAt": "2026-09-19T19:16:47Z",
+      "updatedAt": "2026-09-19T21:26:55Z",
       "commit": "b705d188b08013cc3fa904be72d40a41798181e8",
       "committedAt": "2026-09-19T17:09:55Z",
       "defaultBranch": "main",
@@ -4196,15 +4196,15 @@
       "relevance": 13,
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
-      "stars": 32996,
+      "stars": 32997,
       "forks": 3991,
-      "openIssues": 48,
+      "openIssues": 22,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-25T09:47:50Z",
       "pushedAt": "2026-08-31T04:32:44Z",
-      "updatedAt": "2026-09-19T20:23:32Z",
+      "updatedAt": "2026-09-19T20:46:15Z",
       "commit": "54a798831d2266a3ca61ce68a7acb80b81160d57",
       "committedAt": "2026-08-31T04:32:42Z",
       "defaultBranch": "main",
@@ -4263,8 +4263,8 @@
       "url": "https://github.com/agentscope-ai/agentscope",
       "homepage": "https://docs.agentscope.io/",
       "stars": 31971,
-      "forks": 3520,
-      "openIssues": 383,
+      "forks": 3521,
+      "openIssues": 385,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -4334,15 +4334,15 @@
       "relevance": 14,
       "url": "https://github.com/tirth8205/code-review-graph",
       "homepage": "https://code-review-graph.com",
-      "stars": 31613,
+      "stars": 31614,
       "forks": 2877,
-      "openIssues": 137,
+      "openIssues": 87,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-26T17:25:13Z",
       "pushedAt": "2026-09-18T19:41:29Z",
-      "updatedAt": "2026-09-19T19:48:41Z",
+      "updatedAt": "2026-09-19T21:02:41Z",
       "commit": "6b12d11625cbec3b6773e076cb3d136464fa90e5",
       "committedAt": "2026-09-18T18:37:08Z",
       "defaultBranch": "staging",
@@ -4486,7 +4486,7 @@
       "relevance": 12,
       "url": "https://github.com/virgiliojr94/book-to-skill",
       "homepage": null,
-      "stars": 31316,
+      "stars": 31323,
       "forks": 3249,
       "openIssues": 6,
       "archived": false,
@@ -4494,7 +4494,7 @@
       "license": "MIT",
       "createdAt": "2026-05-01T02:09:39Z",
       "pushedAt": "2026-09-18T13:41:35Z",
-      "updatedAt": "2026-09-19T20:30:07Z",
+      "updatedAt": "2026-09-19T21:37:16Z",
       "commit": "526f362552562d88c1a8bbf8012d2cee93f831d5",
       "committedAt": "2026-09-18T13:41:14Z",
       "defaultBranch": "master",
@@ -4547,15 +4547,15 @@
       "relevance": 13,
       "url": "https://github.com/topoteretes/cognee",
       "homepage": "https://www.cognee.ai",
-      "stars": 30839,
+      "stars": 30840,
       "forks": 3064,
-      "openIssues": 482,
+      "openIssues": 219,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2023-08-16T16:16:33Z",
       "pushedAt": "2026-09-19T10:54:09Z",
-      "updatedAt": "2026-09-19T18:45:45Z",
+      "updatedAt": "2026-09-19T21:35:05Z",
       "commit": "663a2dc15d04bc0d7ec2733a2dd604b7ed1b8c8e",
       "committedAt": "2026-09-19T10:54:07Z",
       "defaultBranch": "main",
@@ -4743,15 +4743,15 @@
       "relevance": 12,
       "url": "https://github.com/e2b-dev/awesome-ai-agents",
       "homepage": "https://docs.e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=awesome-ai-agents",
-      "stars": 30084,
+      "stars": 30083,
       "forks": 3487,
-      "openIssues": 1047,
+      "openIssues": 149,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2023-06-19T00:20:06Z",
       "pushedAt": "2026-08-21T18:52:45Z",
-      "updatedAt": "2026-09-19T14:44:05Z",
+      "updatedAt": "2026-09-19T20:49:26Z",
       "commit": "9596ab1e69fbbb6c95291141c8dab5c181083216",
       "committedAt": "2026-08-21T18:52:43Z",
       "defaultBranch": "main",
@@ -4789,15 +4789,15 @@
       "relevance": 20,
       "url": "https://github.com/labring/FastGPT",
       "homepage": "https://fastgpt.io",
-      "stars": 29693,
+      "stars": 29694,
       "forks": 7320,
-      "openIssues": 171,
+      "openIssues": 145,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2023-02-23T16:53:25Z",
       "pushedAt": "2026-09-18T10:17:10Z",
-      "updatedAt": "2026-09-19T15:48:31Z",
+      "updatedAt": "2026-09-19T20:45:17Z",
       "commit": "9f1d88eaa9de5aff76b14f7d3d0c71985a6f7f3f",
       "committedAt": "2026-09-18T10:10:27Z",
       "defaultBranch": "main",
@@ -4889,15 +4889,15 @@
       "relevance": 14,
       "url": "https://github.com/oraios/serena",
       "homepage": "https://oraios.github.io/serena",
-      "stars": 29614,
+      "stars": 29615,
       "forks": 2015,
-      "openIssues": 200,
+      "openIssues": 95,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-03-23T22:35:24Z",
       "pushedAt": "2026-09-19T10:02:09Z",
-      "updatedAt": "2026-09-19T19:34:30Z",
+      "updatedAt": "2026-09-19T21:12:25Z",
       "commit": "c4dc91a7dac4ea560dc7658581a63dac33a76e6c",
       "committedAt": "2026-09-19T10:02:08Z",
       "defaultBranch": "main",
@@ -4994,10 +4994,10 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2025-07-27T23:07:53Z",
-      "pushedAt": "2026-09-19T20:29:43Z",
-      "updatedAt": "2026-09-19T20:27:14Z",
-      "commit": "258d4f1ede72c3a09ae75b6da4700a0573a68376",
-      "committedAt": "2026-09-19T20:27:09Z",
+      "pushedAt": "2026-09-19T21:17:02Z",
+      "updatedAt": "2026-09-19T21:03:40Z",
+      "commit": "c3a041e3d8f593e4e4c9bfc273d52264ceff165b",
+      "committedAt": "2026-09-19T21:03:33Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "deepagents==0.2.5",
@@ -5010,7 +5010,7 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 22675371
+          "size": 22684327
         },
         {
           "name": "Shell",
@@ -5068,15 +5068,15 @@
       "relevance": 15,
       "url": "https://github.com/assafelovic/gpt-researcher",
       "homepage": "https://gptr.dev",
-      "stars": 29529,
+      "stars": 29531,
       "forks": 4018,
-      "openIssues": 98,
+      "openIssues": 41,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2023-05-12T10:33:54Z",
       "pushedAt": "2026-08-27T19:34:56Z",
-      "updatedAt": "2026-09-19T19:37:59Z",
+      "updatedAt": "2026-09-19T21:27:26Z",
       "commit": "6f998577d547b1e54ec662dac63583aa11e3b84b",
       "committedAt": "2026-08-23T19:16:37Z",
       "defaultBranch": "main",
@@ -5169,7 +5169,7 @@
       "homepage": "https://mcp-for-blender.com/",
       "stars": 29021,
       "forks": 2667,
-      "openIssues": 21,
+      "openIssues": 35,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -5228,15 +5228,15 @@
       "relevance": 17,
       "url": "https://github.com/rohitg00/agentmemory",
       "homepage": "https://agent-memory.dev",
-      "stars": 28619,
-      "forks": 2476,
-      "openIssues": 595,
+      "stars": 28620,
+      "forks": 2477,
+      "openIssues": 304,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-25T07:32:52Z",
       "pushedAt": "2026-09-14T06:11:28Z",
-      "updatedAt": "2026-09-19T20:08:12Z",
+      "updatedAt": "2026-09-19T21:40:02Z",
       "commit": "e04ba88819c365c9acf9d6661ea802143e728bd6",
       "committedAt": "2026-08-23T14:54:08Z",
       "defaultBranch": "main",
@@ -5326,7 +5326,7 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2024-07-13T07:11:32Z",
-      "pushedAt": "2026-09-19T17:19:37Z",
+      "pushedAt": "2026-09-19T21:09:55Z",
       "updatedAt": "2026-09-19T20:41:31Z",
       "commit": "f444a651f7cd1ce17aa290b5c0df9bc730f350ab",
       "committedAt": "2026-09-19T17:17:29Z",
@@ -5407,7 +5407,7 @@
       "relevance": 13,
       "url": "https://github.com/charmbracelet/crush",
       "homepage": null,
-      "stars": 28192,
+      "stars": 28194,
       "forks": 2266,
       "openIssues": 444,
       "archived": false,
@@ -5415,7 +5415,7 @@
       "license": "NOASSERTION",
       "createdAt": "2025-05-21T12:14:57Z",
       "pushedAt": "2026-09-19T20:42:30Z",
-      "updatedAt": "2026-09-19T20:30:13Z",
+      "updatedAt": "2026-09-19T21:47:09Z",
       "commit": "8c541ead9a431aae901b31ab5c5ab662f49caabe",
       "committedAt": "2026-09-19T14:52:37Z",
       "defaultBranch": "main",
@@ -5487,15 +5487,15 @@
       "relevance": 19,
       "url": "https://github.com/mastra-ai/mastra",
       "homepage": "https://mastra.ai",
-      "stars": 28181,
-      "forks": 2827,
-      "openIssues": 533,
+      "stars": 28187,
+      "forks": 2828,
+      "openIssues": 262,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2024-08-06T20:44:31Z",
-      "pushedAt": "2026-09-19T18:55:48Z",
-      "updatedAt": "2026-09-19T18:22:58Z",
+      "pushedAt": "2026-09-19T21:11:05Z",
+      "updatedAt": "2026-09-19T21:47:17Z",
       "commit": "febb4d0d47be0e53cb3cd1f1b8af447621dcd2f8",
       "committedAt": "2026-09-19T18:22:50Z",
       "defaultBranch": "main",
@@ -5572,15 +5572,15 @@
       "relevance": 17,
       "url": "https://github.com/QwenLM/qwen-code",
       "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
-      "stars": 27989,
+      "stars": 27990,
       "forks": 3076,
       "openIssues": 1168,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-06-26T01:37:46Z",
-      "pushedAt": "2026-09-19T20:31:49Z",
-      "updatedAt": "2026-09-19T20:34:57Z",
+      "pushedAt": "2026-09-19T21:44:00Z",
+      "updatedAt": "2026-09-19T21:17:38Z",
       "commit": "c1c00cbaab57177d6ea7c7876bd95d23bc9d2453",
       "committedAt": "2026-09-19T17:09:11Z",
       "defaultBranch": "main",
@@ -5666,15 +5666,15 @@
       "relevance": 22,
       "url": "https://github.com/PrefectHQ/fastmcp",
       "homepage": "https://gofastmcp.com",
-      "stars": 27755,
-      "forks": 2360,
-      "openIssues": 349,
+      "stars": 27759,
+      "forks": 2361,
+      "openIssues": 297,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2024-11-30T01:47:40Z",
       "pushedAt": "2026-09-19T06:38:47Z",
-      "updatedAt": "2026-09-19T19:25:16Z",
+      "updatedAt": "2026-09-19T21:16:38Z",
       "commit": "9c35c017cd89e4d50a9f512c8eafde68c301ec70",
       "committedAt": "2026-09-19T06:38:44Z",
       "defaultBranch": "main",
@@ -5738,15 +5738,15 @@
       "relevance": 18,
       "url": "https://github.com/Tencent/WeKnora",
       "homepage": "https://weknora.weixin.qq.com",
-      "stars": 27390,
-      "forks": 3689,
+      "stars": 27400,
+      "forks": 3691,
       "openIssues": 377,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-07-22T08:01:23Z",
       "pushedAt": "2026-09-19T16:17:11Z",
-      "updatedAt": "2026-09-19T20:43:07Z",
+      "updatedAt": "2026-09-19T21:43:52Z",
       "commit": "5c5d46d9fb556a7efa19d1a23331f4ce83ac2031",
       "committedAt": "2026-09-19T16:17:11Z",
       "defaultBranch": "main",
@@ -5918,15 +5918,15 @@
       "relevance": 19,
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "homepage": "https://www.skills.sh/othmanadi/planning-with-files/planning-with-files",
-      "stars": 26993,
+      "stars": 26994,
       "forks": 2251,
-      "openIssues": 18,
+      "openIssues": 17,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-01-03T07:37:28Z",
       "pushedAt": "2026-09-19T18:57:17Z",
-      "updatedAt": "2026-09-19T19:10:52Z",
+      "updatedAt": "2026-09-19T21:37:12Z",
       "commit": "726da18dc7fddea1d296ddfa9f0aeb09aaf67e29",
       "committedAt": "2026-09-19T18:39:00Z",
       "defaultBranch": "master",
@@ -6009,15 +6009,15 @@
       "relevance": 21,
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "homepage": null,
-      "stars": 26992,
-      "forks": 2581,
-      "openIssues": 811,
+      "stars": 26994,
+      "forks": 2582,
+      "openIssues": 243,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2026-04-07T06:34:26Z",
       "pushedAt": "2026-09-18T08:25:50Z",
-      "updatedAt": "2026-09-19T19:36:44Z",
+      "updatedAt": "2026-09-19T21:34:28Z",
       "commit": "41dee1f9f8cd2b7e87f3e5c073966dc58d296a16",
       "committedAt": "2026-09-18T08:23:39Z",
       "defaultBranch": "feat/server_team",
@@ -6195,15 +6195,15 @@
       "relevance": 14,
       "url": "https://github.com/alirezarezvani/claude-skills",
       "homepage": "https://alirezarezvani.medium.com/",
-      "stars": 26153,
+      "stars": 26154,
       "forks": 3686,
-      "openIssues": 18,
+      "openIssues": 6,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-19T04:04:05Z",
       "pushedAt": "2026-08-30T09:46:16Z",
-      "updatedAt": "2026-09-19T20:16:00Z",
+      "updatedAt": "2026-09-19T21:28:33Z",
       "commit": "19392f7a08264ed00486a251f5b2098321771f94",
       "committedAt": "2026-08-26T13:53:02Z",
       "defaultBranch": "main",
@@ -6291,7 +6291,7 @@
       "relevance": 13,
       "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
       "homepage": "https://getdesign.md/",
-      "stars": 25202,
+      "stars": 25203,
       "forks": 2910,
       "openIssues": 0,
       "archived": false,
@@ -6299,7 +6299,7 @@
       "license": "MIT",
       "createdAt": "2025-07-30T12:31:51Z",
       "pushedAt": "2026-09-14T09:59:52Z",
-      "updatedAt": "2026-09-19T20:00:26Z",
+      "updatedAt": "2026-09-19T21:31:12Z",
       "commit": "ca7a50b7648682c3a9e33dbf0a12c5a4c770cb89",
       "committedAt": "2026-09-14T09:59:52Z",
       "defaultBranch": "main",
@@ -6497,15 +6497,15 @@
       "relevance": 21,
       "url": "https://github.com/activepieces/activepieces",
       "homepage": "https://www.activepieces.com",
-      "stars": 24573,
-      "forks": 4209,
-      "openIssues": 567,
+      "stars": 24576,
+      "forks": 4210,
+      "openIssues": 428,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2022-12-03T02:52:46Z",
       "pushedAt": "2026-09-18T15:07:07Z",
-      "updatedAt": "2026-09-19T20:18:31Z",
+      "updatedAt": "2026-09-19T21:42:39Z",
       "commit": "7129df1976f7947d44b7367947e6b09059c3e145",
       "committedAt": "2026-09-18T12:28:50Z",
       "defaultBranch": "main",
@@ -6591,15 +6591,15 @@
       "relevance": 24,
       "url": "https://github.com/NirDiamant/GenAI_Agents",
       "homepage": "https://diamant-ai.com",
-      "stars": 24332,
+      "stars": 24333,
       "forks": 4094,
-      "openIssues": 20,
+      "openIssues": 2,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2024-09-09T20:10:19Z",
       "pushedAt": "2026-09-19T02:15:47Z",
-      "updatedAt": "2026-09-19T19:16:54Z",
+      "updatedAt": "2026-09-19T20:41:56Z",
       "commit": "a845d8a4b9c459f3d2997f78862d9c2950ee5fea",
       "committedAt": "2026-09-18T14:16:26Z",
       "defaultBranch": "main",
@@ -6670,17 +6670,17 @@
       "relevance": 20,
       "url": "https://github.com/pascalorg/editor",
       "homepage": "https://editor.pascal.app",
-      "stars": 24145,
-      "forks": 3004,
-      "openIssues": 32,
+      "stars": 24148,
+      "forks": 3005,
+      "openIssues": 18,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-16T19:35:06Z",
-      "pushedAt": "2026-09-19T19:12:09Z",
-      "updatedAt": "2026-09-19T18:33:55Z",
-      "commit": "0d72616283659bf2839e1c69226f752ab259b0fe",
-      "committedAt": "2026-09-19T11:22:50Z",
+      "pushedAt": "2026-09-19T21:06:05Z",
+      "updatedAt": "2026-09-19T21:39:04Z",
+      "commit": "43356416dbbc13dc4b19c8158e5ee6b123fad574",
+      "committedAt": "2026-09-19T20:52:54Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.2.0",
@@ -6693,7 +6693,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 19892078
+          "size": 20043357
         },
         {
           "name": "CSS",
@@ -6755,15 +6755,15 @@
       "relevance": 13,
       "url": "https://github.com/vectorize-io/hindsight",
       "homepage": "https://hindsight.vectorize.io/",
-      "stars": 23956,
+      "stars": 23957,
       "forks": 1782,
-      "openIssues": 96,
+      "openIssues": 53,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-30T11:49:48Z",
       "pushedAt": "2026-09-19T14:30:38Z",
-      "updatedAt": "2026-09-19T20:01:33Z",
+      "updatedAt": "2026-09-19T21:34:43Z",
       "commit": "0a58d695adee239c8990ef30eacf66ebca54094f",
       "committedAt": "2026-09-19T14:30:36Z",
       "defaultBranch": "main",
@@ -6848,15 +6848,15 @@
       "relevance": 26,
       "url": "https://github.com/mksglu/context-mode",
       "homepage": "https://context-mode.com",
-      "stars": 23659,
-      "forks": 1705,
+      "stars": 23660,
+      "forks": 1704,
       "openIssues": 131,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2026-02-23T05:56:28Z",
       "pushedAt": "2026-09-19T12:05:41Z",
-      "updatedAt": "2026-09-19T20:29:52Z",
+      "updatedAt": "2026-09-19T20:49:20Z",
       "commit": "5283a70780305994433cb65d6a0275386e797172",
       "committedAt": "2026-09-19T12:05:40Z",
       "defaultBranch": "main",
@@ -7210,7 +7210,7 @@
       "homepage": "https://screenpipe.com",
       "stars": 21635,
       "forks": 2205,
-      "openIssues": 9,
+      "openIssues": 25,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
@@ -7506,7 +7506,7 @@
       "relevance": 22,
       "url": "https://github.com/jnMetaCode/agency-agents-zh",
       "homepage": "https://ao.aiolaola.com/experts",
-      "stars": 20800,
+      "stars": 20801,
       "forks": 3359,
       "openIssues": 1,
       "archived": false,
@@ -7514,7 +7514,7 @@
       "license": "MIT",
       "createdAt": "2026-03-06T11:11:51Z",
       "pushedAt": "2026-09-17T13:32:57Z",
-      "updatedAt": "2026-09-19T19:47:56Z",
+      "updatedAt": "2026-09-19T20:43:00Z",
       "commit": "da1542f56c95db75d0da18485eccad722a5f4fde",
       "committedAt": "2026-09-17T13:32:54Z",
       "defaultBranch": "main",
@@ -7571,15 +7571,15 @@
       "relevance": 17,
       "url": "https://github.com/liyupi/ai-guide",
       "homepage": "https://ai.codefather.cn",
-      "stars": 20208,
+      "stars": 20209,
       "forks": 2252,
-      "openIssues": 4,
+      "openIssues": 0,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-02-13T05:47:46Z",
       "pushedAt": "2026-09-11T08:10:09Z",
-      "updatedAt": "2026-09-19T16:56:48Z",
+      "updatedAt": "2026-09-19T20:43:52Z",
       "commit": "a3822511b469ef2722a327567af53eb63fca99d6",
       "committedAt": "2026-09-11T08:09:55Z",
       "defaultBranch": "main",
@@ -7788,15 +7788,15 @@
       "relevance": 14,
       "url": "https://github.com/keploy/keploy",
       "homepage": "https://keploy.io",
-      "stars": 18467,
+      "stars": 18466,
       "forks": 2361,
-      "openIssues": 738,
+      "openIssues": 359,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2022-01-19T10:40:31Z",
-      "pushedAt": "2026-09-19T20:23:50Z",
-      "updatedAt": "2026-09-19T11:46:54Z",
+      "pushedAt": "2026-09-19T21:05:03Z",
+      "updatedAt": "2026-09-19T21:17:11Z",
       "commit": "bac49ba1e54e17fa3966cf5cf47c1faa4b10e58c",
       "committedAt": "2026-09-17T14:26:00Z",
       "defaultBranch": "main",
@@ -8193,15 +8193,15 @@
       "relevance": 24,
       "url": "https://github.com/NVIDIA/SkillSpector",
       "homepage": "https://docs.nvidia.com/skills/scanning-agent-skills",
-      "stars": 17838,
-      "forks": 1537,
+      "stars": 17839,
+      "forks": 1536,
       "openIssues": 54,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-03-21T00:28:43Z",
       "pushedAt": "2026-09-18T11:36:01Z",
-      "updatedAt": "2026-09-19T20:38:46Z",
+      "updatedAt": "2026-09-19T21:08:33Z",
       "commit": "d162d9b343e559be13df8ebba093df3bc9d58c90",
       "committedAt": "2026-09-18T10:27:36Z",
       "defaultBranch": "main",
@@ -8284,15 +8284,15 @@
       "relevance": 12,
       "url": "https://github.com/browser-use/browser-harness",
       "homepage": "https://browser-harness.com",
-      "stars": 17757,
-      "forks": 1742,
-      "openIssues": 365,
+      "stars": 17756,
+      "forks": 1743,
+      "openIssues": 41,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-04-17T01:56:15Z",
       "pushedAt": "2026-09-12T08:30:02Z",
-      "updatedAt": "2026-09-19T17:31:13Z",
+      "updatedAt": "2026-09-19T21:23:47Z",
       "commit": "afbcc381b963040c19627d788e40c7e7663171ee",
       "committedAt": "2026-09-07T20:13:31Z",
       "defaultBranch": "main",
@@ -8628,7 +8628,7 @@
       "relevance": 22,
       "url": "https://github.com/HKUDS/DeepCode",
       "homepage": "http://arxiv.org/abs/2512.07921",
-      "stars": 16582,
+      "stars": 16583,
       "forks": 2159,
       "openIssues": 11,
       "archived": false,
@@ -8636,7 +8636,7 @@
       "license": "MIT",
       "createdAt": "2025-05-14T05:23:02Z",
       "pushedAt": "2026-09-17T02:54:14Z",
-      "updatedAt": "2026-09-19T20:33:54Z",
+      "updatedAt": "2026-09-19T21:13:10Z",
       "commit": "2b223c13fd36a574157751e3812c1cdebd8921c6",
       "committedAt": "2026-09-17T02:51:03Z",
       "defaultBranch": "main",
@@ -8720,15 +8720,15 @@
       "relevance": 17,
       "url": "https://github.com/googleapis/mcp-toolbox",
       "homepage": "https://mcp-toolbox.dev/documentation/introduction/",
-      "stars": 16460,
-      "forks": 1728,
-      "openIssues": 311,
+      "stars": 16461,
+      "forks": 1729,
+      "openIssues": 146,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2024-06-07T20:52:54Z",
       "pushedAt": "2026-09-18T23:19:30Z",
-      "updatedAt": "2026-09-19T16:55:04Z",
+      "updatedAt": "2026-09-19T21:15:59Z",
       "commit": "576b9f74f93a7564dcaaf6d6c06d799b8de3fb1d",
       "committedAt": "2026-09-18T23:00:52Z",
       "defaultBranch": "main",
@@ -8815,7 +8815,7 @@
       "homepage": "https://github.com/xbtlin/ai-berkshire#readme",
       "stars": 16447,
       "forks": 2457,
-      "openIssues": 24,
+      "openIssues": 39,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -8968,7 +8968,7 @@
       "homepage": "https://trigger.dev/changelog",
       "stars": 16343,
       "forks": 1463,
-      "openIssues": 278,
+      "openIssues": 335,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -9204,15 +9204,15 @@
       "relevance": 16,
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "homepage": "https://ag-ui.com",
-      "stars": 15951,
+      "stars": 15953,
       "forks": 1444,
-      "openIssues": 379,
+      "openIssues": 230,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-05-07T12:49:37Z",
       "pushedAt": "2026-09-19T15:28:19Z",
-      "updatedAt": "2026-09-19T07:36:39Z",
+      "updatedAt": "2026-09-19T20:58:48Z",
       "commit": "f08ccf853497914ef70a5f0197af45bb74915bc2",
       "committedAt": "2026-09-17T18:21:19Z",
       "defaultBranch": "main",
@@ -9386,15 +9386,15 @@
       "relevance": 19,
       "url": "https://github.com/walkinglabs/learn-harness-engineering",
       "homepage": "https://walkinglabs.github.io/learn-harness-engineering/",
-      "stars": 15386,
+      "stars": 15387,
       "forks": 1540,
-      "openIssues": 17,
+      "openIssues": 6,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-03-29T12:28:19Z",
       "pushedAt": "2026-08-26T01:08:59Z",
-      "updatedAt": "2026-09-19T19:05:35Z",
+      "updatedAt": "2026-09-19T20:53:19Z",
       "commit": "77e7a3e21469dcbece2558086c8d91657abeaa40",
       "committedAt": "2026-08-26T01:08:58Z",
       "defaultBranch": "main",
@@ -9459,15 +9459,15 @@
       "relevance": 15,
       "url": "https://github.com/eigent-ai/eigent",
       "homepage": "https://www.eigent.ai",
-      "stars": 15320,
+      "stars": 15319,
       "forks": 1828,
-      "openIssues": 235,
+      "openIssues": 164,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-07-29T15:56:02Z",
       "pushedAt": "2026-09-18T18:30:52Z",
-      "updatedAt": "2026-09-19T18:04:14Z",
+      "updatedAt": "2026-09-19T21:20:31Z",
       "commit": "c626e150d0486065b32e3ee82f0cb877ccc1bf48",
       "committedAt": "2026-09-18T15:06:15Z",
       "defaultBranch": "main",
@@ -9552,15 +9552,15 @@
       "relevance": 16,
       "url": "https://github.com/mindfold-ai/Trellis",
       "homepage": "https://docs.trytrellis.app",
-      "stars": 14719,
+      "stars": 14720,
       "forks": 830,
-      "openIssues": 58,
+      "openIssues": 49,
       "archived": false,
       "template": false,
       "license": "AGPL-3.0",
       "createdAt": "2026-01-26T11:49:10Z",
       "pushedAt": "2026-09-11T18:03:19Z",
-      "updatedAt": "2026-09-19T18:35:42Z",
+      "updatedAt": "2026-09-19T21:40:17Z",
       "commit": "e77ae89f648a78d5859fa2e8ac314655898421a5",
       "committedAt": "2026-09-11T17:41:36Z",
       "defaultBranch": "main",
@@ -9982,17 +9982,17 @@
       "relevance": 15,
       "url": "https://github.com/superset-sh/superset",
       "homepage": "https://superset.sh",
-      "stars": 14395,
+      "stars": 14397,
       "forks": 1285,
       "openIssues": 358,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-10-21T09:16:51Z",
-      "pushedAt": "2026-09-19T20:42:06Z",
-      "updatedAt": "2026-09-19T20:33:01Z",
-      "commit": "1bcf64abff0a1bc92972513ee0fb0aa65c24e583",
-      "committedAt": "2026-09-19T20:32:56Z",
+      "pushedAt": "2026-09-19T21:40:59Z",
+      "updatedAt": "2026-09-19T21:27:46Z",
+      "commit": "17cb829b1f47c54cb46b33d20b88596f93009e73",
+      "committedAt": "2026-09-19T21:27:40Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.0.1",
@@ -10005,7 +10005,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 24304069
+          "size": 24334553
         },
         {
           "name": "HTML",
@@ -10075,15 +10075,15 @@
       "relevance": 20,
       "url": "https://github.com/CoplayDev/unity-mcp",
       "homepage": "https://coplaydev.github.io/unity-mcp/",
-      "stars": 14337,
+      "stars": 14338,
       "forks": 1496,
-      "openIssues": 94,
+      "openIssues": 45,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-03-18T11:01:58Z",
       "pushedAt": "2026-09-19T16:52:16Z",
-      "updatedAt": "2026-09-19T19:18:58Z",
+      "updatedAt": "2026-09-19T21:30:22Z",
       "commit": "4d57cd17188cc2d99e3058726ab42236c36cf8d3",
       "committedAt": "2026-09-19T16:52:16Z",
       "defaultBranch": "beta",
@@ -10261,7 +10261,7 @@
       "relevance": 18,
       "url": "https://github.com/tonhowtf/omniget",
       "homepage": "https://tonho.wtf",
-      "stars": 13916,
+      "stars": 13920,
       "forks": 1214,
       "openIssues": 8,
       "archived": false,
@@ -10269,7 +10269,7 @@
       "license": "GPL-3.0",
       "createdAt": "2026-02-11T22:44:56Z",
       "pushedAt": "2026-09-19T17:01:46Z",
-      "updatedAt": "2026-09-19T20:32:18Z",
+      "updatedAt": "2026-09-19T21:40:06Z",
       "commit": "1eaa355f2c75f52ea64fa0d2722bf72ba3c56d14",
       "committedAt": "2026-09-19T17:01:46Z",
       "defaultBranch": "main",
@@ -10526,7 +10526,7 @@
       "homepage": "https://aka.ms/agent-framework",
       "stars": 13600,
       "forks": 2341,
-      "openIssues": 498,
+      "openIssues": 624,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -10657,15 +10657,15 @@
       "relevance": 17,
       "url": "https://github.com/semantica-agi/semantica",
       "homepage": "https://getsemantica.ai",
-      "stars": 13268,
+      "stars": 13269,
       "forks": 1490,
-      "openIssues": 75,
+      "openIssues": 47,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-06-25T10:41:00Z",
       "pushedAt": "2026-09-19T18:03:49Z",
-      "updatedAt": "2026-09-19T19:05:22Z",
+      "updatedAt": "2026-09-19T20:58:05Z",
       "commit": "92c2578a142a3b1e6139e6ea69fea39601a212e6",
       "committedAt": "2026-09-19T18:03:48Z",
       "defaultBranch": "main",
@@ -10759,15 +10759,15 @@
       "relevance": 26,
       "url": "https://github.com/EverMind-AI/EverOS",
       "homepage": "https://evermind.ai/everos",
-      "stars": 13070,
+      "stars": 13072,
       "forks": 925,
-      "openIssues": 74,
+      "openIssues": 46,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-10-28T15:09:32Z",
       "pushedAt": "2026-09-09T02:59:13Z",
-      "updatedAt": "2026-09-19T19:58:42Z",
+      "updatedAt": "2026-09-19T21:32:37Z",
       "commit": "5076683ab88d714390573d8f88ff3c470e51129a",
       "committedAt": "2026-09-08T12:28:08Z",
       "defaultBranch": "main",
@@ -11091,15 +11091,15 @@
       "relevance": 23,
       "url": "https://github.com/simular-ai/Agent-S",
       "homepage": "https://www.simular.ai",
-      "stars": 12326,
+      "stars": 12328,
       "forks": 1447,
-      "openIssues": 43,
+      "openIssues": 23,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2024-10-09T15:43:12Z",
       "pushedAt": "2026-09-05T22:02:40Z",
-      "updatedAt": "2026-09-19T14:25:59Z",
+      "updatedAt": "2026-09-19T21:18:27Z",
       "commit": "3aa272d23d2994c7bbde1acbbe0ef8e8d06b8693",
       "committedAt": "2026-09-05T22:02:40Z",
       "defaultBranch": "main",
@@ -11152,15 +11152,15 @@
       "relevance": 20,
       "url": "https://github.com/Untrivial-ai/agent-orchestrator",
       "homepage": "orchestrator.inc",
-      "stars": 12188,
-      "forks": 1684,
-      "openIssues": 376,
+      "stars": 12190,
+      "forks": 1685,
+      "openIssues": 377,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-13T09:52:36Z",
-      "pushedAt": "2026-09-19T20:33:10Z",
-      "updatedAt": "2026-09-19T20:03:58Z",
+      "pushedAt": "2026-09-19T21:10:54Z",
+      "updatedAt": "2026-09-19T21:41:37Z",
       "commit": "8b3d4752f049258497ff05362a7929263ca67b30",
       "committedAt": "2026-09-19T20:03:53Z",
       "defaultBranch": "main",
@@ -11374,7 +11374,7 @@
       "relevance": 22,
       "url": "https://github.com/0x4m4/hexstrike-ai",
       "homepage": "https://www.hexstrike.com/",
-      "stars": 11982,
+      "stars": 11983,
       "forks": 2457,
       "openIssues": 61,
       "archived": false,
@@ -11382,7 +11382,7 @@
       "license": "MIT",
       "createdAt": "2025-07-10T17:53:18Z",
       "pushedAt": "2026-08-03T14:33:09Z",
-      "updatedAt": "2026-09-19T20:29:51Z",
+      "updatedAt": "2026-09-19T21:33:54Z",
       "commit": "d689933ff579d839c676c82b231f8e98326c5f04",
       "committedAt": "2026-08-03T14:33:01Z",
       "defaultBranch": "master",
@@ -11509,7 +11509,7 @@
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-10-14T18:50:32Z",
-      "pushedAt": "2026-09-19T20:44:25Z",
+      "pushedAt": "2026-09-19T21:32:41Z",
       "updatedAt": "2026-09-19T20:05:46Z",
       "commit": "4f268cdf629799e2692cee1d8e5c58ecc674dd9d",
       "committedAt": "2026-09-18T13:30:54Z",
@@ -11589,15 +11589,15 @@
       "relevance": 28,
       "url": "https://github.com/MemTensor/MemOS",
       "homepage": "https://memos.openmem.net",
-      "stars": 11467,
-      "forks": 1048,
-      "openIssues": 84,
+      "stars": 11468,
+      "forks": 1049,
+      "openIssues": 42,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-07-06T09:51:27Z",
       "pushedAt": "2026-09-18T06:42:46Z",
-      "updatedAt": "2026-09-19T17:22:55Z",
+      "updatedAt": "2026-09-19T21:34:55Z",
       "commit": "176d4f676a93e0e34ca9fd50091eff5ad3236506",
       "committedAt": "2026-09-16T12:41:14Z",
       "defaultBranch": "main",
@@ -12309,6 +12309,92 @@
       ]
     },
     {
+      "fullName": "hypit-ai/hypit",
+      "owner": "hypit-ai",
+      "name": "hypit",
+      "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+      "relevance": 13,
+      "url": "https://github.com/hypit-ai/hypit",
+      "homepage": "https://hypit.ai",
+      "stars": 10896,
+      "forks": 1320,
+      "openIssues": 6,
+      "archived": false,
+      "template": false,
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-29T18:49:19Z",
+      "pushedAt": "2026-09-19T21:36:45Z",
+      "updatedAt": "2026-09-19T21:48:33Z",
+      "commit": "0336a6f587d5a544699d910c06bc33a5cf5c0825",
+      "committedAt": "2026-09-19T21:36:27Z",
+      "defaultBranch": "main",
+      "latestRelease": {
+        "tag": "v0.1.8",
+        "publishedAt": "2026-09-14T17:04:24Z"
+      },
+      "releaseCount": 17,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 6409525
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 65544
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "size": 58728
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 22618
+        },
+        {
+          "name": "PowerShell",
+          "color": "#012456",
+          "size": 2171
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "size": 404
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 322
+        }
+      ],
+      "stack": [
+        "GitHub Actions"
+      ],
+      "signals": [
+        "ci",
+        "licensed",
+        "released"
+      ],
+      "layer": "tools",
+      "layers": [
+        {
+          "id": "tools",
+          "label": "Tools & MCP",
+          "score": 3
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: agentic-ai (high star)",
+        "topic: ai-agents (high star)"
+      ]
+    },
+    {
       "fullName": "alibaba/spring-ai-alibaba",
       "owner": "alibaba",
       "name": "spring-ai-alibaba",
@@ -12399,92 +12485,6 @@
       ]
     },
     {
-      "fullName": "hypit-ai/hypit",
-      "owner": "hypit-ai",
-      "name": "hypit",
-      "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
-      "relevance": 13,
-      "url": "https://github.com/hypit-ai/hypit",
-      "homepage": "https://hypit.ai",
-      "stars": 10880,
-      "forks": 1321,
-      "openIssues": 7,
-      "archived": false,
-      "template": false,
-      "license": "NOASSERTION",
-      "createdAt": "2026-07-29T18:49:19Z",
-      "pushedAt": "2026-09-19T20:32:49Z",
-      "updatedAt": "2026-09-19T20:45:21Z",
-      "commit": "247fdadfd931d7e8f03b4e69eb2670ac387ff7de",
-      "committedAt": "2026-09-19T20:32:49Z",
-      "defaultBranch": "main",
-      "latestRelease": {
-        "tag": "v0.1.8",
-        "publishedAt": "2026-09-14T17:04:24Z"
-      },
-      "releaseCount": 16,
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "languages": [
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 6397737
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 65544
-        },
-        {
-          "name": "Python",
-          "color": "#3572A5",
-          "size": 58728
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 22618
-        },
-        {
-          "name": "PowerShell",
-          "color": "#012456",
-          "size": 2171
-        },
-        {
-          "name": "Shell",
-          "color": "#89e051",
-          "size": 404
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 322
-        }
-      ],
-      "stack": [
-        "GitHub Actions"
-      ],
-      "signals": [
-        "ci",
-        "licensed",
-        "released"
-      ],
-      "layer": "tools",
-      "layers": [
-        {
-          "id": "tools",
-          "label": "Tools & MCP",
-          "score": 3
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: agentic-ai (high star)",
-        "topic: ai-agents (high star)"
-      ]
-    },
-    {
       "fullName": "mcp-use/mcp-use",
       "owner": "mcp-use",
       "name": "mcp-use",
@@ -12494,7 +12494,7 @@
       "homepage": "https://manufact.com",
       "stars": 10654,
       "forks": 1466,
-      "openIssues": 22,
+      "openIssues": 74,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -12685,7 +12685,7 @@
       "homepage": null,
       "stars": 10459,
       "forks": 745,
-      "openIssues": 50,
+      "openIssues": 104,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -13005,15 +13005,15 @@
       "homepage": "https://omnigent.ai",
       "stars": 10099,
       "forks": 1599,
-      "openIssues": 1379,
+      "openIssues": 513,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-06-11T12:18:13Z",
-      "pushedAt": "2026-09-19T20:00:13Z",
-      "updatedAt": "2026-09-19T20:23:52Z",
-      "commit": "0da52affceed86107a5cf7587ec0d8d8e73a5a5d",
-      "committedAt": "2026-09-19T15:01:41Z",
+      "pushedAt": "2026-09-19T21:42:21Z",
+      "updatedAt": "2026-09-19T21:05:36Z",
+      "commit": "a68555dcd50d610e15a25765effa7b7b71fad7b2",
+      "committedAt": "2026-09-19T21:05:31Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.2.0",
@@ -13026,7 +13026,7 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 56718835
+          "size": 56792488
         },
         {
           "name": "TypeScript",
@@ -13760,15 +13760,15 @@
       "relevance": 19,
       "url": "https://github.com/trailhq/Graft",
       "homepage": "https://graft.nanonets.ai",
-      "stars": 8678,
+      "stars": 8684,
       "forks": 791,
-      "openIssues": 176,
+      "openIssues": 78,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-07-03T13:44:21Z",
       "pushedAt": "2026-09-19T11:44:19Z",
-      "updatedAt": "2026-09-19T18:55:22Z",
+      "updatedAt": "2026-09-19T21:33:29Z",
       "commit": "8c05769618d413041ea2c8891f82d566f0461b3c",
       "committedAt": "2026-09-18T09:58:44Z",
       "defaultBranch": "main",
@@ -14633,15 +14633,15 @@
       "relevance": 14,
       "url": "https://github.com/apify/apify-mcp-server",
       "homepage": "https://mcp.apify.com",
-      "stars": 7748,
+      "stars": 7754,
       "forks": 276,
-      "openIssues": 172,
+      "openIssues": 151,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-01-02T15:43:09Z",
       "pushedAt": "2026-09-18T13:07:58Z",
-      "updatedAt": "2026-09-19T20:00:32Z",
+      "updatedAt": "2026-09-19T21:19:07Z",
       "commit": "5e58ef37994a19ba4c729a6acd120981a062f43d",
       "committedAt": "2026-09-17T12:08:47Z",
       "defaultBranch": "master",
@@ -14707,6 +14707,94 @@
       "classifierVersion": "1.0.0",
       "discoveredVia": [
         "topic: mcp (high star)"
+      ]
+    },
+    {
+      "fullName": "chaitanyagiri/munder-difflin",
+      "owner": "chaitanyagiri",
+      "name": "munder-difflin",
+      "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
+      "relevance": 24,
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "homepage": "https://munderdiffl.in",
+      "stars": 7667,
+      "forks": 1008,
+      "openIssues": 93,
+      "archived": false,
+      "template": false,
+      "license": "MIT",
+      "createdAt": "2026-05-31T15:25:05Z",
+      "pushedAt": "2026-09-17T19:12:15Z",
+      "updatedAt": "2026-09-19T21:31:59Z",
+      "commit": "c7c8921f4491104d342861e32fa214e486442304",
+      "committedAt": "2026-09-17T19:11:43Z",
+      "defaultBranch": "main",
+      "latestRelease": {
+        "tag": "v0.1.1",
+        "publishedAt": "2026-05-31T20:22:29Z"
+      },
+      "releaseCount": 40,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 3209241
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 842336
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 115757
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 59825
+        },
+        {
+          "name": "Nunjucks",
+          "color": "#3d8137",
+          "size": 26357
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "size": 14667
+        }
+      ],
+      "stack": [
+        "GitHub Actions",
+        "React"
+      ],
+      "signals": [
+        "ci",
+        "licensed",
+        "released"
+      ],
+      "layer": "orchestration",
+      "layers": [
+        {
+          "id": "orchestration",
+          "label": "Orchestration",
+          "score": 7
+        },
+        {
+          "id": "memory",
+          "label": "Memory & Context",
+          "score": 3
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "phrase: agent harness",
+        "topic: agent-orchestration",
+        "topic: ai-agents (high star)"
       ]
     },
     {
@@ -14795,94 +14883,6 @@
       ],
       "classifierVersion": "1.0.0",
       "discoveredVia": [
-        "topic: ai-agents (high star)"
-      ]
-    },
-    {
-      "fullName": "chaitanyagiri/munder-difflin",
-      "owner": "chaitanyagiri",
-      "name": "munder-difflin",
-      "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
-      "relevance": 24,
-      "url": "https://github.com/chaitanyagiri/munder-difflin",
-      "homepage": "https://munderdiffl.in",
-      "stars": 7666,
-      "forks": 1006,
-      "openIssues": 93,
-      "archived": false,
-      "template": false,
-      "license": "MIT",
-      "createdAt": "2026-05-31T15:25:05Z",
-      "pushedAt": "2026-09-17T19:12:15Z",
-      "updatedAt": "2026-09-19T20:28:13Z",
-      "commit": "c7c8921f4491104d342861e32fa214e486442304",
-      "committedAt": "2026-09-17T19:11:43Z",
-      "defaultBranch": "main",
-      "latestRelease": {
-        "tag": "v0.1.1",
-        "publishedAt": "2026-05-31T20:22:29Z"
-      },
-      "releaseCount": 40,
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "languages": [
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 3209241
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 842336
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 115757
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 59825
-        },
-        {
-          "name": "Nunjucks",
-          "color": "#3d8137",
-          "size": 26357
-        },
-        {
-          "name": "Python",
-          "color": "#3572A5",
-          "size": 14667
-        }
-      ],
-      "stack": [
-        "GitHub Actions",
-        "React"
-      ],
-      "signals": [
-        "ci",
-        "licensed",
-        "released"
-      ],
-      "layer": "orchestration",
-      "layers": [
-        {
-          "id": "orchestration",
-          "label": "Orchestration",
-          "score": 7
-        },
-        {
-          "id": "memory",
-          "label": "Memory & Context",
-          "score": 3
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "phrase: agent harness",
-        "topic: agent-orchestration",
         "topic: ai-agents (high star)"
       ]
     },
@@ -14994,7 +14994,7 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2024-12-06T07:50:27Z",
-      "pushedAt": "2026-09-19T20:38:39Z",
+      "pushedAt": "2026-09-19T21:18:12Z",
       "updatedAt": "2026-09-19T20:39:49Z",
       "commit": "387352ef94f684df4623c467374c6948aa1a3604",
       "committedAt": "2026-09-18T06:18:58Z",
@@ -15064,15 +15064,15 @@
       "relevance": 37,
       "url": "https://github.com/strands-agents/harness-sdk",
       "homepage": "http://strandsagents.com/",
-      "stars": 7367,
+      "stars": 7368,
       "forks": 1163,
-      "openIssues": 767,
+      "openIssues": 501,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-05-14T19:59:51Z",
       "pushedAt": "2026-09-18T21:12:41Z",
-      "updatedAt": "2026-09-19T14:42:21Z",
+      "updatedAt": "2026-09-19T20:46:32Z",
       "commit": "54ca0befa69a1e8e8d7f3083da62a8e9d341f050",
       "committedAt": "2026-09-18T21:12:40Z",
       "defaultBranch": "main",
@@ -15368,7 +15368,7 @@
       "homepage": "https://docs.swarms.world",
       "stars": 7184,
       "forks": 1024,
-      "openIssues": 216,
+      "openIssues": 219,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -15718,10 +15718,10 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-05-06T17:43:05Z",
-      "pushedAt": "2026-09-19T20:39:15Z",
-      "updatedAt": "2026-09-19T16:01:15Z",
-      "commit": "90c4bfafddcba75327961a24e9bcaa409cf09136",
-      "committedAt": "2026-09-18T22:36:02Z",
+      "pushedAt": "2026-09-19T21:30:14Z",
+      "updatedAt": "2026-09-19T21:20:39Z",
+      "commit": "a7bdef1f497b0faf339f259318b238be5c4208b4",
+      "committedAt": "2026-09-19T20:59:08Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.0rc1",
@@ -15734,22 +15734,22 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 50829978
+          "size": 50882079
         },
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 12609353
+          "size": 12699303
         },
         {
           "name": "Vue",
           "color": "#41b883",
-          "size": 2946761
+          "size": 2970905
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 2534742
+          "size": 2541145
         },
         {
           "name": "CSS",
@@ -15812,13 +15812,13 @@
       "homepage": "https://gentle-ai.gentlemanprogramming.com/",
       "stars": 7023,
       "forks": 770,
-      "openIssues": 1089,
+      "openIssues": 757,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-27T23:28:01Z",
-      "pushedAt": "2026-09-19T19:45:39Z",
-      "updatedAt": "2026-09-19T20:14:15Z",
+      "pushedAt": "2026-09-19T21:49:09Z",
+      "updatedAt": "2026-09-19T21:08:35Z",
       "commit": "8e124d09314383451a0429d9f8c01e6aadfc610e",
       "committedAt": "2026-09-19T19:39:06Z",
       "defaultBranch": "main",
@@ -16075,15 +16075,15 @@
       "relevance": 12,
       "url": "https://github.com/mobile-next/mobile-mcp",
       "homepage": "https://mobilenext.ai",
-      "stars": 6762,
+      "stars": 6763,
       "forks": 594,
-      "openIssues": 43,
+      "openIssues": 29,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-03-28T16:21:06Z",
       "pushedAt": "2026-09-16T15:16:36Z",
-      "updatedAt": "2026-09-19T19:15:27Z",
+      "updatedAt": "2026-09-19T20:45:52Z",
       "commit": "63a5974d9bfa5b66d1ee4d1b0945df3ebea18b11",
       "committedAt": "2026-09-13T20:13:12Z",
       "defaultBranch": "main",
@@ -16150,7 +16150,7 @@
       "url": "https://github.com/Nasiko-Labs/nasiko",
       "homepage": "https://www.nasiko.com",
       "stars": 6609,
-      "forks": 1223,
+      "forks": 1224,
       "openIssues": 26,
       "archived": false,
       "template": false,
@@ -16348,7 +16348,7 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-09T13:14:58Z",
-      "pushedAt": "2026-09-19T19:19:22Z",
+      "pushedAt": "2026-09-19T21:00:25Z",
       "updatedAt": "2026-09-19T20:35:05Z",
       "commit": "21f4b3a64dd2a2fac1163f446806091c25b6b814",
       "committedAt": "2026-09-05T00:08:29Z",
@@ -16611,7 +16611,7 @@
       "url": "https://github.com/airweave-ai/airweave",
       "homepage": "https://airweave.ai",
       "stars": 6562,
-      "forks": 819,
+      "forks": 820,
       "openIssues": 105,
       "archived": true,
       "template": false,
@@ -16941,15 +16941,15 @@
       "relevance": 15,
       "url": "https://github.com/Devin-AXIS/iPolloWork",
       "homepage": "https://www.ipollo.ai/",
-      "stars": 6387,
+      "stars": 6390,
       "forks": 1219,
-      "openIssues": 87,
+      "openIssues": 63,
       "archived": false,
       "template": true,
       "license": "NOASSERTION",
       "createdAt": "2025-08-25T03:57:40Z",
       "pushedAt": "2026-09-19T07:19:59Z",
-      "updatedAt": "2026-09-19T19:17:22Z",
+      "updatedAt": "2026-09-19T21:40:40Z",
       "commit": "26d788ac831b23f27b7ec19fe1afec1b7918822c",
       "committedAt": "2026-09-18T11:38:36Z",
       "defaultBranch": "main",
@@ -17328,15 +17328,15 @@
       "relevance": 14,
       "url": "https://github.com/Sylinko/Everywhere",
       "homepage": "https://everywhere.sylinko.com",
-      "stars": 6285,
+      "stars": 6286,
       "forks": 388,
-      "openIssues": 30,
+      "openIssues": 22,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-04-23T08:19:33Z",
       "pushedAt": "2026-09-17T12:29:32Z",
-      "updatedAt": "2026-09-19T14:21:19Z",
+      "updatedAt": "2026-09-19T20:46:06Z",
       "commit": "711e6bb8f7d84a2a218b7aacc2daddc0a5e92987",
       "committedAt": "2026-09-17T10:18:38Z",
       "defaultBranch": "main",
@@ -18123,7 +18123,7 @@
       "homepage": "https://sandbox.agent-infra.com",
       "stars": 5951,
       "forks": 535,
-      "openIssues": 52,
+      "openIssues": 72,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -18290,15 +18290,15 @@
       "relevance": 15,
       "url": "https://github.com/loopx-project/loopx",
       "homepage": "https://loopx-project.github.io/loopx/",
-      "stars": 5900,
+      "stars": 5901,
       "forks": 558,
-      "openIssues": 101,
+      "openIssues": 62,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-05-31T14:58:56Z",
-      "pushedAt": "2026-09-19T20:23:07Z",
-      "updatedAt": "2026-09-19T18:22:00Z",
+      "pushedAt": "2026-09-19T20:41:39Z",
+      "updatedAt": "2026-09-19T21:47:20Z",
       "commit": "916763e2c7fc9c19274f877dd234f7db6a65390c",
       "committedAt": "2026-09-19T18:21:56Z",
       "defaultBranch": "main",
@@ -18306,7 +18306,7 @@
         "tag": "v0.1.3",
         "publishedAt": "2026-07-02T06:45:29Z"
       },
-      "releaseCount": 107,
+      "releaseCount": 108,
       "language": "Python",
       "languageColor": "#3572A5",
       "languages": [
@@ -18727,7 +18727,7 @@
       "relevance": 17,
       "url": "https://github.com/truefoundry/trueforge",
       "homepage": "https://trueforge.dev",
-      "stars": 5810,
+      "stars": 5812,
       "forks": 453,
       "openIssues": 43,
       "archived": false,
@@ -18735,7 +18735,7 @@
       "license": "MIT",
       "createdAt": "2026-07-23T09:16:13Z",
       "pushedAt": "2026-09-18T17:59:58Z",
-      "updatedAt": "2026-09-19T20:38:38Z",
+      "updatedAt": "2026-09-19T21:41:32Z",
       "commit": "651c574e6ebf8bc2f4c39a00c7f749b4c22d9f88",
       "committedAt": "2026-09-18T17:47:13Z",
       "defaultBranch": "main",
@@ -19465,7 +19465,7 @@
       "homepage": null,
       "stars": 5592,
       "forks": 517,
-      "openIssues": 482,
+      "openIssues": 484,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -19548,15 +19548,15 @@
       "relevance": 14,
       "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
       "homepage": null,
-      "stars": 5569,
+      "stars": 5571,
       "forks": 535,
-      "openIssues": 27,
+      "openIssues": 8,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-08-28T12:57:24Z",
       "pushedAt": "2026-09-13T03:22:46Z",
-      "updatedAt": "2026-09-19T20:04:39Z",
+      "updatedAt": "2026-09-19T20:48:45Z",
       "commit": "9663b88753e35c76796c5bce000293e0bd22cd9e",
       "committedAt": "2026-09-13T03:21:15Z",
       "defaultBranch": "main",
@@ -20279,6 +20279,85 @@
       ]
     },
     {
+      "fullName": "Waishnav/devspace",
+      "owner": "Waishnav",
+      "name": "devspace",
+      "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
+      "relevance": 15,
+      "url": "https://github.com/Waishnav/devspace",
+      "homepage": null,
+      "stars": 4941,
+      "forks": 559,
+      "openIssues": 21,
+      "archived": false,
+      "template": false,
+      "license": "MIT",
+      "createdAt": "2026-06-14T16:57:27Z",
+      "pushedAt": "2026-09-19T17:28:56Z",
+      "updatedAt": "2026-09-19T21:26:22Z",
+      "commit": "531d3f973f09f7b6b4993c9ff58f80a4514b9ba2",
+      "committedAt": "2026-09-18T21:57:08Z",
+      "defaultBranch": "main",
+      "latestRelease": {
+        "tag": "v1.0.0",
+        "publishedAt": "2026-06-16T19:32:07Z"
+      },
+      "releaseCount": 13,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 1093261
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 18285
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 1532
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 393
+        }
+      ],
+      "stack": [
+        "Express",
+        "GitHub Actions",
+        "MCP SDK",
+        "React"
+      ],
+      "signals": [
+        "ci",
+        "licensed",
+        "released"
+      ],
+      "layer": "orchestration",
+      "layers": [
+        {
+          "id": "orchestration",
+          "label": "Orchestration",
+          "score": 3
+        },
+        {
+          "id": "tools",
+          "label": "Tools & MCP",
+          "score": 1
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "phrase: agent harness",
+        "topic: agent-orchestration"
+      ]
+    },
+    {
       "fullName": "ag2ai/ag2",
       "owner": "ag2ai",
       "name": "ag2",
@@ -20378,85 +20457,6 @@
       "discoveredVia": [
         "topic: agent-framework",
         "topic: agentic-ai (high star)"
-      ]
-    },
-    {
-      "fullName": "Waishnav/devspace",
-      "owner": "Waishnav",
-      "name": "devspace",
-      "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
-      "relevance": 15,
-      "url": "https://github.com/Waishnav/devspace",
-      "homepage": null,
-      "stars": 4940,
-      "forks": 559,
-      "openIssues": 45,
-      "archived": false,
-      "template": false,
-      "license": "MIT",
-      "createdAt": "2026-06-14T16:57:27Z",
-      "pushedAt": "2026-09-19T17:28:56Z",
-      "updatedAt": "2026-09-19T19:44:06Z",
-      "commit": "531d3f973f09f7b6b4993c9ff58f80a4514b9ba2",
-      "committedAt": "2026-09-18T21:57:08Z",
-      "defaultBranch": "main",
-      "latestRelease": {
-        "tag": "v1.0.0",
-        "publishedAt": "2026-06-16T19:32:07Z"
-      },
-      "releaseCount": 13,
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "languages": [
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 1093261
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 18285
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 1532
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 393
-        }
-      ],
-      "stack": [
-        "Express",
-        "GitHub Actions",
-        "MCP SDK",
-        "React"
-      ],
-      "signals": [
-        "ci",
-        "licensed",
-        "released"
-      ],
-      "layer": "orchestration",
-      "layers": [
-        {
-          "id": "orchestration",
-          "label": "Orchestration",
-          "score": 3
-        },
-        {
-          "id": "tools",
-          "label": "Tools & MCP",
-          "score": 1
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "phrase: agent harness",
-        "topic: agent-orchestration"
       ]
     },
     {
@@ -20663,7 +20663,7 @@
       "url": "https://github.com/darrenhinde/OpenAgentsControl",
       "homepage": null,
       "stars": 4862,
-      "forks": 400,
+      "forks": 401,
       "openIssues": 68,
       "archived": false,
       "template": false,
@@ -21057,7 +21057,7 @@
       "homepage": "https://agent-device.dev",
       "stars": 4676,
       "forks": 303,
-      "openIssues": 76,
+      "openIssues": 89,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -21146,15 +21146,15 @@
       "relevance": 17,
       "url": "https://github.com/ruc-datalab/DeepAnalyze",
       "homepage": "https://ruc-deepanalyze.github.io",
-      "stars": 4639,
+      "stars": 4638,
       "forks": 736,
-      "openIssues": 27,
+      "openIssues": 18,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-11T11:19:21Z",
       "pushedAt": "2026-09-11T11:38:06Z",
-      "updatedAt": "2026-09-19T18:20:18Z",
+      "updatedAt": "2026-09-19T21:31:42Z",
       "commit": "007389cb2a51c58e0fb80a3c88243573a84c5365",
       "committedAt": "2026-09-11T11:38:06Z",
       "defaultBranch": "main",
@@ -21397,7 +21397,7 @@
       "homepage": "https://memgraph.com",
       "stars": 4573,
       "forks": 283,
-      "openIssues": 680,
+      "openIssues": 809,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
@@ -21485,7 +21485,7 @@
       "relevance": 13,
       "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
       "homepage": "https://theaioperator.io",
-      "stars": 4542,
+      "stars": 4544,
       "forks": 568,
       "openIssues": 14,
       "archived": false,
@@ -21493,7 +21493,7 @@
       "license": "MIT",
       "createdAt": "2026-03-24T11:58:12Z",
       "pushedAt": "2026-09-18T06:48:19Z",
-      "updatedAt": "2026-09-19T20:37:42Z",
+      "updatedAt": "2026-09-19T21:44:10Z",
       "commit": "3196b17a237f4526ea6cbc7b7612e9cb6ada050b",
       "committedAt": "2026-09-18T06:48:12Z",
       "defaultBranch": "main",
@@ -21936,15 +21936,15 @@
       "relevance": 24,
       "url": "https://github.com/embabel/embabel-agent",
       "homepage": "https://hub.embabel.com",
-      "stars": 4454,
+      "stars": 4455,
       "forks": 433,
-      "openIssues": 59,
+      "openIssues": 48,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-04-10T03:06:07Z",
       "pushedAt": "2026-09-18T23:23:39Z",
-      "updatedAt": "2026-09-18T23:23:44Z",
+      "updatedAt": "2026-09-19T21:05:38Z",
       "commit": "45c70d4051f758034b213f1c730c64ec190dc6fe",
       "committedAt": "2026-09-18T23:23:39Z",
       "defaultBranch": "main",
@@ -22126,15 +22126,15 @@
       "relevance": 15,
       "url": "https://github.com/walkinglabs/hands-on-modern-rl",
       "homepage": "https://walkinglabs.github.io/hands-on-modern-rl/",
-      "stars": 4407,
+      "stars": 4408,
       "forks": 320,
-      "openIssues": 13,
+      "openIssues": 10,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2026-04-10T01:25:58Z",
       "pushedAt": "2026-09-03T13:31:16Z",
-      "updatedAt": "2026-09-19T16:49:45Z",
+      "updatedAt": "2026-09-19T21:22:49Z",
       "commit": "9f6e429c6894a0f7e852151e805e038c132ef819",
       "committedAt": "2026-09-03T13:31:16Z",
       "defaultBranch": "main",
@@ -22367,10 +22367,10 @@
       "template": false,
       "license": "AGPL-3.0",
       "createdAt": "2025-11-08T15:18:27Z",
-      "pushedAt": "2026-09-19T20:42:20Z",
-      "updatedAt": "2026-09-19T20:29:41Z",
-      "commit": "daea151bace60ba61851a7a2ab88c55176431df9",
-      "committedAt": "2026-09-19T20:29:37Z",
+      "pushedAt": "2026-09-19T21:46:34Z",
+      "updatedAt": "2026-09-19T21:46:36Z",
+      "commit": "4cad2bf4010f8e450173d2f1d112945c5d085b97",
+      "committedAt": "2026-09-19T21:46:31Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v2025.12.2.0",
@@ -22383,12 +22383,12 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 33935156
+          "size": 33959603
         },
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 25921948
+          "size": 25921956
         },
         {
           "name": "MDX",
@@ -22456,7 +22456,7 @@
       "relevance": 12,
       "url": "https://github.com/0xNyk/council-of-high-intelligence",
       "homepage": "https://www.nyk.dev/oss/council-of-high-intelligence",
-      "stars": 4303,
+      "stars": 4305,
       "forks": 406,
       "openIssues": 7,
       "archived": false,
@@ -22464,7 +22464,7 @@
       "license": "MIT",
       "createdAt": "2026-03-02T08:47:09Z",
       "pushedAt": "2026-09-19T10:13:00Z",
-      "updatedAt": "2026-09-19T20:32:54Z",
+      "updatedAt": "2026-09-19T21:46:51Z",
       "commit": "94f9a90d62cb5963a7ee64340206465e1c86c146",
       "committedAt": "2026-09-14T05:27:52Z",
       "defaultBranch": "main",
@@ -22766,14 +22766,14 @@
       "url": "https://github.com/TencentCloud/Octop",
       "homepage": "https://octop.cloud",
       "stars": 4149,
-      "forks": 445,
-      "openIssues": 271,
+      "forks": 444,
+      "openIssues": 196,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-07-08T12:54:20Z",
       "pushedAt": "2026-09-19T14:05:29Z",
-      "updatedAt": "2026-09-19T20:26:31Z",
+      "updatedAt": "2026-09-19T21:49:10Z",
       "commit": "757fd12e5dcae7f9303dbfbbf6321a6986694a8b",
       "committedAt": "2026-09-19T01:34:38Z",
       "defaultBranch": "main",
@@ -22866,8 +22866,8 @@
       "url": "https://github.com/nolabs-ai/nono",
       "homepage": "https://nono.sh",
       "stars": 4138,
-      "forks": 273,
-      "openIssues": 169,
+      "forks": 274,
+      "openIssues": 213,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -22945,6 +22945,87 @@
       ],
       "classifierVersion": "1.0.0",
       "discoveredVia": [
+        "topic: ai-agents (high star)"
+      ]
+    },
+    {
+      "fullName": "ApodexAI/FrontierAgent",
+      "owner": "ApodexAI",
+      "name": "FrontierAgent",
+      "description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+      "relevance": 24,
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "homepage": "https://www.apodex.ai",
+      "stars": 4111,
+      "forks": 207,
+      "openIssues": 6,
+      "archived": false,
+      "template": false,
+      "license": "Apache-2.0",
+      "createdAt": "2026-08-22T05:07:35Z",
+      "pushedAt": "2026-09-19T20:37:21Z",
+      "updatedAt": "2026-09-19T21:49:38Z",
+      "commit": "9e533db6f6c34d16037ee5ec964c479d0eb51cde",
+      "committedAt": "2026-09-09T07:52:43Z",
+      "defaultBranch": "main",
+      "latestRelease": null,
+      "releaseCount": 0,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "languages": [
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "size": 6156106
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "size": 111713
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 61695
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 32023
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 10588
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "size": 9564
+        }
+      ],
+      "stack": [
+        "Docker",
+        "GitHub Actions",
+        "Pydantic"
+      ],
+      "signals": [
+        "ci",
+        "docker",
+        "licensed"
+      ],
+      "layer": "orchestration",
+      "layers": [
+        {
+          "id": "orchestration",
+          "label": "Orchestration",
+          "score": 7
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: agent-orchestration",
+        "topic: agentic-ai (high star)",
         "topic: ai-agents (high star)"
       ]
     },
@@ -23164,87 +23245,6 @@
       ]
     },
     {
-      "fullName": "ApodexAI/FrontierAgent",
-      "owner": "ApodexAI",
-      "name": "FrontierAgent",
-      "description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
-      "relevance": 24,
-      "url": "https://github.com/ApodexAI/FrontierAgent",
-      "homepage": "https://www.apodex.ai",
-      "stars": 4097,
-      "forks": 207,
-      "openIssues": 6,
-      "archived": false,
-      "template": false,
-      "license": "Apache-2.0",
-      "createdAt": "2026-08-22T05:07:35Z",
-      "pushedAt": "2026-09-19T20:37:21Z",
-      "updatedAt": "2026-09-19T20:43:10Z",
-      "commit": "9e533db6f6c34d16037ee5ec964c479d0eb51cde",
-      "committedAt": "2026-09-09T07:52:43Z",
-      "defaultBranch": "main",
-      "latestRelease": null,
-      "releaseCount": 0,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "languages": [
-        {
-          "name": "Python",
-          "color": "#3572A5",
-          "size": 6156106
-        },
-        {
-          "name": "Shell",
-          "color": "#89e051",
-          "size": 111713
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 61695
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 32023
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 10588
-        },
-        {
-          "name": "Dockerfile",
-          "color": "#384d54",
-          "size": 9564
-        }
-      ],
-      "stack": [
-        "Docker",
-        "GitHub Actions",
-        "Pydantic"
-      ],
-      "signals": [
-        "ci",
-        "docker",
-        "licensed"
-      ],
-      "layer": "orchestration",
-      "layers": [
-        {
-          "id": "orchestration",
-          "label": "Orchestration",
-          "score": 7
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: agent-orchestration",
-        "topic: agentic-ai (high star)",
-        "topic: ai-agents (high star)"
-      ]
-    },
-    {
       "fullName": "nyldn/claude-octopus",
       "owner": "nyldn",
       "name": "claude-octopus",
@@ -23344,7 +23344,7 @@
       "homepage": "https://dagu.sh",
       "stars": 4033,
       "forks": 338,
-      "openIssues": 76,
+      "openIssues": 77,
       "archived": false,
       "template": false,
       "license": "GPL-3.0",
@@ -23450,17 +23450,17 @@
       "relevance": 12,
       "url": "https://github.com/kirodotdev/KiroCrew",
       "homepage": "https://kiro.dev/crew/",
-      "stars": 4023,
+      "stars": 4024,
       "forks": 626,
-      "openIssues": 1373,
+      "openIssues": 1369,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-07-16T21:21:54Z",
-      "pushedAt": "2026-09-19T20:45:50Z",
-      "updatedAt": "2026-09-19T20:40:04Z",
-      "commit": "1c7f963706545fa4e9e6d431dc8217861665d5b2",
-      "committedAt": "2026-09-19T19:42:50Z",
+      "pushedAt": "2026-09-19T21:48:07Z",
+      "updatedAt": "2026-09-19T21:46:43Z",
+      "commit": "891e6de8da5ec1388215981f6bdd769df1543914",
+      "committedAt": "2026-09-19T21:34:04Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.0-insider.1",
@@ -23473,7 +23473,7 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 139451171
+          "size": 139417251
         },
         {
           "name": "TypeScript",
@@ -23782,7 +23782,7 @@
       "relevance": 26,
       "url": "https://github.com/FailproofAI/failproofai",
       "homepage": "https://befailproof.ai",
-      "stars": 3840,
+      "stars": 3842,
       "forks": 484,
       "openIssues": 22,
       "archived": false,
@@ -23790,7 +23790,7 @@
       "license": "NOASSERTION",
       "createdAt": "2026-04-06T01:56:39Z",
       "pushedAt": "2026-09-17T10:11:58Z",
-      "updatedAt": "2026-09-19T20:28:15Z",
+      "updatedAt": "2026-09-19T21:46:49Z",
       "commit": "64b75e15055f9dd89567203a238ab1c9d1d528d5",
       "committedAt": "2026-09-17T10:11:58Z",
       "defaultBranch": "main",
@@ -23993,8 +23993,8 @@
       "url": "https://github.com/yvgude/lean-ctx",
       "homepage": "https://leanctx.com",
       "stars": 3812,
-      "forks": 348,
-      "openIssues": 8,
+      "forks": 347,
+      "openIssues": 9,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -24765,17 +24765,17 @@
       "relevance": 18,
       "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
       "homepage": null,
-      "stars": 3546,
+      "stars": 3547,
       "forks": 616,
-      "openIssues": 189,
+      "openIssues": 95,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-04-13T04:12:09Z",
-      "pushedAt": "2026-09-19T20:21:12Z",
-      "updatedAt": "2026-09-19T19:55:31Z",
-      "commit": "441f5e9cddf0a648f8762a47859f2920723325a7",
-      "committedAt": "2026-09-19T19:55:27Z",
+      "pushedAt": "2026-09-19T21:49:44Z",
+      "updatedAt": "2026-09-19T21:35:23Z",
+      "commit": "b461d417c52726ac3ac716d3e0154e9e3056ffc8",
+      "committedAt": "2026-09-19T21:35:19Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v1.2.5",
@@ -24788,7 +24788,7 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 5160558
+          "size": 5180898
         },
         {
           "name": "Shell",
@@ -25118,7 +25118,7 @@
       "url": "https://github.com/HolmesGPT/holmesgpt",
       "homepage": "https://holmesgpt.dev/",
       "stars": 3414,
-      "forks": 496,
+      "forks": 497,
       "openIssues": 433,
       "archived": false,
       "template": false,
@@ -25223,10 +25223,10 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-01-20T00:09:40Z",
-      "pushedAt": "2026-09-19T20:33:42Z",
-      "updatedAt": "2026-09-19T19:58:41Z",
-      "commit": "fe5c4d937e3c1a8eca8626c8936aa7c5949c49c3",
-      "committedAt": "2026-09-19T19:58:37Z",
+      "pushedAt": "2026-09-19T21:46:44Z",
+      "updatedAt": "2026-09-19T21:23:49Z",
+      "commit": "533004fcec3952e1fd2499766b50e67f2bf7b709",
+      "committedAt": "2026-09-19T21:23:44Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.0",
@@ -25239,7 +25239,7 @@
         {
           "name": "Go",
           "color": "#00ADD8",
-          "size": 16529651
+          "size": 16529715
         },
         {
           "name": "TypeScript",
@@ -25249,7 +25249,7 @@
         {
           "name": "Shell",
           "color": "#89e051",
-          "size": 358324
+          "size": 411354
         },
         {
           "name": "CSS",
@@ -25264,7 +25264,7 @@
         {
           "name": "Makefile",
           "color": "#427819",
-          "size": 19515
+          "size": 20730
         },
         {
           "name": "PowerShell",
@@ -25497,15 +25497,15 @@
       "relevance": 33,
       "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
       "homepage": null,
-      "stars": 3360,
+      "stars": 3361,
       "forks": 291,
-      "openIssues": 42,
+      "openIssues": 37,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-22T13:51:44Z",
       "pushedAt": "2026-08-31T13:52:09Z",
-      "updatedAt": "2026-09-19T18:12:45Z",
+      "updatedAt": "2026-09-19T20:58:52Z",
       "commit": "ddcaa2affca93c1efe026d008b6b93709e5fb7e2",
       "committedAt": "2026-08-31T12:36:47Z",
       "defaultBranch": "main",
@@ -25660,15 +25660,15 @@
       "relevance": 16,
       "url": "https://github.com/NVIDIA/skills",
       "homepage": "https://docs.nvidia.com/skills",
-      "stars": 3354,
+      "stars": 3355,
       "forks": 401,
-      "openIssues": 14,
+      "openIssues": 6,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-25T21:54:05Z",
       "pushedAt": "2026-09-19T00:31:39Z",
-      "updatedAt": "2026-09-19T13:22:55Z",
+      "updatedAt": "2026-09-19T21:30:28Z",
       "commit": "fd9f1466ff8a39178e488981e8b5118709392949",
       "committedAt": "2026-09-18T23:56:10Z",
       "defaultBranch": "main",
@@ -25809,15 +25809,15 @@
       "relevance": 17,
       "url": "https://github.com/ombharatiya/ai-system-design-guide",
       "homepage": "https://www.aidaddy.tech",
-      "stars": 3342,
+      "stars": 3343,
       "forks": 698,
-      "openIssues": 6,
+      "openIssues": 3,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-12-16T11:05:49Z",
       "pushedAt": "2026-08-15T17:36:14Z",
-      "updatedAt": "2026-09-19T17:57:54Z",
+      "updatedAt": "2026-09-19T21:41:37Z",
       "commit": "3d391f62635922923eecf66014522a955cab5236",
       "committedAt": "2026-08-15T17:36:07Z",
       "defaultBranch": "main",
@@ -25901,15 +25901,15 @@
       "homepage": "https://neomjs.com",
       "stars": 3280,
       "forks": 235,
-      "openIssues": 134,
+      "openIssues": 137,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2019-11-10T23:56:02Z",
-      "pushedAt": "2026-09-19T20:29:35Z",
-      "updatedAt": "2026-09-19T20:29:35Z",
-      "commit": "91b5a42d5f1252b7dd4e23a77482eec7e813aeab",
-      "committedAt": "2026-09-19T20:29:30Z",
+      "pushedAt": "2026-09-19T21:26:53Z",
+      "updatedAt": "2026-09-19T21:01:23Z",
+      "commit": "626051de3fa9e04a2fa65fc5c63750cfdc768744",
+      "committedAt": "2026-09-19T20:51:21Z",
       "defaultBranch": "dev",
       "latestRelease": {
         "tag": "1.3.55",
@@ -25922,7 +25922,7 @@
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 16536707
+          "size": 16540616
         },
         {
           "name": "SCSS",
@@ -27168,15 +27168,15 @@
       "relevance": 20,
       "url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
       "homepage": "https://marktechpost.com/",
-      "stars": 2906,
+      "stars": 2905,
       "forks": 617,
-      "openIssues": 9,
+      "openIssues": 5,
       "archived": false,
       "template": false,
       "license": null,
       "createdAt": "2025-05-15T09:00:54Z",
       "pushedAt": "2026-09-19T11:35:06Z",
-      "updatedAt": "2026-09-19T11:35:12Z",
+      "updatedAt": "2026-09-19T21:30:38Z",
       "commit": "f1d05e256b1217be8b197897f6eb505979a74833",
       "committedAt": "2026-09-19T11:35:05Z",
       "defaultBranch": "main",
@@ -27214,6 +27214,55 @@
       "classifierVersion": "1.0.0",
       "discoveredVia": [
         "topic: agentic-ai (high star)"
+      ]
+    },
+    {
+      "fullName": "sergebulaev/linkedin-skills",
+      "owner": "sergebulaev",
+      "name": "linkedin-skills",
+      "description": "Claude skills for LinkedIn. 11 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT.",
+      "relevance": 12,
+      "url": "https://github.com/sergebulaev/linkedin-skills",
+      "homepage": "https://cccrafts.ai",
+      "stars": 2877,
+      "forks": 495,
+      "openIssues": 1,
+      "archived": false,
+      "template": false,
+      "license": "MIT",
+      "createdAt": "2026-04-14T16:35:45Z",
+      "pushedAt": "2026-09-18T00:08:14Z",
+      "updatedAt": "2026-09-19T21:18:44Z",
+      "commit": "baa9c909916f98764828e15e7cfc9dffa1aaadb1",
+      "committedAt": "2026-09-18T00:08:09Z",
+      "defaultBranch": "main",
+      "latestRelease": {
+        "tag": "v1.0.0",
+        "publishedAt": "2026-04-14T20:15:12Z"
+      },
+      "releaseCount": 60,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "languages": [
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "size": 403266
+        }
+      ],
+      "stack": [
+        "GitHub Actions"
+      ],
+      "signals": [
+        "ci",
+        "licensed",
+        "released"
+      ],
+      "layer": "other",
+      "layers": [],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: ai-agents (high star)"
       ]
     },
     {
@@ -27291,55 +27340,6 @@
         "topic: agent-orchestration",
         "topic: ai-agents (high star)",
         "topic: context-engineering"
-      ]
-    },
-    {
-      "fullName": "sergebulaev/linkedin-skills",
-      "owner": "sergebulaev",
-      "name": "linkedin-skills",
-      "description": "Claude skills for LinkedIn. 11 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT.",
-      "relevance": 12,
-      "url": "https://github.com/sergebulaev/linkedin-skills",
-      "homepage": "https://cccrafts.ai",
-      "stars": 2874,
-      "forks": 493,
-      "openIssues": 1,
-      "archived": false,
-      "template": false,
-      "license": "MIT",
-      "createdAt": "2026-04-14T16:35:45Z",
-      "pushedAt": "2026-09-18T00:08:14Z",
-      "updatedAt": "2026-09-19T20:18:09Z",
-      "commit": "baa9c909916f98764828e15e7cfc9dffa1aaadb1",
-      "committedAt": "2026-09-18T00:08:09Z",
-      "defaultBranch": "main",
-      "latestRelease": {
-        "tag": "v1.0.0",
-        "publishedAt": "2026-04-14T20:15:12Z"
-      },
-      "releaseCount": 60,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "languages": [
-        {
-          "name": "Python",
-          "color": "#3572A5",
-          "size": 403266
-        }
-      ],
-      "stack": [
-        "GitHub Actions"
-      ],
-      "signals": [
-        "ci",
-        "licensed",
-        "released"
-      ],
-      "layer": "other",
-      "layers": [],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: ai-agents (high star)"
       ]
     },
     {
@@ -27439,7 +27439,7 @@
       "relevance": 12,
       "url": "https://github.com/visa/visa-vulnerability-agentic-harness",
       "homepage": null,
-      "stars": 2791,
+      "stars": 2790,
       "forks": 402,
       "openIssues": 4,
       "archived": false,
@@ -27447,7 +27447,7 @@
       "license": "NOASSERTION",
       "createdAt": "2026-06-05T00:26:33Z",
       "pushedAt": "2026-09-11T21:22:58Z",
-      "updatedAt": "2026-09-18T22:40:01Z",
+      "updatedAt": "2026-09-19T21:30:19Z",
       "commit": "287e735b182b11ecdf8de7422b4e70d6ad8bc03a",
       "committedAt": "2026-09-11T20:28:19Z",
       "defaultBranch": "main",
@@ -27498,15 +27498,15 @@
       "homepage": "https://tonsofskills.com",
       "stars": 2780,
       "forks": 402,
-      "openIssues": 19,
+      "openIssues": 20,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-10T01:01:00Z",
-      "pushedAt": "2026-09-19T20:36:48Z",
-      "updatedAt": "2026-09-19T16:31:29Z",
-      "commit": "0ea9930bc63b810f284e04e4a9015b9c8d4afc5a",
-      "committedAt": "2026-09-19T10:16:32Z",
+      "pushedAt": "2026-09-19T21:05:09Z",
+      "updatedAt": "2026-09-19T21:05:12Z",
+      "commit": "9ba805c38e44441a784afc894f60696fe7a17ccf",
+      "committedAt": "2026-09-19T21:05:07Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v1.0.0",
@@ -27838,7 +27838,7 @@
       "relevance": 16,
       "url": "https://github.com/Owl-Listener/designer-skills",
       "homepage": null,
-      "stars": 2692,
+      "stars": 2693,
       "forks": 383,
       "openIssues": 1,
       "archived": false,
@@ -27846,7 +27846,7 @@
       "license": "MIT",
       "createdAt": "2026-03-07T14:45:45Z",
       "pushedAt": "2026-09-05T15:32:50Z",
-      "updatedAt": "2026-09-19T19:14:06Z",
+      "updatedAt": "2026-09-19T21:40:21Z",
       "commit": "9a6930cf84a822eb458624bd11c61aac5bbdf224",
       "committedAt": "2026-09-05T15:32:50Z",
       "defaultBranch": "main",
@@ -28369,7 +28369,7 @@
       "relevance": 13,
       "url": "https://github.com/Agent-Field/agentfield",
       "homepage": "http://www.agentfield.ai",
-      "stars": 2566,
+      "stars": 2567,
       "forks": 416,
       "openIssues": 37,
       "archived": false,
@@ -28377,7 +28377,7 @@
       "license": "Apache-2.0",
       "createdAt": "2025-11-05T02:04:44Z",
       "pushedAt": "2026-09-19T13:15:04Z",
-      "updatedAt": "2026-09-19T13:41:53Z",
+      "updatedAt": "2026-09-19T21:41:29Z",
       "commit": "1deadcb47fc8621a7eb012c2a226a5f5346ec435",
       "committedAt": "2026-09-19T13:14:58Z",
       "defaultBranch": "main",
@@ -29600,15 +29600,15 @@
       "relevance": 21,
       "url": "https://github.com/redhat-et/ripwire",
       "homepage": null,
-      "stars": 2268,
+      "stars": 2269,
       "forks": 145,
-      "openIssues": 37,
+      "openIssues": 33,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-07-29T15:58:33Z",
-      "pushedAt": "2026-09-19T20:11:30Z",
-      "updatedAt": "2026-09-19T19:08:29Z",
+      "pushedAt": "2026-09-19T21:19:26Z",
+      "updatedAt": "2026-09-19T21:16:24Z",
       "commit": "92bc055ee3550ef695308c0b6ed7d48414e9b986",
       "committedAt": "2026-09-19T17:09:38Z",
       "defaultBranch": "main",
@@ -29835,6 +29835,89 @@
       ]
     },
     {
+      "fullName": "Open-Curiosity/gini-agent",
+      "owner": "Open-Curiosity",
+      "name": "gini-agent",
+      "description": "The agent that remembers and learns.",
+      "relevance": 16,
+      "url": "https://github.com/Open-Curiosity/gini-agent",
+      "homepage": null,
+      "stars": 2246,
+      "forks": 835,
+      "openIssues": 17,
+      "archived": false,
+      "template": false,
+      "license": "MIT",
+      "createdAt": "2026-05-05T21:28:15Z",
+      "pushedAt": "2026-07-18T05:15:42Z",
+      "updatedAt": "2026-09-19T21:20:55Z",
+      "commit": "6c5d85ed0ecd7fe8567124bd4890b16c329970d8",
+      "committedAt": "2026-07-18T00:54:02Z",
+      "defaultBranch": "main",
+      "latestRelease": {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-05-22T23:58:57Z"
+      },
+      "releaseCount": 3,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 12183508
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "size": 30502
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 29025
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "size": 16333
+        },
+        {
+          "name": "Swift",
+          "color": "#F05138",
+          "size": 15539
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 10087
+        }
+      ],
+      "stack": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions"
+      ],
+      "signals": [
+        "ci",
+        "docker",
+        "licensed",
+        "released"
+      ],
+      "layer": "tools",
+      "layers": [
+        {
+          "id": "tools",
+          "label": "Tools & MCP",
+          "score": 3
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: agent-runtime"
+      ]
+    },
+    {
       "fullName": "NVIDIA-NeMo/DataDesigner",
       "owner": "NVIDIA-NeMo",
       "name": "DataDesigner",
@@ -29925,89 +30008,6 @@
       ]
     },
     {
-      "fullName": "Open-Curiosity/gini-agent",
-      "owner": "Open-Curiosity",
-      "name": "gini-agent",
-      "description": "The agent that remembers and learns.",
-      "relevance": 16,
-      "url": "https://github.com/Open-Curiosity/gini-agent",
-      "homepage": null,
-      "stars": 2245,
-      "forks": 834,
-      "openIssues": 17,
-      "archived": false,
-      "template": false,
-      "license": "MIT",
-      "createdAt": "2026-05-05T21:28:15Z",
-      "pushedAt": "2026-07-18T05:15:42Z",
-      "updatedAt": "2026-09-19T20:39:45Z",
-      "commit": "6c5d85ed0ecd7fe8567124bd4890b16c329970d8",
-      "committedAt": "2026-07-18T00:54:02Z",
-      "defaultBranch": "main",
-      "latestRelease": {
-        "tag": "v0.1.0",
-        "publishedAt": "2026-05-22T23:58:57Z"
-      },
-      "releaseCount": 3,
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "languages": [
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 12183508
-        },
-        {
-          "name": "Shell",
-          "color": "#89e051",
-          "size": 30502
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 29025
-        },
-        {
-          "name": "Dockerfile",
-          "color": "#384d54",
-          "size": 16333
-        },
-        {
-          "name": "Swift",
-          "color": "#F05138",
-          "size": 15539
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 10087
-        }
-      ],
-      "stack": [
-        "Docker",
-        "Docker Compose",
-        "GitHub Actions"
-      ],
-      "signals": [
-        "ci",
-        "docker",
-        "licensed",
-        "released"
-      ],
-      "layer": "tools",
-      "layers": [
-        {
-          "id": "tools",
-          "label": "Tools & MCP",
-          "score": 3
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: agent-runtime"
-      ]
-    },
-    {
       "fullName": "cortexkit/magic-context",
       "owner": "cortexkit",
       "name": "magic-context",
@@ -30017,7 +30017,7 @@
       "homepage": "https://discord.gg/DSa65w8wuf",
       "stars": 2152,
       "forks": 115,
-      "openIssues": 25,
+      "openIssues": 26,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -30267,15 +30267,15 @@
       "relevance": 28,
       "url": "https://github.com/Orkas-AI/Orkas",
       "homepage": "https://orkas.ai?source=gh-orkas",
-      "stars": 2079,
+      "stars": 2080,
       "forks": 83,
-      "openIssues": 12,
+      "openIssues": 2,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-04-29T12:19:08Z",
       "pushedAt": "2026-09-19T01:23:49Z",
-      "updatedAt": "2026-09-19T19:27:28Z",
+      "updatedAt": "2026-09-19T20:41:29Z",
       "commit": "fcba80d0373868ef960b3d94b7d44e7d2c7b3678",
       "committedAt": "2026-09-19T01:23:49Z",
       "defaultBranch": "main",
@@ -30633,7 +30633,7 @@
       "homepage": "https://agent-orchestrators.com",
       "stars": 1966,
       "forks": 237,
-      "openIssues": 53,
+      "openIssues": 52,
       "archived": false,
       "template": false,
       "license": null,
@@ -31378,15 +31378,15 @@
       "relevance": 13,
       "url": "https://github.com/tuya/TuyaOpen",
       "homepage": "https://tuyaopen.ai",
-      "stars": 1852,
+      "stars": 1853,
       "forks": 305,
-      "openIssues": 61,
+      "openIssues": 57,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2023-12-25T03:45:10Z",
       "pushedAt": "2026-09-18T09:55:04Z",
-      "updatedAt": "2026-09-19T15:40:14Z",
+      "updatedAt": "2026-09-19T21:38:43Z",
       "commit": "bdadea4607e05382b799e43b56cddf3826cf407f",
       "committedAt": "2026-09-18T09:55:03Z",
       "defaultBranch": "master",
@@ -31522,10 +31522,10 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2025-12-25T17:12:45Z",
-      "pushedAt": "2026-09-19T20:33:53Z",
-      "updatedAt": "2026-09-19T20:31:10Z",
-      "commit": "5205e14738a6d180dabee7bb13229d7a7383788b",
-      "committedAt": "2026-09-19T20:12:51Z",
+      "pushedAt": "2026-09-19T21:28:54Z",
+      "updatedAt": "2026-09-19T21:27:09Z",
+      "commit": "dc20335bec7c5e281a135a20018c6057560ec28e",
+      "committedAt": "2026-09-19T21:09:27Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v1.1.3",
@@ -31538,7 +31538,7 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 5963740
+          "size": 5979585
         },
         {
           "name": "TypeScript",
@@ -31553,7 +31553,7 @@
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 103011
+          "size": 123250
         },
         {
           "name": "CSS",
@@ -32020,15 +32020,15 @@
       "homepage": "https://grounded.tools",
       "stars": 1749,
       "forks": 183,
-      "openIssues": 67,
+      "openIssues": 53,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-03-17T15:13:15Z",
-      "pushedAt": "2026-09-19T20:30:49Z",
-      "updatedAt": "2026-09-19T19:06:55Z",
-      "commit": "5810d713701814c1df37b7a6976e82567d52f588",
-      "committedAt": "2026-09-19T19:06:50Z",
+      "pushedAt": "2026-09-19T21:43:41Z",
+      "updatedAt": "2026-09-19T21:28:03Z",
+      "commit": "0c1506efa7ecc3edbe45f6a42e309f1a79be80e5",
+      "committedAt": "2026-09-19T21:27:57Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v1.0.0",
@@ -32041,7 +32041,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 3043197
+          "size": 3117576
         },
         {
           "name": "CSS",
@@ -32254,7 +32254,7 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-07-12T20:07:46Z",
-      "pushedAt": "2026-09-19T20:42:51Z",
+      "pushedAt": "2026-09-19T21:48:24Z",
       "updatedAt": "2026-09-19T18:08:22Z",
       "commit": "fcfea6694832dbf638871f35ee64989f50cc6cad",
       "committedAt": "2026-09-19T18:08:18Z",
@@ -32704,7 +32704,7 @@
       "relevance": 19,
       "url": "https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup",
       "homepage": "https://agent-flywheel.com/",
-      "stars": 1645,
+      "stars": 1647,
       "forks": 185,
       "openIssues": 6,
       "archived": false,
@@ -32712,7 +32712,7 @@
       "license": "NOASSERTION",
       "createdAt": "2025-12-20T03:17:03Z",
       "pushedAt": "2026-09-19T20:08:25Z",
-      "updatedAt": "2026-09-19T20:08:30Z",
+      "updatedAt": "2026-09-19T21:25:57Z",
       "commit": "836dd8e5cb5bdc9246b2ac3cddca98040fe25726",
       "committedAt": "2026-09-19T20:02:52Z",
       "defaultBranch": "main",
@@ -32866,7 +32866,7 @@
       "homepage": "https://www.skool.com/ai-automation-mastery-group",
       "stars": 1631,
       "forks": 465,
-      "openIssues": 1,
+      "openIssues": 2,
       "archived": false,
       "template": false,
       "license": null,
@@ -33543,15 +33543,15 @@
       "relevance": 23,
       "url": "https://github.com/HarnessRouter/harnessrouter",
       "homepage": "https://harnessrouter.ai/",
-      "stars": 1505,
+      "stars": 1511,
       "forks": 148,
       "openIssues": 9,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-08-09T20:19:14Z",
-      "pushedAt": "2026-09-19T20:21:30Z",
-      "updatedAt": "2026-09-19T20:33:05Z",
+      "pushedAt": "2026-09-19T21:07:57Z",
+      "updatedAt": "2026-09-19T21:43:47Z",
       "commit": "9ae33e77a92f240853e6d67a374c545d736c0f2d",
       "committedAt": "2026-09-19T20:08:44Z",
       "defaultBranch": "main",
@@ -33635,7 +33635,7 @@
       "homepage": "https://learn.golem.cloud/",
       "stars": 1500,
       "forks": 212,
-      "openIssues": 10,
+      "openIssues": 45,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
@@ -33724,15 +33724,15 @@
       "relevance": 24,
       "url": "https://github.com/zhnt/loushang",
       "homepage": null,
-      "stars": 1496,
+      "stars": 1497,
       "forks": 239,
-      "openIssues": 43,
+      "openIssues": 39,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-05-29T17:25:11Z",
       "pushedAt": "2026-09-19T07:37:47Z",
-      "updatedAt": "2026-09-19T16:20:05Z",
+      "updatedAt": "2026-09-19T21:17:54Z",
       "commit": "23ee8e687179a9bfc4fbf0c2056433d4af4ba779",
       "committedAt": "2026-09-19T07:37:47Z",
       "defaultBranch": "main",
@@ -34212,7 +34212,7 @@
       "homepage": "https://exoharness.ai/",
       "stars": 1431,
       "forks": 105,
-      "openIssues": 31,
+      "openIssues": 102,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -34881,6 +34881,51 @@
       ]
     },
     {
+      "fullName": "scadastrangelove/awesome-ai-security-tools",
+      "owner": "scadastrangelove",
+      "name": "awesome-ai-security-tools",
+      "description": "A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.",
+      "relevance": 17,
+      "url": "https://github.com/scadastrangelove/awesome-ai-security-tools",
+      "homepage": null,
+      "stars": 1364,
+      "forks": 345,
+      "openIssues": 1,
+      "archived": false,
+      "template": false,
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-27T12:52:20Z",
+      "pushedAt": "2026-09-14T17:50:09Z",
+      "updatedAt": "2026-09-19T21:48:00Z",
+      "commit": "d4fb5459d87b2e814ee13f66a661fea357dd1505",
+      "committedAt": "2026-09-14T17:50:07Z",
+      "defaultBranch": "main",
+      "latestRelease": null,
+      "releaseCount": 0,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "languages": [
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "size": 20802
+        }
+      ],
+      "stack": [
+        "GitHub Actions"
+      ],
+      "signals": [
+        "ci",
+        "licensed"
+      ],
+      "layer": "other",
+      "layers": [],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: agentic-ai (high star)"
+      ]
+    },
+    {
       "fullName": "ThousandBirdsInc/chidori",
       "owner": "ThousandBirdsInc",
       "name": "chidori",
@@ -35056,51 +35101,6 @@
           "score": 4
         }
       ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: agentic-ai (high star)"
-      ]
-    },
-    {
-      "fullName": "scadastrangelove/awesome-ai-security-tools",
-      "owner": "scadastrangelove",
-      "name": "awesome-ai-security-tools",
-      "description": "A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply chain, pentest agents, AI SAST, LLM-driven fuzzing, threat intelligence, SOC/SIEM triage, reverse engineering, LLM red-teaming, and more.",
-      "relevance": 17,
-      "url": "https://github.com/scadastrangelove/awesome-ai-security-tools",
-      "homepage": null,
-      "stars": 1356,
-      "forks": 340,
-      "openIssues": 13,
-      "archived": false,
-      "template": false,
-      "license": "NOASSERTION",
-      "createdAt": "2026-05-27T12:52:20Z",
-      "pushedAt": "2026-09-14T17:50:09Z",
-      "updatedAt": "2026-09-19T20:23:36Z",
-      "commit": "d4fb5459d87b2e814ee13f66a661fea357dd1505",
-      "committedAt": "2026-09-14T17:50:07Z",
-      "defaultBranch": "main",
-      "latestRelease": null,
-      "releaseCount": 0,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "languages": [
-        {
-          "name": "Python",
-          "color": "#3572A5",
-          "size": 20802
-        }
-      ],
-      "stack": [
-        "GitHub Actions"
-      ],
-      "signals": [
-        "ci",
-        "licensed"
-      ],
-      "layer": "other",
-      "layers": [],
       "classifierVersion": "1.0.0",
       "discoveredVia": [
         "topic: agentic-ai (high star)"
@@ -35315,7 +35315,7 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-02-03T02:13:30Z",
-      "pushedAt": "2026-09-19T20:46:29Z",
+      "pushedAt": "2026-09-19T20:50:57Z",
       "updatedAt": "2026-09-19T20:33:27Z",
       "commit": "8bfca7b73c17f00093315b14e5d38f4dc1ec0ab7",
       "committedAt": "2026-09-19T20:33:23Z",
@@ -35742,7 +35742,7 @@
       "homepage": "https://firstfluke.com/oh-my-agent/",
       "stars": 1312,
       "forks": 149,
-      "openIssues": 0,
+      "openIssues": 2,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -36399,15 +36399,15 @@
       "relevance": 14,
       "url": "https://github.com/conorluddy/ios-simulator-skill",
       "homepage": "https://www.conor.fyi",
-      "stars": 1256,
+      "stars": 1255,
       "forks": 92,
-      "openIssues": 20,
+      "openIssues": 19,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-17T12:43:15Z",
       "pushedAt": "2026-09-13T09:40:42Z",
-      "updatedAt": "2026-09-18T13:49:38Z",
+      "updatedAt": "2026-09-19T21:29:43Z",
       "commit": "037a37f135100c76157b4c915a5b55bd272b5e32",
       "committedAt": "2026-09-13T09:40:42Z",
       "defaultBranch": "main",
@@ -36862,7 +36862,7 @@
       "relevance": 21,
       "url": "https://github.com/2akouwu/reverify",
       "homepage": null,
-      "stars": 1230,
+      "stars": 1231,
       "forks": 240,
       "openIssues": 5,
       "archived": false,
@@ -36870,7 +36870,7 @@
       "license": "MIT",
       "createdAt": "2026-08-31T01:02:18Z",
       "pushedAt": "2026-09-07T10:12:07Z",
-      "updatedAt": "2026-09-19T20:32:17Z",
+      "updatedAt": "2026-09-19T21:40:37Z",
       "commit": "f32ea84ccd6bb2aff90eca711ccfdbf04e6b8923",
       "committedAt": "2026-09-07T10:12:05Z",
       "defaultBranch": "main",
@@ -37364,15 +37364,15 @@
       "relevance": 15,
       "url": "https://github.com/jsmastery-pro/skills",
       "homepage": "https://jsmastery.com",
-      "stars": 1219,
-      "forks": 238,
+      "stars": 1220,
+      "forks": 239,
       "openIssues": 0,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-05-15T04:23:45Z",
       "pushedAt": "2026-08-09T20:39:51Z",
-      "updatedAt": "2026-09-19T19:25:18Z",
+      "updatedAt": "2026-09-19T21:16:01Z",
       "commit": "43b69e44c9ca905fe3a3418ccdf4102255e20d40",
       "committedAt": "2026-08-07T12:12:39Z",
       "defaultBranch": "main",
@@ -37953,7 +37953,7 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2026-08-17T22:40:47Z",
-      "pushedAt": "2026-09-19T20:22:09Z",
+      "pushedAt": "2026-09-19T21:44:06Z",
       "updatedAt": "2026-09-19T15:12:40Z",
       "commit": "b6516cf52a7891d797621fdd2a8ca0311e1ae0a9",
       "committedAt": "2026-09-09T22:05:53Z",
@@ -38748,17 +38748,17 @@
       "relevance": 24,
       "url": "https://github.com/agentrq/agentrq",
       "homepage": "https://agentrq.com",
-      "stars": 1122,
+      "stars": 1123,
       "forks": 80,
-      "openIssues": 4,
+      "openIssues": 2,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-03-24T08:35:45Z",
-      "pushedAt": "2026-09-19T16:42:51Z",
-      "updatedAt": "2026-09-19T16:42:50Z",
-      "commit": "ae251261e0a995a6e2284244c3b00d840b111a0f",
-      "committedAt": "2026-09-19T16:42:46Z",
+      "pushedAt": "2026-09-19T21:35:48Z",
+      "updatedAt": "2026-09-19T21:35:50Z",
+      "commit": "43c492a1ba1a2ab667e25076f0a2bb98526a95e9",
+      "committedAt": "2026-09-19T21:35:46Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.4.10",
@@ -38771,17 +38771,17 @@
         {
           "name": "Go",
           "color": "#00ADD8",
-          "size": 2586160
+          "size": 2600740
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 2508471
+          "size": 2520625
         },
         {
           "name": "Vue",
           "color": "#41b883",
-          "size": 864777
+          "size": 865513
         },
         {
           "name": "TypeScript",
@@ -38801,7 +38801,7 @@
         {
           "name": "Makefile",
           "color": "#427819",
-          "size": 5105
+          "size": 5108
         },
         {
           "name": "Dockerfile",
@@ -39133,15 +39133,15 @@
       "relevance": 14,
       "url": "https://github.com/Muuuun/luxas",
       "homepage": "https://luxas.im",
-      "stars": 1105,
+      "stars": 1106,
       "forks": 18,
-      "openIssues": 1,
+      "openIssues": 0,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-04-12T14:27:25Z",
       "pushedAt": "2026-09-06T06:04:01Z",
-      "updatedAt": "2026-09-19T14:12:55Z",
+      "updatedAt": "2026-09-19T21:25:05Z",
       "commit": "9f77cefe7f47b05b1334ec8778e642deef13da82",
       "committedAt": "2026-09-06T06:03:59Z",
       "defaultBranch": "main",
@@ -40251,15 +40251,15 @@
       "relevance": 22,
       "url": "https://github.com/Agent-Field/SWE-AF",
       "homepage": "https://agentfield.ai/",
-      "stars": 1008,
+      "stars": 1010,
       "forks": 173,
-      "openIssues": 10,
+      "openIssues": 7,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-04T16:33:08Z",
       "pushedAt": "2026-09-09T23:33:36Z",
-      "updatedAt": "2026-09-19T13:41:53Z",
+      "updatedAt": "2026-09-19T21:33:13Z",
       "commit": "311f376a2f12df01134acd80384d599dd8039178",
       "committedAt": "2026-09-09T23:33:36Z",
       "defaultBranch": "main",
@@ -40333,7 +40333,7 @@
       "homepage": "https://coral.compounding-intelligence.ai",
       "stars": 1004,
       "forks": 126,
-      "openIssues": 11,
+      "openIssues": 19,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -41035,15 +41035,15 @@
       "homepage": "https://opencrabs.com",
       "stars": 939,
       "forks": 103,
-      "openIssues": 8,
+      "openIssues": 7,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-14T00:05:58Z",
-      "pushedAt": "2026-09-19T20:36:12Z",
-      "updatedAt": "2026-09-19T16:18:59Z",
-      "commit": "b4698c569827185286cc079930d13df7870907c9",
-      "committedAt": "2026-09-19T16:02:06Z",
+      "pushedAt": "2026-09-19T21:10:31Z",
+      "updatedAt": "2026-09-19T21:10:35Z",
+      "commit": "4ceaff6d313671b528bc51dbcb2b99c6b5870bd4",
+      "committedAt": "2026-09-19T21:10:29Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.0",
@@ -41056,7 +41056,7 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 16543075
+          "size": 16547174
         },
         {
           "name": "Python",
@@ -41107,12 +41107,12 @@
       "homepage": "https://repoprompt.com",
       "stars": 936,
       "forks": 124,
-      "openIssues": 176,
+      "openIssues": 131,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-05-12T19:44:16Z",
-      "pushedAt": "2026-09-19T02:55:24Z",
+      "pushedAt": "2026-09-19T21:30:07Z",
       "updatedAt": "2026-09-19T02:55:29Z",
       "commit": "17edb5d9d9b16c17270d4dac9ca7b6ab7df7ea69",
       "committedAt": "2026-09-19T02:55:24Z",
@@ -41408,15 +41408,15 @@
       "homepage": "https://gentle-ai.gentlemanprogramming.com/",
       "stars": 930,
       "forks": 137,
-      "openIssues": 400,
+      "openIssues": 320,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-05-10T10:11:33Z",
-      "pushedAt": "2026-09-19T19:10:50Z",
-      "updatedAt": "2026-09-19T19:40:12Z",
-      "commit": "43269de359c5052d2cadb72ab4cf2d57ca0211b0",
-      "committedAt": "2026-09-19T19:10:48Z",
+      "pushedAt": "2026-09-19T21:46:34Z",
+      "updatedAt": "2026-09-19T21:46:38Z",
+      "commit": "54548321be8c8d60891e89ea13bf2b0ed10e1ac5",
+      "committedAt": "2026-09-19T21:46:33Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.2.4",
@@ -41429,7 +41429,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 5572675
+          "size": 5574544
         },
         {
           "name": "JavaScript",
@@ -41478,7 +41478,7 @@
       "homepage": "https://sam-mesh.dev/",
       "stars": 925,
       "forks": 137,
-      "openIssues": 11,
+      "openIssues": 14,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -41667,15 +41667,15 @@
       "relevance": 39,
       "url": "https://github.com/RyanAlberts/best-of-Agent-Harnesses",
       "homepage": "https://ryanalberts.github.io/best-of-Agent-Harnesses/",
-      "stars": 906,
+      "stars": 907,
       "forks": 51,
-      "openIssues": 16,
+      "openIssues": 15,
       "archived": false,
       "template": false,
       "license": "CC-BY-SA-4.0",
       "createdAt": "2026-03-07T22:55:23Z",
       "pushedAt": "2026-09-19T14:13:39Z",
-      "updatedAt": "2026-09-19T18:30:08Z",
+      "updatedAt": "2026-09-19T21:39:17Z",
       "commit": "f8419c994e049bb808e9c033d410e72911d41307",
       "committedAt": "2026-09-14T17:26:54Z",
       "defaultBranch": "main",
@@ -41876,12 +41876,12 @@
       "homepage": "https://cuga.dev",
       "stars": 879,
       "forks": 156,
-      "openIssues": 182,
+      "openIssues": 165,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2025-09-11T11:58:55Z",
-      "pushedAt": "2026-09-18T20:32:11Z",
+      "pushedAt": "2026-09-19T21:28:00Z",
       "updatedAt": "2026-09-17T14:34:14Z",
       "commit": "b3bdcaee74aaf7a53d3fb621b781d305fb714f5d",
       "committedAt": "2026-09-17T14:34:07Z",
@@ -42475,15 +42475,15 @@
       "homepage": "http://unifimcp.com/",
       "stars": 831,
       "forks": 113,
-      "openIssues": 20,
+      "openIssues": 15,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-04-21T18:41:43Z",
-      "pushedAt": "2026-09-19T20:00:48Z",
-      "updatedAt": "2026-09-19T18:30:01Z",
-      "commit": "1096fea7669bdcb02832272b9339dd07b2bb85e1",
-      "committedAt": "2026-09-19T18:26:00Z",
+      "pushedAt": "2026-09-19T21:50:49Z",
+      "updatedAt": "2026-09-19T21:50:51Z",
+      "commit": "25f66e25ce62baa5ffaafd599d87ccb7df07a0a2",
+      "committedAt": "2026-09-19T21:50:47Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.0b1",
@@ -42496,7 +42496,7 @@
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 8298660
+          "size": 8314352
         },
         {
           "name": "TypeScript",
@@ -43083,15 +43083,15 @@
       "relevance": 41,
       "url": "https://github.com/jonigl/mcp-client-for-ollama",
       "homepage": null,
-      "stars": 823,
+      "stars": 824,
       "forks": 129,
-      "openIssues": 17,
+      "openIssues": 11,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-04-23T21:05:02Z",
       "pushedAt": "2026-09-14T08:34:02Z",
-      "updatedAt": "2026-09-16T10:12:25Z",
+      "updatedAt": "2026-09-19T21:08:51Z",
       "commit": "7322a9e425cb45cc6563ea108d07b345cac2b69e",
       "committedAt": "2026-09-11T11:14:11Z",
       "defaultBranch": "main",
@@ -43382,10 +43382,10 @@
       "template": false,
       "license": "AGPL-3.0",
       "createdAt": "2026-01-09T23:26:53Z",
-      "pushedAt": "2026-09-19T20:35:25Z",
-      "updatedAt": "2026-09-19T20:35:28Z",
-      "commit": "02d260ff7dfd6b6dc04f92b0700f8f6d4b6bd0b3",
-      "committedAt": "2026-09-19T20:35:23Z",
+      "pushedAt": "2026-09-19T21:26:12Z",
+      "updatedAt": "2026-09-19T20:52:17Z",
+      "commit": "e12590e58e252191e8a8c96cd8b2751d32423843",
+      "committedAt": "2026-09-19T20:52:12Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.0.1",
@@ -43398,7 +43398,7 @@
         {
           "name": "Go",
           "color": "#00ADD8",
-          "size": 64508250
+          "size": 64527680
         },
         {
           "name": "TypeScript",
@@ -43755,7 +43755,7 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2025-10-10T00:17:03Z",
-      "pushedAt": "2026-09-19T18:51:53Z",
+      "pushedAt": "2026-09-19T21:01:55Z",
       "updatedAt": "2026-09-19T18:51:51Z",
       "commit": "afa036f8da23409a41e681ff34bce6d70475e07b",
       "committedAt": "2026-09-19T18:51:46Z",
@@ -43943,8 +43943,8 @@
       "url": "https://github.com/risa-labs-inc/BossConsole",
       "homepage": "https://bossconsole.ai",
       "stars": 783,
-      "forks": 139,
-      "openIssues": 481,
+      "forks": 140,
+      "openIssues": 496,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -44240,15 +44240,15 @@
       "relevance": 20,
       "url": "https://github.com/NVlabs/ToolOrchestra",
       "homepage": "https://research.nvidia.com/labs/lpr/ToolOrchestra/",
-      "stars": 766,
-      "forks": 108,
-      "openIssues": 19,
+      "stars": 767,
+      "forks": 109,
+      "openIssues": 15,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-11-25T23:53:41Z",
       "pushedAt": "2026-03-25T15:28:06Z",
-      "updatedAt": "2026-09-15T17:05:09Z",
+      "updatedAt": "2026-09-19T21:10:26Z",
       "commit": "c1c0a4002be128b18accb267aac5ffdc26a28103",
       "committedAt": "2026-03-25T15:06:47Z",
       "defaultBranch": "main",
@@ -44697,15 +44697,15 @@
       "relevance": 17,
       "url": "https://github.com/mensfeld/code-on-incus",
       "homepage": null,
-      "stars": 724,
+      "stars": 725,
       "forks": 63,
-      "openIssues": 22,
+      "openIssues": 19,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-01-07T09:47:42Z",
       "pushedAt": "2026-09-19T19:33:33Z",
-      "updatedAt": "2026-09-19T19:33:36Z",
+      "updatedAt": "2026-09-19T21:04:41Z",
       "commit": "cbf355382bf61d24ee181d58db86ba1477a412be",
       "committedAt": "2026-09-19T19:33:31Z",
       "defaultBranch": "master",
@@ -45031,15 +45031,15 @@
       "relevance": 13,
       "url": "https://github.com/solo-agent/solo",
       "homepage": "https://soloagent.team",
-      "stars": 682,
+      "stars": 683,
       "forks": 51,
-      "openIssues": 11,
+      "openIssues": 4,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-06-12T01:13:02Z",
       "pushedAt": "2026-09-13T00:56:53Z",
-      "updatedAt": "2026-09-19T11:07:01Z",
+      "updatedAt": "2026-09-19T21:09:57Z",
       "commit": "9d58e66769ed2479c089b531705f09223d37fff3",
       "committedAt": "2026-09-13T00:56:53Z",
       "defaultBranch": "master",
@@ -46069,15 +46069,15 @@
       "relevance": 14,
       "url": "https://github.com/sandbox-quantum/switch",
       "homepage": "https://www.flintai.dev/products/switch",
-      "stars": 642,
+      "stars": 643,
       "forks": 51,
-      "openIssues": 62,
+      "openIssues": 14,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2026-07-16T09:52:46Z",
       "pushedAt": "2026-09-19T10:45:07Z",
-      "updatedAt": "2026-09-19T16:01:37Z",
+      "updatedAt": "2026-09-19T21:07:03Z",
       "commit": "fde4e217592c9c21ddba2e055239af915a092c94",
       "committedAt": "2026-09-19T10:36:01Z",
       "defaultBranch": "main",
@@ -47287,15 +47287,15 @@
       "relevance": 32,
       "url": "https://github.com/Abilityai/trinity",
       "homepage": "https://www.ability.ai/trinity",
-      "stars": 564,
-      "forks": 101,
-      "openIssues": 307,
+      "stars": 565,
+      "forks": 102,
+      "openIssues": 275,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2025-12-10T19:58:27Z",
       "pushedAt": "2026-09-19T19:16:42Z",
-      "updatedAt": "2026-09-19T19:22:22Z",
+      "updatedAt": "2026-09-19T20:47:42Z",
       "commit": "e2e5005b0e7ef1cd658db3f8f1c4560d2d126303",
       "committedAt": "2026-09-17T19:08:22Z",
       "defaultBranch": "main",
@@ -47400,15 +47400,15 @@
       "relevance": 20,
       "url": "https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
       "homepage": null,
-      "stars": 563,
+      "stars": 564,
       "forks": 51,
-      "openIssues": 7,
+      "openIssues": 1,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-08-13T13:52:04Z",
       "pushedAt": "2026-09-15T07:30:23Z",
-      "updatedAt": "2026-09-18T05:37:25Z",
+      "updatedAt": "2026-09-19T20:40:21Z",
       "commit": "6b43562874d8b6005f7a1697f2f881c42d85a55d",
       "committedAt": "2026-09-15T07:30:11Z",
       "defaultBranch": "main",
@@ -47876,15 +47876,15 @@
       "relevance": 18,
       "url": "https://github.com/jaylfc/taOS",
       "homepage": "https://taOS.my",
-      "stars": 541,
+      "stars": 542,
       "forks": 40,
-      "openIssues": 288,
+      "openIssues": 279,
       "archived": false,
       "template": false,
       "license": "AGPL-3.0",
       "createdAt": "2026-04-05T15:33:40Z",
       "pushedAt": "2026-09-19T03:01:41Z",
-      "updatedAt": "2026-09-19T19:11:26Z",
+      "updatedAt": "2026-09-19T21:14:55Z",
       "commit": "69733a2dc470eacb003fa8d3e36ab45a3d77a069",
       "committedAt": "2026-09-16T11:38:40Z",
       "defaultBranch": "master",
@@ -48640,7 +48640,7 @@
       "homepage": "https://mantishack.com",
       "stars": 504,
       "forks": 73,
-      "openIssues": 2,
+      "openIssues": 82,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
@@ -48725,7 +48725,7 @@
       "relevance": 23,
       "url": "https://github.com/livecontext-ai/livecontext-ce",
       "homepage": "https://livecontext.ai",
-      "stars": 499,
+      "stars": 500,
       "forks": 58,
       "openIssues": 0,
       "archived": false,
@@ -48733,7 +48733,7 @@
       "license": "AGPL-3.0",
       "createdAt": "2026-06-16T15:51:27Z",
       "pushedAt": "2026-09-08T09:58:40Z",
-      "updatedAt": "2026-09-19T18:22:59Z",
+      "updatedAt": "2026-09-19T21:00:44Z",
       "commit": "354d4fb41bf74de4901c805af49ff5cfff9f0452",
       "committedAt": "2026-09-08T09:58:31Z",
       "defaultBranch": "main",
@@ -49560,15 +49560,15 @@
       "relevance": 18,
       "url": "https://github.com/autonomous-ai/openharness",
       "homepage": "https://www.autonomous.ai/harness",
-      "stars": 465,
+      "stars": 468,
       "forks": 41,
-      "openIssues": 37,
+      "openIssues": 31,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-08-04T07:53:15Z",
       "pushedAt": "2026-09-19T19:26:37Z",
-      "updatedAt": "2026-09-19T19:42:55Z",
+      "updatedAt": "2026-09-19T21:38:34Z",
       "commit": "89bfc11bc22f3496c62078c9e789361e0b3ea656",
       "committedAt": "2026-09-19T19:26:21Z",
       "defaultBranch": "main",
@@ -49731,17 +49731,17 @@
       "relevance": 23,
       "url": "https://github.com/mixpeek/amux",
       "homepage": "https://amux.io",
-      "stars": 462,
+      "stars": 463,
       "forks": 53,
-      "openIssues": 12,
+      "openIssues": 9,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2026-02-18T14:30:56Z",
-      "pushedAt": "2026-09-19T19:57:48Z",
-      "updatedAt": "2026-09-19T19:57:51Z",
-      "commit": "906cc20845b7605c340cacddf7398473ed072931",
-      "committedAt": "2026-09-19T19:57:11Z",
+      "pushedAt": "2026-09-19T21:44:36Z",
+      "updatedAt": "2026-09-19T21:44:40Z",
+      "commit": "e022e648b974580abde2214f43f80c371272bec3",
+      "committedAt": "2026-09-19T21:43:14Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.9.108",
@@ -49754,7 +49754,7 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 14638113
+          "size": 14686262
         },
         {
           "name": "HTML",
@@ -49764,7 +49764,7 @@
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 2920107
+          "size": 2923082
         },
         {
           "name": "Shell",
@@ -49774,7 +49774,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 1255259
+          "size": 1260145
         },
         {
           "name": "Python",
@@ -49784,7 +49784,7 @@
         {
           "name": "CSS",
           "color": "#663399",
-          "size": 492363
+          "size": 493104
         },
         {
           "name": "Swift",
@@ -51057,15 +51057,15 @@
       "homepage": "https://smithers.sh",
       "stars": 417,
       "forks": 49,
-      "openIssues": 14,
+      "openIssues": 12,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-01-05T21:13:36Z",
-      "pushedAt": "2026-09-19T19:53:18Z",
-      "updatedAt": "2026-09-19T19:53:22Z",
-      "commit": "eedea3fde2baf578e0af473caeca7d16d17c433d",
-      "committedAt": "2026-09-19T19:52:56Z",
+      "pushedAt": "2026-09-19T21:13:02Z",
+      "updatedAt": "2026-09-19T21:13:07Z",
+      "commit": "7e30df62cf786834a26507f05b5d22f377641f20",
+      "committedAt": "2026-09-19T21:11:47Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.0",
@@ -51078,7 +51078,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 54742196
+          "size": 54752098
         },
         {
           "name": "MDX",
@@ -53913,7 +53913,7 @@
       "homepage": "https://docs.automagik.dev/genie",
       "stars": 338,
       "forks": 50,
-      "openIssues": 4,
+      "openIssues": 11,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -55965,7 +55965,7 @@
       "homepage": "https://pi-dashboard.dev/",
       "stars": 294,
       "forks": 44,
-      "openIssues": 40,
+      "openIssues": 47,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -56862,33 +56862,33 @@
       "homepage": "https://orchestkit.yonyon.ai",
       "stars": 278,
       "forks": 33,
-      "openIssues": 87,
+      "openIssues": 73,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2025-12-31T05:58:52Z",
-      "pushedAt": "2026-09-19T20:30:54Z",
-      "updatedAt": "2026-09-19T20:30:51Z",
-      "commit": "0ec5f1547c40cd041cf27a5a51691ff110f645d7",
-      "committedAt": "2026-09-19T20:30:46Z",
+      "pushedAt": "2026-09-19T21:44:17Z",
+      "updatedAt": "2026-09-19T21:43:59Z",
+      "commit": "6e0ee79824a578eea5b303b606ce68be132e5932",
+      "committedAt": "2026-09-19T21:43:54Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v6.0.24",
         "publishedAt": "2026-02-19T19:35:54Z"
       },
-      "releaseCount": 462,
+      "releaseCount": 465,
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 7093087
+          "size": 7097997
         },
         {
           "name": "Shell",
           "color": "#89e051",
-          "size": 3923809
+          "size": 3929099
         },
         {
           "name": "Python",
@@ -57107,7 +57107,7 @@
       "homepage": null,
       "stars": 271,
       "forks": 28,
-      "openIssues": 14,
+      "openIssues": 15,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -58408,7 +58408,7 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2025-03-19T11:20:50Z",
-      "pushedAt": "2026-09-19T20:44:00Z",
+      "pushedAt": "2026-09-19T21:46:46Z",
       "updatedAt": "2026-08-30T21:22:15Z",
       "commit": "60da57a6dacd3f7796fffd9d198c0a7420aa6aad",
       "committedAt": "2026-05-29T16:31:05Z",
@@ -59323,12 +59323,12 @@
       "homepage": "https://bitrouter.ai",
       "stars": 228,
       "forks": 17,
-      "openIssues": 35,
+      "openIssues": 24,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-03-06T20:04:01Z",
-      "pushedAt": "2026-09-19T20:18:57Z",
+      "pushedAt": "2026-09-19T21:48:12Z",
       "updatedAt": "2026-09-19T13:57:39Z",
       "commit": "2b01d2e6eab72274fb4b3571534fb5c9e656746b",
       "committedAt": "2026-09-17T19:20:46Z",
@@ -59981,15 +59981,15 @@
       "homepage": "https://www.mulmoterminal.com",
       "stars": 221,
       "forks": 30,
-      "openIssues": 55,
+      "openIssues": 53,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-06-14T12:39:37Z",
-      "pushedAt": "2026-09-19T20:40:44Z",
-      "updatedAt": "2026-09-19T20:10:49Z",
-      "commit": "16bf31aed2446eadf14feca2fe82e7425d6e046a",
-      "committedAt": "2026-09-19T20:10:44Z",
+      "pushedAt": "2026-09-19T21:33:03Z",
+      "updatedAt": "2026-09-19T21:18:35Z",
+      "commit": "3988096447d007d9a25698511b9244aa5a2a2f7a",
+      "committedAt": "2026-09-19T21:18:30Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "mulmoterminal@0.1.0",
@@ -60002,7 +60002,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 12464545
+          "size": 12496911
         },
         {
           "name": "Vue",
@@ -60012,7 +60012,7 @@
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 214700
+          "size": 216299
         },
         {
           "name": "CSS",
@@ -62912,58 +62912,6 @@
       ]
     },
     {
-      "fullName": "amitshekhariitbhu/ai-agents-tutorial",
-      "owner": "amitshekhariitbhu",
-      "name": "ai-agents-tutorial",
-      "description": "Learn AI Agents step by step, from scratch - from function calling to agent loops to multi-agent systems, orchestration, and evaluation.",
-      "relevance": 28,
-      "url": "https://github.com/amitshekhariitbhu/ai-agents-tutorial",
-      "homepage": "https://outcomeschool.com/program/ai-and-machine-learning",
-      "stars": 179,
-      "forks": 43,
-      "openIssues": 0,
-      "archived": false,
-      "template": false,
-      "license": "Apache-2.0",
-      "createdAt": "2026-07-02T04:58:22Z",
-      "pushedAt": "2026-09-16T07:03:34Z",
-      "updatedAt": "2026-09-18T05:41:22Z",
-      "commit": "812844399775a27de6683baaacd393fa6062e0e7",
-      "committedAt": "2026-09-16T07:03:34Z",
-      "defaultBranch": "main",
-      "latestRelease": null,
-      "releaseCount": 0,
-      "language": null,
-      "languageColor": null,
-      "languages": [],
-      "stack": [],
-      "signals": [
-        "licensed"
-      ],
-      "layer": "orchestration",
-      "layers": [
-        {
-          "id": "orchestration",
-          "label": "Orchestration",
-          "score": 8
-        },
-        {
-          "id": "eval",
-          "label": "Eval & Tracing",
-          "score": 4
-        },
-        {
-          "id": "tools",
-          "label": "Tools & MCP",
-          "score": 1
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: agent-orchestration"
-      ]
-    },
-    {
       "fullName": "KbWen/agentic-os",
       "owner": "KbWen",
       "name": "agentic-os",
@@ -62971,15 +62919,15 @@
       "relevance": 42,
       "url": "https://github.com/KbWen/agentic-os",
       "homepage": null,
-      "stars": 179,
+      "stars": 180,
       "forks": 42,
-      "openIssues": 9,
+      "openIssues": 8,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-04-12T03:32:25Z",
       "pushedAt": "2026-09-14T14:35:06Z",
-      "updatedAt": "2026-09-19T00:37:53Z",
+      "updatedAt": "2026-09-19T21:17:04Z",
       "commit": "851dcca0bf5af7a257e0a632590202d6bb01d942",
       "committedAt": "2026-09-14T06:16:07Z",
       "defaultBranch": "main",
@@ -63036,6 +62984,58 @@
       "classifierVersion": "1.0.0",
       "discoveredVia": [
         "topic: agent-framework",
+        "topic: agent-orchestration"
+      ]
+    },
+    {
+      "fullName": "amitshekhariitbhu/ai-agents-tutorial",
+      "owner": "amitshekhariitbhu",
+      "name": "ai-agents-tutorial",
+      "description": "Learn AI Agents step by step, from scratch - from function calling to agent loops to multi-agent systems, orchestration, and evaluation.",
+      "relevance": 28,
+      "url": "https://github.com/amitshekhariitbhu/ai-agents-tutorial",
+      "homepage": "https://outcomeschool.com/program/ai-and-machine-learning",
+      "stars": 179,
+      "forks": 43,
+      "openIssues": 0,
+      "archived": false,
+      "template": false,
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-02T04:58:22Z",
+      "pushedAt": "2026-09-16T07:03:34Z",
+      "updatedAt": "2026-09-18T05:41:22Z",
+      "commit": "812844399775a27de6683baaacd393fa6062e0e7",
+      "committedAt": "2026-09-16T07:03:34Z",
+      "defaultBranch": "main",
+      "latestRelease": null,
+      "releaseCount": 0,
+      "language": null,
+      "languageColor": null,
+      "languages": [],
+      "stack": [],
+      "signals": [
+        "licensed"
+      ],
+      "layer": "orchestration",
+      "layers": [
+        {
+          "id": "orchestration",
+          "label": "Orchestration",
+          "score": 8
+        },
+        {
+          "id": "eval",
+          "label": "Eval & Tracing",
+          "score": 4
+        },
+        {
+          "id": "tools",
+          "label": "Tools & MCP",
+          "score": 1
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
         "topic: agent-orchestration"
       ]
     },
@@ -63475,6 +63475,99 @@
       ]
     },
     {
+      "fullName": "amirfish1/claude-command-center",
+      "owner": "amirfish1",
+      "name": "claude-command-center",
+      "description": "Manage and orchestrate your Claude Code, Codex, Cursor, Antigravity, Kimi, Grok, Devin, Droid sessions on your Machine. Spawn in parallel, ship in parallel. Open source.",
+      "relevance": 14,
+      "url": "https://github.com/amirfish1/claude-command-center",
+      "homepage": "https://ccc.amirfish.ai",
+      "stars": 166,
+      "forks": 17,
+      "openIssues": 1,
+      "archived": false,
+      "template": false,
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-13T16:16:04Z",
+      "pushedAt": "2026-09-19T21:25:24Z",
+      "updatedAt": "2026-09-19T21:25:32Z",
+      "commit": "0fccd3619598731ffcd703486eba4bc7c0217efa",
+      "committedAt": "2026-09-19T21:23:28Z",
+      "defaultBranch": "main",
+      "latestRelease": {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-04-23T02:23:17Z"
+      },
+      "releaseCount": 67,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "languages": [
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "size": 9719739
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 5015455
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 1268474
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 722665
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "size": 128865
+        },
+        {
+          "name": "Swift",
+          "color": "#F05138",
+          "size": 63514
+        },
+        {
+          "name": "PowerShell",
+          "color": "#012456",
+          "size": 11306
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "size": 9216
+        }
+      ],
+      "stack": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions"
+      ],
+      "signals": [
+        "ci",
+        "docker",
+        "licensed",
+        "released"
+      ],
+      "layer": "orchestration",
+      "layers": [
+        {
+          "id": "orchestration",
+          "label": "Orchestration",
+          "score": 4
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: agent-orchestration"
+      ]
+    },
+    {
       "fullName": "muxi-ai/muxi",
       "owner": "muxi-ai",
       "name": "muxi",
@@ -63532,99 +63625,6 @@
       "classifierVersion": "1.0.0",
       "discoveredVia": [
         "topic: agent-framework",
-        "topic: agent-orchestration"
-      ]
-    },
-    {
-      "fullName": "amirfish1/claude-command-center",
-      "owner": "amirfish1",
-      "name": "claude-command-center",
-      "description": "Manage and orchestrate your Claude Code, Codex, Cursor, Antigravity, Kimi, Grok, Devin, Droid sessions on your Machine. Spawn in parallel, ship in parallel. Open source.",
-      "relevance": 14,
-      "url": "https://github.com/amirfish1/claude-command-center",
-      "homepage": "https://ccc.amirfish.ai",
-      "stars": 165,
-      "forks": 17,
-      "openIssues": 3,
-      "archived": false,
-      "template": false,
-      "license": "NOASSERTION",
-      "createdAt": "2026-04-13T16:16:04Z",
-      "pushedAt": "2026-09-19T14:12:11Z",
-      "updatedAt": "2026-09-19T13:14:54Z",
-      "commit": "9b3a052c70ac60a9bd74ad4350e04cf6fc81a7fc",
-      "committedAt": "2026-09-19T13:14:49Z",
-      "defaultBranch": "main",
-      "latestRelease": {
-        "tag": "v0.1.0",
-        "publishedAt": "2026-04-23T02:23:17Z"
-      },
-      "releaseCount": 67,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "languages": [
-        {
-          "name": "Python",
-          "color": "#3572A5",
-          "size": 9700330
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 4967114
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 1256020
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 722228
-        },
-        {
-          "name": "Shell",
-          "color": "#89e051",
-          "size": 128865
-        },
-        {
-          "name": "Swift",
-          "color": "#F05138",
-          "size": 63514
-        },
-        {
-          "name": "PowerShell",
-          "color": "#012456",
-          "size": 11306
-        },
-        {
-          "name": "Dockerfile",
-          "color": "#384d54",
-          "size": 9216
-        }
-      ],
-      "stack": [
-        "Docker",
-        "Docker Compose",
-        "GitHub Actions"
-      ],
-      "signals": [
-        "ci",
-        "docker",
-        "licensed",
-        "released"
-      ],
-      "layer": "orchestration",
-      "layers": [
-        {
-          "id": "orchestration",
-          "label": "Orchestration",
-          "score": 4
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
         "topic: agent-orchestration"
       ]
     },
@@ -64452,10 +64452,10 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-04-16T13:47:22Z",
-      "pushedAt": "2026-09-19T20:37:51Z",
-      "updatedAt": "2026-09-19T20:37:53Z",
-      "commit": "74378084419c21277419319226e99e6d7a79a94a",
-      "committedAt": "2026-09-19T20:37:48Z",
+      "pushedAt": "2026-09-19T21:35:42Z",
+      "updatedAt": "2026-09-19T21:35:44Z",
+      "commit": "a35d5061222086e1e634e2b2cf527e43adf6bf07",
+      "committedAt": "2026-09-19T21:35:39Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "agent-v0.1.10",
@@ -64468,7 +64468,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 66291558
+          "size": 66295121
         },
         {
           "name": "PLpgSQL",
@@ -64615,10 +64615,10 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2025-06-02T18:42:33Z",
-      "pushedAt": "2026-09-19T19:45:56Z",
-      "updatedAt": "2026-09-19T19:46:00Z",
-      "commit": "6726a36348b2f69b211c22c4658e57d2cba0c200",
-      "committedAt": "2026-09-19T19:45:51Z",
+      "pushedAt": "2026-09-19T21:26:55Z",
+      "updatedAt": "2026-09-19T21:26:59Z",
+      "commit": "e8d38a6d544c65030bdd40082fd46afbe27c2b42",
+      "committedAt": "2026-09-19T21:26:50Z",
       "defaultBranch": "development",
       "latestRelease": {
         "tag": "v0.1.0",
@@ -64631,7 +64631,7 @@
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 116406
+          "size": 114144
         },
         {
           "name": "JavaScript",
@@ -64661,7 +64661,7 @@
       "relevance": 14,
       "url": "https://github.com/mini-harness/mini-harness",
       "homepage": null,
-      "stars": 155,
+      "stars": 156,
       "forks": 16,
       "openIssues": 0,
       "archived": false,
@@ -64669,7 +64669,7 @@
       "license": null,
       "createdAt": "2026-09-05T01:28:05Z",
       "pushedAt": "2026-09-11T16:24:05Z",
-      "updatedAt": "2026-09-19T19:02:34Z",
+      "updatedAt": "2026-09-19T20:46:44Z",
       "commit": "340d2d9f1bcc833483d2924770448fcf4ef788be",
       "committedAt": "2026-09-11T16:23:59Z",
       "defaultBranch": "main",
@@ -66737,6 +66737,100 @@
       ]
     },
     {
+      "fullName": "agents-universe/agents-universe",
+      "owner": "agents-universe",
+      "name": "agents-universe",
+      "description": "共享智能体，共享项目上下文，让项目所有成员一起协同工作。同时智能体会像人一样通过资料或者工作抽象和总结经验到项目上下文中",
+      "relevance": 20,
+      "url": "https://github.com/agents-universe/agents-universe",
+      "homepage": "https://agent.agents-universe.com/",
+      "stars": 137,
+      "forks": 1,
+      "openIssues": 0,
+      "archived": false,
+      "template": false,
+      "license": "Apache-2.0",
+      "createdAt": "2026-09-10T12:45:40Z",
+      "pushedAt": "2026-09-16T23:53:19Z",
+      "updatedAt": "2026-09-19T21:30:59Z",
+      "commit": "f09726d6aaa9831d8bc3dc11dcc7cbb424a38954",
+      "committedAt": "2026-09-16T23:53:16Z",
+      "defaultBranch": "main",
+      "latestRelease": null,
+      "releaseCount": 0,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "languages": [
+        {
+          "name": "Python",
+          "color": "#3572A5",
+          "size": 3322842
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 469395
+        },
+        {
+          "name": "Vue",
+          "color": "#41b883",
+          "size": 390196
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 125317
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54",
+          "size": 17966
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "size": 5008
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 1165
+        },
+        {
+          "name": "Mako",
+          "color": "#7e858d",
+          "size": 593
+        }
+      ],
+      "stack": [
+        "Docker",
+        "GitHub Actions"
+      ],
+      "signals": [
+        "ci",
+        "docker",
+        "licensed"
+      ],
+      "layer": "orchestration",
+      "layers": [
+        {
+          "id": "orchestration",
+          "label": "Orchestration",
+          "score": 3
+        },
+        {
+          "id": "governance",
+          "label": "Governance",
+          "score": 3
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: agent-framework",
+        "topic: agent-orchestration"
+      ]
+    },
+    {
       "fullName": "inngest/utah",
       "owner": "inngest",
       "name": "utah",
@@ -66898,100 +66992,6 @@
       "classifierVersion": "1.0.0",
       "discoveredVia": [
         "topic: llm-agent"
-      ]
-    },
-    {
-      "fullName": "agents-universe/agents-universe",
-      "owner": "agents-universe",
-      "name": "agents-universe",
-      "description": "共享智能体，共享项目上下文，让项目所有成员一起协同工作。同时智能体会像人一样通过资料或者工作抽象和总结经验到项目上下文中",
-      "relevance": 20,
-      "url": "https://github.com/agents-universe/agents-universe",
-      "homepage": "https://agent.agents-universe.com/",
-      "stars": 135,
-      "forks": 1,
-      "openIssues": 0,
-      "archived": false,
-      "template": false,
-      "license": "Apache-2.0",
-      "createdAt": "2026-09-10T12:45:40Z",
-      "pushedAt": "2026-09-16T23:53:19Z",
-      "updatedAt": "2026-09-19T20:26:53Z",
-      "commit": "f09726d6aaa9831d8bc3dc11dcc7cbb424a38954",
-      "committedAt": "2026-09-16T23:53:16Z",
-      "defaultBranch": "main",
-      "latestRelease": null,
-      "releaseCount": 0,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "languages": [
-        {
-          "name": "Python",
-          "color": "#3572A5",
-          "size": 3322842
-        },
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 469395
-        },
-        {
-          "name": "Vue",
-          "color": "#41b883",
-          "size": 390196
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 125317
-        },
-        {
-          "name": "Dockerfile",
-          "color": "#384d54",
-          "size": 17966
-        },
-        {
-          "name": "Shell",
-          "color": "#89e051",
-          "size": 5008
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 1165
-        },
-        {
-          "name": "Mako",
-          "color": "#7e858d",
-          "size": 593
-        }
-      ],
-      "stack": [
-        "Docker",
-        "GitHub Actions"
-      ],
-      "signals": [
-        "ci",
-        "docker",
-        "licensed"
-      ],
-      "layer": "orchestration",
-      "layers": [
-        {
-          "id": "orchestration",
-          "label": "Orchestration",
-          "score": 3
-        },
-        {
-          "id": "governance",
-          "label": "Governance",
-          "score": 3
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: agent-framework",
-        "topic: agent-orchestration"
       ]
     },
     {
@@ -68375,10 +68375,10 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2026-02-28T13:11:17Z",
-      "pushedAt": "2026-09-19T20:11:13Z",
-      "updatedAt": "2026-09-19T20:11:15Z",
-      "commit": "98349de9148f980e7b6d08dd2d7fa5df4400dabe",
-      "committedAt": "2026-09-19T20:11:11Z",
+      "pushedAt": "2026-09-19T21:24:12Z",
+      "updatedAt": "2026-09-19T21:24:08Z",
+      "commit": "e5a769444878f3ffbcc58042e27e0cd1ccd28758",
+      "committedAt": "2026-09-19T21:24:03Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.4.0",
@@ -68608,10 +68608,10 @@
       "template": false,
       "license": null,
       "createdAt": "2026-06-28T13:04:32Z",
-      "pushedAt": "2026-09-19T18:22:24Z",
-      "updatedAt": "2026-09-19T18:22:28Z",
-      "commit": "37489caaa1f70f808920eea712588bafe4937527",
-      "committedAt": "2026-09-19T18:22:24Z",
+      "pushedAt": "2026-09-19T21:15:01Z",
+      "updatedAt": "2026-09-19T21:15:04Z",
+      "commit": "6b250e659835c5452e2252193e99363308593fab",
+      "committedAt": "2026-09-19T21:15:01Z",
       "defaultBranch": "main",
       "latestRelease": null,
       "releaseCount": 0,
@@ -71018,24 +71018,24 @@
       ]
     },
     {
-      "fullName": "agentscope-java/agentscope-java",
-      "owner": "agentscope-java",
+      "fullName": "agentscope-ai-java/agentscope-java",
+      "owner": "agentscope-ai-java",
       "name": "agentscope-java",
       "description": "Build distributed, production-grade, long-running agents.",
       "relevance": 19,
-      "url": "https://github.com/agentscope-java/agentscope-java",
+      "url": "https://github.com/agentscope-ai-java/agentscope-java",
       "homepage": "https://java.agentscope.io/",
       "stars": 109,
       "forks": 2,
-      "openIssues": 20,
+      "openIssues": 0,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-09-14T10:55:50Z",
-      "pushedAt": "2026-09-19T20:12:39Z",
-      "updatedAt": "2026-09-19T20:12:43Z",
-      "commit": "8da0d360cd7b3858437c6f4edbf550b856a74afa",
-      "committedAt": "2026-09-19T20:12:34Z",
+      "pushedAt": "2026-09-19T21:26:40Z",
+      "updatedAt": "2026-09-19T21:26:45Z",
+      "commit": "49b0e54f62bb54a46681086bf1b4f948cfac6a44",
+      "committedAt": "2026-09-19T21:20:43Z",
       "defaultBranch": "master",
       "latestRelease": null,
       "releaseCount": 0,
@@ -71045,42 +71045,42 @@
         {
           "name": "Java",
           "color": "#b07219",
-          "size": 21288763
-        },
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 1590817
+          "size": 22469196
         },
         {
           "name": "Go",
           "color": "#00ADD8",
-          "size": 1476719
+          "size": 4587354
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 2798228
         },
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 252559
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 33939
+          "size": 322530
         },
         {
           "name": "Shell",
           "color": "#89e051",
-          "size": 24892
+          "size": 36688
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 33097
         },
         {
           "name": "JavaScript",
           "color": "#f1e05a",
-          "size": 10796
+          "size": 31185
         },
         {
           "name": "CSS",
           "color": "#663399",
-          "size": 10620
+          "size": 12020
         }
       ],
       "stack": [
@@ -72771,7 +72771,7 @@
       "homepage": "https://rustchain.org",
       "stars": 103,
       "forks": 65,
-      "openIssues": 22,
+      "openIssues": 23,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -73445,7 +73445,7 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-09T09:09:53Z",
-      "pushedAt": "2026-09-19T20:32:43Z",
+      "pushedAt": "2026-09-19T21:31:52Z",
       "updatedAt": "2026-09-18T04:31:19Z",
       "commit": "716806d7b6ec00d3aa1b1f6851a203c08fc8bbc9",
       "committedAt": "2026-09-14T11:42:49Z",
@@ -75815,7 +75815,7 @@
       "relevance": 15,
       "url": "https://github.com/eight-acres-lab/openmelon",
       "homepage": "https://pointeight.ai",
-      "stars": 87,
+      "stars": 88,
       "forks": 10,
       "openIssues": 0,
       "archived": false,
@@ -75823,7 +75823,7 @@
       "license": "Apache-2.0",
       "createdAt": "2026-04-25T17:32:17Z",
       "pushedAt": "2026-05-11T13:28:51Z",
-      "updatedAt": "2026-09-04T15:32:11Z",
+      "updatedAt": "2026-09-19T20:44:36Z",
       "commit": "1ed62643f28b9d88997bd2b06a8d8045ad283a65",
       "committedAt": "2026-05-11T13:28:51Z",
       "defaultBranch": "main",
@@ -78258,12 +78258,12 @@
       "homepage": "https://paneflow.dev",
       "stars": 78,
       "forks": 11,
-      "openIssues": 4,
+      "openIssues": 3,
       "archived": false,
       "template": false,
       "license": "GPL-3.0",
       "createdAt": "2026-04-01T19:13:42Z",
-      "pushedAt": "2026-09-19T11:42:45Z",
+      "pushedAt": "2026-09-19T21:11:16Z",
       "updatedAt": "2026-09-19T07:39:08Z",
       "commit": "d15216e9063d9fe519ea0e82fb4b4295fac3e81c",
       "committedAt": "2026-09-18T17:06:38Z",
@@ -79929,15 +79929,15 @@
       "homepage": "https://squads.sh/pt/nirvana-os",
       "stars": 73,
       "forks": 24,
-      "openIssues": 21,
+      "openIssues": 6,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
       "createdAt": "2026-06-16T04:46:29Z",
-      "pushedAt": "2026-09-19T01:39:27Z",
-      "updatedAt": "2026-09-19T01:39:27Z",
-      "commit": "8b6eaf9193320309fdbff73106a2bf392942d645",
-      "committedAt": "2026-09-19T01:39:23Z",
+      "pushedAt": "2026-09-19T21:33:33Z",
+      "updatedAt": "2026-09-19T21:33:35Z",
+      "commit": "f7c0ada61951f79f5b85fbd50a6a380da0785aaa",
+      "committedAt": "2026-09-19T21:33:31Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.20",
@@ -80219,6 +80219,96 @@
       ]
     },
     {
+      "fullName": "HCF-STUDIOS/openhermit",
+      "owner": "HCF-STUDIOS",
+      "name": "openhermit",
+      "description": "OpenHermit is the open-source platform for deploying fleets of AI agents as production services — durable state, sandboxed execution, managed at scale, and the channels you already use.",
+      "relevance": 36,
+      "url": "https://github.com/HCF-STUDIOS/openhermit",
+      "homepage": "https://openhermit.ai",
+      "stars": 72,
+      "forks": 15,
+      "openIssues": 0,
+      "archived": false,
+      "template": false,
+      "license": "MIT",
+      "createdAt": "2026-03-07T15:38:58Z",
+      "pushedAt": "2026-09-19T15:22:39Z",
+      "updatedAt": "2026-09-19T20:59:22Z",
+      "commit": "df95240906b798e6bb3f0134a3325b4b77cfcf7c",
+      "committedAt": "2026-09-19T15:22:32Z",
+      "defaultBranch": "main",
+      "latestRelease": null,
+      "releaseCount": 0,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 3566770
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 75232
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 8579
+        },
+        {
+          "name": "PLpgSQL",
+          "color": "#336790",
+          "size": 6531
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 1258
+        }
+      ],
+      "stack": [
+        "Docker Compose"
+      ],
+      "signals": [
+        "licensed"
+      ],
+      "layer": "sandbox",
+      "layers": [
+        {
+          "id": "sandbox",
+          "label": "Sandboxing",
+          "score": 7
+        },
+        {
+          "id": "orchestration",
+          "label": "Orchestration",
+          "score": 6
+        },
+        {
+          "id": "tools",
+          "label": "Tools & MCP",
+          "score": 3
+        },
+        {
+          "id": "protocol",
+          "label": "Protocols",
+          "score": 3
+        },
+        {
+          "id": "runtime",
+          "label": "Runtime",
+          "score": 1
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "topic: agent-framework"
+      ]
+    },
+    {
       "fullName": "Junhanliu-dev/espalier-engineering",
       "owner": "Junhanliu-dev",
       "name": "espalier-engineering",
@@ -80475,96 +80565,6 @@
       "classifierVersion": "1.0.0",
       "discoveredVia": [
         "topic: agent-runtime"
-      ]
-    },
-    {
-      "fullName": "HCF-STUDIOS/openhermit",
-      "owner": "HCF-STUDIOS",
-      "name": "openhermit",
-      "description": "OpenHermit is the open-source platform for deploying fleets of AI agents as production services — durable state, sandboxed execution, managed at scale, and the channels you already use.",
-      "relevance": 36,
-      "url": "https://github.com/HCF-STUDIOS/openhermit",
-      "homepage": "https://openhermit.ai",
-      "stars": 71,
-      "forks": 15,
-      "openIssues": 1,
-      "archived": false,
-      "template": false,
-      "license": "MIT",
-      "createdAt": "2026-03-07T15:38:58Z",
-      "pushedAt": "2026-09-19T15:22:39Z",
-      "updatedAt": "2026-09-19T18:34:35Z",
-      "commit": "df95240906b798e6bb3f0134a3325b4b77cfcf7c",
-      "committedAt": "2026-09-19T15:22:32Z",
-      "defaultBranch": "main",
-      "latestRelease": null,
-      "releaseCount": 0,
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "languages": [
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 3566770
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 75232
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 8579
-        },
-        {
-          "name": "PLpgSQL",
-          "color": "#336790",
-          "size": 6531
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 1258
-        }
-      ],
-      "stack": [
-        "Docker Compose"
-      ],
-      "signals": [
-        "licensed"
-      ],
-      "layer": "sandbox",
-      "layers": [
-        {
-          "id": "sandbox",
-          "label": "Sandboxing",
-          "score": 7
-        },
-        {
-          "id": "orchestration",
-          "label": "Orchestration",
-          "score": 6
-        },
-        {
-          "id": "tools",
-          "label": "Tools & MCP",
-          "score": 3
-        },
-        {
-          "id": "protocol",
-          "label": "Protocols",
-          "score": 3
-        },
-        {
-          "id": "runtime",
-          "label": "Runtime",
-          "score": 1
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "topic: agent-framework"
       ]
     },
     {
@@ -82262,15 +82262,15 @@
       "homepage": "https://github.com/tinyhumansai/tinyagents/wiki",
       "stars": 58,
       "forks": 18,
-      "openIssues": 7,
+      "openIssues": 4,
       "archived": false,
       "template": false,
       "license": "GPL-3.0",
       "createdAt": "2026-06-29T04:42:44Z",
-      "pushedAt": "2026-09-19T19:53:11Z",
-      "updatedAt": "2026-09-19T19:53:24Z",
-      "commit": "1d63a4a01e3ac01236a46132ffd3416d666cb640",
-      "committedAt": "2026-09-19T19:53:10Z",
+      "pushedAt": "2026-09-19T21:41:27Z",
+      "updatedAt": "2026-09-19T21:41:35Z",
+      "commit": "9483a5694f51baf609700958177863c963d83a06",
+      "committedAt": "2026-09-19T21:41:27Z",
       "defaultBranch": "main",
       "latestRelease": null,
       "releaseCount": 0,
@@ -82280,7 +82280,7 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 5953988
+          "size": 6205710
         }
       ],
       "stack": [
@@ -82386,7 +82386,7 @@
       "homepage": "https://github.com/Growth-Circle/cadis#readme",
       "stars": 57,
       "forks": 12,
-      "openIssues": 2595,
+      "openIssues": 2661,
       "archived": false,
       "template": false,
       "license": "NOASSERTION",
@@ -82855,28 +82855,28 @@
       "homepage": "https://agentafk.com",
       "stars": 55,
       "forks": 13,
-      "openIssues": 45,
+      "openIssues": 34,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-06-05T10:42:23Z",
-      "pushedAt": "2026-09-19T16:24:08Z",
-      "updatedAt": "2026-09-19T15:26:38Z",
-      "commit": "5c865f48590b72292956a27e7f4ac0050fb2973e",
-      "committedAt": "2026-09-19T15:26:34Z",
+      "pushedAt": "2026-09-19T21:11:41Z",
+      "updatedAt": "2026-09-19T21:09:40Z",
+      "commit": "346d398431af6416a631ebd1cc0cc8a4a8eae7d8",
+      "committedAt": "2026-09-19T21:09:35Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v3.81.0",
         "publishedAt": "2026-06-05T20:07:49Z"
       },
-      "releaseCount": 808,
+      "releaseCount": 810,
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 23728141
+          "size": 23816191
         },
         {
           "name": "MDX",
@@ -83084,15 +83084,15 @@
       "homepage": "https://whyihaveyou.github.io/dsh-suite/",
       "stars": 55,
       "forks": 13,
-      "openIssues": 5,
+      "openIssues": 3,
       "archived": false,
       "template": false,
       "license": "MIT",
       "createdAt": "2026-08-13T13:32:50Z",
-      "pushedAt": "2026-09-19T18:04:57Z",
-      "updatedAt": "2026-09-19T18:05:02Z",
-      "commit": "0dac1cd6507f3024bf056be86097360381a3c2bc",
-      "committedAt": "2026-09-19T18:04:54Z",
+      "pushedAt": "2026-09-19T20:44:18Z",
+      "updatedAt": "2026-09-19T20:44:23Z",
+      "commit": "9d15333f13825101ae2480511ae73ea200edd115",
+      "committedAt": "2026-09-19T20:44:16Z",
       "defaultBranch": "main",
       "latestRelease": null,
       "releaseCount": 0,
@@ -83102,7 +83102,7 @@
         {
           "name": "HTML",
           "color": "#e34c26",
-          "size": 10890867
+          "size": 10890903
         },
         {
           "name": "JavaScript",
@@ -84144,28 +84144,28 @@
       "homepage": "https://superqode.dev",
       "stars": 50,
       "forks": 10,
-      "openIssues": 2,
+      "openIssues": 0,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-01-19T10:51:41Z",
-      "pushedAt": "2026-09-19T19:46:45Z",
-      "updatedAt": "2026-09-19T19:46:24Z",
-      "commit": "39e2db2d26733231f979b4188cb1b17cf80f5627",
-      "committedAt": "2026-09-19T19:46:19Z",
+      "pushedAt": "2026-09-19T21:38:43Z",
+      "updatedAt": "2026-09-19T21:38:23Z",
+      "commit": "51e39c309d8892bbaa84e83c28cb63181e49ddaf",
+      "committedAt": "2026-09-19T21:38:19Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.3",
         "publishedAt": "2026-01-26T12:31:52Z"
       },
-      "releaseCount": 78,
+      "releaseCount": 79,
       "language": "Python",
       "languageColor": "#3572A5",
       "languages": [
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 13262329
+          "size": 13337214
         },
         {
           "name": "Shell",
@@ -84345,7 +84345,7 @@
       "homepage": "https://everruns.com/",
       "stars": 48,
       "forks": 5,
-      "openIssues": 12,
+      "openIssues": 13,
       "archived": false,
       "template": false,
       "license": "MIT",
@@ -84983,7 +84983,7 @@
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-04-10T05:11:13Z",
-      "pushedAt": "2026-09-19T20:28:26Z",
+      "pushedAt": "2026-09-19T21:21:43Z",
       "updatedAt": "2026-09-19T12:54:30Z",
       "commit": "d3fc5aa0c94da5c388e35bab9d53b8d1daee449d",
       "committedAt": "2026-09-07T18:58:06Z",
@@ -87228,6 +87228,81 @@
       ]
     },
     {
+      "fullName": "blundergoat/goat-flow",
+      "owner": "blundergoat",
+      "name": "goat-flow",
+      "description": "A structured workflow system for AI coding agents - harness engineering, execution loop, skills, hooks, and a learning loop. Works with Claude Code, Codex, Antigravity CLI, Copilot.",
+      "relevance": 27,
+      "url": "https://github.com/blundergoat/goat-flow",
+      "homepage": "https://goat-flow.com",
+      "stars": 33,
+      "forks": 2,
+      "openIssues": 1,
+      "archived": false,
+      "template": false,
+      "license": "MIT",
+      "createdAt": "2026-03-19T19:17:49Z",
+      "pushedAt": "2026-09-19T20:22:03Z",
+      "updatedAt": "2026-09-19T21:38:50Z",
+      "commit": "839fc59624034408e632617af0f8e9e273c37a49",
+      "committedAt": "2026-08-19T20:37:40Z",
+      "defaultBranch": "main",
+      "latestRelease": {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-03-20T05:31:43Z"
+      },
+      "releaseCount": 50,
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "size": 6056288
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051",
+          "size": 1332411
+        },
+        {
+          "name": "HTML",
+          "color": "#e34c26",
+          "size": 364422
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f1e05a",
+          "size": 291503
+        },
+        {
+          "name": "CSS",
+          "color": "#663399",
+          "size": 124813
+        }
+      ],
+      "stack": [
+        "GitHub Actions"
+      ],
+      "signals": [
+        "ci",
+        "licensed",
+        "released"
+      ],
+      "layer": "governance",
+      "layers": [
+        {
+          "id": "governance",
+          "label": "Governance",
+          "score": 3
+        }
+      ],
+      "classifierVersion": "1.0.0",
+      "discoveredVia": [
+        "phrase: agent harness"
+      ]
+    },
+    {
       "fullName": "krzysztofdudek/Yggdrasil",
       "owner": "krzysztofdudek",
       "name": "Yggdrasil",
@@ -87667,81 +87742,6 @@
       ]
     },
     {
-      "fullName": "blundergoat/goat-flow",
-      "owner": "blundergoat",
-      "name": "goat-flow",
-      "description": "A structured workflow system for AI coding agents - harness engineering, execution loop, skills, hooks, and a learning loop. Works with Claude Code, Codex, Antigravity CLI, Copilot.",
-      "relevance": 27,
-      "url": "https://github.com/blundergoat/goat-flow",
-      "homepage": "https://goat-flow.com",
-      "stars": 32,
-      "forks": 2,
-      "openIssues": 2,
-      "archived": false,
-      "template": false,
-      "license": "MIT",
-      "createdAt": "2026-03-19T19:17:49Z",
-      "pushedAt": "2026-09-19T20:22:03Z",
-      "updatedAt": "2026-09-17T02:08:56Z",
-      "commit": "839fc59624034408e632617af0f8e9e273c37a49",
-      "committedAt": "2026-08-19T20:37:40Z",
-      "defaultBranch": "main",
-      "latestRelease": {
-        "tag": "v0.1.0",
-        "publishedAt": "2026-03-20T05:31:43Z"
-      },
-      "releaseCount": 50,
-      "language": "TypeScript",
-      "languageColor": "#3178c6",
-      "languages": [
-        {
-          "name": "TypeScript",
-          "color": "#3178c6",
-          "size": 6056288
-        },
-        {
-          "name": "Shell",
-          "color": "#89e051",
-          "size": 1332411
-        },
-        {
-          "name": "HTML",
-          "color": "#e34c26",
-          "size": 364422
-        },
-        {
-          "name": "JavaScript",
-          "color": "#f1e05a",
-          "size": 291503
-        },
-        {
-          "name": "CSS",
-          "color": "#663399",
-          "size": 124813
-        }
-      ],
-      "stack": [
-        "GitHub Actions"
-      ],
-      "signals": [
-        "ci",
-        "licensed",
-        "released"
-      ],
-      "layer": "governance",
-      "layers": [
-        {
-          "id": "governance",
-          "label": "Governance",
-          "score": 3
-        }
-      ],
-      "classifierVersion": "1.0.0",
-      "discoveredVia": [
-        "phrase: agent harness"
-      ]
-    },
-    {
       "fullName": "Exonfang/gdllm-godot-agentic-harness",
       "owner": "Exonfang",
       "name": "gdllm-godot-agentic-harness",
@@ -87857,15 +87857,15 @@
       "homepage": null,
       "stars": 32,
       "forks": 6,
-      "openIssues": 42,
+      "openIssues": 36,
       "archived": false,
       "template": false,
       "license": "Apache-2.0",
       "createdAt": "2026-02-09T04:21:45Z",
-      "pushedAt": "2026-09-19T09:25:20Z",
-      "updatedAt": "2026-09-19T09:25:24Z",
-      "commit": "fccb14f45f2e4198a560b7ee5986cc3c16cfe4e9",
-      "committedAt": "2026-09-19T09:25:19Z",
+      "pushedAt": "2026-09-19T20:44:32Z",
+      "updatedAt": "2026-09-19T20:44:38Z",
+      "commit": "aaad424f0a83f06d74f572e7b704081bd289bf83",
+      "committedAt": "2026-09-19T20:44:32Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.2.0",
@@ -87878,17 +87878,17 @@
         {
           "name": "Rust",
           "color": "#dea584",
-          "size": 60705708
+          "size": 61333569
         },
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 2944841
+          "size": 2978300
         },
         {
           "name": "Python",
           "color": "#3572A5",
-          "size": 1433572
+          "size": 1434133
         },
         {
           "name": "Shell",
@@ -87903,7 +87903,7 @@
         {
           "name": "Makefile",
           "color": "#427819",
-          "size": 85106
+          "size": 85108
         },
         {
           "name": "CSS",
@@ -88085,23 +88085,23 @@
       "template": false,
       "license": "MIT",
       "createdAt": "2026-09-05T18:06:24Z",
-      "pushedAt": "2026-09-11T02:55:05Z",
-      "updatedAt": "2026-09-18T07:46:08Z",
-      "commit": "74771edc11f1ae08d8550fe3e64a3767c0cb210c",
-      "committedAt": "2026-09-11T02:54:20Z",
+      "pushedAt": "2026-09-19T21:49:19Z",
+      "updatedAt": "2026-09-19T21:49:23Z",
+      "commit": "567ffa2fe772a1bbe213ca471e3a561e18f36f3d",
+      "committedAt": "2026-09-19T21:48:48Z",
       "defaultBranch": "main",
       "latestRelease": {
         "tag": "v0.1.0",
         "publishedAt": "2026-09-06T16:44:05Z"
       },
-      "releaseCount": 10,
+      "releaseCount": 11,
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "languages": [
         {
           "name": "TypeScript",
           "color": "#3178c6",
-          "size": 8315242
+          "size": 8328116
         },
         {
           "name": "JavaScript",
@@ -89944,5 +89944,5 @@
       ]
     }
   ],
-  "stateChangedAt": "2026-09-19T20:49:10.623Z"
+  "stateChangedAt": "2026-09-19T21:53:22.349Z"
 }
