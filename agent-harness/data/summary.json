@@ -117,5 +117,17 @@
       "starsCompact": "83.4k",
       "layer": "tools"
     }
-  ]
+  ],
+  "traffic": {
+    "views": 0,
+    "viewsLabel": "0",
+    "visitorDays": 0,
+    "visitorDaysLabel": "0",
+    "clones": 0,
+    "recordedDays": 0,
+    "firstDay": null,
+    "lastDay": null,
+    "since": "—",
+    "windowDays": 14
+  }
 }

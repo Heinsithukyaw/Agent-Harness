@@ -42,6 +42,10 @@ on:
         description: 'Re-enrich every repository, ignoring the change diff'
         type: boolean
         default: false
+      traffic_only:
+        description: 'Refresh this repository''s traffic only — no discovery or enrichment'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -91,7 +95,16 @@ jobs:
         run: |
           set -euo pipefail
           echo "corpus root: $CORPUS_ROOT"
-          node agent-harness/collect.mjs
+          # Traffic rides along with every collect. The dedicated mode exists
+          # because the two halves fail independently: search can be rate-limited
+          # into a failed run while GitHub's fourteen-day traffic window keeps
+          # sliding, and a gap longer than that window is not recoverable.
+          if [ "${{ inputs.traffic_only }}" = "true" ]; then
+            echo "traffic-only run"
+            node agent-harness/collect.mjs --only-traffic
+          else
+            node agent-harness/collect.mjs
+          fi
 
       - name: Render
         run: node agent-harness/render.mjs
@@ -222,5 +235,6 @@ jobs:
             echo "| --- | --- |"
             echo "| mode | ${{ steps.mode.outputs.full == '1' && 'full' || 'incremental' }} |"
             echo "| projects | $(node -e 'try{console.log(require("./agent-harness/data/projects.json").projectCount)}catch{console.log("n/a")}') |"
+            echo "| traffic | $(node -e 'try{const t=require("./agent-harness/data/traffic.json");console.log(t.views+" views / "+t.visitorDays+" visitor-days / "+t.clones+" clones over "+t.recordedDays+" recorded day(s)")}catch{console.log("n/a")}') |"
             echo "| transitions this run | $(tail -1 agent-harness/history/events.jsonl 2>/dev/null | wc -l) |"
           } >> "$GITHUB_STEP_SUMMARY"

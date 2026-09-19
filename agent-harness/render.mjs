@@ -140,6 +140,50 @@ function readLedger() {
   return { runs: rows.length, intact, latest: rows[rows.length - 1] };
 }
 
+// ---------------------------------------------------------------------------
+// Repository traffic — this repo's own views, accumulated by collect.mjs
+// ---------------------------------------------------------------------------
+
+/**
+ * Read data/traffic.json, or a zeroed shape when the collector has not run.
+ *
+ * `views` and `clones` are sums and can be presented as cumulative totals.
+ * `visitorDays` is the sum of GitHub's per-day unique counts, which is *not* a
+ * distinct-visitor count — see the note in collect.mjs. It is surfaced under
+ * that name so no badge can quietly mislabel it.
+ *
+ * Returning a zeroed object rather than null keeps every consumer simple: the
+ * badges render "0" for a repository nobody has visited yet, which is the truth
+ * rather than a missing value.
+ */
+function readTraffic() {
+  const p = join(ROOT, 'data', 'traffic.json');
+  const empty = {
+    views: 0,
+    visitorDays: 0,
+    clones: 0,
+    uniqueClonerDays: 0,
+    recordedDays: 0,
+    firstDay: null,
+    lastDay: null,
+  };
+  if (!existsSync(p)) return empty;
+  try {
+    const t = JSON.parse(readFileSync(p, 'utf8'));
+    return {
+      views: t.views ?? 0,
+      visitorDays: t.visitorDays ?? 0,
+      clones: t.clones ?? 0,
+      uniqueClonerDays: t.uniqueClonerDays ?? 0,
+      recordedDays: t.recordedDays ?? Object.keys(t.days ?? {}).length,
+      firstDay: t.firstDay ?? null,
+      lastDay: t.lastDay ?? null,
+    };
+  } catch {
+    return empty;
+  }
+}
+
 /**
  * Percentile by stars inside this corpus, as a fraction where 0 is the top.
  * Honest description of what it is: a rank within the projects held here, not a
@@ -740,7 +784,7 @@ ${REDUCED_MOTION_STYLE}
  * behind it is as fresh as the last collect. A README cannot be more real-time
  * than the pipeline that feeds it.
  */
-function renderSummary(projects, counts, ledger) {
+function renderSummary(projects, counts, ledger, traffic = readTraffic()) {
   const totalStars = projects.reduce((a, p) => a + p.stars, 0);
   const ordered = populatedLayerIds(counts)
     .map((k) => ({ id: k, label: LAYERS[k].label, short: LAYERS[k].short, count: counts[k] }))
@@ -776,6 +820,29 @@ function renderSummary(projects, counts, ledger) {
       layerOrder: ordered.map((l) => l.id),
       layers,
       top,
+
+      // This repository's own traffic, not the corpus's. It lives in the same
+      // endpoint because it is the same kind of thing — a small scalar the
+      // README fetches at page-view time — and because a second JSON file would
+      // be a second request per badge.
+      //
+      // `visitorDays` is named for what it is. Summing GitHub's per-day uniques
+      // does not produce a count of distinct people, and a field called
+      // `visitors` holding that sum would be read as one. `since` is null until
+      // the collector has recorded its first day, and is emitted as an em dash
+      // so a badge renders a dash rather than the string "null".
+      traffic: {
+        views: traffic.views,
+        viewsLabel: nfmt(traffic.views),
+        visitorDays: traffic.visitorDays,
+        visitorDaysLabel: nfmt(traffic.visitorDays),
+        clones: traffic.clones,
+        recordedDays: traffic.recordedDays,
+        firstDay: traffic.firstDay,
+        lastDay: traffic.lastDay,
+        since: traffic.firstDay ?? '\u2014',
+        windowDays: 14,
+      },
     },
     null,
     2,
@@ -1537,6 +1604,7 @@ function renderSite(projects, ledger, rank) {
 
 const changed = [];
 const ledger = readLedger();
+const traffic = readTraffic();
 const rank = buildRank(projects);
 
 const cardsDir = join(ROOT, 'assets', 'cards');
@@ -1575,7 +1643,7 @@ for (const [rel, svg] of readmeAssets) {
 }
 
 // The compact endpoint the README's live badges fetch — see renderSummary.
-if (writeFile('data/summary.json', renderSummary(projects, counts, ledger))) {
+if (writeFile('data/summary.json', renderSummary(projects, counts, ledger, traffic))) {
   changed.push('data/summary.json');
 }
 

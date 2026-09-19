@@ -85,22 +85,27 @@ percentile is computed from the corpus, so it moves as the corpus moves. At this
 size the top six are all inside the top one percent, which is why every tile
 reads the same: the measure is honest but coarse.
 
-The same three projects, fetched from GitHub at page-view time rather than from
-our own snapshot — these are the only numbers in this file that do not wait for
-the next collect:
+The same six projects, but fetched from GitHub when this page is rendered rather
+than read out of our own snapshot. These are the only numbers in this file that
+do not wait for the next collect:
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/AFFAAN-M/ECC?style=for-the-badge&label=ECC&color=101218&logo=github&logoColor=E3B778" alt="ECC live stars" />
-  <img src="https://img.shields.io/github/last-commit/AFFAAN-M/ECC?style=for-the-badge&label=ECC&color=101218&logo=git&logoColor=E3B778" alt="ECC live last commit" />
-  <br />
-  <img src="https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=for-the-badge&label=AutoGPT&color=101218&logo=github&logoColor=E3B778" alt="AutoGPT live stars" />
-  <img src="https://img.shields.io/github/last-commit/Significant-Gravitas/AutoGPT?style=for-the-badge&label=AutoGPT&color=101218&logo=git&logoColor=E3B778" alt="AutoGPT live last commit" />
-  <br />
-  <img src="https://img.shields.io/github/stars/langgenius/dify?style=for-the-badge&label=dify&color=101218&logo=github&logoColor=E3B778" alt="dify live stars" />
-  <img src="https://img.shields.io/github/last-commit/langgenius/dify?style=for-the-badge&label=dify&color=101218&logo=git&logoColor=E3B778" alt="dify live last commit" />
-</p>
+| Project | Live stars | Live last commit |
+|---|---|---|
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | <img src="https://img.shields.io/github/stars/affaan-m/ECC?style=flat-square&label=stars&color=101218&logo=github&logoColor=E3B778" alt="ECC live stars" /> | <img src="https://img.shields.io/github/last-commit/affaan-m/ECC?style=flat-square&label=last%20commit&color=101218&logo=git&logoColor=E3B778" alt="ECC live last commit" /> |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | <img src="https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=flat-square&label=stars&color=101218&logo=github&logoColor=E3B778" alt="AutoGPT live stars" /> | <img src="https://img.shields.io/github/last-commit/Significant-Gravitas/AutoGPT?style=flat-square&label=last%20commit&color=101218&logo=git&logoColor=E3B778" alt="AutoGPT live last commit" /> |
+| [langgenius/dify](https://github.com/langgenius/dify) | <img src="https://img.shields.io/github/stars/langgenius/dify?style=flat-square&label=stars&color=101218&logo=github&logoColor=E3B778" alt="dify live stars" /> | <img src="https://img.shields.io/github/last-commit/langgenius/dify?style=flat-square&label=last%20commit&color=101218&logo=git&logoColor=E3B778" alt="dify live last commit" /> |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | <img src="https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&label=stars&color=101218&logo=github&logoColor=E3B778" alt="ponytail live stars" /> | <img src="https://img.shields.io/github/last-commit/DietrichGebert/ponytail?style=flat-square&label=last%20commit&color=101218&logo=git&logoColor=E3B778" alt="ponytail live last commit" /> |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | <img src="https://img.shields.io/github/stars/Graphify-Labs/graphify?style=flat-square&label=stars&color=101218&logo=github&logoColor=E3B778" alt="graphify live stars" /> | <img src="https://img.shields.io/github/last-commit/Graphify-Labs/graphify?style=flat-square&label=last%20commit&color=101218&logo=git&logoColor=E3B778" alt="graphify live last commit" /> |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | <img src="https://img.shields.io/github/stars/thedotmack/claude-mem?style=flat-square&label=stars&color=101218&logo=github&logoColor=E3B778" alt="claude-mem live stars" /> | <img src="https://img.shields.io/github/last-commit/thedotmack/claude-mem?style=flat-square&label=last%20commit&color=101218&logo=git&logoColor=E3B778" alt="claude-mem live last commit" /> |
 
-<p align="center"><sub>Read this as a live view of three named projects, not as a live ranking: the names are pinned here, so a project falling out of the top three would still show. The ranking above is the one that tracks the corpus.</sub></p>
+<p align="center"><sub>Read this as a live view of six named projects, not as a live ranking: the names are pinned here, so a project that fell out of the top six would still appear. The ranking above is the one that tracks the corpus. Expect the stars here to disagree with the stars in the tiles — that disagreement is the point. The tile is the snapshot; the badge is now.</sub></p>
+
+Note what is *not* done here: no badge reads a position out of an array.
+`$.top.0.stars` would be a live number that silently starts describing a
+different project the first time the ranking moves, and a confidently wrong
+number is worse than a missing one — nothing about it looks broken. Project
+names are pinned in the table above, and the registry's own arrays are addressed
+by key or not at all.
 
 The full set is browsable as a self-contained page: [`site/index.html`](agent-harness/site/index.html).
 Machine-readable, the whole registry is one file: [`data/projects.json`](agent-harness/data/projects.json) —
@@ -175,6 +180,7 @@ artwork.
 |---|---|---|
 | Machine-readable state | `data/projects.json` | the API |
 | Compact live endpoint | `data/summary.json` | 2.4 KB — the scalars README badges fetch |
+| This repo's own traffic | `data/traffic.json` | views and clones, accumulated across runs |
 | Embeddable cards | `assets/cards/<owner>-<repo>.svg` | one SVG per project |
 | Browsable registry | `site/index.html` | self-contained, no CDN, no build step |
 | Markdown directory | `data/index.md` | grouped by layer |
@@ -390,11 +396,13 @@ https://raw.githubusercontent.com/<owner>/<repo>/main/agent-harness/data/summary
 ```
 
 `summary.json` exists for one job: being small enough to fetch on every page view.
-It carries the totals, the per-layer counts keyed by layer id, and the top eight
-projects. Layers are an object rather than an array so a consumer can address one
-by a path that cannot move — `$.layers.orchestration.count` is orchestration's
-count forever, whereas an index would silently point elsewhere the first time two
-layers swapped rank.
+It carries the totals, the per-layer counts keyed by layer id, the top eight
+projects, and this repository's own traffic totals. Layers are an object rather
+than an array so a consumer can address one by a path that cannot move —
+`$.layers.orchestration.count` is orchestration's count forever, whereas an index
+would silently point elsewhere the first time two layers swapped rank. The same
+reasoning is why `traffic.visitorDays` is not called `traffic.visitors`: it sums
+per-day distinct counts, which is not a count of distinct people.
 
 Reading one field out of it, which is what a live badge does:
 
@@ -462,3 +470,23 @@ subdirectory of this repository.
 Code: MIT — see [`LICENSE`](LICENSE). Data in `data/` and `history/` is derived
 from public GitHub metadata; each project remains under its own licence, recorded
 per row as `license`.
+
+<div align="center">
+  <img src="./agent-harness/assets/divider.svg" alt="" width="100%" />
+</div>
+
+<br />
+
+<p align="center">
+  <b>The numbers about this repository are collected the same way as the numbers about everything else here.</b><br />
+  <sub>Four times a day, by the same pipeline, into a file you can read.</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.traffic.viewsLabel&label=views&color=101218&style=for-the-badge&logo=github&logoColor=E3B778" alt="Live repository view count" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.traffic.visitorDaysLabel&label=visitor-days&color=101218&style=for-the-badge&logo=github&logoColor=E3B778" alt="Live visitor-days" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHeinsithukyaw%2FAgent-Harness%2Fmain%2Fagent-harness%2Fdata%2Fsummary.json&query=$.traffic.since&label=tracked%20since&color=101218&style=for-the-badge&logo=git&logoColor=E3B778" alt="Traffic tracked since" />
+  <img src="https://img.shields.io/github/last-commit/Heinsithukyaw/Agent-Harness?label=last%20commit&color=101218&style=for-the-badge&logo=git&logoColor=E3B778" alt="Last commit" />
+</p>
+
+<p align="center"><sub><code>views</code> is a cumulative sum, so adding days up is meaningful. <code>visitor-days</code> is not a headcount: it sums GitHub's per-day distinct counts, so one person returning on three days counts three times, and it is named <code>visitor-days</code> precisely so it cannot be read as <code>visitors</code>. GitHub's traffic API keeps only a fourteen-day window, so the totals start when collection started and would lose any gap longer than a fortnight. It is GitHub's own measurement, needs no third party, and is why this page does not carry a hit counter that increments on every crawler.</sub></p>

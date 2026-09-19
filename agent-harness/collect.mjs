@@ -63,6 +63,8 @@ const ENRICH_CAP = Number(process.env.ENRICH_CAP ?? MAX_PROJECTS * 4);
 const FULL = process.env.FULL === '1';
 const DRY_RUN = process.env.DRY_RUN === '1';
 const ONLY_QUERY = argValue('--only-query');
+/** Run only the traffic step. Cheap, and the only way to test it without a full collect. */
+const ONLY_TRAFFIC = process.argv.includes('--only-traffic');
 
 /** Everything this job may create or modify. Nothing else. */
 const WRITE_ALLOWLIST = ['data', 'history', 'assets'];
@@ -606,7 +608,127 @@ function normalize(repo, candidate) {
 // Main
 // ---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+// Repository traffic — GitHub's own view and clone counts
+// ---------------------------------------------------------------------------
+
+/**
+ * Views and clones for this repository, from GitHub's traffic API.
+ *
+ * GitHub retains only 14 days and exposes no all-time figure, so a cumulative
+ * count has to be accumulated across runs: each run merges the window it can see
+ * into a per-day map, and the totals are the sum over every day ever recorded.
+ * Keying by date is what makes the overlap harmless — re-reading a day replaces
+ * that day instead of double-counting it.
+ *
+ * Quiet days are not stored and there is deliberately no wall-clock stamp of our
+ * own, so an idle repository produces a byte-identical file and no commit. That
+ * is the same property every other output here has.
+ *
+ * The limit worth stating rather than hiding: if the workflow stops for longer
+ * than 14 days, the days in the gap are gone. GitHub will not serve them again,
+ * and the cumulative total will simply be missing them.
+ *
+ * Traffic requires push access. A read-only token gets a 403, which is not a
+ * reason to fail an otherwise good run — the recorded days are kept and the step
+ * reports what it could not read.
+ *
+ * On the two kinds of total, which are not the same kind of number:
+ *
+ *   views and clones   sums, so a cumulative total is meaningful
+ *   uniques            a per-day distinct count, and NOT summable — someone who
+ *                      visits on three days is counted three times. The field is
+ *                      therefore named `visitorDays`, not `visitors`, because a
+ *                      name that reads like a headcount would be a lie. There is
+ *                      no way to recover the true distinct-visitor count from
+ *                      daily windows, and no field here pretends otherwise.
+ */
+async function collectTraffic() {
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (!repo) {
+    console.log('traffic            skipped (GITHUB_REPOSITORY is not set)');
+    return false;
+  }
+
+  const abs = guard('data/traffic.json');
+  let prev = { days: {} };
+  if (existsSync(abs)) {
+    try {
+      prev = JSON.parse(readFileSync(abs, 'utf8'));
+    } catch {
+      prev = { days: {} };
+    }
+  }
+
+  const days = { ...(prev.days ?? {}) };
+
+  for (const metric of ['views', 'clones']) {
+    const res = await fetch(`https://api.github.com/repos/${repo}/traffic/${metric}`, {
+      headers: {
+        Authorization: `bearer ${TOKEN}`,
+        Accept: 'application/vnd.github+json',
+        'User-Agent': 'agent-harness-collector',
+      },
+    });
+    if (!res.ok) {
+      console.log(`  traffic/${metric} unavailable (HTTP ${res.status}) \u2014 keeping recorded days`);
+      continue;
+    }
+    const body = await res.json();
+    for (const row of body[metric] ?? []) {
+      const day = String(row.timestamp).slice(0, 10);
+      const count = row.count ?? 0;
+      const uniques = row.uniques ?? 0;
+      if (count === 0 && uniques === 0) {
+        delete days[day];
+        continue;
+      }
+      days[day] = {
+        ...(days[day] ?? {}),
+        [metric]: count,
+        [metric === 'views' ? 'uniques' : 'uniqueClones']: uniques,
+      };
+    }
+  }
+
+  const dates = Object.keys(days).sort();
+  const sum = (k) => dates.reduce((a, d) => a + (days[d][k] ?? 0), 0);
+  const views = sum('views');
+  const visitorDays = sum('uniques');
+  const clones = sum('clones');
+  const uniqueClonerDays = sum('uniqueClones');
+
+  const wrote = writeStateFile(
+    'data/traffic.json',
+    {
+      schemaVersion: 1,
+      windowDays: 14,
+      firstDay: dates[0] ?? null,
+      lastDay: dates[dates.length - 1] ?? null,
+      recordedDays: dates.length,
+      days,
+      views,
+      visitorDays,
+      clones,
+      uniqueClonerDays,
+    },
+    true,
+  );
+
+  console.log(
+    `traffic            ${views} views / ${visitorDays} visitor-days` +
+      ` / ${clones} clones over ${dates.length} recorded day(s)` +
+      (wrote ? '' : ' (unchanged)'),
+  );
+  return wrote;
+}
+
 async function main() {
+  if (ONLY_TRAFFIC) {
+    await collectTraffic();
+    return;
+  }
+
   const runId = process.env.GITHUB_RUN_ID ?? 'local';
   const observedAt = new Date().toISOString();
 
@@ -781,6 +903,10 @@ async function main() {
   };
   runEntry.entryHash = sha256(prevHash + JSON.stringify(canon(runEntry)));
   appendJsonl('history/runs.jsonl', [runEntry]);
+
+  // Last, and independent of the corpus: traffic is about this repository, not
+  // about the projects it catalogues.
+  await collectTraffic();
 
   console.log(`\nprojects           ${sorted.length}`);
   console.log(`filtered out       ${dropped} below relevance ${MIN_RELEVANCE}`);
