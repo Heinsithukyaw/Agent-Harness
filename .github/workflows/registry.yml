@@ -6,12 +6,18 @@ name: Agent-Harness registry
 # copy is the same workflow adapted for this repository's layout, where the
 # registry sits one directory down, and it is the one GitHub actually runs.
 #
-# If you change the pipeline, change the master first, then re-apply the three
-# layout adaptations marked `LAYOUT` below:
-#   1. `defaults.run.working-directory` for the steps that run the scripts
-#   2. `working-directory: ${{ github.workspace }}` for the git-facing steps,
-#      so `git status --porcelain` reports repo-root-relative paths
+# If you change the pipeline, change the master first, then re-apply the layout
+# adaptations marked `LAYOUT` below:
+#   1. `working-directory: agent-harness` on every step that runs the scripts
+#   2. no `working-directory` on the git-facing steps, so they run at the repo
+#      root and `git status --porcelain` reports repo-root-relative paths
 #   3. the `agent-harness/` prefix on the allowlist patterns and `git add`
+#
+# Note: a workflow-level `defaults.run.working-directory` is documented as
+# supported, but on the runner it did not take effect — the Collect step still
+# ran from the repository root. The per-step form below is what actually works,
+# so it is the form this file uses. Do not "tidy" it back into a `defaults`
+# block without re-checking the cwd line in the Collect step's log.
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Maintains the live registry: discovers agent-harness projects, enriches the
@@ -50,10 +56,6 @@ concurrency:
   group: agent-harness-registry
   cancel-in-progress: false
 
-defaults:
-  run:
-    working-directory: agent-harness # LAYOUT
-
 jobs:
   registry:
     runs-on: ubuntu-latest
@@ -79,15 +81,21 @@ jobs:
           fi
 
       - name: Collect
+        working-directory: agent-harness # LAYOUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FULL: ${{ steps.mode.outputs.full }}
-        run: node collect.mjs
+        run: |
+          set -euo pipefail
+          echo "cwd: $(pwd)" # proves the working directory took effect
+          node collect.mjs
 
       - name: Render
+        working-directory: agent-harness # LAYOUT
         run: node render.mjs
 
       - name: Validate the rendered artefacts
+        working-directory: agent-harness # LAYOUT
         # A malformed SVG is invisible to any check on the generator itself: the
         # file is written, looks plausible on disk, and renders as an empty box.
         # This gate exists because that happened — a double quote inside a
@@ -130,10 +138,11 @@ jobs:
           echo "no template leakage in site/index.html"
 
       - name: Enforce the write allowlist
+        # Runs at the repository root on purpose, so `git status --porcelain`
+        # emits repo-root-relative paths and the patterns below are unambiguous.
         # The collector confines itself to data/, history/ and assets/, and this
         # is the outer check. It fails closed: any unexpected path aborts the
         # run before anything is committed.
-        working-directory: ${{ github.workspace }} # LAYOUT
         run: |
           set -euo pipefail
           changed=$(git status --porcelain | awk '{print $2}')
@@ -156,6 +165,7 @@ jobs:
           echo "allowlist ok: $(echo "$changed" | wc -l) paths"
 
       - name: Verify the history chain
+        working-directory: agent-harness # LAYOUT
         run: |
           set -euo pipefail
           if [ ! -f history/runs.jsonl ]; then
@@ -178,7 +188,6 @@ jobs:
           '
 
       - name: Commit if anything changed
-        working-directory: ${{ github.workspace }} # LAYOUT
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
@@ -199,7 +208,6 @@ jobs:
 
       - name: Summarise
         if: always()
-        working-directory: ${{ github.workspace }} # LAYOUT
         run: |
           {
             echo "### Agent-Harness registry"
