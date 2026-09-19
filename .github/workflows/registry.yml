@@ -151,6 +151,57 @@ jobs:
           fi
           echo "no template leakage in site/index.html"
 
+          # Payload budget. The site embeds the whole corpus, so its size grows
+          # with the registry rather than with traffic. This advises, it does not
+          # fail: a hard failure here would stop the collector committing, which
+          # trades a heavy page for a stale one. The remedy, when the hard budget
+          # trips, is to emit one JSON file per layer beside site/index.html and
+          # fetch only the layers in view — still static files on a CDN, so the
+          # no-backend property survives. Do not add a backend to solve this.
+          python3 - <<'PY'
+          import gzip, json, os
+
+          WARN = 500 * 1024
+          HARD = 1024 * 1024
+          SITE = 'agent-harness/site/index.html'
+          SUMMARY = 'agent-harness/data/summary.json'
+
+          raw = os.path.getsize(SITE)
+          with open(SITE, 'rb') as fh:
+              gz = len(gzip.compress(fh.read(), 9))
+
+          n = json.load(open(SUMMARY)).get('projectCount', 0) or 0
+          per = (gz / n) if n else 0
+          room = int((WARN - gz) / per) if per and gz < WARN else 0
+
+          def kb(b):
+              return '%.0f KB' % (b / 1024.0)
+
+          print('site/index.html: %s raw, %s gzipped, %d projects, %d B/project'
+                % (kb(raw), kb(gz), n, round(per)))
+
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as s:
+              s.write('### Payload budget\n\n')
+              s.write('| Measure | Value |\n|---|---|\n')
+              s.write('| Raw | %s |\n' % kb(raw))
+              s.write('| Transferred, gzip -9 | %s |\n' % kb(gz))
+              s.write('| Projects | %d |\n' % n)
+              s.write('| Per project | %d B |\n' % round(per))
+              s.write('| Headroom to %s | %s |\n' % (kb(WARN),
+                      ('%d projects' % room) if room else 'none, already over'))
+              s.write('\n')
+
+          if gz >= HARD:
+              print('::warning::payload %s is over the hard budget %s — ship the per-layer shard now'
+                    % (kb(gz), kb(HARD)))
+          elif gz >= WARN:
+              left = int((HARD - gz) / per) if per else 0
+              print('::warning::payload %s is over the soft budget %s — %d projects left before the hard budget'
+                    % (kb(gz), kb(WARN), left))
+          else:
+              print('payload %s is within budget, %d projects of headroom' % (kb(gz), room))
+          PY
+
       - name: Enforce the write allowlist
         # The collector confines itself to data/, history/ and assets/, and this
         # is the outer check. It fails closed: any unexpected path aborts the
