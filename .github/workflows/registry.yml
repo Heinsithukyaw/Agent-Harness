@@ -36,11 +36,6 @@ name: Agent-Harness registry
 on:
   schedule:
     - cron: '17 3,9,15,21 * * *' # every 6 hours
-    # TEMPORARY PROBE — remove once a run with event=schedule has been observed.
-    # A brand-new repository showed zero scheduled runs ever, so whether the cron
-    # fires at all is an open question. This second entry fires once, at 22:31 UTC
-    # on 19 September, and not again for a year, so leaving it in is harmless.
-    - cron: '31 22 19 9 *'
   workflow_dispatch:
     inputs:
       full:
