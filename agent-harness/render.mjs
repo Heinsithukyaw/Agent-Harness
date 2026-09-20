@@ -1058,12 +1058,39 @@ function renderDivider() {
 // The site
 // ---------------------------------------------------------------------------
 
+// The fields the interface actually draws. projects.json keeps every field the
+// collector resolved — languages with colours, per-layer scores, harness
+// signals, provenance — because that file is the API. Shipping all of it into
+// a browser meant handing a phone 1.5 MB of JSON to render sixteen values per
+// card; trimming is what keeps the parse and the transfer inside a mobile
+// budget. Anything added to the card markup has to be added here.
+const BROWSER_FIELDS = [
+  'fullName',
+  'owner',
+  'name',
+  'url',
+  'description',
+  'language',
+  'languageColor',
+  'stars',
+  'forks',
+  'license',
+  'archived',
+  'layer',
+  'stack',
+  'pushedAt',
+  'createdAt',
+  'commit',
+];
+
 function renderSite(projects, ledger, rank) {
   // Rank is derived, so it is computed once here and carried in the payload
   // rather than recomputed in the browser on every filter pass.
   const rows = projects.map((p) => {
     const r = rank.get(p.fullName) ?? 0;
-    return { ...p, rankPct: Math.round((1 - r) * 100), topPct: Math.max(1, Math.ceil(r * 100)) };
+    const out = { rankPct: Math.round((1 - r) * 100), topPct: Math.max(1, Math.ceil(r * 100)) };
+    for (const k of BROWSER_FIELDS) if (p[k] !== undefined) out[k] = p[k];
+    return out;
   });
 
   const payload = JSON.stringify({
@@ -1102,8 +1129,11 @@ function renderSite(projects, ledger, rank) {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- viewport-fit=cover plus the safe-area padding on .wrap: without both, a
+     phone in landscape clips the left edge behind the notch. -->
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#08090C">
 <title>Agent-Harness — live registry of agent harness projects</title>
 <meta name="description" content="A live, versioned registry of the agent-harness ecosystem: runtimes, orchestration, tools, sandboxes, memory, evals, governance and protocols.">
 <style>
@@ -1163,7 +1193,16 @@ function renderSite(projects, ledger, rank) {
     to{transform:translate3d(-2%,1.5%,0) scale(1.06)}
   }
   ::selection{background:rgba(227,183,120,.28);color:#fff}
-  .wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:46px 26px 90px}
+  .wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;--gutter:26px;
+    padding:46px var(--gutter) 90px}
+  /* Notched phones in landscape: the page has to start inside the safe area,
+     and body already hides horizontal overflow, so without this the left edge
+     is simply gone rather than scrollable. */
+  @supports (padding:max(0px)){
+    .wrap{padding-left:max(var(--gutter),env(safe-area-inset-left));
+      padding-right:max(var(--gutter),env(safe-area-inset-right));
+      padding-bottom:max(90px,env(safe-area-inset-bottom))}
+  }
 
   /* ---------- hero ---------- */
   .hero{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,0.86fr);gap:30px;align-items:center}
@@ -1279,11 +1318,18 @@ function renderSite(projects, ledger, rank) {
   .chip.all{--accent:${GOLD}}
 
   /* ---------- grid ---------- */
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(346px,1fr));gap:15px}
+  /* minmax(min(346px,100%),1fr), not minmax(346px,1fr): the bare minimum forces
+     a 346px track, which is wider than a 360px phone, so every card overflowed
+     to the right and body's overflow-x:hidden clipped it off. */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(346px,100%),1fr));gap:15px}
   .card{
     position:relative;border:1px solid var(--line);border-radius:var(--radius);
     background:linear-gradient(168deg,rgba(255,255,255,.052),rgba(255,255,255,.014));
     padding:18px 19px 15px;overflow:hidden;isolation:isolate;
+    /* Off-screen cards skip layout and paint entirely. The intrinsic size
+       reserves the space so the scrollbar does not jump as they materialise;
+       browsers without support ignore both lines. */
+    content-visibility:auto;contain-intrinsic-size:auto 268px;
     transition:transform .32s var(--ease),border-color .32s,box-shadow .32s;
     animation:rise .5s var(--ease) both;animation-delay:calc(var(--i,0) * 16ms);
   }
@@ -1365,6 +1411,22 @@ function renderSite(projects, ledger, rank) {
   .empty{padding:70px 0;text-align:center;color:var(--muted)}
   .archived{color:#FB7185}
 
+  /* ---------- progressive reveal ---------- */
+  .morebar{padding:26px 0 6px;text-align:center}
+  /* 44px minimum: the pointer that reaches this is a thumb. */
+  .morebar button{
+    min-height:44px;padding:11px 22px;border-radius:11px;cursor:pointer;
+    background:rgba(255,255,255,.032);border:1px solid var(--line);color:var(--fg);
+    font:inherit;font-size:14px;transition:border-color .18s,color .18s,background .18s;
+  }
+  .morebar button:hover{color:var(--title);border-color:rgba(227,183,120,.45);background:rgba(255,255,255,.055)}
+  .morebar p{margin:10px 0 0;font:10.5px var(--mono);color:var(--dim);letter-spacing:.06em}
+  noscript .fallback{
+    margin:22px 0;padding:16px 18px;border:1px solid var(--line);border-radius:var(--radius);
+    background:rgba(255,255,255,.02);font-size:13.5px;color:var(--muted);
+  }
+  noscript .fallback a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(227,183,120,.4)}
+
   footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--line);
     font-size:12px;color:var(--dim);line-height:1.7}
   footer code{font-family:var(--mono);color:var(--muted)}
@@ -1377,13 +1439,36 @@ function renderSite(projects, ledger, rank) {
   @keyframes vt-out{to{opacity:0}}
   @keyframes vt-in{from{opacity:0}}
 
+  /* ---------- touch and small screens ----------
+     Three separate costs, all of which a phone pays and a desktop does not
+     notice, so all three stand down here rather than being tuned down:
+     the full-screen animated wash, the per-card scan animation, and the
+     backdrop blur behind the stats. What is left is the same design held
+     still. */
+  @media (max-width:900px),(hover:none){
+    body::before{animation:none}
+    .stats{backdrop-filter:none;-webkit-backdrop-filter:none}
+    /* The rail keeps its gradient, loses the animation. Killing the animation
+       alone would park it at background-position 0, which is the transparent
+       end — the rail would read as missing rather than as static. */
+    .card::after{
+      animation:none;background-size:100% 100%;
+      background-image:linear-gradient(180deg,transparent,var(--accent) 45%,transparent);
+    }
+    .chip{padding:8px 14px 8px 12px}
+  }
   @media (max-width:900px){
     .hero{grid-template-columns:1fr;gap:8px}
     .meshbox{order:2;max-width:520px;margin:0 auto}
+    /* 16px, not 13.5px: iOS Safari zooms the whole page when a focused field
+       is set below 16px, and it does not zoom back out. Users read that as
+       the layout breaking. */
+    input[type=search],select{font-size:16px}
   }
   @media (max-width:640px){
-    .wrap{padding:32px 16px 64px}
+    .wrap{--gutter:16px;padding-top:32px;padding-bottom:max(64px,env(safe-area-inset-bottom))}
     .stat{flex:1 1 50%;border-bottom:1px solid var(--line)}
+    .card{padding:16px 16px 13px}
   }
   @media (prefers-reduced-motion:reduce){
     *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;
@@ -1448,7 +1533,7 @@ function renderSite(projects, ledger, rank) {
       <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
         <circle cx="7" cy="7" r="4.6"/><path d="M10.4 10.4 14 14"/>
       </svg>
-      <input type="search" id="q" placeholder="Search name, description, stack, language…" autocomplete="off" aria-label="Search projects">
+      <input type="search" id="q" placeholder="Search name, description, stack, language…" autocomplete="off" spellcheck="false" enterkeyhint="search" aria-label="Search projects">
       <span class="kbd">/</span>
     </label>
     <select id="sort" aria-label="Sort projects">
@@ -1457,7 +1542,9 @@ function renderSite(projects, ledger, rank) {
       <option value="new">Newest</option>
       <option value="name">Name A–Z</option>
     </select>
-    <span class="count" id="count"></span>
+    <!-- aria-live: the result count is the only feedback a filter gives, and
+         it changes without the page changing around it. -->
+    <span class="count" id="count" role="status" aria-live="polite"></span>
   </div>
 
   <div class="chips" id="chips">
@@ -1467,6 +1554,10 @@ function renderSite(projects, ledger, rank) {
 
   <div class="grid" id="grid"></div>
   <div class="empty" id="empty" hidden>Nothing matches that filter.</div>
+  <div class="morebar" id="morebar" hidden>
+    <button type="button" id="more">Show more</button>
+    <p id="morenote"></p>
+  </div>
 
   <footer>
     <div><strong>Agent-Harness</strong> · regenerated on a schedule · every card records the commit and classifier version it was derived from.</div>
@@ -1478,12 +1569,26 @@ function renderSite(projects, ledger, rank) {
         .join(' \u00b7 '),
     )}</div>
   </footer>
+
+  <noscript>
+    <div class="fallback">
+      <strong>This registry is rendered in the browser</strong>, so it needs JavaScript to list anything.
+      The same corpus without it: the <a href="https://github.com/Heinsithukyaw/Agent-Harness/blob/main/agent-harness/data/index.md">markdown directory</a>,
+      which GitHub renders directly, or <a href="https://raw.githubusercontent.com/Heinsithukyaw/Agent-Harness/main/agent-harness/data/projects.json">projects.json</a> as data.
+    </div>
+  </noscript>
 </div>
 
 <script id="data" type="application/json">${payload}</script>
 <script>
 (function () {
-  var state = JSON.parse(document.getElementById('data').textContent);
+  var dataEl = document.getElementById('data');
+  var state = JSON.parse(dataEl.textContent);
+  // The payload is by far the largest string on this page. Clearing the text
+  // node drops the only reference to it, so a phone holds the parsed objects
+  // rather than both copies for as long as the tab is open.
+  dataEl.textContent = '';
+
   var projects = state.projects;
   var activeLayer = '';
 
@@ -1492,6 +1597,12 @@ function renderSite(projects, ledger, rank) {
   ).replace(/</g, '\\u003c')};
 
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Everything decorative that depends on a precise pointer is gated on this.
+  // A touch device still fires mousemove and mouseleave around a tap, which is
+  // how a mobile browser ended up walking every card in the grid to reset a
+  // transform it had never set.
+  var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  var wide = window.matchMedia('(min-width: 901px)').matches;
 
   // SMIL ignores prefers-reduced-motion, so the decorative motion layer is
   // removed outright for anyone who asks for less movement. The static mesh,
@@ -1505,6 +1616,20 @@ function renderSite(projects, ledger, rank) {
   var q = document.getElementById('q');
   var sort = document.getElementById('sort');
   var count = document.getElementById('count');
+  var morebar = document.getElementById('morebar');
+  var more = document.getElementById('more');
+  var morenote = document.getElementById('morenote');
+
+  // Windowing. FIRST is what a phone has to lay out before it can show
+  // anything at all; STEP is what gets appended as the reader scrolls. Painting
+  // the whole corpus on load is what stalled the grid — and on a low-memory
+  // device, killed the tab.
+  var FIRST = 36;
+  var STEP = 36;
+
+  var view = [];
+  var shown = 0;
+  var raf = 0;
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -1522,19 +1647,42 @@ function renderSite(projects, ledger, rank) {
     return Math.round(d / 365) + 'y ago';
   }
 
-  function matches(p, term) {
-    if (!term) return true;
-    var hay = [p.fullName, p.description, p.language, p.layer]
-      .concat(p.stack || [])
-      .join(' ')
-      .toLowerCase();
-    return term.split(/\\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
+  // Search haystack and sort timestamps are built once per project and cached
+  // on it. Building them in the comparator meant re-deriving a joined string
+  // per project per keystroke, and two Date objects per comparison — roughly
+  // 24,000 allocations for one sort of this corpus.
+  function hay(p) {
+    if (!p._h) {
+      p._h = [p.fullName, p.description, p.language, p.layer]
+        .concat(p.stack || [])
+        .join(' ')
+        .toLowerCase();
+    }
+    return p._h;
+  }
+
+  function stamp(p, key) {
+    var cache = key === 'pushedAt' ? '_pt' : '_ct';
+    if (p[cache] == null) {
+      // An unparseable date collapses to epoch so it sorts last rather than
+      // propagating a non-number into the comparator.
+      p[cache] = Date.parse(p[key] || '') || 0;
+    }
+    return p[cache];
+  }
+
+  function matches(p, terms) {
+    var h = hay(p);
+    for (var i = 0; i < terms.length; i++) {
+      if (h.indexOf(terms[i]) === -1) return false;
+    }
+    return true;
   }
 
   function sortFn(a, b) {
     switch (sort.value) {
-      case 'recent': return new Date(b.pushedAt) - new Date(a.pushedAt);
-      case 'new': return new Date(b.createdAt) - new Date(a.createdAt);
+      case 'recent': return stamp(b, 'pushedAt') - stamp(a, 'pushedAt');
+      case 'new': return stamp(b, 'createdAt') - stamp(a, 'createdAt');
       case 'name': return a.fullName.localeCompare(b.fullName);
       default: return b.stars - a.stars;
     }
@@ -1552,7 +1700,7 @@ function renderSite(projects, ledger, rank) {
     if (p.license) meta.push(esc(p.license));
     if (p.archived) meta.push('<span class="archived">archived</span>');
 
-    // cap the stagger: at 90 cards an uncapped delay would leave the last card
+    // cap the stagger: an uncapped delay would leave the last card of a batch
     // waiting well over a second for its entrance
     var step = Math.min(i, 22);
     var desc = p.description || 'No description';
@@ -1581,26 +1729,55 @@ function renderSite(projects, ledger, rank) {
     '</article>';
   }
 
-  function paint(noStagger) {
-    var term = q.value.trim().toLowerCase();
-    var rows = projects.filter(function (p) {
+  function filter() {
+    var raw = q.value.trim().toLowerCase();
+    var terms = raw ? raw.split(/\\s+/) : [];
+    view = projects.filter(function (p) {
       if (activeLayer && p.layer !== activeLayer) return false;
-      return matches(p, term);
+      return terms.length === 0 || matches(p, terms);
     }).sort(sortFn);
+    shown = 0;
+  }
 
+  function syncMore() {
+    var left = view.length - shown;
+    morebar.hidden = left <= 0;
+    if (left <= 0) return;
+    more.textContent = 'Show ' + Math.min(STEP, left) + ' more';
+    morenote.textContent = shown + ' of ' + view.length + ' shown';
+  }
+
+  function append() {
+    if (shown >= view.length) { syncMore(); return; }
+    var end = Math.min(shown + (shown === 0 ? FIRST : STEP), view.length);
+    var html = '';
+    for (var i = shown; i < end; i++) html += card(view[i], i - shown);
+    // insertAdjacentHTML, not innerHTML: only the new batch is parsed, so the
+    // cards already on the page are not torn down and rebuilt to add one row.
+    grid.insertAdjacentHTML('beforeend', html);
+    shown = end;
+    syncMore();
+  }
+
+  function paint(noStagger) {
+    filter();
     // The entrance stagger and a view transition would fight each other — the
     // transition snapshots frame 0 of the animation, which is an invisible
     // card. So the cross-fade owns the transition and the stagger stands down.
-    grid.classList.toggle('instant', noStagger || rows.length > 150);
-    grid.innerHTML = rows.map(card).join('');
-    empty.hidden = rows.length > 0;
-    count.textContent = rows.length + ' / ' + projects.length;
+    grid.classList.toggle('instant', noStagger || reduce);
+    grid.innerHTML = '';
+    append();
+    empty.hidden = view.length > 0;
+    count.textContent = view.length + ' / ' + projects.length;
   }
 
   // Cross-fade the grid on filter/sort where the browser can do it, so the
-  // swap reads as a state change rather than a flash.
+  // swap reads as a state change rather than a flash. It is skipped on narrow
+  // screens and on large result sets: the transition snapshots the grid, and a
+  // snapshot of a very tall grid is exactly the kind of allocation a mobile
+  // browser refuses.
   function render() {
-    if (!reduce && document.startViewTransition) {
+    if (!reduce && wide && document.startViewTransition && grid.childElementCount <= 200) {
       document.startViewTransition(function () { paint(true); });
     } else {
       paint(false);
@@ -1617,33 +1794,58 @@ function renderSite(projects, ledger, rank) {
     render();
   });
 
-  // cursor spotlight — drives both the radial highlight and a slight tilt
-  grid.addEventListener('mousemove', function (e) {
-    var c = e.target.closest('.card');
-    if (!c) return;
-    var r = c.getBoundingClientRect();
-    var px = (e.clientX - r.left) / r.width;
-    var py = (e.clientY - r.top) / r.height;
-    c.style.setProperty('--mx', (e.clientX - r.left) + 'px');
-    c.style.setProperty('--my', (e.clientY - r.top) + 'px');
-    if (reduce) return;
-    c.style.transform =
-      'translateY(-4px) perspective(760px) rotateX(' + ((0.5 - py) * 3.4).toFixed(2) + 'deg)' +
-      ' rotateY(' + ((px - 0.5) * 3.8).toFixed(2) + 'deg)';
-  });
-  grid.addEventListener('mouseleave', function () {
-    grid.querySelectorAll('.card').forEach(function (c) { c.style.transform = ''; });
-  });
+  // Cursor spotlight and tilt — pointer-fine only. Cheap per event on a
+  // desktop, and meaningless without a cursor.
+  if (fine) {
+    var hovered = null;
+    grid.addEventListener('mousemove', function (e) {
+      var c = e.target.closest('.card');
+      if (!c) return;
+      if (hovered && hovered !== c) hovered.style.transform = '';
+      hovered = c;
+      var r = c.getBoundingClientRect();
+      var px = (e.clientX - r.left) / r.width;
+      var py = (e.clientY - r.top) / r.height;
+      c.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      c.style.setProperty('--my', (e.clientY - r.top) + 'px');
+      if (reduce) return;
+      c.style.transform =
+        'translateY(-4px) perspective(760px) rotateX(' + ((0.5 - py) * 3.4).toFixed(2) + 'deg)' +
+        ' rotateY(' + ((px - 0.5) * 3.8).toFixed(2) + 'deg)';
+    });
+    grid.addEventListener('mouseleave', function () {
+      if (hovered) { hovered.style.transform = ''; hovered = null; }
+    });
+  }
 
   document.addEventListener('keydown', function (e) {
     if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); }
     if (e.key === 'Escape' && document.activeElement === q) { q.value = ''; render(); q.blur(); }
   });
 
+  // Reveal the next batch when the control comes into view. It stays a real
+  // button, so a keyboard or screen-reader user is never dependent on an
+  // observer firing.
+  if (window.IntersectionObserver) {
+    new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting && !morebar.hidden) append();
+    }, { rootMargin: '700px 0px' }).observe(morebar);
+  } else {
+    window.addEventListener('scroll', function () {
+      if (raf) return;
+      raf = requestAnimationFrame(function () {
+        raf = 0;
+        if (morebar.hidden) return;
+        if (morebar.getBoundingClientRect().top < window.innerHeight + 700) append();
+      });
+    }, { passive: true });
+  }
+  more.addEventListener('click', append);
+
   var debounce = null;
   q.addEventListener('input', function () {
     clearTimeout(debounce);
-    debounce = setTimeout(render, 90);
+    debounce = setTimeout(render, 110);
   });
   sort.addEventListener('change', render);
   paint(false);

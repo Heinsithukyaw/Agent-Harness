@@ -157,21 +157,23 @@ jobs:
           fi
           echo "no template leakage in site/index.html"
 
-          # Payload and render budget. The site embeds the whole corpus, so both its
-          # weight and its first-paint cost grow with the registry rather than with
-          # traffic. Two cliffs, two remedies:
+          # Payload and render budget. The site embeds the whole corpus, so its
+          # weight grows with the registry rather than with traffic. Two axes:
           #
           #   bytes -> shard the data: one JSON file per layer, fetched on demand.
-          #   cards -> window the grid: render the first N, append as you scroll.
+          #   cards -> the grid is windowed, so the number worth watching is the
+          #            ceiling: what the DOM holds once a reader has scrolled to
+          #            the end. First paint is a constant and is reported, not
+          #            budgeted. Past the warn line the remedy is recycling the
+          #            window so cards leave the DOM as they leave the viewport.
           #
-          # Both stay static files on a CDN, so neither is a reason to add a backend.
-          # The render budget exists because the grid rebuilds every matching card
-          # through innerHTML, and the initial paint matches everything.
+          # Both remedies stay static files on a CDN, so neither is a reason to
+          # add a backend.
           #
           # This advises, it does not fail: a red step would stop the collector
           # committing, which trades a heavy page for a stale one.
           python3 - <<'PY'
-          import gzip, json, os
+          import gzip, json, os, re
 
           PAYLOAD_WARN, PAYLOAD_HARD = 500 * 1024, 1024 * 1024
           CARDS_WARN, CARDS_HARD = 2500, 4000
@@ -181,6 +183,14 @@ jobs:
           raw = os.path.getsize(SITE)
           with open(SITE, 'rb') as fh:
               gz = len(gzip.compress(fh.read(), 9))
+              fh.seek(0)
+              src = fh.read().decode('utf8', 'replace')
+
+          # Read the window out of the page rather than restating it here, so a
+          # change in the generator shows up in this table instead of silently
+          # disagreeing with it.
+          m = re.search(r'var FIRST = (\d+)', src)
+          first = int(m.group(1)) if m else 0
 
           n = json.load(open(SUMMARY)).get('projectCount', 0) or 0
           per = (gz / n) if n else 0
@@ -202,7 +212,8 @@ jobs:
               s.write('| Measure | Value | Budget |\n|---|---|---|\n')
               s.write('| Raw | %s | — |\n' % kb(raw))
               s.write('| Transferred, gzip -9 | %s | %s |\n' % (kb(gz), pay))
-              s.write('| First-paint cards | %d | %s |\n' % (n, dom))
+              s.write('| First paint | %d cards | constant |\n' % first)
+              s.write('| DOM ceiling at full scroll | %d | %s |\n' % (n, dom))
               s.write('| Per project | %d B | — |\n' % round(per))
               s.write('\n')
 
@@ -216,13 +227,13 @@ jobs:
               print('payload %s is within budget, %d projects of headroom' % (kb(gz), room))
 
           if dom == 'OVER HARD':
-              print('::warning::%d first-paint cards is over the hard budget %d — window the grid now'
+              print('::warning::%d cards can reach the DOM — over the hard budget %d, recycle the window now'
                     % (n, CARDS_HARD))
           elif dom == 'over soft':
-              print('::warning::%d first-paint cards is over the soft budget %d — %d left before the hard budget'
+              print('::warning::%d cards can reach the DOM — over the soft budget %d, %d left before the hard budget'
                     % (n, CARDS_WARN, CARDS_HARD - n))
           else:
-              print('render %d first-paint cards is within budget, %d projects of headroom'
+              print('render ceiling of %d cards is within budget, %d projects of headroom'
                     % (n, CARDS_WARN - n))
           PY
 
