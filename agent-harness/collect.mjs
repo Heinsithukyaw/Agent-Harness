@@ -161,6 +161,11 @@ class SearchBudget {
   constructor(limitPerMinute = 30) {
     this.limit = limitPerMinute;
     this.timestamps = [];
+    // Counted here, and only here, so the number in the run log is requests
+    // actually spent. The recursive retry below re-enters take(), which would
+    // double-count a request that waited — so the increment sits in the branch
+    // that consumed a slot, not at the top.
+    this.calls = 0;
   }
 
   async take() {
@@ -173,6 +178,7 @@ class SearchBudget {
       return this.take();
     }
     this.timestamps.push(now);
+    this.calls += 1;
     await sleep(2200); // stay comfortably under the ceiling
   }
 }
@@ -258,7 +264,7 @@ async function discover() {
     console.log(`  ${String(spec.label).padEnd(34)} +${String(collected).padStart(4)}  (total ${byId.size})`);
   }
 
-  return [...byId.values()];
+  return { candidates: [...byId.values()], searchCalls: budget.calls };
 }
 
 // ---------------------------------------------------------------------------
@@ -358,12 +364,19 @@ async function gql(query, variables, { retries = 4 } = {}) {
  * Bulk-enrich by node id. Batches shrink on failure: a batch size that works
  * for shallow repositories can 502 on repositories with large manifests, so the
  * collector adapts rather than giving up.
+ *
+ * When shrinking is exhausted the batch is abandoned, and the count of those
+ * repositories is returned rather than merely logged. A repository this stage
+ * gives up on is a defect in this pipeline, and a defect that exists only in a
+ * console log is not recorded anywhere — which is the whole reason the run log
+ * carries it now.
  */
 async function enrich(nodeIds, startBatchSize = 25) {
   const query = buildNodesQuery();
   const out = new Map();
   let rateLimit = null;
   let batchSize = startBatchSize;
+  let failed = 0;
 
   let i = 0;
   while (i < nodeIds.length) {
@@ -379,6 +392,7 @@ async function enrich(nodeIds, startBatchSize = 25) {
         continue;
       }
       console.log(`  skipping ${batch.length} repositories that could not be enriched`);
+      failed += batch.length;
       i += batch.length;
       continue;
     }
@@ -394,7 +408,7 @@ async function enrich(nodeIds, startBatchSize = 25) {
     );
   }
 
-  return { repos: out, rateLimit };
+  return { repos: out, rateLimit, failed };
 }
 
 // ---------------------------------------------------------------------------
@@ -754,7 +768,7 @@ async function main() {
   const observedAt = new Date().toISOString();
 
   console.log('discovering corpus');
-  const candidates = await discover();
+  const { candidates, searchCalls } = await discover();
   console.log(`  ${candidates.length} unique repositories above the ${QUALITY_FLOOR}-star floor`);
 
   const previous = readJson('data/projects.json', { projects: [] });
@@ -785,11 +799,15 @@ async function main() {
       (deferred ? ` · ${deferred} deferred by ENRICH_CAP=${ENRICH_CAP}` : ''),
   );
 
-  const { repos, rateLimit } = toEnrich.length
+  const { repos, rateLimit, failed: enrichFailed } = toEnrich.length
     ? await enrich(toEnrich.map((c) => c.nodeId))
-    : { repos: new Map(), rateLimit: null };
+    : { repos: new Map(), rateLimit: null, failed: 0 };
 
-  const byNodeId = new Map(candidates.map((c) => [c.nodeId, c]));
+  // Requested, not abandoned, and not returned: the repository moved or was
+  // deleted between the search that found it and the GraphQL call that asked
+  // for it. A fact about GitHub rather than a defect here, so it is kept
+  // separate from `enrichFailed` — attempted = enriched + failed + missing.
+  const enrichMissing = Math.max(0, toEnrich.length - repos.size - enrichFailed);
 
   // Rebuild the corpus: fresh data where we enriched, cached data otherwise.
   const merged = [];
@@ -813,12 +831,23 @@ async function main() {
     }
   }
 
-  const relevant = merged.filter((p) => (p.relevance ?? 0) >= MIN_RELEVANCE);
-  const dropped = merged.length - relevant.length;
+  // Seen this run, and in no state: not enriched, and with no previous row to
+  // carry forward. This is the only path where a discovered repository leaves
+  // without a number attached to it, and it is the one that made a run ending
+  // with 48 projects out of 1,831 candidates indistinguishable from a healthy
+  // one. It is not the same as `deferred`: most deferred repositories are
+  // already known and are carried forward, so only the deferred-and-new ones
+  // land here.
+  const unplaced = candidates.length - merged.length;
 
-  const sorted = relevant
-    .sort((a, b) => b.stars - a.stars || a.fullName.localeCompare(b.fullName))
-    .slice(0, MAX_PROJECTS);
+  const relevant = merged.filter((p) => (p.relevance ?? 0) >= MIN_RELEVANCE);
+  const belowRelevance = merged.length - relevant.length;
+
+  const rankedByStars = relevant.sort(
+    (a, b) => b.stars - a.stars || a.fullName.localeCompare(b.fullName),
+  );
+  const sorted = rankedByStars.slice(0, MAX_PROJECTS);
+  const truncatedByMax = rankedByStars.length - sorted.length;
 
   const layerCounts = {};
   for (const p of sorted) layerCounts[p.layer] = (layerCounts[p.layer] ?? 0) + 1;
@@ -910,16 +939,51 @@ async function main() {
     }
   }
 
+  // The run log is the pipeline's own telemetry, and it exists to answer
+  // questions about a run without reading a console log that has already
+  // scrolled away. Two things it deliberately does not do:
+  //
+  //   It does not call `candidates` a denominator. Every repository the diff
+  //   skipped is in there, and a skip is the change detector working, not a
+  //   gap. `enriched / candidates` is a churn ratio; the success rate is
+  //   `enriched / attempted`.
+  //
+  //   It does not fold the five ways a repository can fail to reach the corpus
+  //   into one number. `deferred` is a budget decision, `unplaced` is a
+  //   repository the budget deferred that had no previous row to fall back on,
+  //   `belowRelevance` is the gate doing its job, `truncatedByMax` is a cap,
+  //   and `enrichFailed` is a defect. They used to be printed and discarded,
+  //   which made a run that ended with 48 projects out of 1,831 candidates look
+  //   identical to a healthy one — both simply recorded fewer projects than
+  //   candidates.
+  //
+  // `entryVersion` is the shape marker: version 1 recorded `enriched` as the
+  // count that *needed* enrichment. Consumers reading a v1 row are reading an
+  // attempt count under a name that says otherwise.
   const runEntry = {
     runId,
     observedAt,
+    entryVersion: 2,
     classifierVersion: CLASSIFIER_VERSION,
     candidates: candidates.length,
-    enriched: needsEnrichment.length,
+    attempted: toEnrich.length,
+    enriched: repos.size,
+    enrichFailed,
+    enrichMissing,
+    deferred,
+    unplaced,
+    belowRelevance,
+    truncatedByMax,
     projects: sorted.length,
     transitions: events.length,
-    searchCalls: 0,
+    searchCalls,
     graphqlPointsRemaining: rateLimit?.remaining ?? null,
+    // Per-run layer distribution, including `other`. Recorded here because the
+    // layer shares are a series, not a snapshot: a keyword classifier's `other`
+    // bucket cannot be stationary while the ecosystem's vocabulary moves, and
+    // the per-project timelines can only reconstruct it with a full replay and
+    // a survivorship bias. One object per run buys the trend outright.
+    layerCounts,
     prevHash,
   };
   runEntry.entryHash = sha256(prevHash + JSON.stringify(canon(runEntry)));
@@ -930,9 +994,14 @@ async function main() {
   await collectTraffic();
 
   console.log(`\nprojects           ${sorted.length}`);
-  console.log(`filtered out       ${dropped} below relevance ${MIN_RELEVANCE}`);
-  console.log(`enriched           ${needsEnrichment.length}`);
+  console.log(`attempted          ${toEnrich.length}`);
+  console.log(`enriched           ${repos.size}  (${enrichFailed} failed, ${enrichMissing} missing)`);
+  console.log(`deferred           ${deferred}${deferred ? ` (ENRICH_CAP=${ENRICH_CAP})` : ''}`);
+  console.log(`unplaced           ${unplaced}  (deferred and previously unknown)`);
+  console.log(`below relevance    ${belowRelevance} (min ${MIN_RELEVANCE})`);
+  console.log(`capped by max      ${truncatedByMax}${truncatedByMax ? ` (MAX_PROJECTS=${MAX_PROJECTS})` : ''}`);
   console.log(`transitions        ${events.length}`);
+  console.log(`search calls       ${searchCalls}`);
   console.log(`files changed      ${changed.length}`);
   console.log('layers             ' + Object.entries(layerCounts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k}:${v}`).join('  '));
   console.log(`run entry hash     ${runEntry.entryHash.slice(0, 16)}\u2026`);

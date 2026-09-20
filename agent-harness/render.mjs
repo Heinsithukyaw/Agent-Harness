@@ -632,9 +632,28 @@ function pipeGlyph(d, i) {
 
 function renderRunStrip(ledger, layerCount, projectCount) {
   const run = ledger?.latest ?? {};
+
+  // A version 1 entry recorded `enriched` as the count that *needed*
+  // enrichment; version 2 splits it into attempted / enriched / failed /
+  // missing. Reading a v1 row under the v2 label would put an attempt count
+  // where the artwork says "enriched", so the shape decides which number is
+  // shown rather than the label deciding what it means.
+  const enriched = (run.entryVersion ?? 1) >= 2 ? (run.enriched ?? 0) : (run.attempted ?? run.enriched ?? 0);
+
+  // The residual is the only part of the enrichment stage worth surfacing on
+  // the artwork, so it appears when it is non-zero and stays out of the way
+  // otherwise. `missing` is kept separate from `failed` on purpose: a batch the
+  // collector gave up on is a defect here, a node that came back empty is a
+  // repository that moved under us.
+  const failed = run.enrichFailed ?? 0;
+  const missing = run.enrichMissing ?? 0;
+  const enrichSub = failed + missing
+    ? `${nfmt(failed)} failed \u00b7 ${nfmt(missing)} missing`
+    : 'no clones';
+
   const nodes = [
     { x: 110, label: 'DISCOVER', big: `${nfmt(run.candidates ?? 0)} candidates`, sub: 'search queries' },
-    { x: 370, label: 'ENRICH', big: `${nfmt(run.enriched ?? 0)} manifests`, sub: 'no clones' },
+    { x: 370, label: 'ENRICH', big: `${nfmt(enriched)} repositories`, sub: enrichSub },
     { x: 630, label: 'CLASSIFY', big: `${nfmt(projectCount)} projects`, sub: `${layerCount} layers` },
     {
       x: 890,

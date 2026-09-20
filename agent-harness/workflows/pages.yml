@@ -36,10 +36,11 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Read-only by default, and the escalation lives on the job that needs it. With
+# one job this changes nothing today; it is here so that a second job added
+# later inherits a read-only token instead of a write-capable one by accident.
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 # One deployment at a time. `cancel-in-progress: false` on purpose: a half
 # published site is worse than a slightly late one.
@@ -49,6 +50,10 @@ concurrency:
 
 jobs:
   deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     # A failed registry run leaves the last good site up rather than publishing
     # a half-rendered one. Only a *successful* refresh replaces it.
     if: >-
