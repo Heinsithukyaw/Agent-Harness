@@ -76,7 +76,7 @@
     </circle>
   </g>
 
-  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">The multi-agent harness that checks the work: verifies agent runs by arti…</text>
+  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Mechanical verification for AI coding agents — skills pack or full harnes…</text>
   <rect x="22.0" y="90" width="95.3" height="18" rx="9" fill="rgba(56,189,248,0.14)" stroke="rgba(56,189,248,0.38)" stroke-width="0.75"/><text x="69.7" y="102.6" font-size="10" fill="#38BDF8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Orchestration</text><rect x="123.3" y="90" width="101.4" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="174.0" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">GitHub Actions</text>
 
   <!-- ── stars rank within this corpus ── -->
@@ -89,5 +89,5 @@
   </rect>
 
   <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 1,319   ·   ⑂ 149   ·   MIT</text>
-  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">1e3d636</text>
+  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">d408435</text>
 </svg>
