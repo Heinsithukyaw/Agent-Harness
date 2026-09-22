@@ -62,15 +62,15 @@
 
   <text x="22" y="30" font-size="9.5" letter-spacing="1.1" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">PUPPYONE-AI</text>
   <text x="22" y="55" font-size="17.5" font-weight="600" fill="#F5F2EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">puppyone-cloud</text>
-  <text x="440" y="54" font-size="11" fill="#A9A49A" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">TypeScript</text>
-  <circle cx="450" cy="50" r="4.5" fill="#3178c6"/>
+  <text x="440" y="54" font-size="11" fill="#A9A49A" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Python</text>
+  <circle cx="450" cy="50" r="4.5" fill="#3572A5"/>
   <g class="mo">
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0 450 50" to="360 450 50"
                         dur="7s" repeatCount="indefinite"/>
-      <circle cx="450" cy="36" r="1.7" fill="#3178c6" opacity="0.85"/>
+      <circle cx="450" cy="36" r="1.7" fill="#3572A5" opacity="0.85"/>
     </g>
-    <circle cx="450" cy="50" r="4.5" fill="none" stroke="#3178c6" stroke-width="1">
+    <circle cx="450" cy="50" r="4.5" fill="none" stroke="#3572A5" stroke-width="1">
       <animate attributeName="r" values="4.5;11;4.5" dur="4s" repeatCount="indefinite"/>
       <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="4s" repeatCount="indefinite"/>
     </circle>
@@ -89,5 +89,5 @@
   </rect>
 
   <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 1,302   ·   ⑂ 74   ·   Apache-2.0</text>
-  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">f07c94b</text>
+  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">87ccd06</text>
 </svg>

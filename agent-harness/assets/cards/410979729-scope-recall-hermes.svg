@@ -76,7 +76,7 @@
     </circle>
   </g>
 
-  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Hermes Agent memory plugin/provider for scope-aware recall, SQLite truth,…</text>
+  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Long-term memory for Hermes and Codex, with local storage, source-backed…</text>
   <rect x="22.0" y="90" width="113.6" height="18" rx="9" fill="rgba(34,211,238,0.14)" stroke="rgba(34,211,238,0.38)" stroke-width="0.75"/><text x="78.8" y="102.6" font-size="10" fill="#22D3EE" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Memory &amp; Context</text><rect x="141.6" y="90" width="101.4" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="192.3" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">GitHub Actions</text><rect x="249.0" y="90" width="64.8" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="281.4" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Pydantic</text>
 
   <!-- ── stars rank within this corpus ── -->
@@ -89,5 +89,5 @@
   </rect>
 
   <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 274   ·   ⑂ 29   ·   MIT</text>
-  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">97244d5</text>
+  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">715d51c</text>
 </svg>
