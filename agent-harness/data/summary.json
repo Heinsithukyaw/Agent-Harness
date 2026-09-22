@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-09-22T08:55:08.518Z",
+  "stateChangedAt": "2026-09-22T14:22:18.997Z",
   "stateChangedDate": "2026-09-22",
   "projectCount": 1156,
   "projectCountLabel": "1,156",
-  "totalStars": 6779801,
-  "totalStarsLabel": "6,779,801",
+  "totalStars": 6784124,
+  "totalStarsLabel": "6,784,124",
   "totalStarsCompact": "6.78M",
   "layerCount": 9,
-  "runs": 21,
+  "runs": 22,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 264937,
-      "starsCompact": "264.9k",
+      "stars": 265106,
+      "starsCompact": "265.1k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187485,
+      "stars": 187486,
       "starsCompact": "187.5k",
       "layer": "other"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 156834,
-      "starsCompact": "156.8k",
+      "stars": 156851,
+      "starsCompact": "156.9k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 143978,
-      "starsCompact": "144k",
+      "stars": 144168,
+      "starsCompact": "144.2k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 120327,
-      "starsCompact": "120.3k",
+      "stars": 120417,
+      "starsCompact": "120.4k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 94438,
-      "starsCompact": "94.4k",
+      "stars": 94456,
+      "starsCompact": "94.5k",
       "layer": "memory"
     },
     {
       "fullName": "infiniflow/ragflow",
-      "stars": 91136,
-      "starsCompact": "91.1k",
+      "stars": 91162,
+      "starsCompact": "91.2k",
       "layer": "memory"
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 84551,
-      "starsCompact": "84.6k",
+      "stars": 84664,
+      "starsCompact": "84.7k",
       "layer": "tools"
     }
   ],

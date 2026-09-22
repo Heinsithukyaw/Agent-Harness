@@ -76,8 +76,8 @@
     </circle>
   </g>
 
-  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">MCP server for AI-powered GitHub project management — agent orchestration…</text>
-  <rect x="22.0" y="90" width="95.3" height="18" rx="9" fill="rgba(56,189,248,0.14)" stroke="rgba(56,189,248,0.38)" stroke-width="0.75"/><text x="69.7" y="102.6" font-size="10" fill="#38BDF8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Orchestration</text><rect x="123.3" y="90" width="52.6" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="149.6" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Docker</text><rect x="181.9" y="90" width="101.4" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="232.6" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">GitHub Actions</text>
+  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">MCP server for AI-powered GitHub project management — 20 tools, 169 actio…</text>
+  <rect x="22.0" y="90" width="95.3" height="18" rx="9" fill="rgba(56,189,248,0.14)" stroke="rgba(56,189,248,0.38)" stroke-width="0.75"/><text x="69.7" y="102.6" font-size="10" fill="#38BDF8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Orchestration</text><rect x="123.3" y="90" width="52.6" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="149.6" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Docker</text><rect x="181.9" y="90" width="101.4" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="232.6" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Docker Compose</text><rect x="289.3" y="90" width="101.4" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="340.0" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">GitHub Actions</text>
 
   <!-- ── stars rank within this corpus ── -->
   <text x="22" y="134" font-size="8.6" letter-spacing="1.4" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">STARS RANK</text>
@@ -89,5 +89,5 @@
   </rect>
 
   <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 100   ·   ⑂ 27   ·   MIT</text>
-  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">454e6e4</text>
+  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">cdd79e7</text>
 </svg>
