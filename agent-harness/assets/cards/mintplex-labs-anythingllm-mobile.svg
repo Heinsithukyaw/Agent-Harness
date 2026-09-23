@@ -76,7 +76,7 @@
     </circle>
   </g>
 
-  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Transform your phone into your AI Assistant with local first models and p…</text>
+  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">An AI Agent that lives in your pocket. Local-first and privacy focused.</text>
   <rect x="22.0" y="90" width="113.6" height="18" rx="9" fill="rgba(34,211,238,0.14)" stroke="rgba(34,211,238,0.38)" stroke-width="0.75"/><text x="78.8" y="102.6" font-size="10" fill="#22D3EE" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Memory &amp; Context</text><rect x="141.6" y="90" width="101.4" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="192.3" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">GitHub Actions</text><rect x="249.0" y="90" width="46.5" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="272.3" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">React</text>
 
   <!-- ── stars rank within this corpus ── -->
