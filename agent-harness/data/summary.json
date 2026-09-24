@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-09-24T08:50:18.435Z",
+  "stateChangedAt": "2026-09-24T14:33:59.371Z",
   "stateChangedDate": "2026-09-24",
-  "projectCount": 1157,
-  "projectCountLabel": "1,157",
-  "totalStars": 6815387,
-  "totalStarsLabel": "6,815,387",
+  "projectCount": 1158,
+  "projectCountLabel": "1,158",
+  "totalStars": 6819355,
+  "totalStarsLabel": "6,819,355",
   "totalStarsCompact": "6.82M",
   "layerCount": 9,
-  "runs": 29,
+  "runs": 30,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,49 +71,49 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 266378,
-      "starsCompact": "266.4k",
+      "stars": 266550,
+      "starsCompact": "266.6k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187515,
+      "stars": 187523,
       "starsCompact": "187.5k",
       "layer": "other"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 157042,
-      "starsCompact": "157k",
+      "stars": 157074,
+      "starsCompact": "157.1k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 145223,
-      "starsCompact": "145.2k",
+      "stars": 145343,
+      "starsCompact": "145.3k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 121029,
-      "starsCompact": "121k",
+      "stars": 121101,
+      "starsCompact": "121.1k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 94575,
+      "stars": 94598,
       "starsCompact": "94.6k",
       "layer": "memory"
     },
     {
       "fullName": "infiniflow/ragflow",
-      "stars": 91247,
-      "starsCompact": "91.2k",
+      "stars": 91265,
+      "starsCompact": "91.3k",
       "layer": "memory"
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 85172,
+      "stars": 85221,
       "starsCompact": "85.2k",
       "layer": "tools"
     }
