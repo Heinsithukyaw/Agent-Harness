@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-09-24T14:33:59.371Z",
+  "stateChangedAt": "2026-09-24T19:34:34.896Z",
   "stateChangedDate": "2026-09-24",
-  "projectCount": 1158,
-  "projectCountLabel": "1,158",
-  "totalStars": 6819355,
-  "totalStarsLabel": "6,819,355",
+  "projectCount": 1157,
+  "projectCountLabel": "1,157",
+  "totalStars": 6822346,
+  "totalStarsLabel": "6,822,346",
   "totalStarsCompact": "6.82M",
   "layerCount": 9,
-  "runs": 30,
+  "runs": 31,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -30,7 +30,7 @@
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 298
+      "count": 297
     },
     "memory": {
       "label": "Memory & Context",
@@ -71,8 +71,8 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 266550,
-      "starsCompact": "266.6k",
+      "stars": 266715,
+      "starsCompact": "266.7k",
       "layer": "tools"
     },
     {
@@ -83,38 +83,38 @@
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 157074,
+      "stars": 157107,
       "starsCompact": "157.1k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 145343,
-      "starsCompact": "145.3k",
+      "stars": 145458,
+      "starsCompact": "145.5k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 121101,
-      "starsCompact": "121.1k",
+      "stars": 121171,
+      "starsCompact": "121.2k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 94598,
+      "stars": 94616,
       "starsCompact": "94.6k",
       "layer": "memory"
     },
     {
       "fullName": "infiniflow/ragflow",
-      "stars": 91265,
+      "stars": 91274,
       "starsCompact": "91.3k",
       "layer": "memory"
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 85221,
-      "starsCompact": "85.2k",
+      "stars": 85253,
+      "starsCompact": "85.3k",
       "layer": "tools"
     }
   ],

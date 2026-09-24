@@ -76,7 +76,7 @@
     </circle>
   </g>
 
-  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">User-Centered Product Development Prompt Templates &amp; Agent Configurations</text>
+  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Plan, build and launch products with AI: guided planning prompts, an AI A…</text>
   <rect x="22.0" y="90" width="77.0" height="18" rx="9" fill="rgba(251,113,133,0.14)" stroke="rgba(251,113,133,0.38)" stroke-width="0.75"/><text x="60.5" y="102.6" font-size="10" fill="#FB7185" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Governance</text><rect x="105.0" y="90" width="22.1" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="116.0" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">—</text>
 
   <!-- ── stars rank within this corpus ── -->
@@ -89,5 +89,5 @@
   </rect>
 
   <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 988   ·   ⑂ 166   ·   MIT</text>
-  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">ae7a1e3</text>
+  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">8e7dbe9</text>
 </svg>
