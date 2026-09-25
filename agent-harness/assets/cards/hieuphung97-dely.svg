@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="176" viewBox="0 0 480 176" role="img" aria-label="NetX-lab/Ayo — Orchestration, 77 stars, top 88% of this corpus">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="176" viewBox="0 0 480 176" role="img" aria-label="hieuphung97/dely — Orchestration, 77 stars, top 88% of this corpus">
   <style>
     /* Motion is additive decoration. With reduced motion requested the whole
        motion layer is hidden and the card is still complete and correct. */
@@ -60,24 +60,24 @@
     </circle>
   </g>
 
-  <text x="22" y="30" font-size="9.5" letter-spacing="1.1" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">NETX-LAB</text>
-  <text x="22" y="55" font-size="17.5" font-weight="600" fill="#F5F2EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Ayo</text>
-  <text x="440" y="54" font-size="11" fill="#A9A49A" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Python</text>
-  <circle cx="450" cy="50" r="4.5" fill="#3572A5"/>
+  <text x="22" y="30" font-size="9.5" letter-spacing="1.1" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">HIEUPHUNG97</text>
+  <text x="22" y="55" font-size="17.5" font-weight="600" fill="#F5F2EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">dely</text>
+  <text x="440" y="54" font-size="11" fill="#A9A49A" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">JavaScript</text>
+  <circle cx="450" cy="50" r="4.5" fill="#f1e05a"/>
   <g class="mo">
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0 450 50" to="360 450 50"
                         dur="7s" repeatCount="indefinite"/>
-      <circle cx="450" cy="36" r="1.7" fill="#3572A5" opacity="0.85"/>
+      <circle cx="450" cy="36" r="1.7" fill="#f1e05a" opacity="0.85"/>
     </g>
-    <circle cx="450" cy="50" r="4.5" fill="none" stroke="#3572A5" stroke-width="1">
+    <circle cx="450" cy="50" r="4.5" fill="none" stroke="#f1e05a" stroke-width="1">
       <animate attributeName="r" values="4.5;11;4.5" dur="4s" repeatCount="indefinite"/>
       <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="4s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">[ASPLOS&#39;25] Towards End-to-End Optimization of LLM-based Applications wit…</text>
-  <rect x="22.0" y="90" width="95.3" height="18" rx="9" fill="rgba(56,189,248,0.14)" stroke="rgba(56,189,248,0.38)" stroke-width="0.75"/><text x="69.7" y="102.6" font-size="10" fill="#38BDF8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Orchestration</text><rect x="123.3" y="90" width="58.7" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="152.7" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">FastAPI</text>
+  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Multi-harness control protocol that turns requests into approved design c…</text>
+  <rect x="22.0" y="90" width="95.3" height="18" rx="9" fill="rgba(56,189,248,0.14)" stroke="rgba(56,189,248,0.38)" stroke-width="0.75"/><text x="69.7" y="102.6" font-size="10" fill="#38BDF8" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Orchestration</text><rect x="123.3" y="90" width="22.1" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="134.3" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">—</text>
 
   <!-- ── stars rank within this corpus ── -->
   <text x="22" y="134" font-size="8.6" letter-spacing="1.4" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">STARS RANK</text>
@@ -88,6 +88,6 @@
              dur="1.1s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
   </rect>
 
-  <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 77   ·   ⑂ 9   ·   MIT</text>
-  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">8f42787</text>
+  <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 77   ·   ⑂ 20   ·   MIT</text>
+  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">ce7a29c</text>
 </svg>
