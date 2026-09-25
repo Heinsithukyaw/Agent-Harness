@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="176" viewBox="0 0 480 176" role="img" aria-label="agentscope-ai-java/agentscope-ai-java — Runtime, 108 stars, top 79% of this corpus">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="176" viewBox="0 0 480 176" role="img" aria-label="agentscope-ai-java/agentscope-java — Runtime, 108 stars, top 79% of this corpus">
   <style>
     /* Motion is additive decoration. With reduced motion requested the whole
        motion layer is hidden and the card is still complete and correct. */
@@ -61,7 +61,7 @@
   </g>
 
   <text x="22" y="30" font-size="9.5" letter-spacing="1.1" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">AGENTSCOPE-AI-JAVA</text>
-  <text x="22" y="55" font-size="17.5" font-weight="600" fill="#F5F2EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">agentscope-ai-java</text>
+  <text x="22" y="55" font-size="17.5" font-weight="600" fill="#F5F2EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">agentscope-java</text>
   <text x="440" y="54" font-size="11" fill="#A9A49A" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Java</text>
   <circle cx="450" cy="50" r="4.5" fill="#b07219"/>
   <g class="mo">

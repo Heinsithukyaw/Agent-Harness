@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-09-25T09:11:54.144Z",
+  "stateChangedAt": "2026-09-25T14:55:06.919Z",
   "stateChangedDate": "2026-09-25",
   "projectCount": 1159,
   "projectCountLabel": "1,159",
-  "totalStars": 6907369,
-  "totalStarsLabel": "6,907,369",
+  "totalStars": 6905834,
+  "totalStarsLabel": "6,905,834",
   "totalStarsCompact": "6.91M",
   "layerCount": 9,
-  "runs": 33,
+  "runs": 34,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 267119,
-      "starsCompact": "267.1k",
+      "stars": 267279,
+      "starsCompact": "267.3k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187542,
+      "stars": 187546,
       "starsCompact": "187.5k",
       "layer": "other"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 157165,
+      "stars": 157185,
       "starsCompact": "157.2k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 145675,
-      "starsCompact": "145.7k",
+      "stars": 145811,
+      "starsCompact": "145.8k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 121275,
+      "stars": 121350,
       "starsCompact": "121.3k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 94654,
+      "stars": 94674,
       "starsCompact": "94.7k",
       "layer": "memory"
     },
     {
       "fullName": "infiniflow/ragflow",
-      "stars": 91283,
+      "stars": 91291,
       "starsCompact": "91.3k",
       "layer": "memory"
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 85342,
-      "starsCompact": "85.3k",
+      "stars": 85387,
+      "starsCompact": "85.4k",
       "layer": "tools"
     }
   ],
