@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="176" viewBox="0 0 480 176" role="img" aria-label="wangmiaozero/pi-harness — Orchestration, 86 stars, top 85% of this corpus">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="176" viewBox="0 0 480 176" role="img" aria-label="wangmiaozero/pi-harness — Orchestration, 86 stars, top 84% of this corpus">
   <style>
     /* Motion is additive decoration. With reduced motion requested the whole
        motion layer is hidden and the card is still complete and correct. */
@@ -81,7 +81,7 @@
 
   <!-- ── stars rank within this corpus ── -->
   <text x="22" y="134" font-size="8.6" letter-spacing="1.4" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">STARS RANK</text>
-  <text x="458" y="134" font-size="8.6" letter-spacing="1.4" fill="#38BDF8" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">TOP 85%</text>
+  <text x="458" y="134" font-size="8.6" letter-spacing="1.4" fill="#38BDF8" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">TOP 84%</text>
   <rect x="22" y="142" width="436" height="4" rx="2" fill="rgba(255,255,255,0.07)"/>
   <rect x="22" y="142" width="69.8" height="4" rx="2" fill="url(#rankFill)">
     <animate attributeName="width" from="0" to="69.8"
