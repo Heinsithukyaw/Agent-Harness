@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-09-29T20:21:49.637Z",
-  "stateChangedDate": "2026-09-29",
-  "projectCount": 1173,
-  "projectCountLabel": "1,173",
-  "totalStars": 6981312,
-  "totalStarsLabel": "6,981,312",
+  "stateChangedAt": "2026-09-30T00:46:42.443Z",
+  "stateChangedDate": "2026-09-30",
+  "projectCount": 1174,
+  "projectCountLabel": "1,174",
+  "totalStars": 6983949,
+  "totalStarsLabel": "6,983,949",
   "totalStarsCompact": "6.98M",
   "layerCount": 9,
-  "runs": 48,
+  "runs": 49,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -30,7 +30,7 @@
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 300
+      "count": 301
     },
     "memory": {
       "label": "Memory & Context",
@@ -71,49 +71,49 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 269539,
-      "starsCompact": "269.5k",
+      "stars": 269656,
+      "starsCompact": "269.7k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187618,
+      "stars": 187620,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 157518,
+      "stars": 157523,
       "starsCompact": "157.5k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 148112,
-      "starsCompact": "148.1k",
+      "stars": 148228,
+      "starsCompact": "148.2k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 122410,
-      "starsCompact": "122.4k",
+      "stars": 122477,
+      "starsCompact": "122.5k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 94927,
+      "stars": 94948,
       "starsCompact": "94.9k",
       "layer": "memory"
     },
     {
       "fullName": "infiniflow/ragflow",
-      "stars": 91507,
+      "stars": 91511,
       "starsCompact": "91.5k",
       "layer": "memory"
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 86174,
+      "stars": 86193,
       "starsCompact": "86.2k",
       "layer": "tools"
     }
