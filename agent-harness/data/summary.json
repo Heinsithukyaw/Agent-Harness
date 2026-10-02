@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-01T20:43:19.394Z",
-  "stateChangedDate": "2026-10-01",
-  "projectCount": 1185,
-  "projectCountLabel": "1,185",
-  "totalStars": 7073305,
-  "totalStarsLabel": "7,073,305",
-  "totalStarsCompact": "7.07M",
+  "stateChangedAt": "2026-10-02T01:06:31.417Z",
+  "stateChangedDate": "2026-10-02",
+  "projectCount": 1186,
+  "projectCountLabel": "1,186",
+  "totalStars": 7125255,
+  "totalStarsLabel": "7,125,255",
+  "totalStarsCompact": "7.13M",
   "layerCount": 9,
-  "runs": 54,
+  "runs": 55,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -25,12 +25,12 @@
     "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
-      "count": 402
+      "count": 403
     },
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 307
+      "count": 305
     },
     "memory": {
       "label": "Memory & Context",
@@ -50,7 +50,7 @@
     "sandbox": {
       "label": "Sandboxing",
       "short": "SANDBOX",
-      "count": 22
+      "count": 23
     },
     "runtime": {
       "label": "Runtime",
@@ -65,43 +65,43 @@
     "gateway": {
       "label": "Model Gateway",
       "short": "GATEWAY",
-      "count": 10
+      "count": 11
     }
   },
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 270619,
-      "starsCompact": "270.6k",
+      "stars": 270718,
+      "starsCompact": "270.7k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187643,
+      "stars": 187649,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 157685,
+      "stars": 157697,
       "starsCompact": "157.7k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 150303,
-      "starsCompact": "150.3k",
+      "stars": 150507,
+      "starsCompact": "150.5k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 123038,
-      "starsCompact": "123k",
+      "stars": 123090,
+      "starsCompact": "123.1k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 95106,
+      "stars": 95129,
       "starsCompact": "95.1k",
       "layer": "memory"
     },
@@ -113,8 +113,8 @@
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 87367,
-      "starsCompact": "87.4k",
+      "stars": 87468,
+      "starsCompact": "87.5k",
       "layer": "tools"
     }
   ],
