@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-04T18:53:50.337Z",
-  "stateChangedDate": "2026-10-04",
+  "stateChangedAt": "2026-10-05T00:11:50.017Z",
+  "stateChangedDate": "2026-10-05",
   "projectCount": 1192,
   "projectCountLabel": "1,192",
-  "totalStars": 7130927,
-  "totalStarsLabel": "7,130,927",
+  "totalStars": 7133770,
+  "totalStarsLabel": "7,133,770",
   "totalStarsCompact": "7.13M",
   "layerCount": 9,
-  "runs": 64,
+  "runs": 65,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 272786,
-      "starsCompact": "272.8k",
+      "stars": 272959,
+      "starsCompact": "273k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187652,
+      "stars": 187657,
       "starsCompact": "187.7k",
       "layer": "other"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 157842,
+      "stars": 157850,
       "starsCompact": "157.8k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 154596,
-      "starsCompact": "154.6k",
+      "stars": 154848,
+      "starsCompact": "154.8k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 123736,
-      "starsCompact": "123.7k",
+      "stars": 123790,
+      "starsCompact": "123.8k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 96025,
-      "starsCompact": "96k",
+      "stars": 96117,
+      "starsCompact": "96.1k",
       "layer": "memory"
     },
     {
       "fullName": "infiniflow/ragflow",
-      "stars": 91678,
+      "stars": 91681,
       "starsCompact": "91.7k",
       "layer": "memory"
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 90653,
-      "starsCompact": "90.7k",
+      "stars": 90857,
+      "starsCompact": "90.9k",
       "layer": "tools"
     }
   ],
