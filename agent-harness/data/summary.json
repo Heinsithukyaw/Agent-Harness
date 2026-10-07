@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-07T10:40:48.690Z",
+  "stateChangedAt": "2026-10-07T20:59:57.443Z",
   "stateChangedDate": "2026-10-07",
-  "projectCount": 1198,
-  "projectCountLabel": "1,198",
-  "totalStars": 7144537,
-  "totalStarsLabel": "7,144,537",
-  "totalStarsCompact": "7.14M",
+  "projectCount": 1201,
+  "projectCountLabel": "1,201",
+  "totalStars": 7182784,
+  "totalStarsLabel": "7,182,784",
+  "totalStarsCompact": "7.18M",
   "layerCount": 9,
-  "runs": 71,
+  "runs": 72,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -25,12 +25,12 @@
     "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
-      "count": 412
+      "count": 411
     },
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 304
+      "count": 306
     },
     "memory": {
       "label": "Memory & Context",
@@ -40,7 +40,7 @@
     "eval": {
       "label": "Eval & Tracing",
       "short": "EVAL",
-      "count": 63
+      "count": 64
     },
     "governance": {
       "label": "Governance",
@@ -50,7 +50,7 @@
     "sandbox": {
       "label": "Sandboxing",
       "short": "SANDBOX",
-      "count": 23
+      "count": 24
     },
     "runtime": {
       "label": "Runtime",
@@ -71,49 +71,49 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 274510,
-      "starsCompact": "274.5k",
+      "stars": 274847,
+      "starsCompact": "274.8k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187681,
+      "stars": 187685,
       "starsCompact": "187.7k",
       "layer": "other"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 157994,
+      "stars": 158034,
       "starsCompact": "158k",
       "layer": "tools"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 157159,
-      "starsCompact": "157.2k",
+      "stars": 157504,
+      "starsCompact": "157.5k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 124514,
-      "starsCompact": "124.5k",
+      "stars": 124642,
+      "starsCompact": "124.6k",
       "layer": "memory"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 97379,
-      "starsCompact": "97.4k",
+      "stars": 97627,
+      "starsCompact": "97.6k",
       "layer": "memory"
     },
     {
       "fullName": "Panniantong/Agent-Reach",
-      "stars": 92901,
-      "starsCompact": "92.9k",
+      "stars": 93152,
+      "starsCompact": "93.2k",
       "layer": "tools"
     },
     {
       "fullName": "infiniflow/ragflow",
-      "stars": 91759,
+      "stars": 91772,
       "starsCompact": "91.8k",
       "layer": "memory"
     }
