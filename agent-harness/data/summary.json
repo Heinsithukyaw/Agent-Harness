@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-14T14:54:59.738Z",
+  "stateChangedAt": "2026-10-14T19:49:02.785Z",
   "stateChangedDate": "2026-10-14",
   "projectCount": 1217,
   "projectCountLabel": "1,217",
-  "totalStars": 7736150,
-  "totalStarsLabel": "7,736,150",
-  "totalStarsCompact": "7.74M",
+  "totalStars": 7675212,
+  "totalStarsLabel": "7,675,212",
+  "totalStarsCompact": "7.68M",
   "layerCount": 9,
-  "runs": 91,
+  "runs": 92,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -25,17 +25,17 @@
     "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
-      "count": 417
+      "count": 416
     },
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 312
+      "count": 310
     },
     "memory": {
       "label": "Memory & Context",
       "short": "MEMORY",
-      "count": 141
+      "count": 142
     },
     "eval": {
       "label": "Eval & Tracing",
@@ -65,55 +65,55 @@
     "gateway": {
       "label": "Model Gateway",
       "short": "GATEWAY",
-      "count": 13
+      "count": 14
     }
   },
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 279027,
-      "starsCompact": "279k",
+      "stars": 279281,
+      "starsCompact": "279.3k",
       "layer": "tools"
     },
     {
       "fullName": "morluto/rea",
-      "stars": 230653,
-      "starsCompact": "230.7k",
+      "stars": 237230,
+      "starsCompact": "237.2k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187569,
+      "stars": 187572,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 163293,
-      "starsCompact": "163.3k",
+      "stars": 163457,
+      "starsCompact": "163.5k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 158452,
+      "stars": 158468,
       "starsCompact": "158.5k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 126382,
-      "starsCompact": "126.4k",
+      "stars": 126467,
+      "starsCompact": "126.5k",
       "layer": "memory"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 101946,
-      "starsCompact": "101.9k",
+      "stars": 102064,
+      "starsCompact": "102.1k",
       "layer": "orchestration"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 100656,
+      "stars": 100716,
       "starsCompact": "100.7k",
       "layer": "memory"
     }
