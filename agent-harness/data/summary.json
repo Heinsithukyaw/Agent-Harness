@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-14T00:40:06.272Z",
+  "stateChangedAt": "2026-10-14T09:10:29.534Z",
   "stateChangedDate": "2026-10-14",
   "projectCount": 1216,
   "projectCountLabel": "1,216",
-  "totalStars": 7696699,
-  "totalStarsLabel": "7,696,699",
-  "totalStarsCompact": "7.7M",
+  "totalStars": 7719562,
+  "totalStarsLabel": "7,719,562",
+  "totalStarsCompact": "7.72M",
   "layerCount": 9,
-  "runs": 89,
+  "runs": 90,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,14 +71,14 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 278597,
-      "starsCompact": "278.6k",
+      "stars": 278824,
+      "starsCompact": "278.8k",
       "layer": "tools"
     },
     {
       "fullName": "morluto/rea",
-      "stars": 206749,
-      "starsCompact": "206.7k",
+      "stars": 221754,
+      "starsCompact": "221.8k",
       "layer": "tools"
     },
     {
@@ -89,32 +89,32 @@
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 162754,
-      "starsCompact": "162.8k",
+      "stars": 163053,
+      "starsCompact": "163.1k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 158388,
+      "stars": 158419,
       "starsCompact": "158.4k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 126197,
-      "starsCompact": "126.2k",
+      "stars": 126277,
+      "starsCompact": "126.3k",
       "layer": "memory"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 101561,
-      "starsCompact": "101.6k",
+      "stars": 101788,
+      "starsCompact": "101.8k",
       "layer": "orchestration"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 100435,
-      "starsCompact": "100.4k",
+      "stars": 100561,
+      "starsCompact": "100.6k",
       "layer": "memory"
     }
   ],
