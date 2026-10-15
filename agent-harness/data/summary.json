@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-14T19:49:02.785Z",
-  "stateChangedDate": "2026-10-14",
+  "stateChangedAt": "2026-10-15T00:12:40.775Z",
+  "stateChangedDate": "2026-10-15",
   "projectCount": 1217,
   "projectCountLabel": "1,217",
-  "totalStars": 7675212,
-  "totalStarsLabel": "7,675,212",
+  "totalStars": 7681098,
+  "totalStarsLabel": "7,681,098",
   "totalStarsCompact": "7.68M",
   "layerCount": 9,
-  "runs": 92,
+  "runs": 93,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 279281,
-      "starsCompact": "279.3k",
+      "stars": 279471,
+      "starsCompact": "279.5k",
       "layer": "tools"
     },
     {
       "fullName": "morluto/rea",
-      "stars": 237230,
-      "starsCompact": "237.2k",
+      "stars": 241107,
+      "starsCompact": "241.1k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187572,
+      "stars": 187578,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 163457,
-      "starsCompact": "163.5k",
+      "stars": 163605,
+      "starsCompact": "163.6k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 158468,
+      "stars": 158487,
       "starsCompact": "158.5k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 126467,
+      "stars": 126536,
       "starsCompact": "126.5k",
       "layer": "memory"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 102064,
-      "starsCompact": "102.1k",
+      "stars": 102157,
+      "starsCompact": "102.2k",
       "layer": "orchestration"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 100716,
-      "starsCompact": "100.7k",
+      "stars": 100756,
+      "starsCompact": "100.8k",
       "layer": "memory"
     }
   ],
