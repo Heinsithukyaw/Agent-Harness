@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-16T19:08:54.595Z",
+  "stateChangedAt": "2026-10-16T23:54:43.940Z",
   "stateChangedDate": "2026-10-16",
-  "projectCount": 1224,
-  "projectCountLabel": "1,224",
-  "totalStars": 7899590,
-  "totalStarsLabel": "7,899,590",
+  "projectCount": 1223,
+  "projectCountLabel": "1,223",
+  "totalStars": 7901686,
+  "totalStarsLabel": "7,901,686",
   "totalStarsCompact": "7.9M",
   "layerCount": 9,
-  "runs": 100,
+  "runs": 101,
   "layerOrder": [
     "orchestration",
     "tools",
     "memory",
     "eval",
     "governance",
-    "sandbox",
     "runtime",
+    "sandbox",
     "protocol",
     "gateway"
   ],
@@ -25,37 +25,37 @@
     "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
-      "count": 417
+      "count": 416
     },
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 314
+      "count": 315
     },
     "memory": {
       "label": "Memory & Context",
       "short": "MEMORY",
-      "count": 142
+      "count": 141
     },
     "eval": {
       "label": "Eval & Tracing",
       "short": "EVAL",
-      "count": 68
+      "count": 67
     },
     "governance": {
       "label": "Governance",
       "short": "GOVERN",
       "count": 37
     },
+    "runtime": {
+      "label": "Runtime",
+      "short": "RUNTIME",
+      "count": 24
+    },
     "sandbox": {
       "label": "Sandboxing",
       "short": "SANDBOX",
       "count": 24
-    },
-    "runtime": {
-      "label": "Runtime",
-      "short": "RUNTIME",
-      "count": 23
     },
     "protocol": {
       "label": "Protocols",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 288126,
-      "starsCompact": "288.1k",
+      "stars": 290651,
+      "starsCompact": "290.7k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 281245,
-      "starsCompact": "281.2k",
+      "stars": 281473,
+      "starsCompact": "281.5k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187612,
+      "stars": 187614,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 165098,
-      "starsCompact": "165.1k",
+      "stars": 165218,
+      "starsCompact": "165.2k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 158659,
+      "stars": 158668,
       "starsCompact": "158.7k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 127204,
-      "starsCompact": "127.2k",
+      "stars": 127250,
+      "starsCompact": "127.3k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 118196,
+      "stars": 118210,
       "starsCompact": "118.2k",
       "layer": "tools"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 103099,
-      "starsCompact": "103.1k",
+      "stars": 103170,
+      "starsCompact": "103.2k",
       "layer": "orchestration"
     }
   ],
