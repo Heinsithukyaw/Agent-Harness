@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-15T23:58:10.367Z",
-  "stateChangedDate": "2026-10-15",
+  "stateChangedAt": "2026-10-16T08:39:26.957Z",
+  "stateChangedDate": "2026-10-16",
   "projectCount": 1218,
   "projectCountLabel": "1,218",
-  "totalStars": 7835694,
-  "totalStarsLabel": "7,835,694",
-  "totalStarsCompact": "7.84M",
+  "totalStars": 7853702,
+  "totalStarsLabel": "7,853,702",
+  "totalStarsCompact": "7.85M",
   "layerCount": 9,
-  "runs": 97,
+  "runs": 98,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 280341,
-      "starsCompact": "280.3k",
+      "stars": 280709,
+      "starsCompact": "280.7k",
       "layer": "tools"
     },
     {
       "fullName": "morluto/rea",
-      "stars": 269257,
-      "starsCompact": "269.3k",
+      "stars": 279156,
+      "starsCompact": "279.2k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187601,
+      "stars": 187607,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 164391,
-      "starsCompact": "164.4k",
+      "stars": 164708,
+      "starsCompact": "164.7k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 158591,
+      "stars": 158624,
       "starsCompact": "158.6k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 126901,
-      "starsCompact": "126.9k",
+      "stars": 127029,
+      "starsCompact": "127k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 118097,
-      "starsCompact": "118.1k",
+      "stars": 118150,
+      "starsCompact": "118.2k",
       "layer": "tools"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 102713,
-      "starsCompact": "102.7k",
+      "stars": 102904,
+      "starsCompact": "102.9k",
       "layer": "orchestration"
     }
   ],
