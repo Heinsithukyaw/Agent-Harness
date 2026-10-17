@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-17T13:15:15.140Z",
+  "stateChangedAt": "2026-10-17T18:07:27.284Z",
   "stateChangedDate": "2026-10-17",
   "projectCount": 1221,
   "projectCountLabel": "1,221",
-  "totalStars": 7914011,
-  "totalStarsLabel": "7,914,011",
-  "totalStarsCompact": "7.91M",
+  "totalStars": 7923108,
+  "totalStarsLabel": "7,923,108",
+  "totalStarsCompact": "7.92M",
   "layerCount": 9,
-  "runs": 103,
+  "runs": 104,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 299895,
-      "starsCompact": "299.9k",
+      "stars": 304081,
+      "starsCompact": "304.1k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 281983,
-      "starsCompact": "282k",
+      "stars": 282200,
+      "starsCompact": "282.2k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187618,
+      "stars": 187625,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 165554,
-      "starsCompact": "165.6k",
+      "stars": 165984,
+      "starsCompact": "166k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 158694,
+      "stars": 158714,
       "starsCompact": "158.7k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 127490,
-      "starsCompact": "127.5k",
+      "stars": 127629,
+      "starsCompact": "127.6k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 118275,
+      "stars": 118320,
       "starsCompact": "118.3k",
       "layer": "tools"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 103387,
-      "starsCompact": "103.4k",
+      "stars": 103515,
+      "starsCompact": "103.5k",
       "layer": "orchestration"
     }
   ],
