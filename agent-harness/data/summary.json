@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-17T08:08:37.029Z",
+  "stateChangedAt": "2026-10-17T13:15:15.140Z",
   "stateChangedDate": "2026-10-17",
   "projectCount": 1221,
   "projectCountLabel": "1,221",
-  "totalStars": 7905937,
-  "totalStarsLabel": "7,905,937",
+  "totalStars": 7914011,
+  "totalStarsLabel": "7,914,011",
   "totalStarsCompact": "7.91M",
   "layerCount": 9,
-  "runs": 102,
+  "runs": 103,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 295762,
-      "starsCompact": "295.8k",
+      "stars": 299895,
+      "starsCompact": "299.9k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 281760,
-      "starsCompact": "281.8k",
+      "stars": 281983,
+      "starsCompact": "282k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187619,
+      "stars": 187618,
       "starsCompact": "187.6k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 165389,
-      "starsCompact": "165.4k",
+      "stars": 165554,
+      "starsCompact": "165.6k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 158685,
+      "stars": 158694,
       "starsCompact": "158.7k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 127362,
-      "starsCompact": "127.4k",
+      "stars": 127490,
+      "starsCompact": "127.5k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 118255,
+      "stars": 118275,
       "starsCompact": "118.3k",
       "layer": "tools"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 103294,
-      "starsCompact": "103.3k",
+      "stars": 103387,
+      "starsCompact": "103.4k",
       "layer": "orchestration"
     }
   ],
