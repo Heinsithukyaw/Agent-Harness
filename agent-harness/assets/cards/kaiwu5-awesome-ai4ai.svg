@@ -76,7 +76,7 @@
     </circle>
   </g>
 
-  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">AI4AI Survey: can AI reliably improve AI? 223 papers on long-horizon agen…</text>
+  <text x="22" y="78" font-size="12" fill="#A9A49A" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Updated weekly — until humanity achieves AI4AI. AI4AI Survey: can AI reli…</text>
   <rect x="22.0" y="90" width="101.4" height="18" rx="9" fill="rgba(163,230,53,0.14)" stroke="rgba(163,230,53,0.38)" stroke-width="0.75"/><text x="72.7" y="102.6" font-size="10" fill="#A3E635" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">Eval &amp; Tracing</text><rect x="129.4" y="90" width="22.1" height="18" rx="9" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.075)" stroke-width="0.75"/><text x="140.4" y="102.6" font-size="10" fill="#C6C1B7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">—</text>
 
   <!-- ── stars rank within this corpus ── -->
@@ -89,5 +89,5 @@
   </rect>
 
   <text x="22" y="162" font-size="10.5" fill="#7C7669" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace">★ 181   ·   ⑂ 2   ·   MIT</text>
-  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">98c1865</text>
+  <text x="458" y="162" font-size="10.5" fill="#7C7669" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" opacity="0.75">734b2e5</text>
 </svg>
