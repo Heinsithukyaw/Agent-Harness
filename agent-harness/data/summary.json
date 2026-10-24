@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-23T19:40:24.583Z",
-  "stateChangedDate": "2026-10-23",
-  "projectCount": 1230,
-  "projectCountLabel": "1,230",
-  "totalStars": 8125340,
-  "totalStarsLabel": "8,125,340",
+  "stateChangedAt": "2026-10-24T00:07:00.672Z",
+  "stateChangedDate": "2026-10-24",
+  "projectCount": 1229,
+  "projectCountLabel": "1,229",
+  "totalStars": 8128051,
+  "totalStarsLabel": "8,128,051",
   "totalStarsCompact": "8.13M",
   "layerCount": 9,
-  "runs": 127,
+  "runs": 128,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -40,7 +40,7 @@
     "eval": {
       "label": "Eval & Tracing",
       "short": "EVAL",
-      "count": 70
+      "count": 69
     },
     "governance": {
       "label": "Governance",
@@ -71,14 +71,14 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 372281,
-      "starsCompact": "372.3k",
+      "stars": 373092,
+      "starsCompact": "373.1k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 287188,
-      "starsCompact": "287.2k",
+      "stars": 287313,
+      "starsCompact": "287.3k",
       "layer": "tools"
     },
     {
@@ -89,32 +89,32 @@
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 174675,
-      "starsCompact": "174.7k",
+      "stars": 174789,
+      "starsCompact": "174.8k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 159366,
+      "stars": 159374,
       "starsCompact": "159.4k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 133813,
-      "starsCompact": "133.8k",
+      "stars": 133897,
+      "starsCompact": "133.9k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 118970,
+      "stars": 118983,
       "starsCompact": "119k",
       "layer": "tools"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 106532,
-      "starsCompact": "106.5k",
+      "stars": 106586,
+      "starsCompact": "106.6k",
       "layer": "orchestration"
     }
   ],
