@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-24T18:27:43.578Z",
+  "stateChangedAt": "2026-10-24T23:34:55.993Z",
   "stateChangedDate": "2026-10-24",
   "projectCount": 1232,
   "projectCountLabel": "1,232",
-  "totalStars": 8174891,
-  "totalStarsLabel": "8,174,891",
-  "totalStarsCompact": "8.17M",
+  "totalStars": 8178841,
+  "totalStarsLabel": "8,178,841",
+  "totalStarsCompact": "8.18M",
   "layerCount": 9,
-  "runs": 131,
+  "runs": 132,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -71,49 +71,49 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 377436,
-      "starsCompact": "377.4k",
+      "stars": 378545,
+      "starsCompact": "378.5k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 287896,
-      "starsCompact": "287.9k",
+      "stars": 288065,
+      "starsCompact": "288.1k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187726,
+      "stars": 187729,
       "starsCompact": "187.7k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 175387,
-      "starsCompact": "175.4k",
+      "stars": 175512,
+      "starsCompact": "175.5k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 159429,
+      "stars": 159436,
       "starsCompact": "159.4k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 134310,
-      "starsCompact": "134.3k",
+      "stars": 134443,
+      "starsCompact": "134.4k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 119047,
-      "starsCompact": "119k",
+      "stars": 119057,
+      "starsCompact": "119.1k",
       "layer": "tools"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 106855,
+      "stars": 106947,
       "starsCompact": "106.9k",
       "layer": "orchestration"
     }
