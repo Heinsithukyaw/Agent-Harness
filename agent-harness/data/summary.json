@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-25T18:42:03.026Z",
+  "stateChangedAt": "2026-10-25T23:33:01.894Z",
   "stateChangedDate": "2026-10-25",
-  "projectCount": 1236,
-  "projectCountLabel": "1,236",
-  "totalStars": 8198983,
-  "totalStarsLabel": "8,198,983",
+  "projectCount": 1238,
+  "projectCountLabel": "1,238",
+  "totalStars": 8203661,
+  "totalStarsLabel": "8,203,661",
   "totalStarsCompact": "8.2M",
   "layerCount": 9,
-  "runs": 135,
+  "runs": 136,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -25,7 +25,7 @@
     "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
-      "count": 420
+      "count": 423
     },
     "tools": {
       "label": "Tools & MCP",
@@ -55,7 +55,7 @@
     "sandbox": {
       "label": "Sandboxing",
       "short": "SANDBOX",
-      "count": 24
+      "count": 23
     },
     "protocol": {
       "label": "Protocols",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 383480,
-      "starsCompact": "383.5k",
+      "stars": 384443,
+      "starsCompact": "384.4k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 288666,
-      "starsCompact": "288.7k",
+      "stars": 288821,
+      "starsCompact": "288.8k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187748,
+      "stars": 187749,
       "starsCompact": "187.7k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 176041,
-      "starsCompact": "176k",
+      "stars": 176159,
+      "starsCompact": "176.2k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 159513,
+      "stars": 159523,
       "starsCompact": "159.5k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 134998,
-      "starsCompact": "135k",
+      "stars": 135193,
+      "starsCompact": "135.2k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 119111,
+      "stars": 119121,
       "starsCompact": "119.1k",
       "layer": "tools"
     },
     {
       "fullName": "paperclipai/paperclip",
-      "stars": 107221,
-      "starsCompact": "107.2k",
+      "stars": 107281,
+      "starsCompact": "107.3k",
       "layer": "orchestration"
     }
   ],
