@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-27T09:24:04.047Z",
-  "stateChangedDate": "2026-10-27",
-  "projectCount": 1090,
-  "projectCountLabel": "1,090",
-  "totalStars": 7561977,
-  "totalStarsLabel": "7,561,977",
-  "totalStarsCompact": "7.56M",
+  "stateChangedAt": "2026-10-28T00:51:07.690Z",
+  "stateChangedDate": "2026-10-28",
+  "projectCount": 1242,
+  "projectCountLabel": "1,242",
+  "totalStars": 8291969,
+  "totalStarsLabel": "8,291,969",
+  "totalStarsCompact": "8.29M",
   "layerCount": 9,
-  "runs": 140,
+  "runs": 141,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -25,96 +25,96 @@
     "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
-      "count": 392
+      "count": 425
     },
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 278
+      "count": 324
     },
     "memory": {
       "label": "Memory & Context",
       "short": "MEMORY",
-      "count": 121
+      "count": 138
     },
     "eval": {
       "label": "Eval & Tracing",
       "short": "EVAL",
-      "count": 59
+      "count": 69
     },
     "governance": {
       "label": "Governance",
       "short": "GOVERN",
-      "count": 35
+      "count": 37
     },
     "runtime": {
       "label": "Runtime",
       "short": "RUNTIME",
-      "count": 24
+      "count": 25
     },
     "sandbox": {
       "label": "Sandboxing",
       "short": "SANDBOX",
-      "count": 22
+      "count": 24
     },
     "protocol": {
       "label": "Protocols",
       "short": "PROTO",
-      "count": 14
+      "count": 16
     },
     "gateway": {
       "label": "Model Gateway",
       "short": "GATEWAY",
-      "count": 11
+      "count": 12
     }
   },
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 393931,
-      "starsCompact": "393.9k",
+      "stars": 397347,
+      "starsCompact": "397.3k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 290201,
-      "starsCompact": "290.2k",
+      "stars": 290881,
+      "starsCompact": "290.9k",
       "layer": "tools"
     },
     {
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "stars": 187791,
+      "starsCompact": "187.8k",
+      "layer": "other"
+    },
+    {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 177543,
-      "starsCompact": "177.5k",
+      "stars": 178183,
+      "starsCompact": "178.2k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 159670,
+      "stars": 159730,
       "starsCompact": "159.7k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 136471,
-      "starsCompact": "136.5k",
+      "stars": 136979,
+      "starsCompact": "137k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 119253,
+      "stars": 119317,
       "starsCompact": "119.3k",
       "layer": "tools"
     },
     {
-      "fullName": "paperclipai/paperclip",
-      "stars": 107796,
-      "starsCompact": "107.8k",
-      "layer": "orchestration"
-    },
-    {
       "fullName": "stablyai/orca",
-      "stars": 107451,
-      "starsCompact": "107.5k",
+      "stars": 108068,
+      "starsCompact": "108.1k",
       "layer": "orchestration"
     }
   ],
