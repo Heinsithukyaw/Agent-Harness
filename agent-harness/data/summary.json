@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-28T10:08:03.861Z",
+  "stateChangedAt": "2026-10-28T20:41:24.857Z",
   "stateChangedDate": "2026-10-28",
-  "projectCount": 1241,
-  "projectCountLabel": "1,241",
-  "totalStars": 8299213,
-  "totalStarsLabel": "8,299,213",
-  "totalStarsCompact": "8.3M",
+  "projectCount": 1246,
+  "projectCountLabel": "1,246",
+  "totalStars": 8318431,
+  "totalStarsLabel": "8,318,431",
+  "totalStarsCompact": "8.32M",
   "layerCount": 9,
-  "runs": 142,
+  "runs": 143,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -25,12 +25,12 @@
     "orchestration": {
       "label": "Orchestration",
       "short": "ORCHESTR",
-      "count": 425
+      "count": 427
     },
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 325
+      "count": 326
     },
     "memory": {
       "label": "Memory & Context",
@@ -45,7 +45,7 @@
     "governance": {
       "label": "Governance",
       "short": "GOVERN",
-      "count": 37
+      "count": 38
     },
     "runtime": {
       "label": "Runtime",
@@ -60,7 +60,7 @@
     "protocol": {
       "label": "Protocols",
       "short": "PROTO",
-      "count": 16
+      "count": 17
     },
     "gateway": {
       "label": "Model Gateway",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 399500,
-      "starsCompact": "399.5k",
+      "stars": 401914,
+      "starsCompact": "401.9k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 291247,
-      "starsCompact": "291.2k",
+      "stars": 291645,
+      "starsCompact": "291.6k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187795,
+      "stars": 187805,
       "starsCompact": "187.8k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 178540,
-      "starsCompact": "178.5k",
+      "stars": 179041,
+      "starsCompact": "179k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 159791,
+      "stars": 159832,
       "starsCompact": "159.8k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 137275,
-      "starsCompact": "137.3k",
+      "stars": 137703,
+      "starsCompact": "137.7k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 119347,
-      "starsCompact": "119.3k",
+      "stars": 119390,
+      "starsCompact": "119.4k",
       "layer": "tools"
     },
     {
       "fullName": "stablyai/orca",
-      "stars": 108477,
-      "starsCompact": "108.5k",
+      "stars": 108903,
+      "starsCompact": "108.9k",
       "layer": "orchestration"
     }
   ],
