@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-10-31T01:06:55.273Z",
+  "stateChangedAt": "2026-10-31T10:00:03.544Z",
   "stateChangedDate": "2026-10-31",
-  "projectCount": 1252,
-  "projectCountLabel": "1,252",
-  "totalStars": 8377131,
-  "totalStarsLabel": "8,377,131",
-  "totalStarsCompact": "8.38M",
+  "projectCount": 1253,
+  "projectCountLabel": "1,253",
+  "totalStars": 8438713,
+  "totalStarsLabel": "8,438,713",
+  "totalStarsCompact": "8.44M",
   "layerCount": 9,
-  "runs": 150,
+  "runs": 151,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -30,7 +30,7 @@
     "tools": {
       "label": "Tools & MCP",
       "short": "TOOLS",
-      "count": 333
+      "count": 334
     },
     "memory": {
       "label": "Memory & Context",
@@ -71,50 +71,50 @@
   "top": [
     {
       "fullName": "morluto/rea",
-      "stars": 412356,
-      "starsCompact": "412.4k",
+      "stars": 413568,
+      "starsCompact": "413.6k",
       "layer": "tools"
     },
     {
       "fullName": "affaan-m/ECC",
-      "stars": 293417,
-      "starsCompact": "293.4k",
+      "stars": 293630,
+      "starsCompact": "293.6k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187840,
+      "stars": 187839,
       "starsCompact": "187.8k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 180963,
-      "starsCompact": "181k",
+      "stars": 181190,
+      "starsCompact": "181.2k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 160030,
-      "starsCompact": "160k",
+      "stars": 160063,
+      "starsCompact": "160.1k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 139484,
-      "starsCompact": "139.5k",
+      "stars": 139696,
+      "starsCompact": "139.7k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 119600,
+      "stars": 119623,
       "starsCompact": "119.6k",
       "layer": "tools"
     },
     {
       "fullName": "stablyai/orca",
-      "stars": 111124,
-      "starsCompact": "111.1k",
+      "stars": 111364,
+      "starsCompact": "111.4k",
       "layer": "orchestration"
     }
   ],
