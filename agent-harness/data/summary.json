@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "classifierVersion": "1.0.0",
-  "stateChangedAt": "2026-11-02T11:41:24.060Z",
+  "stateChangedAt": "2026-11-02T23:31:18.480Z",
   "stateChangedDate": "2026-11-02",
   "projectCount": 1253,
   "projectCountLabel": "1,253",
-  "totalStars": 8093776,
-  "totalStarsLabel": "8,093,776",
+  "totalStars": 8085688,
+  "totalStarsLabel": "8,085,688",
   "totalStarsCompact": "8.09M",
   "layerCount": 9,
-  "runs": 157,
+  "runs": 158,
   "layerOrder": [
     "orchestration",
     "tools",
@@ -40,7 +40,7 @@
     "eval": {
       "label": "Eval & Tracing",
       "short": "EVAL",
-      "count": 67
+      "count": 68
     },
     "governance": {
       "label": "Governance",
@@ -65,56 +65,56 @@
     "gateway": {
       "label": "Model Gateway",
       "short": "GATEWAY",
-      "count": 15
+      "count": 14
     }
   },
   "top": [
     {
       "fullName": "affaan-m/ECC",
-      "stars": 295116,
-      "starsCompact": "295.1k",
+      "stars": 295623,
+      "starsCompact": "295.6k",
       "layer": "tools"
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
-      "stars": 187868,
+      "stars": 187881,
       "starsCompact": "187.9k",
       "layer": "other"
     },
     {
       "fullName": "DietrichGebert/ponytail",
-      "stars": 182492,
-      "starsCompact": "182.5k",
+      "stars": 182860,
+      "starsCompact": "182.9k",
       "layer": "tools"
     },
     {
       "fullName": "langgenius/dify",
-      "stars": 160224,
-      "starsCompact": "160.2k",
+      "stars": 160258,
+      "starsCompact": "160.3k",
       "layer": "tools"
     },
     {
       "fullName": "Graphify-Labs/graphify",
-      "stars": 140823,
-      "starsCompact": "140.8k",
+      "stars": 141156,
+      "starsCompact": "141.2k",
       "layer": "memory"
     },
     {
       "fullName": "browser-use/browser-use",
-      "stars": 119816,
-      "starsCompact": "119.8k",
+      "stars": 119866,
+      "starsCompact": "119.9k",
       "layer": "tools"
     },
     {
       "fullName": "stablyai/orca",
-      "stars": 113114,
-      "starsCompact": "113.1k",
+      "stars": 113569,
+      "starsCompact": "113.6k",
       "layer": "orchestration"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": 110171,
-      "starsCompact": "110.2k",
+      "stars": 110694,
+      "starsCompact": "110.7k",
       "layer": "memory"
     }
   ],
