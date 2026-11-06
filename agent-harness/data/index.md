@@ -1,7 +1,7 @@
 # Agent-Harness registry
 
-Generated from `data/projects.json` on 2026-11-05T21:52:14.304Z.
-Classifier v1.0.0. 1256 projects across 10 layers.
+Generated from `data/projects.json` on 2026-11-06T11:22:02.848Z.
+Classifier v1.0.0. 1259 projects across 10 layers.
 
 Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 
@@ -9,206 +9,206 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [stablyai/orca](https://github.com/stablyai/orca) | 116,595 | TypeScript | GitHub Actions, React | Orca is the place for working with a fleet of coding agents (e.g. Claude Code, Codex). Ru… |
-| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 111,412 | TypeScript | Docker, GitHub Actions, React | The open-source app everyone uses to manage agents at work |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 85,030 | Python | GitHub Actions | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With… |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 80,989 | TypeScript | Express, GitHub Actions | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonom… |
-| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 79,001 | Python | GitHub Actions | 18 Lessons to Get Started Building AI Agents |
-| [microsoft/autogen](https://github.com/microsoft/autogen) | 61,715 | Python | GitHub Actions | A programming framework for agentic AI |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 60,543 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborativ… |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 49,860 | Python | Docker, Docker Compose, GitHub Actions, Pydantic | Your lightweight open-source personal agent. |
-| [herdrdev/herdr](https://github.com/herdrdev/herdr) | 48,293 | Rust | GitHub Actions, Tokio | the runtime your coding agents live on |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47,806 | Python | Docker, GitHub Actions | Open-source personal AI assistant &amp; Agent Harness. Plans tasks, runs tools and skills, se… |
-| [666ghj/BettaFish](https://github.com/666ghj/BettaFish) | 42,593 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。 |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 42,562 | Rust | Docker, Docker Compose, GitHub Actions | The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents… |
-| [codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale) | 41,157 | Rust | Docker, GitHub Actions, Tokio | Open-source agent for the terminal written in Rust. Use any provider or model. Issues &amp; P… |
-| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 40,621 | TypeScript | GitHub Actions, MCP SDK | Teams-first Multi-agent orchestration for Claude Code |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37,722 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | &quot;Vibe-Trading: Your Personal Trading Agent&quot; |
-| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 35,438 | Python | FastAPI, GitHub Actions | Build and run agents you can see, understand and trust. |
-| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 33,431 | Go | Docker, Docker Compose, GitHub Actions | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
-| [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 31,012 | Python | GitHub Actions | The batteries-included agent harness. |
-| [kestra-io/kestra](https://github.com/kestra-io/kestra) | 30,150 | Java | Docker, Docker Compose, GitHub Actions | Orchestrate everything, everywhere. The open-source control plane for workflows across da… |
-| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 24,836 | Python | GitHub Actions, LangChain, LangGraph | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversa… |
-| [google/adk-python](https://github.com/google/adk-python) | 22,116 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | An open-source, code-first Python toolkit for building, evaluating, and deploying sophist… |
-| [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21,895 | PowerShell | GitHub Actions | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64… |
-| [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 21,824 | Python | GitHub Actions | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototy… |
-| [windmill-labs/windmill](https://github.com/windmill-labs/windmill) | 18,406 | Rust | Docker, Docker Compose, GitHub Actions | Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orche… |
-| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 18,134 | TypeScript | GitHub Actions | AI coworker with memory and collaboration |
-| [cft0808/edict](https://github.com/cft0808/edict) | 17,048 | Python | Docker, Docker Compose, GitHub Actions | 🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real… |
-| [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | 16,805 | Python | GitHub Actions | &quot;DeepCode: Open Agentic Coding (Agent Harness &amp; Loop Engineering &amp; Multi-Agent Orchestrat… |
-| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 16,718 | TypeScript | GitHub Actions | Trigger.dev – build and deploy durable AI agents and workflows |
-| [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) | 15,984 | TypeScript | Docker Compose, GitHub Actions, MCP SDK, Next.js | Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding… |
+| [stablyai/orca](https://github.com/stablyai/orca) | 117,217 | TypeScript | GitHub Actions, React | Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscr… |
+| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 111,599 | TypeScript | Docker, GitHub Actions, React | The open-source app everyone uses to manage agents at work |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 85,058 | Python | GitHub Actions | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With… |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 81,035 | TypeScript | Express, GitHub Actions | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonom… |
+| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 79,028 | Python | GitHub Actions | 18 Lessons to Get Started Building AI Agents |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | 61,728 | Python | GitHub Actions | A programming framework for agentic AI |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 60,564 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborativ… |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 49,873 | Python | Docker, Docker Compose, GitHub Actions, Pydantic | Your lightweight open-source personal agent. |
+| [herdrdev/herdr](https://github.com/herdrdev/herdr) | 48,406 | Rust | GitHub Actions, Tokio | the runtime your coding agents live on |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 47,815 | Python | Docker, GitHub Actions | Open-source personal AI assistant &amp; Agent Harness. Plans tasks, runs tools and skills, se… |
+| [666ghj/BettaFish](https://github.com/666ghj/BettaFish) | 42,600 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。 |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 42,565 | Rust | Docker, Docker Compose, GitHub Actions | The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents… |
+| [codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale) | 41,158 | Rust | Docker, GitHub Actions, Tokio | Open-source agent for the terminal written in Rust. Use any provider or model. Issues &amp; P… |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 40,635 | TypeScript | GitHub Actions, MCP SDK | Teams-first Multi-agent orchestration for Claude Code |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37,759 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | &quot;Vibe-Trading: Your Personal Trading Agent&quot; |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 35,488 | Python | FastAPI, GitHub Actions | Build and run agents you can see, understand and trust. |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 33,488 | Go | Docker, Docker Compose, GitHub Actions | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
+| [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 31,035 | Python | GitHub Actions | The batteries-included agent harness. |
+| [kestra-io/kestra](https://github.com/kestra-io/kestra) | 30,158 | Java | Docker, Docker Compose, GitHub Actions | Orchestrate everything, everywhere. The open-source control plane for workflows across da… |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 24,840 | Python | GitHub Actions, LangChain, LangGraph | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversa… |
+| [google/adk-python](https://github.com/google/adk-python) | 22,124 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | An open-source, code-first Python toolkit for building, evaluating, and deploying sophist… |
+| [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21,907 | PowerShell | GitHub Actions | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 64… |
+| [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 21,838 | Python | GitHub Actions | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototy… |
+| [windmill-labs/windmill](https://github.com/windmill-labs/windmill) | 18,426 | Rust | Docker, Docker Compose, GitHub Actions | Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orche… |
+| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 18,137 | TypeScript | GitHub Actions | AI coworker with memory and collaboration |
+| [cft0808/edict](https://github.com/cft0808/edict) | 17,053 | Python | Docker, Docker Compose, GitHub Actions | 🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real… |
+| [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | 16,808 | Python | GitHub Actions | &quot;DeepCode: Open Agentic Coding (Agent Harness &amp; Loop Engineering &amp; Multi-Agent Orchestrat… |
+| [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) | 16,722 | TypeScript | GitHub Actions | Trigger.dev – build and deploy durable AI agents and workflows |
+| [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) | 16,011 | TypeScript | Docker Compose, GitHub Actions, MCP SDK, Next.js | Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding… |
 | [eigent-ai/eigent](https://github.com/eigent-ai/eigent) | 15,752 | TypeScript | GitHub Actions, React | Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and… |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,820 | Python | — | Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper.… |
-| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14,548 | Python | GitHub Actions | A framework for building, orchestrating and deploying AI agents and multi-agent workflows… |
-| [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 14,136 | Go | GitHub Actions | Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows,… |
-| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | 12,382 | Python | GitHub Actions | Open-source skills for designing and reviewing software with AI agents |
-| [Nasiko-Labs/nasiko](https://github.com/Nasiko-Labs/nasiko) | 11,821 | Rust | Docker Compose, GitHub Actions, Tokio | The Open Runtime for AI Agents |
-| [adongwanai/AgentGuide](https://github.com/adongwanai/AgentGuide) | 11,672 | MDX | GitHub Actions | AI Agent 开发指南 \| Agent Harness \| 上下文工程 \| 高级 RAG \| MCP \| Agentic RL 强化学习 \| LangGraph… |
-| [spinabot/brigade](https://github.com/spinabot/brigade) | 11,370 | TypeScript | GitHub Actions | Brigade — Your personal intelligence, built enterprise-grade |
-| [The-Pocket/PocketFlow](https://github.com/The-Pocket/PocketFlow) | 11,306 | Python | — | Pocket Flow: 100-line LLM framework. Let Agents build Agents! |
-| [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 11,238 | Python | FastAPI, GitHub Actions, Pydantic | Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code,… |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 14,827 | Python | — | Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper.… |
+| [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | 14,557 | Python | GitHub Actions | A framework for building, orchestrating and deploying AI agents and multi-agent workflows… |
+| [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 14,157 | Go | GitHub Actions | Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows,… |
+| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | 12,702 | Python | GitHub Actions | Open-source skills for designing and reviewing software with AI agents |
+| [Nasiko-Labs/nasiko](https://github.com/Nasiko-Labs/nasiko) | 11,848 | Rust | Docker Compose, GitHub Actions, Tokio | The Open Runtime for AI Agents |
+| [adongwanai/AgentGuide](https://github.com/adongwanai/AgentGuide) | 11,695 | MDX | GitHub Actions | AI Agent 开发指南 \| Agent Harness \| 上下文工程 \| 高级 RAG \| MCP \| Agentic RL 强化学习 \| LangGraph… |
+| [spinabot/brigade](https://github.com/spinabot/brigade) | 11,371 | TypeScript | GitHub Actions | Brigade — Your personal intelligence, built enterprise-grade |
+| [The-Pocket/PocketFlow](https://github.com/The-Pocket/PocketFlow) | 11,308 | Python | — | Pocket Flow: 100-line LLM framework. Let Agents build Agents! |
+| [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 11,256 | Python | FastAPI, GitHub Actions, Pydantic | Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code,… |
 | [aden-hive/hive](https://github.com/aden-hive/hive) | 11,142 | Python | GitHub Actions, TypeScript | Multi-Agent Harness for Production AI |
 | [alibaba/spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba) | 11,113 | Java | GitHub Actions | Agentic AI Framework for Java Developers |
-| [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) | 10,923 | TypeScript | GitHub Actions | AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework |
+| [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) | 10,926 | TypeScript | GitHub Actions | AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework |
 | [yzhao062/pyod](https://github.com/yzhao062/pyod) | 10,078 | Python | GitHub Actions, PyTorch | A Python library for anomaly detection across tabular, time series, graph, text, image, a… |
-| [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) | 9,387 | JavaScript | GitHub Actions, React, TypeScript | an open-source alternative to the dots, bots and muses of the world, run an office of cla… |
+| [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) | 9,400 | JavaScript | GitHub Actions, React, TypeScript | an open-source alternative to the dots, bots and muses of the world, run an office of cla… |
 | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) | 9,322 | Python | GitHub Actions | Private AI agents for highly regulated teams, and for anyone who wants AI on their own co… |
-| [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 9,057 | TypeScript | GitHub Actions | Build an agent harness and control it end-to-end. Open-source SDK for production AI agent… |
-| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | 9,036 | JavaScript | GitHub Actions, MCP SDK, TypeScript | Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns yo… |
-| [iflytek/astron-agent](https://github.com/iflytek/astron-agent) | 8,917 | Java | GitHub Actions | Enterprise-grade, commercial-friendly agentic workflow platform for building next-generat… |
-| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,803 | Go | Docker, GitHub Actions, gRPC | Open source factory for one-shot engineering |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | 8,663 | TypeScript | GitHub Actions | Build your own network of agents from Claude Code, Codex and Pi: persistent teams with ro… |
-| [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | 8,554 | Python | GitHub Actions | A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to mult… |
+| [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) | 9,064 | TypeScript | GitHub Actions | Build an agent harness and control it end-to-end. Open-source SDK for production AI agent… |
+| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | 9,055 | JavaScript | GitHub Actions, MCP SDK, TypeScript | Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns yo… |
+| [iflytek/astron-agent](https://github.com/iflytek/astron-agent) | 8,920 | Java | GitHub Actions | Enterprise-grade, commercial-friendly agentic workflow platform for building next-generat… |
+| [superplanehq/superplane](https://github.com/superplanehq/superplane) | 8,837 | Go | Docker, GitHub Actions, gRPC | Open source factory for one-shot engineering |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | 8,684 | TypeScript | GitHub Actions | Build your own network of agents from Claude Code, Codex and Pi: persistent teams with ro… |
+| [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | 8,630 | Python | GitHub Actions | A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to mult… |
 | [2FastLabs/agent-squad](https://github.com/2FastLabs/agent-squad) | 7,798 | Python | GitHub Actions | Flexible and powerful framework for managing multiple AI agents and handling complex conv… |
-| [xerrors/Yuxi](https://github.com/xerrors/Yuxi) | 7,612 | Python | Docker Compose, GitHub Actions | 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG,… |
-| [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | 7,388 | TypeScript | GitHub Actions | Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi… |
-| [kyegomez/swarms](https://github.com/kyegomez/swarms) | 7,353 | Python | Docker, GitHub Actions, Pydantic | The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai |
-| [open-multi-agent/open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) | 7,045 | TypeScript | GitHub Actions | Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. O… |
-| [stagewise-io/stagewise](https://github.com/stagewise-io/stagewise) | 6,832 | TypeScript | GitHub Actions | The Open Source Agentic IDE. Create and orchestrate coding agents, show app previews and… |
-| [j3ssie/osmedeus](https://github.com/j3ssie/osmedeus) | 6,643 | Go | GitHub Actions, gRPC | A Modern Orchestration Engine for Security |
-| [loopx-project/loopx](https://github.com/loopx-project/loopx) | 6,552 | Python | GitHub Actions, TypeScript | Turn long-horizon goals into verifiable results. A local-first semantic control plane and… |
-| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | 6,451 | TypeScript | Docker, Docker Compose, GitHub Actions, Next.js | Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and op… |
-| [ModelEngine-Group/nexent](https://github.com/ModelEngine-Group/nexent) | 6,144 | Python | GitHub Actions | Nexent is a zero-code platform for auto-generating production-grade AI agents using Harne… |
-| [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | 6,043 | Python | Docker, GitHub Actions, Pydantic | The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent… |
-| [didilili/ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero) | 5,840 | Python | GitHub Actions, LangChain, LangGraph | 🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径  + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain… |
+| [xerrors/Yuxi](https://github.com/xerrors/Yuxi) | 7,618 | Python | Docker Compose, GitHub Actions | 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG,… |
+| [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | 7,402 | TypeScript | GitHub Actions | Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi… |
+| [kyegomez/swarms](https://github.com/kyegomez/swarms) | 7,354 | Python | Docker, GitHub Actions, Pydantic | The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai |
+| [open-multi-agent/open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) | 7,044 | TypeScript | GitHub Actions | Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. O… |
+| [stagewise-io/stagewise](https://github.com/stagewise-io/stagewise) | 6,831 | TypeScript | GitHub Actions | The Open Source Agentic IDE. Create and orchestrate coding agents, show app previews and… |
+| [j3ssie/osmedeus](https://github.com/j3ssie/osmedeus) | 6,644 | Go | GitHub Actions, gRPC | A Modern Orchestration Engine for Security |
+| [loopx-project/loopx](https://github.com/loopx-project/loopx) | 6,555 | Python | GitHub Actions, TypeScript | Turn long-horizon goals into verifiable results. A local-first semantic control plane and… |
+| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | 6,454 | TypeScript | Docker, Docker Compose, GitHub Actions, Next.js | Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and op… |
+| [ModelEngine-Group/nexent](https://github.com/ModelEngine-Group/nexent) | 6,147 | Python | GitHub Actions | Nexent is a zero-code platform for auto-generating production-grade AI agents using Harne… |
+| [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | 6,056 | Python | Docker, GitHub Actions, Pydantic | The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent… |
+| [didilili/ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero) | 5,853 | Python | GitHub Actions, LangChain, LangGraph | 🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径  + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain… |
 | [ApodexAI/FrontierAgent](https://github.com/ApodexAI/FrontierAgent) | 5,432 | Python | Docker, GitHub Actions, Pydantic | 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TU… |
-| [Waishnav/devspace](https://github.com/Waishnav/devspace) | 5,410 | TypeScript | Express, GitHub Actions, MCP SDK, React | Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw |
-| [AhmadHassan-BTed/AutoSwarm-Shadow-Adapter](https://github.com/AhmadHassan-BTed/AutoSwarm-Shadow-Adapter) | 5,207 | Python | FastAPI, GitHub Actions, Pydantic | Zero-modification Human-in-the-Loop adapter for OpenOPC&#39;s agentic DAG runtime. |
-| [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | 5,062 | Python | — | Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permi… |
-| [ag2ai/ag2](https://github.com/ag2ai/ag2) | 5,046 | Python | GitHub Actions, PyTorch, Pydantic | AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x |
-| [darrenhinde/OpenAgentsControl](https://github.com/darrenhinde/OpenAgentsControl) | 4,967 | TypeScript | GitHub Actions | AI agent framework for plan-first development workflows with approval-based execution. Mu… |
+| [Waishnav/devspace](https://github.com/Waishnav/devspace) | 5,416 | TypeScript | Express, GitHub Actions, MCP SDK, React | Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw |
+| [AhmadHassan-BTed/AutoSwarm-Shadow-Adapter](https://github.com/AhmadHassan-BTed/AutoSwarm-Shadow-Adapter) | 5,208 | Python | FastAPI, GitHub Actions, Pydantic | Zero-modification Human-in-the-Loop adapter for OpenOPC&#39;s agentic DAG runtime. |
+| [ai-boost/awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | 5,068 | Python | — | Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permi… |
+| [ag2ai/ag2](https://github.com/ag2ai/ag2) | 5,048 | Python | GitHub Actions, PyTorch, Pydantic | AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x |
+| [darrenhinde/OpenAgentsControl](https://github.com/darrenhinde/OpenAgentsControl) | 4,965 | TypeScript | GitHub Actions | AI agent framework for plan-first development workflows with approval-based execution. Mu… |
 | [Agenta-AI/agenta](https://github.com/Agenta-AI/agenta) | 4,887 | TypeScript | GitHub Actions | Agenta is a workspace where you and your team build agents and automations. |
-| [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) | 4,773 | Python | GitHub Actions | Structured multi-perspective deliberation for hard decisions. Run full councils, focused… |
-| [FareedKhan-dev/all-agentic-architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) | 4,677 | Python | GitHub Actions, LangChain, LangGraph, Pydantic | 35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager,… |
+| [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) | 4,778 | Python | GitHub Actions | Structured multi-perspective deliberation for hard decisions. Run full councils, focused… |
+| [FareedKhan-dev/all-agentic-architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) | 4,683 | Python | GitHub Actions, LangChain, LangGraph, Pydantic | 35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager,… |
 | [JetBrains/koog](https://github.com/JetBrains/koog) | 4,653 | Kotlin | GitHub Actions | Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolerant and en… |
-| [TencentCloudADP/youtu-agent](https://github.com/TencentCloudADP/youtu-agent) | 4,632 | Python | GitHub Actions | A simple yet powerful agent framework that delivers with open-source models |
+| [TencentCloudADP/youtu-agent](https://github.com/TencentCloudADP/youtu-agent) | 4,634 | Python | GitHub Actions | A simple yet powerful agent framework that delivers with open-source models |
+| [dagucloud/dagu](https://github.com/dagucloud/dagu) | 4,550 | Go | Docker, GitHub Actions, gRPC | Self-hostable workflow orchestrator for teams whose main work isn&#39;t orchestration. Declar… |
 | [embabel/embabel-agent](https://github.com/embabel/embabel-agent) | 4,549 | Kotlin | GitHub Actions | Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/ |
-| [dagucloud/dagu](https://github.com/dagucloud/dagu) | 4,548 | Go | Docker, GitHub Actions, gRPC | Self-hostable workflow orchestrator for teams whose main work isn&#39;t orchestration. Declar… |
-| [kungfu-systems/kungfu](https://github.com/kungfu-systems/kungfu) | 4,541 | C++ | GitHub Actions, TypeScript | Your agents don’t hand off the work. Kungfu keeps the same Work moving across Codex, Clau… |
+| [kungfu-systems/kungfu](https://github.com/kungfu-systems/kungfu) | 4,540 | C++ | GitHub Actions, TypeScript | Your agents don’t hand off the work. Kungfu keeps the same Work moving across Codex, Clau… |
 | [UditAkhourii/adhd](https://github.com/UditAkhourii/adhd) | 4,506 | TypeScript | GitHub Actions | ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude &amp; Cod… |
-| [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus) | 4,386 | Python | GitHub Actions | Run multiple AI models against the same research, design, or coding task. Surface disagre… |
-| [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) | 4,098 | TypeScript | GitHub Actions | AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-a… |
+| [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus) | 4,392 | Python | GitHub Actions | Run multiple AI models against the same research, design, or coding task. Surface disagre… |
+| [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) | 4,099 | TypeScript | GitHub Actions | AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-a… |
 | [mergisi/awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | 4,053 | JavaScript | — | 197 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categorie… |
-| [sandbox-quantum/switch](https://github.com/sandbox-quantum/switch) | 3,934 | Python | GitHub Actions | Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it,… |
+| [sandbox-quantum/switch](https://github.com/sandbox-quantum/switch) | 4,000 | Python | GitHub Actions | Open-source AI teammates in Slack, Teams, Discord, Telegram and Mattermost. Self-host it,… |
 | [tutti-os/tutti](https://github.com/tutti-os/tutti) | 3,893 | TypeScript | GitHub Actions | Where people and agents build in tune. |
 | [code-yeongyu/lazycodex](https://github.com/code-yeongyu/lazycodex) | 3,881 | TypeScript | GitHub Actions | The one and only agent harness for complex codebases. Project memory, planning, execution… |
 | [Atmosphere/atmosphere](https://github.com/Atmosphere/atmosphere) | 3,830 | Java | GitHub Actions | Portable AI agent runtime for the JVM. One @Agent class runs on Spring AI, LangChain4j, A… |
-| [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 3,800 | Python | GitHub Actions | Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −2… |
-| [nextlevelbuilder/goclaw](https://github.com/nextlevelbuilder/goclaw) | 3,704 | Go | Docker, Docker Compose, GitHub Actions, gRPC | GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security… |
-| [jjyaoao/HelloAgents](https://github.com/jjyaoao/HelloAgents) | 3,362 | Python | FastAPI, GitHub Actions, Pydantic | A agent framework based on the tutorial hello-agents |
+| [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 3,802 | Python | GitHub Actions | Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −2… |
+| [nextlevelbuilder/goclaw](https://github.com/nextlevelbuilder/goclaw) | 3,705 | Go | Docker, Docker Compose, GitHub Actions, gRPC | GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security… |
+| [jjyaoao/HelloAgents](https://github.com/jjyaoao/HelloAgents) | 3,364 | Python | FastAPI, GitHub Actions, Pydantic | A agent framework based on the tutorial hello-agents |
 | [wquguru/harness-books](https://github.com/wquguru/harness-books) | 3,236 | Python | GitHub Actions | Harness engineering in two books: constraints, query loops, context governance and multi-… |
-| [rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow) | 2,943 | JavaScript | GitHub Actions, MCP SDK, TypeScript | Claude Code learns from your corrections: self-correcting memory that compounds over 50+… |
-| [datawhalechina/deepagents-in-action](https://github.com/datawhalechina/deepagents-in-action) | 2,882 | Python | GitHub Actions | 📚 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南 |
-| [wassim249/fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) | 2,729 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | A production-ready FastAPI template for building AI agent applications with LangGraph int… |
+| [rohitg00/pro-workflow](https://github.com/rohitg00/pro-workflow) | 2,945 | JavaScript | GitHub Actions, MCP SDK, TypeScript | Claude Code learns from your corrections: self-correcting memory that compounds over 50+… |
+| [datawhalechina/deepagents-in-action](https://github.com/datawhalechina/deepagents-in-action) | 2,888 | Python | GitHub Actions | 📚 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南 |
+| [wassim249/fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) | 2,731 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | A production-ready FastAPI template for building AI agent applications with LangGraph int… |
 | [genieincodebottle/generative-ai](https://github.com/genieincodebottle/generative-ai) | 2,667 | Python | — | Comprehensive resources on Generative AI, including a detailed roadmap, projects, use cas… |
 | [Agent-Field/agentfield](https://github.com/Agent-Field/agentfield) | 2,644 | Go | GitHub Actions | Build, run and scale AI agents like API and microservices |
 | [ANative-Lab/Awesome-Self-Evolving-Agents](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents) | 2,516 | — | — | 📖 A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation… |
-| [llmsresearch/paperbanana](https://github.com/llmsresearch/paperbanana) | 2,466 | Python | Docker, GitHub Actions, Pydantic | Open source implementation and extension of Google Research’s PaperBanana for automated a… |
-| [jnMetaCode/agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 2,446 | TypeScript | Docker, Docker Compose, Express, GitHub Actions | 🚀 One sentence → your one-person company of AI experts → complete deliverable in minutes… |
-| [777genius/agent-teams-ai](https://github.com/777genius/agent-teams-ai) | 2,419 | TypeScript | Fastify, GitHub Actions, React | You&#39;re the boss, agents are your team. They handle tasks on their own, message each other… |
-| [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) | 2,351 | — | GitHub Actions | List of agent orchestrators |
+| [llmsresearch/paperbanana](https://github.com/llmsresearch/paperbanana) | 2,467 | Python | Docker, GitHub Actions, Pydantic | Open source implementation and extension of Google Research’s PaperBanana for automated a… |
+| [jnMetaCode/agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 2,451 | TypeScript | Docker, Docker Compose, Express, GitHub Actions | 🚀 One sentence → your one-person company of AI experts → complete deliverable in minutes… |
+| [777genius/agent-teams-ai](https://github.com/777genius/agent-teams-ai) | 2,427 | TypeScript | Fastify, GitHub Actions, React | You&#39;re the boss, agents are your team. They handle tasks on their own, message each other… |
+| [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) | 2,357 | — | GitHub Actions | List of agent orchestrators |
 | [GammaLabTechnologies/harmonist](https://github.com/GammaLabTechnologies/harmonist) | 2,244 | Python | GitHub Actions | Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero ru… |
-| [the-open-engine/zeroshot](https://github.com/the-open-engine/zeroshot) | 2,114 | Rust | GitHub Actions, Tokio | Multi-agent graph orchestration engine for autonomous software development. Independent,… |
-| [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | 2,088 | Python | FastAPI, GitHub Actions, LangGraph, PyTorch | Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Cla… |
-| [lupantech/AgentFlow](https://github.com/lupantech/AgentFlow) | 2,085 | Python | FastAPI, LangChain, LangGraph | AgentFlow: In-the-Flow Agentic System Optimization |
-| [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) | 2,030 | — | — | 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents. |
-| [nimbalyst/nimbalyst](https://github.com/nimbalyst/nimbalyst) | 2,027 | TypeScript | Express, GitHub Actions, React | Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run mu… |
-| [zhnt/loushang](https://github.com/zhnt/loushang) | 1,981 | Python | GitHub Actions | AI-native agent harness for coding workflows by python: multi-model LLM orchestration, st… |
-| [vstorm-co/full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template) | 1,975 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | Full-stack AI app generator — FastAPI + Next.js with AI Agents, RAG, streaming, auth, and… |
+| [the-open-engine/zeroshot](https://github.com/the-open-engine/zeroshot) | 2,116 | Rust | GitHub Actions, Tokio | Multi-agent graph orchestration engine for autonomous software development. Independent,… |
+| [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | 2,090 | Python | FastAPI, GitHub Actions, LangGraph, PyTorch | Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Cla… |
+| [lupantech/AgentFlow](https://github.com/lupantech/AgentFlow) | 2,087 | Python | FastAPI, LangChain, LangGraph | AgentFlow: In-the-Flow Agentic System Optimization |
+| [nimbalyst/nimbalyst](https://github.com/nimbalyst/nimbalyst) | 2,030 | TypeScript | Express, GitHub Actions, React | Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run mu… |
+| [jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) | 2,029 | — | — | 🤖 A comprehensive list of 1,500+ resources and tools related to AI agents. |
+| [zhnt/loushang](https://github.com/zhnt/loushang) | 1,988 | Python | GitHub Actions | AI-native agent harness for coding workflows by python: multi-model LLM orchestration, st… |
+| [vstorm-co/full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template) | 1,976 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | Full-stack AI app generator — FastAPI + Next.js with AI Agents, RAG, streaming, auth, and… |
 | [agentjido/jido](https://github.com/agentjido/jido) | 1,904 | Elixir | GitHub Actions | 🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and… |
-| [a5c-ai/babysitter](https://github.com/a5c-ai/babysitter) | 1,890 | JavaScript | GitHub Actions, MCP SDK, React | Babysitter enforces obedience on agentic workforces and enables them to manage extremely… |
-| [thinkwee/AgentsMeetRL](https://github.com/thinkwee/AgentsMeetRL) | 1,875 | Python | — | Awesome List for Agentic RL |
+| [a5c-ai/babysitter](https://github.com/a5c-ai/babysitter) | 1,892 | JavaScript | GitHub Actions, MCP SDK, React | Babysitter enforces obedience on agentic workforces and enables them to manage extremely… |
+| [thinkwee/AgentsMeetRL](https://github.com/thinkwee/AgentsMeetRL) | 1,877 | Python | — | Awesome List for Agentic RL |
 | [google/adk-java](https://github.com/google/adk-java) | 1,765 | Java | GitHub Actions | An open-source, code-first Java toolkit for building, evaluating, and deploying sophistic… |
-| [androoAGI/starnet](https://github.com/androoAGI/starnet) | 1,739 | JavaScript | GitHub Actions | A living pixel-art station where real AI agents do real work. Local-first desktop agent h… |
+| [androoAGI/starnet](https://github.com/androoAGI/starnet) | 1,746 | JavaScript | GitHub Actions | A living pixel-art station where real AI agents do real work. Local-first desktop agent h… |
 | [Dicklesworthstone/agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | 1,675 | TypeScript | GitHub Actions | Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 3… |
-| [razzant/ouroboros](https://github.com/razzant/ouroboros) | 1,608 | Python | Docker, GitHub Actions | Ouroboros — self-creating AI agent. Born Feb 16, 2026. |
-| [awslabs/cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator) | 1,515 | Python | FastAPI, GitHub Actions, Pydantic | Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordi… |
+| [razzant/ouroboros](https://github.com/razzant/ouroboros) | 1,610 | Python | Docker, GitHub Actions | Ouroboros — self-creating AI agent. Born Feb 16, 2026. |
+| [awslabs/cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator) | 1,516 | Python | FastAPI, GitHub Actions, Pydantic | Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordi… |
 | [DemonDamon/FinnewsHunter](https://github.com/DemonDamon/FinnewsHunter) | 1,504 | Python | — | FinnewsHunter: Multi-agent financial intelligence platform powered by AgenticX. Real-time… |
 | [agentlas-ai/Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS) | 1,498 | Python | — | Desktop AI agent that hires a specialist for each task, works in your real apps for weeks… |
 | [alookai/alook](https://github.com/alookai/alook) | 1,489 | TypeScript | GitHub Actions | Multi-Agent Collaboration for Team and Friends |
-| [preset-io/agor](https://github.com/preset-io/agor) | 1,484 | TypeScript | Docker Compose, GitHub Actions | Multiplayer AI: Bring your team and agents together |
+| [preset-io/agor](https://github.com/preset-io/agor) | 1,485 | TypeScript | Docker Compose, GitHub Actions | Multiplayer AI: Bring your team and agents together |
 | [google/adk-js](https://github.com/google/adk-js) | 1,467 | TypeScript | GitHub Actions | An open-source, code-first Typescript toolkit for building, evaluating, and deploying sop… |
-| [Ryder-Sun/Meldwork](https://github.com/Ryder-Sun/Meldwork) | 1,433 | JavaScript | GitHub Actions | Local-first AI agent workspace for multi-agent collaboration, agent orchestration, scoped… |
-| [autonomous-ai/openharness](https://github.com/autonomous-ai/openharness) | 1,427 | TypeScript | GitHub Actions | The ultimate harness for coding agents and beyond. All your agents. All your machines. On… |
-| [amplifthq/openmeld](https://github.com/amplifthq/openmeld) | 1,409 | TypeScript | GitHub Actions | The open-source collaboration system for people and AI agents. Share context, coordinate… |
-| [fastclaw-ai/fastclaw](https://github.com/fastclaw-ai/fastclaw) | 1,401 | Go | Docker, GitHub Actions | Multi-Agent Framework |
+| [Ryder-Sun/Meldwork](https://github.com/Ryder-Sun/Meldwork) | 1,440 | JavaScript | GitHub Actions | Local-first AI agent workspace for multi-agent collaboration, agent orchestration, scoped… |
+| [autonomous-ai/openharness](https://github.com/autonomous-ai/openharness) | 1,428 | TypeScript | GitHub Actions | The ultimate harness for coding agents and beyond. All your agents. All your machines. On… |
+| [amplifthq/openmeld](https://github.com/amplifthq/openmeld) | 1,412 | TypeScript | GitHub Actions | The open-source collaboration system for people and AI agents. Share context, coordinate… |
+| [fastclaw-ai/fastclaw](https://github.com/fastclaw-ai/fastclaw) | 1,402 | Go | Docker, GitHub Actions | Multi-Agent Framework |
 | [Team-Commonly/commonly](https://github.com/Team-Commonly/commonly) | 1,389 | JavaScript | Docker Compose, GitHub Actions, Kubernetes | One pod for your team and the agents each of you runs: your own Claude Code, or a hosted… |
-| [first-fluke/oh-my-agent](https://github.com/first-fluke/oh-my-agent) | 1,357 | TypeScript | GitHub Actions | Agent skills and specialist teams for Claude Code, Codex, Cursor and other coding agents.… |
+| [first-fluke/oh-my-agent](https://github.com/first-fluke/oh-my-agent) | 1,364 | TypeScript | GitHub Actions | Agent skills and specialist teams for Claude Code, Codex, Cursor and other coding agents.… |
 | [dohooo/helmor](https://github.com/dohooo/helmor) | 1,306 | TypeScript | GitHub Actions, React | Open-source local workbench for multi-agent software development. |
 | [SmythOS/sre](https://github.com/SmythOS/sre) | 1,301 | TypeScript | GitHub Actions | The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic… |
-| [agentsdroid/agentsdroid](https://github.com/agentsdroid/agentsdroid) | 1,299 | Kotlin | GitHub Actions | AgentDroid 🤖📱 — Sovereign Multi-Agent AI Operating System for Android. Autonomous DAG t… |
+| [agentsdroid/agentsdroid](https://github.com/agentsdroid/agentsdroid) | 1,300 | Kotlin | GitHub Actions | AgentsDroid 🤖📱 — Sovereign Multi-Agent AI Operating System for Android. Autonomous DAG… |
 | [modu-ai/moai-adk](https://github.com/modu-ai/moai-adk) | 1,252 | Go | GitHub Actions | Agentic development harness for Claude Code — SPEC-driven plan/run/sync, TRUST 5 quality… |
 | [wanxingai/LightAgent](https://github.com/wanxingai/LightAgent) | 1,243 | Python | GitHub Actions, Pydantic | LightAgent: Lightweight Python framework for OpenAI-compatible agents with tools, memory,… |
-| [dagoSte/squadra](https://github.com/dagoSte/squadra) | 1,233 | Python | GitHub Actions | Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, precheck… |
+| [dagoSte/squadra](https://github.com/dagoSte/squadra) | 1,235 | Python | GitHub Actions | Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, precheck… |
 | [ant-research/AntOmniEvo](https://github.com/ant-research/AntOmniEvo) | 1,223 | Python | LangChain, LangGraph, Pydantic | An auto-evolution framework that optimizes anything — your 7×24 team of algorithm enginee… |
 | [Chorus-AIDLC/Chorus](https://github.com/Chorus-AIDLC/Chorus) | 1,223 | TypeScript | Docker, Docker Compose, GitHub Actions, MCP SDK | The Agent Harness for AI-Human Collaboration, inspired by the AI-DLC (AI-Driven Developme… |
-| [Spielewoy/autoprompt-skill](https://github.com/Spielewoy/autoprompt-skill) | 1,209 | JavaScript | GitHub Actions | Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. |
+| [Spielewoy/autoprompt-skill](https://github.com/Spielewoy/autoprompt-skill) | 1,212 | JavaScript | GitHub Actions | Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. |
 | [ZHangZHengEric/Sage](https://github.com/ZHangZHengEric/Sage) | 1,208 | Python | FastAPI, GitHub Actions, Pydantic | An RSI Agent Harness for running, evaluating, and evolving agents—with tools, skills, MCP… |
 | [cognizant-ai-lab/neuro-san-studio](https://github.com/cognizant-ai-lab/neuro-san-studio) | 1,194 | Python | GitHub Actions, LangChain | A playground for neuro-san |
-| [mateaix/mateclaw](https://github.com/mateaix/mateclaw) | 1,184 | Java | Docker Compose | 🤖 MateClaw — Your second brain with Multi-Agent Orchestration, MCP Protocol, Skills &amp; Me… |
+| [mateaix/mateclaw](https://github.com/mateaix/mateclaw) | 1,185 | Java | Docker Compose | 🤖 MateClaw — Your second brain with Multi-Agent Orchestration, MCP Protocol, Skills &amp; Me… |
 | [fetchai/innovation-lab-examples](https://github.com/fetchai/innovation-lab-examples) | 1,170 | Python | Docker, Docker Compose, GitHub Actions | 80+ production-ready AI agent examples in Python — build autonomous agents, multi-agent s… |
-| [Muuuun/luxas](https://github.com/Muuuun/luxas) | 1,169 | TypeScript | React | An autonomous research colleague — from a question to a compiled manuscript, while you sl… |
-| [massgen/MassGen](https://github.com/massgen/MassGen) | 1,148 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | 🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, auton… |
+| [Muuuun/luxas](https://github.com/Muuuun/luxas) | 1,170 | TypeScript | React | An autonomous research colleague — from a question to a compiled manuscript, while you sl… |
+| [massgen/MassGen](https://github.com/massgen/MassGen) | 1,147 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | 🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, auton… |
 | [Onelevenvy/flock](https://github.com/Onelevenvy/flock) | 1,127 | Rust | GitHub Actions, Tokio | A desktop multi-agent harness built with Rust, Tauri, and React, powered by langgraph-rus… |
 | [Agent-Field/SWE-AF](https://github.com/Agent-Field/SWE-AF) | 1,125 | Go | Docker, Docker Compose, GitHub Actions, Pydantic | Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField… |
 | [Human-Agent-Society/CORAL](https://github.com/Human-Agent-Society/CORAL) | 1,122 | Python | GitHub Actions | Open-source autoresearch powered by autonomous coding agents. Run Claude Code, OpenCode,… |
-| [cuga-project/cuga-agent](https://github.com/cuga-project/cuga-agent) | 1,107 | Python | Docker, FastAPI, GitHub Actions, LangChain | CUGA is an open-source generalist agent harness for the enterprise, supporting complex ta… |
+| [cuga-project/cuga-agent](https://github.com/cuga-project/cuga-agent) | 1,108 | Python | Docker, FastAPI, GitHub Actions, LangChain | CUGA is an open-source generalist agent harness for the enterprise, supporting complex ta… |
 | [StreetLamb/tribe](https://github.com/StreetLamb/tribe) | 1,084 | TypeScript | Docker Compose, GitHub Actions | Low code tool to rapidly build and coordinate multi-agent teams |
 | [Pan-Chera/Multi-Agent-CAD](https://github.com/Pan-Chera/Multi-Agent-CAD) | 1,071 | Python | FastAPI, GitHub Actions, LangGraph, Pydantic | MAC (Multi-Agent CAD): A decoupled multi-agent framework for text-to-CAD generation via c… |
-| [kdlbs/kandev](https://github.com/kdlbs/kandev) | 1,066 | Go | Docker, GitHub Actions, Kubernetes | AI Kanban &amp; Development Environment. Orchestrate multiple agents, review changes, open PR… |
+| [kdlbs/kandev](https://github.com/kdlbs/kandev) | 1,067 | Go | Docker, GitHub Actions, Kubernetes | AI Kanban &amp; Development Environment. Orchestrate multiple agents, review changes, open PR… |
 | [AFK-surf/open-agent](https://github.com/AFK-surf/open-agent) | 1,051 | TypeScript | GitHub Actions, Tokio | Open-source alternative to Claude Agent SDK, ChatGPT Agents, and Manus. |
 | [w8123/EnterpriseAgentFramework](https://github.com/w8123/EnterpriseAgentFramework) | 1,043 | Java | GitHub Actions | ReachAI企业级智能体开发平台：快速、安全完成已有业务系统智能化改造，让 AI 在 OA、ERP、CRM 等原系统中查数据、填表单、办业务。ReachAI: Quickly… |
 | [opencrabs/opencrabs](https://github.com/opencrabs/opencrabs) | 1,025 | Rust | GitHub Actions, Tokio | The all-in-one AI agent. Build mobile apps, frontend, backend, manages files, deep resear… |
 | [FareedKhan-dev/production-grade-agentic-system](https://github.com/FareedKhan-dev/production-grade-agentic-system) | 1,017 | Python | Docker, Docker Compose, FastAPI, LangChain | Core 7 layers of production grade agentic system |
-| [desplega-ai/agent-swarm](https://github.com/desplega-ai/agent-swarm) | 1,012 | TypeScript | Docker, GitHub Actions, MCP SDK, React | Your Company Agentic Operating System |
-| [sno-ai/sno-station](https://github.com/sno-ai/sno-station) | 1,009 | TypeScript | GitHub Actions | When Claude Code hits its usage limit, Codex picks the task up from the same memory. Sno… |
-| [ling-stack-org/ling-stack](https://github.com/ling-stack-org/ling-stack) | 991 | TypeScript | GitHub Actions | Local-first AI teammate workspace. Bring your own models and keep project conversations,… |
-| [DemonDamon/AgenticX](https://github.com/DemonDamon/AgenticX) | 978 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + S… |
+| [desplega-ai/agent-swarm](https://github.com/desplega-ai/agent-swarm) | 1,015 | TypeScript | Docker, GitHub Actions, MCP SDK, React | Your Company Agentic Operating System |
+| [sno-ai/sno-station](https://github.com/sno-ai/sno-station) | 1,010 | TypeScript | GitHub Actions | When Claude Code hits its usage limit, Codex picks the task up from the same memory. Sno… |
+| [DemonDamon/AgenticX](https://github.com/DemonDamon/AgenticX) | 994 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + S… |
+| [ling-stack-org/ling-stack](https://github.com/ling-stack-org/ling-stack) | 987 | TypeScript | GitHub Actions | Local-first AI teammate workspace. Bring your own models and keep project conversations,… |
 | [zqiren/Orbital](https://github.com/zqiren/Orbital) | 969 | Python | FastAPI, GitHub Actions | Context is yours. Agents are replaceable. |
-| [alikon-art/DeterminFlow](https://github.com/alikon-art/DeterminFlow) | 960 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | A production-oriented AI workflow runtime for building, validating, recovering, and shipp… |
-| [Rath-Team/OpenRath](https://github.com/Rath-Team/OpenRath) | 957 | Python | GitHub Actions, PyTorch, Pydantic | An open-source, PyTorch-like runtime for dynamic multi-agent and multi-session workflows. |
-| [qinshihu/itops-agent-platform](https://github.com/qinshihu/itops-agent-platform) | 954 | TypeScript | Docker Compose, GitHub Actions | China&#39;s 1st enterprise multi-agent IT ops platform. LLM-powered auto-remediation for Zabb… |
-| [open-mercato/cezar](https://github.com/open-mercato/cezar) | 949 | TypeScript | GitHub Actions | Open-source orchestrator and ADE for running Claude Code, Codex, OpenCode, Pi and other A… |
-| [agents-universe/agents-universe](https://github.com/agents-universe/agents-universe) | 831 | Python | Docker, GitHub Actions | 不是问答机器人，而是能真正干活的数字分身。共享智能体，共享项目上下文，让项目所有成员一起协同工作。同时智能体会像人一样通过资料或者工作抽象和总结经验到项目上下文中 |
+| [alikon-art/DeterminFlow](https://github.com/alikon-art/DeterminFlow) | 961 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | A production-oriented AI workflow runtime for building, validating, recovering, and shipp… |
+| [Rath-Team/OpenRath](https://github.com/Rath-Team/OpenRath) | 956 | Python | GitHub Actions, PyTorch, Pydantic | An open-source, PyTorch-like runtime for dynamic multi-agent and multi-session workflows. |
+| [qinshihu/itops-agent-platform](https://github.com/qinshihu/itops-agent-platform) | 955 | TypeScript | Docker Compose, GitHub Actions | China&#39;s 1st enterprise multi-agent IT ops platform. LLM-powered auto-remediation for Zabb… |
+| [open-mercato/cezar](https://github.com/open-mercato/cezar) | 951 | TypeScript | GitHub Actions | Open-source orchestrator and ADE for running Claude Code, Codex, OpenCode, Pi and other A… |
+| [agents-universe/agents-universe](https://github.com/agents-universe/agents-universe) | 836 | Python | Docker, GitHub Actions | 不是问答机器人，而是能真正干活的数字分身。共享智能体，共享项目上下文，让项目所有成员一起协同工作。同时智能体会像人一样通过资料或者工作抽象和总结经验到项目上下文中 |
 | [go-kratos/blades](https://github.com/go-kratos/blades) | 819 | Go | GitHub Actions | Blades is a Go-based multimodal AI Agent framework. |
 | [Gnosil/semantix](https://github.com/Gnosil/semantix) | 811 | Go | GitHub Actions | semantic agent kernel which make agent efficient and self-evolve |
-| [zj-unicom-ai/UniEmployee](https://github.com/zj-unicom-ai/UniEmployee) | 797 | Python | Docker Compose, GitHub Actions | 面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。 |
-| [ethanplusai/codex-on-crack](https://github.com/ethanplusai/codex-on-crack) | 784 | JavaScript | — | Coordinate your models from Codex. Plan, delegate, use host tools, and review work across… |
-| [rapidaai/voice-ai](https://github.com/rapidaai/voice-ai) | 753 | Go | Docker Compose, Gin, GitHub Actions, gRPC | Rapida is an open-source, end-to-end voice AI orchestration platform for building real-ti… |
-| [Abilityai/trinity](https://github.com/Abilityai/trinity) | 739 | Python | Docker Compose, GitHub Actions, MCP SDK | Self-hosted AI Agents Platform for AI Native companies. Claude Code, Codex, Gemini, OpenC… |
-| [Th0rgal/orb](https://github.com/Th0rgal/orb) | 704 | Rust | Docker, Docker Compose, GitHub Actions, Tokio | All your AI providers, machines, and agent harnesses in one place. Free &amp; native |
+| [zj-unicom-ai/UniEmployee](https://github.com/zj-unicom-ai/UniEmployee) | 804 | Python | Docker Compose, GitHub Actions | 面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。 |
+| [ethanplusai/codex-on-crack](https://github.com/ethanplusai/codex-on-crack) | 785 | JavaScript | — | Coordinate your models from Codex. Plan, delegate, use host tools, and review work across… |
+| [rapidaai/voice-ai](https://github.com/rapidaai/voice-ai) | 754 | Go | Docker Compose, Gin, GitHub Actions, gRPC | Rapida is an open-source, end-to-end voice AI orchestration platform for building real-ti… |
+| [Abilityai/trinity](https://github.com/Abilityai/trinity) | 742 | Python | Docker Compose, GitHub Actions, MCP SDK | Self-hosted AI Agents Platform for AI Native companies. Claude Code, Codex, Gemini, OpenC… |
+| [Th0rgal/orb](https://github.com/Th0rgal/orb) | 707 | Rust | Docker, Docker Compose, GitHub Actions, Tokio | All your AI providers, machines, and agent harnesses in one place. Free &amp; native |
 | [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | 703 | TypeScript | Docker, Docker Compose, GitHub Actions, MCP SDK | Open-source self-hosted AI agent runtime and multi-agent framework for autonomous agent s… |
 | [Maximilian-Winter/llama-cpp-agent](https://github.com/Maximilian-Winter/llama-cpp-agent) | 662 | Python | GitHub Actions, Pydantic | The llama-cpp-agent framework is a tool designed for easy interaction with Large Language… |
 | [Gen-Verse/Open-AgentRL](https://github.com/Gen-Verse/Open-AgentRL) | 661 | Python | FastAPI | RLAnything (ICML 2026) &amp; AutoTool (ICML 2026), DemyAgent: Open-Source RL for LLMs and Age… |
 | [lofcz/LLMTornado](https://github.com/lofcz/LLMTornado) | 651 | C# | GitHub Actions | The .NET library to build AI agents with 30+ built-in connectors. |
-| [Sidiora-Labs/hyperfide](https://github.com/Sidiora-Labs/hyperfide) | 640 | TypeScript | GitHub Actions | The ai agent workflow tool that scales from small, simple projects to large, complex code… |
-| [blogminhquy/javis-os](https://github.com/blogminhquy/javis-os) | 627 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | — |
+| [blogminhquy/javis-os](https://github.com/blogminhquy/javis-os) | 643 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | — |
+| [Sidiora-Labs/hyperfide](https://github.com/Sidiora-Labs/hyperfide) | 639 | TypeScript | GitHub Actions | The ai agent workflow tool that scales from small, simple projects to large, complex code… |
 | [sbhooley/ainativelang](https://github.com/sbhooley/ainativelang) | 623 | Python | FastAPI, GitHub Actions, LangGraph | AINL helps turn AI from &quot;a smart conversation&quot; into &quot;a structured worker.&quot;  It is designe… |
-| [FerroxLabs/wayland](https://github.com/FerroxLabs/wayland) | 617 | TypeScript | Docker, Express, GitHub Actions, MCP SDK | Wayland - The AI Agent That Perceives. Reasons. Acts. Evolves. |
+| [FerroxLabs/wayland](https://github.com/FerroxLabs/wayland) | 618 | TypeScript | Docker, Express, GitHub Actions, MCP SDK | Wayland - The AI Agent That Perceives. Reasons. Acts. Evolves. |
 | [Enderfga/claw-orchestrator](https://github.com/Enderfga/claw-orchestrator) | 601 | TypeScript | GitHub Actions, MCP SDK | Run Claude Code, Codex, Antigravity, Grok Build and OpenCode behind one runtime, and a ru… |
 | [solo-agent/solo](https://github.com/solo-agent/solo) | 600 | Go | Docker, Docker Compose, GitHub Actions | Solo Agent — an open-source, local-first workspace where humans and AI coding agents coll… |
 | [sharpdeveye/maestro](https://github.com/sharpdeveye/maestro) | 592 | TypeScript | GitHub Actions | Workflow fluency for AI coding agents. 1 core skill · 25 commands · 7 domain references ·… |
-| [agentvivekkumar/dontbemichael](https://github.com/agentvivekkumar/dontbemichael) | 590 | TypeScript | GitHub Actions, React | A local multi-agent harness that works with your existing Claude Code, Codex subscription… |
-| [tt-a1i/hive](https://github.com/tt-a1i/hive) | 583 | TypeScript | GitHub Actions, React | Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode… |
-| [agentpit-io/hunter-community](https://github.com/agentpit-io/hunter-community) | 576 | Python | Docker Compose, GitHub Actions | HunterCode · Community Edition · 腾讯 WorkBuddy 金融版的开源本地替代方案 · open-source, local alternati… |
+| [agentvivekkumar/dontbemichael](https://github.com/agentvivekkumar/dontbemichael) | 591 | TypeScript | GitHub Actions, React | A local multi-agent harness that works with your existing Claude Code, Codex subscription… |
+| [tt-a1i/hive](https://github.com/tt-a1i/hive) | 585 | TypeScript | GitHub Actions, React | Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode… |
+| [agentpit-io/hunter-community](https://github.com/agentpit-io/hunter-community) | 577 | Python | Docker Compose, GitHub Actions | HunterCode · Community Edition · 腾讯 WorkBuddy 金融版的开源本地替代方案 · open-source, local alternati… |
 | [qybaihe/mu](https://github.com/qybaihe/mu) | 576 | TypeScript | GitHub Actions | mu (μ): most of what a coding agent decides isn&#39;t code. mu hands 40 kinds of yes/no calls… |
 | [agnt-gg/agnt](https://github.com/agnt-gg/agnt) | 564 | JavaScript | Docker, Docker Compose, Express, GitHub Actions | The local-first operating system for building, running, and improving AI agents, workflow… |
-| [dragonked2/alphacode](https://github.com/dragonked2/alphacode) | 561 | Rust | GitHub Actions, Tokio | Free MIT AI coding agent — no API key needed. Built-in free model, or bring Claude, GPT,… |
+| [dragonked2/alphacode](https://github.com/dragonked2/alphacode) | 564 | Rust | GitHub Actions, Tokio | Free MIT AI coding agent — no API key needed. Built-in free model, or bring Claude, GPT,… |
 | [mixpeek/amux](https://github.com/mixpeek/amux) | 554 | Rust | GitHub Actions, Tokio | The agent control plane: run Claude Code, Codex and Gemini CLI agents in parallel with a… |
 | [AutoJunjie/awesome-agent-harness](https://github.com/AutoJunjie/awesome-agent-harness) | 536 | — | — | — |
 | [astrio-labs/forall-mcp](https://github.com/astrio-labs/forall-mcp) | 534 | Rust | GitHub Actions, Tokio | Forall (∀) is a coding harness from Astrio that helps developers build correct software b… |
 | [vanzan01/claude-code-sub-agent-collective](https://github.com/vanzan01/claude-code-sub-agent-collective) | 525 | JavaScript | GitHub Actions | 🧠 Context Engineering Research - Not just another agent collection, but using research a… |
 | [razzant/claudexor](https://github.com/razzant/claudexor) | 522 | TypeScript | GitHub Actions | Multi-harness control plane for Claude Code, Codex, Cursor, and OpenCode: quota-aware rot… |
 | [Deuz-AI/Deuz-SDK](https://github.com/Deuz-AI/Deuz-SDK) | 508 | TypeScript | GitHub Actions | TypeScript AI SDK and agent framework with zero dependencies. Build production AI agents… |
-| [AlexAnys/opencrew](https://github.com/AlexAnys/opencrew) | 496 | Shell | — | Openclaw多智能体协同系统 \| Multi-Agent OS for Decision Makers — 基于 OpenClaw (Clawbot) + Slack，让… |
+| [AlexAnys/opencrew](https://github.com/AlexAnys/opencrew) | 497 | Shell | — | Openclaw多智能体协同系统 \| Multi-Agent OS for Decision Makers — 基于 OpenClaw (Clawbot) + Slack，让… |
 | [saltbo/agent-kanban](https://github.com/saltbo/agent-kanban) | 496 | TypeScript | GitHub Actions, React | An agent-first task board, Take human out of the loop. |
 | [vb2250158/RabiRoute](https://github.com/vb2250158/RabiRoute) | 492 | TypeScript | GitHub Actions, MCP SDK | Self-hosted message gateway for AI agents: Codex, QQ, WeChat/WeCom, Feishu, smart devices… |
-| [linghungegeg/Linghun](https://github.com/linghungegeg/Linghun) | 462 | TypeScript | GitHub Actions | AGI-oriented, hallucination-resistant AI coding runtime grounded in evidence, tools, memo… |
-| [yicheng47/runner](https://github.com/yicheng47/runner) | 460 | Rust | GitHub Actions | Where terminal agents work together. Claude Code, Codex, Copilot CLI and pi on the same t… |
+| [yicheng47/runner](https://github.com/yicheng47/runner) | 467 | Rust | GitHub Actions | Where terminal agents work together. Claude Code, Codex, Copilot CLI and pi on the same t… |
+| [linghungegeg/Linghun](https://github.com/linghungegeg/Linghun) | 464 | TypeScript | GitHub Actions | AGI-oriented, hallucination-resistant AI coding runtime grounded in evidence, tools, memo… |
 | [howl-anderson/agentsilex](https://github.com/howl-anderson/agentsilex) | 458 | Python | GitHub Actions, Pydantic | A transparent, minimal, and hackable agent framework. ~300 lines of readable code. Full c… |
-| [smithersai/smithers](https://github.com/smithersai/smithers) | 445 | TypeScript | GitHub Actions, React | Smithers is an agentic workflow framework for defining workflows in simple TypeScript con… |
-| [Wholiver/metis](https://github.com/Wholiver/metis) | 439 | TypeScript | GitHub Actions | Metis is a coding agent that boosts AI/LLM coding performance by 50% QQ群: 801193315 |
+| [smithersai/smithers](https://github.com/smithersai/smithers) | 446 | TypeScript | GitHub Actions, React | Smithers is an agentic workflow framework for defining workflows in simple TypeScript con… |
+| [Wholiver/metis](https://github.com/Wholiver/metis) | 438 | TypeScript | GitHub Actions | Metis is a coding agent that boosts AI/LLM coding performance by 50% QQ群: 801193315 |
 | [caipe-io/ai-platform-engineering](https://github.com/caipe-io/ai-platform-engineering) | 437 | TypeScript | FastAPI, GitHub Actions, LangChain, LangGraph | CAIPE is an open-source AI platform for building, governing, and operating AI agents and… |
 | [giuliastro/harness-remote](https://github.com/giuliastro/harness-remote) | 435 | JavaScript | GitHub Actions | Native-session control plane for Codex, Claude Code, OpenCode, PI and many others. Run, r… |
 | [bybren-llc/safe-agentic-workflow](https://github.com/bybren-llc/safe-agentic-workflow) | 429 | JavaScript | GitHub Actions | SAW — SAFe Agentic Workflow AI Agent Harness for Multi-Agent Team Workflows Built on SAFe… |
@@ -216,29 +216,29 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [blueberrycongee/termcanvas](https://github.com/blueberrycongee/termcanvas) | 418 | TypeScript | GitHub Actions, React | An infinite canvas desktop app for visually managing terminals |
 | [Varietyz/Disciplined-AI-Software-Development](https://github.com/Varietyz/Disciplined-AI-Software-Development) | 415 | TypeScript | — | Disciplined AI Collaboration: a method for building software with AI. One loop at every s… |
 | [0xethanq/astra-quant-agent](https://github.com/0xethanq/astra-quant-agent) | 410 | Python | Docker, Docker Compose, FastAPI | 结合多大模型分析与确定性代码风控的自主量化交易系统 ｜ Autonomous crypto trading system with multi-LLM analysis, det… |
-| [Intelligent-Internet/zenith](https://github.com/Intelligent-Internet/zenith) | 395 | Python | GitHub Actions | Zenith: a continuous-improvement harness for long-running agent tasks. Turns Claude Code,… |
+| [Intelligent-Internet/zenith](https://github.com/Intelligent-Internet/zenith) | 396 | Python | GitHub Actions | Zenith: a continuous-improvement harness for long-running agent tasks. Turns Claude Code,… |
 | [outworked/outworked](https://github.com/outworked/outworked) | 394 | TypeScript | GitHub Actions, React | Outworked - Cozy Office for Claude Code |
 | [yan5xu/codexloom](https://github.com/yan5xu/codexloom) | 391 | Go | — | Turn Codex threads into an organization of long-lived domain agents. |
 | [microsoft/Agent-Framework-Samples](https://github.com/microsoft/Agent-Framework-Samples) | 390 | Python | — | Agent Framework Samples  - showcasing ways in which agent framework can be utilized. |
-| [Cotal-AI/Cotal](https://github.com/Cotal-AI/Cotal) | 380 | TypeScript | GitHub Actions | The open standard for agent coordination |
+| [Cotal-AI/Cotal](https://github.com/Cotal-AI/Cotal) | 383 | TypeScript | GitHub Actions | The open standard for agent coordination |
 | [eggbrid2/mobileClaw](https://github.com/eggbrid2/mobileClaw) | 379 | Kotlin | GitHub Actions | Open Android AI agent runtime for phone control, app automation, VLM screen reading, skil… |
 | [CronusL-1141/AI-company](https://github.com/CronusL-1141/AI-company) | 374 | Python | Docker Compose, FastAPI, GitHub Actions, LangChain | Multi-agent team operating system for Claude Code. 108 MCP tools, 40+ agent templates, 10… |
 | [n-WN/SubgroupX](https://github.com/n-WN/SubgroupX) | 374 | TypeScript | Docker, Express, GitHub Actions, MCP SDK | oiia — hosted agent sessions that execute wherever you point them: a cloud sandbox, an SS… |
+| [savannahfeder/agentbox](https://github.com/savannahfeder/agentbox) | 369 | JavaScript | GitHub Actions, MCP SDK, React, TypeScript | A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its… |
 | [eliautobot/my-virtual-office](https://github.com/eliautobot/my-virtual-office) | 365 | Python | Docker Compose, GitHub Actions | A self-hosted 2D AI workspace for AI Agents |
-| [savannahfeder/agentbox](https://github.com/savannahfeder/agentbox) | 364 | JavaScript | GitHub Actions, MCP SDK, React, TypeScript | A desktop GUI for running dozens of Claude Code and Codex agents in parallel, each in its… |
 | [whitelonng/mancode](https://github.com/whitelonng/mancode) | 360 | TypeScript | GitHub Actions | AI coding agent harness. Five modes: practice to playoffs. Stop your AI from over-enginee… |
 | [yuuichieguchi/Calyx](https://github.com/yuuichieguchi/Calyx) | 358 | Swift | GitHub Actions | A native macOS terminal app built on Ghostty for running and supervising coding agents |
 | [automagik-dev/genie](https://github.com/automagik-dev/genie) | 351 | TypeScript | GitHub Actions, React | Wishes in, PRs out. CLI agent that interviews you, plans the work, dispatches parallel ag… |
 | [opencmit/alphora](https://github.com/opencmit/alphora) | 348 | Python | FastAPI, Pydantic | A Production-Ready Framework for Building Composable AI Agents |
 | [beevibe-ai/beevibe](https://github.com/beevibe-ai/beevibe) | 341 | TypeScript | Docker Compose, GitHub Actions | The agent-native OS for companies. |
 | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 341 | TypeScript | GitHub Actions | Real-time web dashboard for pi coding-agent sessions. Multi-session view, live chat mirro… |
-| [manthanguptaa/water](https://github.com/manthanguptaa/water) | 340 | Python | FastAPI, GitHub Actions, LangChain, Pydantic | The production-ready agent harness framework for Python |
+| [manthanguptaa/water](https://github.com/manthanguptaa/water) | 341 | Python | FastAPI, GitHub Actions, LangChain, Pydantic | The production-ready agent harness framework for Python |
 | [synapseorch-ai/synapse-ai](https://github.com/synapseorch-ai/synapse-ai) | 337 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Build AI agents that actually do things. Synapse is an open-source platform for creating,… |
+| [Pal-AI-Lab/Cortico](https://github.com/Pal-AI-Lab/Cortico) | 333 | TypeScript | Express, GitHub Actions, React | Event-stream AI Agent framework for building your persona bot 🍊 |
 | [huangjia2019/agent-design-patterns](https://github.com/huangjia2019/agent-design-patterns) | 331 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | A 7×6 framework for agent architecture. 28 patterns, each placed at a coordinate, runnabl… |
-| [Pal-AI-Lab/Cortico](https://github.com/Pal-AI-Lab/Cortico) | 329 | TypeScript | Express, GitHub Actions, React | Event-stream AI Agent framework for building your persona bot 🍊 |
 | [Belkins/ai-dive-deep](https://github.com/Belkins/ai-dive-deep) | 328 | Astro | GitHub Actions, React, TypeScript | Vlad&#39;s Playbook — a 48-chapter operator field manual where every artifact is live, clicka… |
-| [scasella/claude-dynamic-workflows-codex](https://github.com/scasella/claude-dynamic-workflows-codex) | 328 | JavaScript | GitHub Actions | Run Claude Code dynamic workflows on a local Codex (GPT) backend, plus an interactive run… |
 | [tinyhumansai/opencompany](https://github.com/tinyhumansai/opencompany) | 328 | Rust | GitHub Actions, Tokio | Run a hive mind of agents to focus on a specific goal |
+| [scasella/claude-dynamic-workflows-codex](https://github.com/scasella/claude-dynamic-workflows-codex) | 326 | JavaScript | GitHub Actions | Run Claude Code dynamic workflows on a local Codex (GPT) backend, plus an interactive run… |
 | [no-human-ai/no_human](https://github.com/no-human-ai/no_human) | 320 | Python | Docker, FastAPI, GitHub Actions | From ticket to reviewed pull request. Free and open-source, on your machine. |
 | [ServiceNow/TapeAgents](https://github.com/ServiceNow/TapeAgents) | 320 | Python | FastAPI, GitHub Actions, LangChain, Pydantic | TapeAgents is a framework that facilitates all stages of the LLM Agent development lifecy… |
 | [Prompthon-IO/agent-systems-handbook](https://github.com/Prompthon-IO/agent-systems-handbook) | 314 | MDX | GitHub Actions | Agent Systems Handbook by Prompthon — A practical AI agents handbook covering agent syste… |
@@ -247,23 +247,23 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [yangheng95/opencorvus](https://github.com/yangheng95/opencorvus) | 309 | TypeScript | GitHub Actions, MCP SDK, React | DIY your own agent team harness for long-horizon agent work |
 | [arcee-ai/nac](https://github.com/arcee-ai/nac) | 296 | Rust | GitHub Actions, React, Tokio | Give AI agents ambitious work without losing the plot. nac is an open-source harness for… |
 | [mahonzhan/awesome-agent-harness](https://github.com/mahonzhan/awesome-agent-harness) | 295 | — | — | A curated awesome list of agent harnesses, agent frameworks, workflow frameworks, and eme… |
-| [toolclub/dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) | 287 | TypeScript | GitHub Actions, React | Persistent multi-model workflow teams for DeepSeek Harness — dynamic lead planning, bound… |
-| [hamedgitty/bloks](https://github.com/hamedgitty/bloks) | 284 | TypeScript | Docker, GitHub Actions, React | A local-first desktop app for running a team of AI agents on Claude Code, Codex, Cursor,… |
-| [AIFrontierLab/AgentArk](https://github.com/AIFrontierLab/AgentArk) | 276 | Python | — | [NeurIPS&#39;26] Official Implementation for AgentArk: Distilling Multi-Agent Intelligence in… |
+| [toolclub/dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) | 288 | TypeScript | GitHub Actions, React | Persistent multi-model workflow teams for DeepSeek Harness — dynamic lead planning, bound… |
+| [hamedgitty/bloks](https://github.com/hamedgitty/bloks) | 283 | TypeScript | Docker, GitHub Actions, React | A local-first desktop app for running a team of AI agents on Claude Code, Codex, Cursor,… |
+| [AIFrontierLab/AgentArk](https://github.com/AIFrontierLab/AgentArk) | 277 | Python | — | [NeurIPS&#39;26] Official Implementation for AgentArk: Distilling Multi-Agent Intelligence in… |
 | [shep-ai/shep](https://github.com/shep-ai/shep) | 274 | TypeScript | Docker, GitHub Actions, MCP SDK, Next.js | Ship features 10x faster. Built In Auto: Memory, K8S Agent &amp; Security (SDD+SDLC) . 😇 |
-| [prassanna-ravishankar/repowire](https://github.com/prassanna-ravishankar/repowire) | 271 | Go | Docker, GitHub Actions | May the agents talk. Connect Claude Code, Opencode, Codex, Pi across projects, across mac… |
-| [Balanov/skein](https://github.com/Balanov/skein) | 265 | Go | GitHub Actions | Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection. |
-| [santosomar/AI-agents-for-cybersecurity](https://github.com/santosomar/AI-agents-for-cybersecurity) | 265 | Python | GitHub Actions, LangChain, LangGraph, PyTorch | Hands-on code, labs, and reference material by Omar Santos for building, securing, and op… |
-| [wangmiaozero/pi-harness](https://github.com/wangmiaozero/pi-harness) | 264 | TypeScript | GitHub Actions | The operational superset of Pi Coding Agent — everything Pi, plus observability, governan… |
+| [prassanna-ravishankar/repowire](https://github.com/prassanna-ravishankar/repowire) | 272 | Go | Docker, GitHub Actions | May the agents talk. Connect Claude Code, Opencode, Codex, Pi across projects, across mac… |
+| [wangmiaozero/pi-harness](https://github.com/wangmiaozero/pi-harness) | 267 | TypeScript | GitHub Actions | The operational superset of Pi Coding Agent — everything Pi, plus observability, governan… |
+| [Balanov/skein](https://github.com/Balanov/skein) | 266 | Go | GitHub Actions | Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection. |
+| [santosomar/AI-agents-for-cybersecurity](https://github.com/santosomar/AI-agents-for-cybersecurity) | 266 | Python | GitHub Actions, LangChain, LangGraph, PyTorch | Hands-on code, labs, and reference material by Omar Santos for building, securing, and op… |
 | [receptron/mulmoterminal](https://github.com/receptron/mulmoterminal) | 261 | TypeScript | Express, GitHub Actions, MCP SDK | Run multiple Claude Code and Codex sessions in parallel — a browser terminal grid that sh… |
 | [bagidea/bagidea-office](https://github.com/bagidea/bagidea-office) | 260 | JavaScript | GitHub Actions | A living AI-agent office on your desktop wallpaper — Claude Code agents that walk, work,… |
 | [Owl-Listener/designpowers](https://github.com/Owl-Listener/designpowers) | 256 | JavaScript | GitHub Actions | An agent design team you control: 10 agents that run an inclusive design process while yo… |
 | [omnirexflora-labs/omnicoreagent](https://github.com/omnirexflora-labs/omnicoreagent) | 253 | Python | FastAPI, GitHub Actions, Pydantic | An agent runtime for Python. Give your agent real work. Keep control: every action checke… |
-| [murray17/rovai-ai](https://github.com/murray17/rovai-ai) | 251 | Rust | GitHub Actions, React, TypeScript | Desktop and web workspace for lasting teams of coding agents, with shared conversations,… |
+| [murray17/rovai-ai](https://github.com/murray17/rovai-ai) | 252 | Rust | GitHub Actions, React, TypeScript | Desktop and web workspace for lasting teams of coding agents, with shared conversations,… |
+| [csr1010/whatsapp-ai-agent-sdk](https://github.com/csr1010/whatsapp-ai-agent-sdk) | 251 | TypeScript | GitHub Actions | The open-source AI agent SDK for WhatsApp. Bring your own model, your own number, your ow… |
 | [pqpo/pragma](https://github.com/pqpo/pragma) | 249 | TypeScript | GitHub Actions | Build portable agent teams across models and harnesses, with shared memory, skills, tools… |
 | [Zijian-Ni/awesome-ai-agents-2026](https://github.com/Zijian-Ni/awesome-ai-agents-2026) | 248 | Python | GitHub Actions | 🤖 A curated list of AI Agent frameworks, tools, platforms, and resources for 2026 — the… |
-| [csr1010/whatsapp-ai-agent-sdk](https://github.com/csr1010/whatsapp-ai-agent-sdk) | 246 | TypeScript | GitHub Actions | The open-source AI agent SDK for WhatsApp. Bring your own model, your own number, your ow… |
-| [Luciole-Studio/Misaka-Agent](https://github.com/Luciole-Studio/Misaka-Agent) | 243 | Python | GitHub Actions, Pydantic | A multi-agent research system for the humanities and social sciences. |
+| [Luciole-Studio/Misaka-Agent](https://github.com/Luciole-Studio/Misaka-Agent) | 244 | Python | GitHub Actions, Pydantic | A multi-agent research system for the humanities and social sciences. |
 | [fetchai/agents-aea](https://github.com/fetchai/agents-aea) | 241 | Python | GitHub Actions | A framework for autonomous economic agent (AEA) development |
 | [LearnPrompt/cc-harness-skills](https://github.com/LearnPrompt/cc-harness-skills) | 240 | Python | — | Portable CC-inspired skills for memory, verification, multi-agent coordination, context c… |
 | [neopen/story-shot-agent](https://github.com/neopen/story-shot-agent) | 236 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | 剧本分镜智能体（PenShot）：电影/动漫/短剧/小说→分镜片段→视频提示词。基于 LLM 通过 LangGraph+LlamaIndex实现任意格式剧本的自动解析，生成 So… |
@@ -272,12 +272,12 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [FrankHui/paragents](https://github.com/FrankHui/paragents) | 233 | Python | — | Parallel ai-agent sessions in one panel, with permission-aware tools, preflight conflict… |
 | [mtarcure/claude-vibe-squad](https://github.com/mtarcure/claude-vibe-squad) | 228 | Python | FastAPI, GitHub Actions, Pydantic | Markdown-first orchestration for 71 specialists across Codex, Claude, Gemini, and Grok. C… |
 | [OWWZO/cute-agent](https://github.com/OWWZO/cute-agent) | 222 | Java | Docker, Docker Compose, GitHub Actions | 一个面向全网研究与复杂数据分析的云端智能体，能在公开网络、YouTube、BiliBili、X、小红书、Hacker News上研究任何主题 。项目wiki：https://zr… |
-| [boadij/pi-herdsman](https://github.com/boadij/pi-herdsman) | 218 | TypeScript | Docker, GitHub Actions | Asynchronous Pi subagents and agent fleet orchestration for parallel coding agents with n… |
-| [matank001/clodfarm](https://github.com/matank001/clodfarm) | 217 | Python | Docker, Docker Compose, GitHub Actions | clodfarm (say it out loud): a farm of Claude Code agents. Plant a mission, they split it… |
+| [boadij/pi-herdsman](https://github.com/boadij/pi-herdsman) | 219 | TypeScript | Docker, GitHub Actions | Asynchronous Pi subagents and agent fleet orchestration for parallel coding agents with n… |
+| [matank001/clodfarm](https://github.com/matank001/clodfarm) | 218 | Python | Docker, Docker Compose, GitHub Actions | clodfarm (say it out loud): a farm of Claude Code agents. Plant a mission, they split it… |
 | [amirfish1/claude-command-center](https://github.com/amirfish1/claude-command-center) | 216 | Python | Docker, Docker Compose, GitHub Actions | One local board for Claude Code, Codex, Cursor and 5 more coding agents. See which sessio… |
 | [vortezwohl/Autono](https://github.com/vortezwohl/Autono) | 214 | Python | LangChain | A ReAct-Based Highly Robust Autonomous Agent (Harness) Framework. |
-| [markus-global/markus](https://github.com/markus-global/markus) | 212 | TypeScript | GitHub Actions | The all-in-one AI workforce platform, to build AI agent teams. You are the boss. |
-| [amitshekhariitbhu/ai-agents-tutorial](https://github.com/amitshekhariitbhu/ai-agents-tutorial) | 208 | — | — | Learn AI Agents step by step, from scratch - from function calling to agent loops to mult… |
+| [markus-global/markus](https://github.com/markus-global/markus) | 213 | TypeScript | GitHub Actions | The all-in-one AI workforce platform, to build AI agent teams. You are the boss. |
+| [amitshekhariitbhu/ai-agents-tutorial](https://github.com/amitshekhariitbhu/ai-agents-tutorial) | 209 | — | — | Learn AI Agents step by step, from scratch - from function calling to agent loops to mult… |
 | [madebyaris/native-cli-ai](https://github.com/madebyaris/native-cli-ai) | 205 | Rust | GitHub Actions, Tokio | A native Rust CLI  for orchestrating AI agents across projects, with persistent sessions,… |
 | [mercurialsolo/claudectl](https://github.com/mercurialsolo/claudectl) | 205 | Rust | GitHub Actions, Tokio | Hive compute for coding agent swarms - expand your personal compute by adding on-demand a… |
 | [stoneforge-ai/stoneforge](https://github.com/stoneforge-ai/stoneforge) | 203 | TypeScript | GitHub Actions | A web dashboard and runtime for orchestrating AI coding agents |
@@ -287,21 +287,21 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [kstevica/captain-claw](https://github.com/kstevica/captain-claw) | 193 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Command a fleet of AI agents, on every deck, every desk, every wrist. Self-hosted multi-a… |
 | [Ray-Code-Svg/SuperNovaAgent](https://github.com/Ray-Code-Svg/SuperNovaAgent) | 187 | Rust | — | SuperNova is a Windows-first desktop AI Workbench that turns chat into traceable tasks. I… |
 | [ringlochid/oh-my-subagents](https://github.com/ringlochid/oh-my-subagents) | 183 | Python | Docker Compose, FastAPI, GitHub Actions, Pydantic | Local subagent orchestration for Codex and Claude, with persistent task state, reusable t… |
-| [TheSmokeDev/hermes-talk](https://github.com/TheSmokeDev/hermes-talk) | 182 | Python | GitHub Actions | Hermes Talk: realtime duplex voice for Hermes Agent. Rides your ChatGPT or X Premium subs… |
+| [TheSmokeDev/hermes-talk](https://github.com/TheSmokeDev/hermes-talk) | 183 | Python | GitHub Actions | Hermes Talk: realtime duplex voice for Hermes Agent. Rides your ChatGPT or X Premium subs… |
 | [benord-labs/frink](https://github.com/benord-labs/frink) | 181 | TypeScript | GitHub Actions, MCP SDK, React | Desktop-first, open-source (MIT) application for running parallel agents, and multi-step… |
 | [VanGong1999/juben](https://github.com/VanGong1999/juben) | 180 | Python | Docker Compose, FastAPI, GitHub Actions, LangChain | multi-agent platform for short-drama planning, writing &amp; evaluation — 40+ specialized AI… |
-| [muxi-ai/muxi](https://github.com/muxi-ai/muxi) | 178 | — | GitHub Actions | Deploy intelligence. Open-source infrastructure for AI agents in production. |
+| [AgentBull/ankole](https://github.com/AgentBull/ankole) | 179 | Elixir | GitHub Actions, TypeScript | The open source Agent Harness with a Company Brain. Self-hosted AI Agents for Slack, Team… |
+| [muxi-ai/muxi](https://github.com/muxi-ai/muxi) | 179 | — | GitHub Actions | Deploy intelligence. Open-source infrastructure for AI agents in production. |
+| [Agent-Analytics/awesome-multi-agent-orchestrators](https://github.com/Agent-Analytics/awesome-multi-agent-orchestrators) | 177 | TypeScript | GitHub Actions | Awesome-style curated list and directory for multi-agent orchestration. |
 | [oxgeneral/ORCH](https://github.com/oxgeneral/ORCH) | 177 | TypeScript | GitHub Actions, React | One CLI to orchestrate them all. Manage a team of AI agents executing tasks in parallel f… |
-| [Agent-Analytics/awesome-multi-agent-orchestrators](https://github.com/Agent-Analytics/awesome-multi-agent-orchestrators) | 176 | TypeScript | GitHub Actions | Awesome-style curated list and directory for multi-agent orchestration. |
-| [AgentBull/ankole](https://github.com/AgentBull/ankole) | 175 | Elixir | GitHub Actions, TypeScript | The open source Agent Harness with a Company Brain. Self-hosted AI Agents for Slack, Team… |
 | [qiqihezh/deepresearch-agent](https://github.com/qiqihezh/deepresearch-agent) | 175 | Python | PyTorch | 一个生产级的深度研究 Agent 系统，从零构建多智能体编排、Red-Blue 对抗降噪、 语义级上下文压缩、跨 Agent 共享记忆四大核心能力，配套 165 次独立实验 +… |
-| [SeeRay11/OpenFlow](https://github.com/SeeRay11/OpenFlow) | 174 | TypeScript | GitHub Actions | OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode engine |
-| [aaravshah1311/Agent-2](https://github.com/aaravshah1311/Agent-2) | 172 | Python | Docker, Docker Compose, GitHub Actions | An autonomous AI agentic harness built to code anything, automate terminals, perform cybe… |
+| [SeeRay11/OpenFlow](https://github.com/SeeRay11/OpenFlow) | 175 | TypeScript | GitHub Actions | OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode engine |
+| [aaravshah1311/Agent-2](https://github.com/aaravshah1311/Agent-2) | 173 | Python | Docker, Docker Compose, GitHub Actions | An autonomous AI agentic harness built to code anything, automate terminals, perform cybe… |
+| [looptroop-ai/LoopTroop](https://github.com/looptroop-ai/LoopTroop) | 170 | TypeScript | GitHub Actions, React | Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recov… |
 | [linora-u/AgentLoom](https://github.com/linora-u/AgentLoom) | 169 | Python | GitHub Actions, Pydantic | Simple, flexible workflow orchestration for multi-agent AI apps, with YAML configuration,… |
-| [looptroop-ai/LoopTroop](https://github.com/looptroop-ai/LoopTroop) | 169 | TypeScript | GitHub Actions, React | Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recov… |
 | [axar-ai/axar](https://github.com/axar-ai/axar) | 166 | TypeScript | GitHub Actions | Minimal typescript agent framework that keeps it simple and gives you control - no BS |
 | [romiluz13/cc10x](https://github.com/romiluz13/cc10x) | 166 | Python | — | The Loop Engine for Claude Code — engineer the loop, not the prompt. 1 router · 14 agents… |
-| [nxtg-ai/forge-orchestrator](https://github.com/nxtg-ai/forge-orchestrator) | 164 | Rust | GitHub Actions, Tokio | NXTG-Forge orchestrator: an MCP server for Claude Code with task orchestration, file lock… |
+| [nxtg-ai/forge-orchestrator](https://github.com/nxtg-ai/forge-orchestrator) | 165 | Rust | GitHub Actions, Tokio | NXTG-Forge orchestrator: an MCP server for Claude Code with task orchestration, file lock… |
 | [iii-experimental/agentos](https://github.com/iii-experimental/agentos) | 163 | Rust | GitHub Actions, Tokio, TypeScript | The agent OS that evolves itself. |
 | [clawboo/clawboo](https://github.com/clawboo/clawboo) | 162 | TypeScript | GitHub Actions | An open-source studio for teams of AI agents, from marketing squads to dev teams to resea… |
 | [NKAI-Decision-Team/LLM-PySC2](https://github.com/NKAI-Decision-Team/LLM-PySC2) | 162 | Python | — | LLM-PySC2 is NKAI Decision Team and NUDT Decision Team&#39;s Python component of the StarCraf… |
@@ -311,30 +311,31 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [owainlewis/neo](https://github.com/owainlewis/neo) | 153 | Go | GitHub Actions | The best minimalist multi-agent coding harness. |
 | [scgopi/GraphCode](https://github.com/scgopi/GraphCode) | 152 | Swift | GitHub Actions | Graph Engineering, simplified — with GraphCode. #graphcode |
 | [dmae97/omk](https://github.com/dmae97/omk) | 151 | TypeScript | GitHub Actions | Open-source multi-agent coding CLI for the terminal (TypeScript, MIT). Switch models mid-… |
+| [y5ez3g/facadecode](https://github.com/y5ez3g/facadecode) | 151 | TypeScript | GitHub Actions | The multi-agent orchestrator for VS Code. Run Claude Code, Codex, and other agent CLIs th… |
 | [apowerb/apowerb](https://github.com/apowerb/apowerb) | 150 | Python | Docker, FastAPI, GitHub Actions, PyTorch | The open-source agentic framework to build, orchestrate, and operate production AI agents. |
 | [krishagarwal314/CodeJury](https://github.com/krishagarwal314/CodeJury) | 149 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Terminal-first, knowledge-grounded multi-agent software delivery pipeline: scope requirem… |
-| [y5ez3g/facadecode](https://github.com/y5ez3g/facadecode) | 149 | TypeScript | GitHub Actions | One IDE for you and your AI team. A VS Code fork where Claude Code, Codex, Antigravity, a… |
+| [yc-software/minecraft-agent-harness](https://github.com/yc-software/minecraft-agent-harness) | 149 | JavaScript | Docker, GitHub Actions | Run language-model agents in Minecraft with Mineflayer tools, persistent sessions and she… |
+| [jcarlosrodicio/opencode-agent-orchestration-kit](https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit) | 148 | JavaScript | GitHub Actions | Open-source multi-agent orchestration harness for OpenCode — specialized agents, durable… |
 | [ntorga/agent-starter-kit](https://github.com/ntorga/agent-starter-kit) | 148 | Shell | — | The scaffold for your multi-model, personalized Natural Language AI Harness (NLAH) . |
 | [HurricaHjz/SecondSelf](https://github.com/HurricaHjz/SecondSelf) | 147 | Python | — | Second yourself. One agent that remembers you, with many hands to act for you: a multi-ag… |
-| [jcarlosrodicio/opencode-agent-orchestration-kit](https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit) | 147 | JavaScript | GitHub Actions | Open-source multi-agent orchestration harness for OpenCode — specialized agents, durable… |
-| [yc-software/minecraft-agent-harness](https://github.com/yc-software/minecraft-agent-harness) | 146 | JavaScript | Docker, GitHub Actions | Run language-model agents in Minecraft with Mineflayer tools, persistent sessions and she… |
+| [steventsvik/Tellurion](https://github.com/steventsvik/Tellurion) | 140 | Zig | GitHub Actions | Mission control for AI coding agents. Watch Claude Code, Codex, Gemini and a dozen more w… |
+| [BkashJEE/hermes-bot-forge](https://github.com/BkashJEE/hermes-bot-forge) | 139 | Python | GitHub Actions | Hermes Agent plugin: say &#39;make me a &lt;role&gt;&#39; and your agent builds a complete, working Bot… |
+| [limenagent/prodagent](https://github.com/limenagent/prodagent) | 139 | Python | GitHub Actions, LangGraph | A minimal, readable agent-framework kernel — understand how LangGraph/ADK work under the… |
 | [NygenAnalytics/CyteType](https://github.com/NygenAnalytics/CyteType) | 139 | Python | GitHub Actions, Pydantic | Multi-agent LLM driven cell type annotation for single-cell RNA-Seq data |
-| [steventsvik/Tellurion](https://github.com/steventsvik/Tellurion) | 139 | Zig | GitHub Actions | Mission control for AI coding agents. Watch Claude Code, Codex, Gemini and a dozen more w… |
-| [limenagent/prodagent](https://github.com/limenagent/prodagent) | 138 | Python | GitHub Actions, LangGraph | A minimal, readable agent-framework kernel — understand how LangGraph/ADK work under the… |
-| [BkashJEE/hermes-bot-forge](https://github.com/BkashJEE/hermes-bot-forge) | 137 | Python | GitHub Actions | Hermes Agent plugin: say &#39;make me a &lt;role&gt;&#39; and your agent builds a complete, working Bot… |
 | [valory-xyz/open-autonomy](https://github.com/valory-xyz/open-autonomy) | 137 | Python | GitHub Actions | A framework for the creation of autonomous agent services. |
 | [GeminiLight/gen-mentor](https://github.com/GeminiLight/gen-mentor) | 136 | TypeScript | GitHub Actions | [WWW &#39;25 Oral - GenMentor] Official code of our paper &quot;LLM-powered Multi-agent Framework… |
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 135 | JavaScript | — | A visual manager for fleets of Claude Code, Codex and Muse agents — real terminals, agent… |
 | [agentailor/fullstack-langgraph-nextjs-agent](https://github.com/agentailor/fullstack-langgraph-nextjs-agent) | 134 | TypeScript | MCP SDK, Next.js, React | Production-ready Next.js template for building AI agents with LangGraph.js. Features MCP… |
-| [Agions/kineo](https://github.com/Agions/kineo) | 133 | TypeScript | GitHub Actions, React | 🎬 端到端 AI 漫剧 / 动画短剧 Multi-Agent 多智能体协作创作平台 (Kineo AI)。基于 Hub-and-Spoke 智能体架构、ProjectBlack… |
-| [Goldwaterfung/Stratawright](https://github.com/Goldwaterfung/Stratawright) | 131 | C++ | GitHub Actions | Stratawright is an agentic DAW that your AI agent (Claude Code, Cursor, Codex) can native… |
+| [Agions/kineo](https://github.com/Agions/kineo) | 134 | TypeScript | GitHub Actions, React | 🎬 端到端 AI 漫剧 / 动画短剧 Multi-Agent 多智能体协作创作平台 (Kineo AI)。基于 Hub-and-Spoke 智能体架构、ProjectBlack… |
+| [Goldwaterfung/Stratawright](https://github.com/Goldwaterfung/Stratawright) | 132 | C++ | GitHub Actions | Stratawright is an agentic DAW that your AI agent (Claude Code, Cursor, Codex) can native… |
 | [JiayiLu2003/Trend2Video-Pro](https://github.com/JiayiLu2003/Trend2Video-Pro) | 131 | Python | FastAPI, GitHub Actions | Trend-to-Video Agent Framework for publish-ready short video packages |
+| [TwiTech-LAB/devchain](https://github.com/TwiTech-LAB/devchain) | 131 | TypeScript | Fastify, MCP SDK, NestJS, React | Run a team of AI coding agents. On your machine. Local-first orchestration for Claude Cod… |
 | [openlegion-ai/openlegion](https://github.com/openlegion-ai/openlegion) | 130 | Python | FastAPI, GitHub Actions, Pydantic | Secure autonomous AI agent framework and platform. Build AI teams by describing what you… |
 | [tinyhumansai/tinyagents](https://github.com/tinyhumansai/tinyagents) | 130 | Rust | GitHub Actions, Tokio | A small, provider-neutral agent harness written in Rust |
 | [flyteorg/flyte-sdk](https://github.com/flyteorg/flyte-sdk) | 129 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference — i… |
-| [TwiTech-LAB/devchain](https://github.com/TwiTech-LAB/devchain) | 129 | TypeScript | Fastify, MCP SDK, NestJS, React | Run a team of AI coding agents. On your machine. Local-first orchestration for Claude Cod… |
 | [Dicklesworthstone/frankenterm](https://github.com/Dicklesworthstone/frankenterm) | 126 | Rust | — | Swarm-native terminal platform for AI coding agents: real-time pane capture, change-point… |
 | [loopgain-ai/loopgain](https://github.com/loopgain-ai/loopgain) | 126 | Python | GitHub Actions, LangChain, LangGraph | An open-source cost controller for AI agent loops — stops a loop when it&#39;s actually conve… |
+| [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | 126 | Go | Docker, Gin, GitHub Actions | Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude… |
 | [ahacker-1/cre-acquisition-orchestrator](https://github.com/ahacker-1/cre-acquisition-orchestrator) | 125 | TypeScript | GitHub Actions | The first comprehensive open-source AI-native framework for CRE acquisitions, turning dil… |
 | [Prescott-Data/jarviscore-framework](https://github.com/Prescott-Data/jarviscore-framework) | 125 | Python | FastAPI, GitHub Actions, Pydantic | JarvisCore is a runtime where AI agents operate as a fleet of equal peers. Agents discove… |
 | [bakiraa/qyvaria-hardlogic-kernel-engine](https://github.com/bakiraa/qyvaria-hardlogic-kernel-engine) | 123 | HTML | GitHub Actions | Top Open-Source AI Engineering Platform 2026 Qyvaria Kernel |
@@ -345,10 +346,11 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [vikashjeyaraman/opencouncil-contract-inspector](https://github.com/vikashjeyaraman/opencouncil-contract-inspector) | 122 | HTML | GitHub Actions | Proven 2026 Multi-Agent AI Review System – Verdict-Driven Quality Control |
 | [alamops/agetor](https://github.com/alamops/agetor) | 121 | TypeScript | React | The harness orchestrator — a local-first kanban for running Claude Code, Codex, and other… |
 | [israriqbal/agent-ecologies](https://github.com/israriqbal/agent-ecologies) | 121 | HTML | GitHub Actions | Ultimate Multi-Agent OS for Autonomous AI NPCs 2026 |
-| [llopresto87/Cypress](https://github.com/llopresto87/Cypress) | 120 | Python | GitHub Actions | CYPRESS (Contextual Yield Protocol for Routed Expert Seed Systems) — a project- and vendo… |
+| [llopresto87/Cypress](https://github.com/llopresto87/Cypress) | 121 | Python | GitHub Actions | CYPRESS (Contextual Yield Protocol for Routed Expert Seed Systems) — a project- and vendo… |
 | [jaktestowac/awesome-copilot-for-testers](https://github.com/jaktestowac/awesome-copilot-for-testers) | 119 | JavaScript | GitHub Actions | 👨‍💻 Instructions, prompts, and chat modes to help You with test automation for GitHub C… |
 | [LLMP-io/Legion](https://github.com/LLMP-io/Legion) | 118 | Python | Docker, GitHub Actions, Pydantic | A Python-based framework for building multi-agent systems with LLMs. Currently in pre-lau… |
 | [ADW-19/build_a_product_agent](https://github.com/ADW-19/build_a_product_agent) | 117 | Python | — | Production-Grade AI Agent Development Full-Chain Guide: Development, Testing, and Base Fr… |
+| [Youzini-afk/Varin](https://github.com/Youzini-afk/Varin) | 117 | TypeScript | Docker, Docker Compose, GitHub Actions | The open-source agent harness, ready out of the box and customizable in depth. Tools, con… |
 | [tlbx-ai/tlbx](https://github.com/tlbx-ai/tlbx) | 116 | C# | GitHub Actions | Open-source Agentic Development Environment (ADE) for Codex, Claude Code and other agents… |
 | [ferosai/feros](https://github.com/ferosai/feros) | 115 | Rust | Docker Compose, GitHub Actions | Open-source voice agent OS. Rust runtime, AI-driven builder, sub second latency. Self-hos… |
 | [jklthinking/retinue](https://github.com/jklthinking/retinue) | 115 | Python | Docker, FastAPI, GitHub Actions | Self-hosted coordination for AI workers: per-task graphs, device/model timelines, progres… |
@@ -361,30 +363,28 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [tmcfarlane/team-avatar](https://github.com/tmcfarlane/team-avatar) | 112 | TypeScript | GitHub Actions | Team Avatar: a universal agent orchestrator for Claude Code, Codex, and Cursor. Nine Avat… |
 | [faramesh/faramesh-core](https://github.com/faramesh/faramesh-core) | 111 | Go | Docker, GitHub Actions, gRPC | Governance-as-Code for AI agents. Declarative constraints with deterministic enforcement.… |
 | [Qredence/agentic-fleet](https://github.com/Qredence/agentic-fleet) | 111 | Python | FastAPI, GitHub Actions, Pydantic | Adaptive Agentic AI Reasoning using Microsoft Agent Framework -- Join the Discord for sug… |
+| [vivy-yi/awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration) | 111 | — | — | ⭐ Curated list of AI Agent frameworks: AutoGen, CrewAI, MetaGPT, LangGraph, Swarms. Multi… |
 | [autopus-ai/autopus-adk](https://github.com/autopus-ai/autopus-adk) | 110 | Go | GitHub Actions | Autopus-ADK is of the agents, by the agents. for the agents. Multi-model orchestration (c… |
 | [LudicDynamics/WorldLines](https://github.com/LudicDynamics/WorldLines) | 110 | Python | GitHub Actions | Agents for Role Play. Agents for Game. Agents as a Game. An orchestrator-agents engine fo… |
-| [TheJacksonCode/Agent-Architecture](https://github.com/TheJacksonCode/Agent-Architecture) | 110 | JavaScript | GitHub Actions | Visual multi-agent system designer for Claude Code. 60 agents, 62 presets, Five Minds Pro… |
-| [vivy-yi/awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration) | 110 | — | — | ⭐ Curated list of AI Agent frameworks: AutoGen, CrewAI, MetaGPT, LangGraph, Swarms. Multi… |
 | [2youg1/sprawling-agents](https://github.com/2youg1/sprawling-agents) | 108 | Rust | GitHub Actions, Tokio | Local multi-agent harness for running persistent agent teams, long-run, society-simulation |
 | [Towow-ai/Flowness](https://github.com/Towow-ai/Flowness) | 108 | Python | GitHub Actions | A work-centered runtime for agentic software engineering. Work persists; agents, context,… |
 | [A03HCY/Agenticle](https://github.com/A03HCY/Agenticle) | 107 | Python | FastAPI, GitHub Actions | A lightweight, extensible Python framework for building and orchestrating single or multi… |
 | [Azure/agent-app-orchestrator](https://github.com/Azure/agent-app-orchestrator) | 107 | Python | Docker, FastAPI, GitHub Actions | Agent orchestration service for the Agent Landing Zone, built on Microsoft Foundry Agent… |
 | [ebiose-ai/ebiose](https://github.com/ebiose-ai/ebiose) | 107 | — | — | The self-evolving AI factory: an open-source framework that builds, evaluates and evolves… |
+| [5dive-ai/5dive](https://github.com/5dive-ai/5dive) | 105 | JavaScript | GitHub Actions | Run your own AI team from your phone. Claude Code, Codex and more on your own server: sha… |
 | [runxhq/runx](https://github.com/runxhq/runx) | 104 | Rust | GitHub Actions, TypeScript | the governed runtime for agent skill workflows, off the leash but on the record |
 | [yibo365/agent-camp](https://github.com/yibo365/agent-camp) | 104 | TypeScript | — | AI Agent 面试知识库：覆盖 LLM、Prompt、RAG、MCP、Tool Use、Agent 架构、Multi-Agent、LangGraph、Claude Code、… |
-| [Youzini-afk/Varin](https://github.com/Youzini-afk/Varin) | 103 | TypeScript | Docker, Docker Compose, GitHub Actions | The open-source agent harness, ready out of the box and customizable in depth. Tools, con… |
-| [5dive-ai/5dive](https://github.com/5dive-ai/5dive) | 102 | JavaScript | GitHub Actions | Run your own AI team from your phone. Claude Code, Codex and more on your own server: sha… |
 | [cfal/garcon](https://github.com/cfal/garcon) | 101 | TypeScript | Docker, Docker Compose, GitHub Actions | Self-hosted browser workspace to run coding agents in parallel, steer work as it runs, re… |
 | [PathOnAIOrg/LiteMultiAgent](https://github.com/PathOnAIOrg/LiteMultiAgent) | 101 | Python | GitHub Actions, LangChain | The Library for LLM-based multi-agent applications |
-| [Sekolah76/syadagentic](https://github.com/Sekolah76/syadagentic) | 101 | Python | GitHub Actions | Universal Zero-Refusal Agent Framework - 40+ jailbreak templates (T1-T119), 1128 curated… |
+| [Sekolah76/syadagentic](https://github.com/Sekolah76/syadagentic) | 100 | Python | GitHub Actions | Universal Zero-Refusal Agent Framework - 40+ jailbreak templates (T1-T119), 1128 curated… |
 | [Ursa-Minor-Beta/agent-factory-docker-api-ui](https://github.com/Ursa-Minor-Beta/agent-factory-docker-api-ui) | 100 | — | Docker Compose | Agent Factory is an open-source studio for building, editing and chatting with AI agents.… |
 | [JeiKeiLim/tenet](https://github.com/JeiKeiLim/tenet) | 94 | TypeScript | GitHub Actions | Cross-platform AI agent harness for 12+ hour autonomous development cycles. Spec-driven,… |
 | [beidald/liliumai](https://github.com/beidald/liliumai) | 93 | TypeScript | Express | Lilium AI: The ultimate personal AI agent framework for autonomous computer control. Feat… |
 | [shamspias/reins](https://github.com/shamspias/reins) | 92 | Python | GitHub Actions | A lightweight agent harness you bolt onto your app so an LLM can operate it — safely, and… |
 | [yueheng-rgb/codex-factory](https://github.com/yueheng-rgb/codex-factory) | 91 | PowerShell | GitHub Actions, TypeScript | Multi-agent engineering framework: evidence packs, runtime validation, task decomposition… |
 | [orhun/voff](https://github.com/orhun/voff) | 88 | Rust | GitHub Actions, Tokio | Workflow builder for coding agents 🐶 |
+| [tradertanmay/ai-agents-zero-to-hero](https://github.com/tradertanmay/ai-agents-zero-to-hero) | 88 | Python | — | Learn AI agents from first principles to production. Zero mandatory dependencies, pure st… |
 | [cubeplexai/cubeloop](https://github.com/cubeplexai/cubeloop) | 87 | Python | GitHub Actions, Pydantic | CubeLoop — a Pythonic, async-native agent harness core designed for high performance, rea… |
-| [tradertanmay/ai-agents-zero-to-hero](https://github.com/tradertanmay/ai-agents-zero-to-hero) | 87 | Python | — | Learn AI agents from first principles to production. Zero mandatory dependencies, pure st… |
 | [eliautobot/my-virtual-world](https://github.com/eliautobot/my-virtual-world) | 86 | JavaScript | Docker | A living 3D city for your AI agents, self-hosted. Bring OpenClaw and Hermes agents, conne… |
 | [Jovancoding/Network-AI](https://github.com/Jovancoding/Network-AI) | 86 | TypeScript | Docker, GitHub Actions | Traffic light for AI Agents and TypeScript/Node multi-agent orchestrator with shared stat… |
 | [aloth/awesome-ai-agents](https://github.com/aloth/awesome-ai-agents) | 85 | — | — | A curated list of AI agent frameworks, tools, platforms, research papers, and resources |
@@ -393,7 +393,7 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [jstanden/cerb](https://github.com/jstanden/cerb) | 83 | PHP | GitHub Actions | Shared inboxes for human + AI teams Route the work, automate it, integrate it with anythi… |
 | [rekursiv-ai/sagent](https://github.com/rekursiv-ai/sagent) | 83 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | A coding-agent CLI and strongly-typed Python library -- self-mutating, hot-swapping, mult… |
 | [gutomec/nirvana-os-engine](https://github.com/gutomec/nirvana-os-engine) | 82 | TypeScript | GitHub Actions | Nirvana-OS engine: ready-to-run agentic operations. One sentence in, finished work out. S… |
-| [NeuraLiying/Awesome-Agent-Harnesses](https://github.com/NeuraLiying/Awesome-Agent-Harnesses) | 81 | — | — | Curated, verified survey of the agent harness — the layer around an LLM   (loop, tools, m… |
+| [NeuraLiying/Awesome-Agent-Harnesses](https://github.com/NeuraLiying/Awesome-Agent-Harnesses) | 82 | — | — | Curated, verified survey of the agent harness — the layer around an LLM   (loop, tools, m… |
 | [kivo360/OmoiOS](https://github.com/kivo360/OmoiOS) | 80 | Python | Docker Compose, GitHub Actions, TypeScript | Turn feature specs into merged PRs with a self-supervising swarm of coding agents — paral… |
 | [vicperdana/SemantiClip](https://github.com/vicperdana/SemantiClip) | 80 | C# | — | SemantiClip is an intelligent video processing application that transforms video content… |
 | [fengzhizi715/OpenVitamin](https://github.com/fengzhizi715/OpenVitamin) | 79 | Python | — | OpenVitamin is a local-first AI execution platform that unifies Agents, Workflows, and mu… |
@@ -409,8 +409,8 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [rexleimo/aios](https://github.com/rexleimo/aios) | 62 | JavaScript | GitHub Actions, MCP SDK, React | The local-first control plane for long-horizon coding agents: cross-session project memor… |
 | [actonos/actonos](https://github.com/actonos/actonos) | 60 | Go | GitHub Actions | ActonOS is a single-purpose appliance operating system engineered as a customizable, self… |
 | [EricSun0218/OpenGameAgent](https://github.com/EricSun0218/OpenGameAgent) | 59 | TypeScript | GitHub Actions | MIT-licensed TypeScript runtime for AI-native game characters and worlds, with durable st… |
+| [tinyhumansai/medulla](https://github.com/tinyhumansai/medulla) | 59 | Rust | GitHub Actions, Tokio | Manage upto 1000 agents using automations and workflows |
 | [Growth-Circle/cadis](https://github.com/Growth-Circle/cadis) | 58 | Rust | GitHub Actions | Rust-first, local-first multi-agent runtime with a desktop HUD, policy-gated tools, voice… |
-| [tinyhumansai/medulla](https://github.com/tinyhumansai/medulla) | 58 | Rust | GitHub Actions, Tokio | Manage upto 1000 agents using automations and workflows |
 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 56 | TypeScript | GitHub Actions | CLI for managing AI agent squads. Status, memory, goals, feedback, and dashboard for your… |
 | [longzhi/clawhive](https://github.com/longzhi/clawhive) | 56 | Rust | GitHub Actions, Tokio | Lightweight, Rust-native AI Agent platform. Security sandbox from day one. |
 | [finewood2008/centaurloop](https://github.com/finewood2008/centaurloop) | 55 | TypeScript | GitHub Actions, React | 半人马环 Centaur Loop：AI 员工的最小工作单元框架。把复杂岗位拆解为可由 AI 接管、由人类治理、由反馈和记忆持续进化的循环工作流 / The smallest w… |
@@ -435,234 +435,235 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [kocort/kocort](https://github.com/kocort/kocort) | 26 | Go | Gin, GitHub Actions | Desktop AI agent runtime with dual-brain safety review, GUI-first operation, local model… |
 | [YuanYeYouTao/Yuki](https://github.com/YuanYeYouTao/Yuki) | 25 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | An open-source, self-hosted social AI agent across QQ, Telegram, Feishu/Lark and personal… |
 
-## Tools & MCP (328)
+## Tools & MCP (329)
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 297,814 | JavaScript | Express, GitHub Actions, TypeScript | The agent harness performance optimization system. Skills, instincts, memory, security, a… |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 185,177 | JavaScript | GitHub Actions | Makes your AI agent think like the laziest senior dev in the room. The best code is the c… |
-| [langgenius/dify](https://github.com/langgenius/dify) | 160,481 | Python | GitHub Actions, TypeScript | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collab… |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 120,126 | Python | Docker, FastAPI, GitHub Actions, LangChain | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browser… |
-| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 109,179 | Python | GitHub Actions | Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTub… |
-| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 93,829 | JavaScript | GitHub Actions | Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for… |
-| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 78,929 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer t… |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 78,849 | Python | GitHub Actions | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI w… |
-| [upstash/context7](https://github.com/upstash/context7) | 64,244 | TypeScript | GitHub Actions | Context7 Platform -- Up-to-date docs for AI agents |
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 62,247 | JavaScript | GitHub Actions, TypeScript | 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 A… |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 57,323 | Python | GitHub Actions | A hand-picked collection of the finest of resources for the most awesome of agents, Claud… |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54,847 | TypeScript | GitHub Actions | Chrome DevTools for coding agents |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 53,290 | TypeScript | GitHub Actions, MCP SDK, React | Your AI workspace for models, agents, and productivity. |
-| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 49,220 | Python | GitHub Actions | 2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core a… |
-| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 48,170 | C | GitHub Actions | Local code intelligence for developers and AI agents. Connect code, docs and infrastructu… |
-| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 46,140 | Python | Docker, FastAPI, GitHub Actions, Kubernetes | AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, pl… |
-| [wshobson/agents](https://github.com/wshobson/agents) | 42,240 | Python | GitHub Actions | Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antig… |
-| [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | 41,158 | Python | — | In-depth tutorials on LLMs, RAGs and real-world AI agent applications. |
-| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 37,396 | TypeScript | Docker Compose, GitHub Actions | Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud;… |
-| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36,089 | Go | GitHub Actions | A reliable coding agent for complex software engineering tasks. |
-| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 35,645 | Python | GitHub Actions | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK,… |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 33,555 | JavaScript | GitHub Actions, MCP SDK, TypeScript | Free, local plugin that keeps tool output out of your coding agent&#39;s context window. Sand… |
-| [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) | 33,410 | Python | Docker | Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with t… |
-| [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 32,608 | Python | GitHub Actions | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your code… |
-| [oraios/serena](https://github.com/oraios/serena) | 31,126 | Python | Docker, GitHub Actions, Pydantic | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities… |
-| [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | 30,944 | TypeScript | GitHub Actions, LangChain | Composio powers 1000+ toolkits, tool search, context management, authentication, and a sa… |
-| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 30,506 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 29,361 | TypeScript | GitHub Actions | Mastra is the modern TypeScript framework for AI-powered applications and agents. |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 29,354 | Python | GitHub Actions | 410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skill… |
-| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 29,160 | TypeScript | Docker, GitHub Actions | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendl… |
-| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 29,026 | TypeScript | Docker, GitHub Actions, React | An open-source AI coding agent that lives in your terminal. |
-| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 28,320 | Python | FastAPI, GitHub Actions, LangChain, Pydantic | 🚀 The fast, Pythonic way to build MCP servers and clients. |
-| [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 28,163 | TypeScript | GitHub Actions | Clone any viral video with AI agents. Not just a script, the whole workflow: swap the fac… |
-| [titanwings/distilly](https://github.com/titanwings/distilly) | 26,400 | Python | GitHub Actions | Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Col… |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 25,384 | TypeScript | Docker, Docker Compose, GitHub Actions | AI Agents &amp; MCPs &amp; AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automat… |
-| [pascalorg/editor](https://github.com/pascalorg/editor) | 25,348 | TypeScript | Docker, Docker Compose, GitHub Actions, Next.js | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows… |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 24,512 | Python | Docker, GitHub Actions, LangChain, LangGraph | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, securit… |
-| [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | 23,258 | TypeScript | GitHub Actions | Harness engineering beginner tutorial, from 0 to 1 |
-| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 23,217 | TypeScript | Docker, Docker Compose, Express, GitHub Actions | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you |
-| [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) | 22,533 | — | — | 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects coveri… |
-| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | 22,245 | Rust | GitHub Actions, React, Tokio | YC (S26) \| Open Computer History \| Continuously record your company computer work, map… |
-| [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 21,893 | JavaScript | GitHub Actions | 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Clau… |
-| [1jehuang/jcode](https://github.com/1jehuang/jcode) | 21,523 | Rust | GitHub Actions, Tokio | High performance coding agent harness written in Rust, built for heavy multi-agent dev wo… |
-| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 20,768 | TypeScript | Docker, GitHub Actions | 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支… |
-| [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) | 20,354 | JavaScript | Docker, GitHub Actions | 💻  Vibe Coding 101｜Your First Course For AI Product Builders. |
-| [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | 19,946 | Python | FastAPI, GitHub Actions, TypeScript | High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Buil… |
-| [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | 18,887 | Python | GitHub Actions | Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to se… |
-| [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | 18,728 | Python | GitHub Actions | ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML res… |
-| [xming521/WeClone](https://github.com/xming521/WeClone) | 18,359 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | Build a portrait of your life. Assistants that know you. Clones that talk like you. |
-| [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | 18,242 | Rust | Docker, Docker Compose, GitHub Actions, Tokio | Open-source Agent Operating System |
-| [Canner/WrenAI](https://github.com/Canner/WrenAI) | 18,084 | Python | GitHub Actions | GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open… |
-| [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | 17,610 | TypeScript | — | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) t… |
-| [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | 17,024 | Python | — | AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。\| AI-era Be… |
-| [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16,813 | Go | Docker, GitHub Actions, gRPC | MCP Toolbox for Databases is an open source MCP server for databases. |
-| [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | 16,721 | Python | GitHub Actions | A collection of projects showcasing RAG, agents, workflows, and other AI use cases |
-| [budtmo/docker-android](https://github.com/budtmo/docker-android) | 16,092 | Python | GitHub Actions | Android in docker solution with noVNC supported, video recording, mcp server and AI-agent |
-| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 15,739 | C# | Docker Compose, GitHub Actions | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM too… |
-| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,697 | TypeScript | GitHub Actions | Connect your users to their apps |
-| [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | 15,320 | TypeScript | GitHub Actions, MCP SDK, React | 本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer U… |
-| [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) | 14,926 | TypeScript | Docker, Express, GitHub Actions, MCP SDK | The Apify MCP server enables your AI agents to extract data from social media, search eng… |
-| [casdoor/casdoor](https://github.com/casdoor/casdoor) | 14,768 | Go | Docker, Docker Compose, GitHub Actions, gRPC | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP &amp; agent gateway… |
-| [browseros-ai/BrowserOS](https://github.com/browseros-ai/BrowserOS) | 14,261 | TypeScript | GitHub Actions | 🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia. |
-| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 13,381 | Python | — | HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copil… |
-| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 13,379 | Python | GitHub Actions | AI-powered reverse engineering assistant that bridges IDA Pro with language models throug… |
-| [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) | 12,028 | Python | FastAPI, GitHub Actions, Pydantic | Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth! |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 11,703 | TypeScript | GitHub Actions | Practical patterns, starters &amp; CLI tools for loop engineering with AI coding agents. Desi… |
-| [holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS) | 11,440 | TypeScript | GitHub Actions | Open-source agentic workspace enterprises can make their own. Connect the systems you alr… |
-| [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code) | 11,104 | TypeScript | Docker, GitHub Actions | One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get… |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 298,170 | JavaScript | Express, GitHub Actions, TypeScript | The agent harness performance optimization system. Skills, instincts, memory, security, a… |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 185,523 | JavaScript | GitHub Actions | Makes your AI agent think like the laziest senior dev in the room. The best code is the c… |
+| [langgenius/dify](https://github.com/langgenius/dify) | 160,531 | Python | GitHub Actions, TypeScript | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collab… |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 120,181 | Python | Docker, FastAPI, GitHub Actions, LangChain | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browser… |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 109,491 | Python | GitHub Actions | Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTub… |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 94,054 | JavaScript | GitHub Actions | Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for… |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 78,978 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer t… |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 78,899 | Python | GitHub Actions | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI w… |
+| [upstash/context7](https://github.com/upstash/context7) | 64,270 | TypeScript | GitHub Actions | Context7 Platform -- Up-to-date docs for AI agents |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 63,261 | JavaScript | GitHub Actions, TypeScript | 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 A… |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 57,367 | Python | GitHub Actions | A hand-picked collection of the finest of resources for the most awesome of agents, Claud… |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54,870 | TypeScript | GitHub Actions | Chrome DevTools for coding agents |
+| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 53,305 | TypeScript | GitHub Actions, MCP SDK, React | Your AI workspace for models, agents, and productivity. |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 49,247 | Python | GitHub Actions | 2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core a… |
+| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 48,200 | C | GitHub Actions | Local code intelligence for developers and AI agents. Connect code, docs and infrastructu… |
+| [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | 46,223 | Python | Docker, FastAPI, GitHub Actions, Kubernetes | AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, pl… |
+| [wshobson/agents](https://github.com/wshobson/agents) | 42,252 | Python | GitHub Actions | Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antig… |
+| [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | 41,191 | Python | — | In-depth tutorials on LLMs, RAGs and real-world AI agent applications. |
+| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 37,418 | TypeScript | Docker Compose, GitHub Actions | Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud;… |
+| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36,105 | Go | GitHub Actions | A reliable coding agent for complex software engineering tasks. |
+| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 35,684 | Python | GitHub Actions | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK,… |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 33,580 | JavaScript | GitHub Actions, MCP SDK, TypeScript | Free, local plugin that keeps tool output out of your coding agent&#39;s context window. Sand… |
+| [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) | 33,443 | Python | Docker | Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with t… |
+| [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 32,619 | Python | GitHub Actions | Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your code… |
+| [oraios/serena](https://github.com/oraios/serena) | 31,144 | Python | Docker, GitHub Actions, Pydantic | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities… |
+| [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | 30,948 | TypeScript | GitHub Actions, LangChain | Composio powers 1000+ toolkits, tool search, context management, authentication, and a sa… |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 30,518 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 29,383 | Python | GitHub Actions | 410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skill… |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 29,378 | TypeScript | GitHub Actions | Mastra is the modern TypeScript framework for AI-powered applications and agents. |
+| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 29,168 | TypeScript | Docker, GitHub Actions | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendl… |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 29,045 | TypeScript | Docker, GitHub Actions, React | An open-source AI coding agent that lives in your terminal. |
+| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 28,327 | Python | FastAPI, GitHub Actions, LangChain, Pydantic | 🚀 The fast, Pythonic way to build MCP servers and clients. |
+| [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 28,248 | TypeScript | GitHub Actions | Clone any viral video with AI agents. Not just a script, the whole workflow: swap the fac… |
+| [titanwings/distilly](https://github.com/titanwings/distilly) | 26,414 | Python | GitHub Actions | Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Col… |
+| [activepieces/activepieces](https://github.com/activepieces/activepieces) | 25,395 | TypeScript | Docker, Docker Compose, GitHub Actions | AI Agents &amp; MCPs &amp; AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automat… |
+| [pascalorg/editor](https://github.com/pascalorg/editor) | 25,357 | TypeScript | Docker, Docker Compose, GitHub Actions, Next.js | Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows… |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 24,601 | Python | Docker, GitHub Actions, LangChain, LangGraph | Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, securit… |
+| [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | 23,415 | TypeScript | GitHub Actions | Harness engineering beginner tutorial, from 0 to 1 |
+| [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 23,220 | TypeScript | Docker, Docker Compose, Express, GitHub Actions | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you |
+| [dipakkr/awesome-ai-engineering](https://github.com/dipakkr/awesome-ai-engineering) | 22,535 | — | — | 🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects coveri… |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | 22,248 | Rust | GitHub Actions, React, Tokio | YC (S26) \| Open Computer History \| Continuously record your company computer work, map… |
+| [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 21,911 | JavaScript | GitHub Actions | 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Clau… |
+| [1jehuang/jcode](https://github.com/1jehuang/jcode) | 21,549 | Rust | GitHub Actions, Tokio | High performance coding agent harness written in Rust, built for heavy multi-agent dev wo… |
+| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 20,880 | TypeScript | Docker, GitHub Actions | 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支… |
+| [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) | 20,366 | JavaScript | Docker, GitHub Actions | 💻  Vibe Coding 101｜Your First Course For AI Product Builders. |
+| [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | 19,969 | Python | FastAPI, GitHub Actions, TypeScript | High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Buil… |
+| [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | 18,893 | Python | GitHub Actions | Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to se… |
+| [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | 18,767 | Python | GitHub Actions | ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML res… |
+| [xming521/WeClone](https://github.com/xming521/WeClone) | 18,361 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | Build a portrait of your life. Assistants that know you. Clones that talk like you. |
+| [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | 18,244 | Rust | Docker, Docker Compose, GitHub Actions, Tokio | Open-source Agent Operating System |
+| [Canner/WrenAI](https://github.com/Canner/WrenAI) | 18,092 | Python | GitHub Actions | GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open… |
+| [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | 17,616 | TypeScript | — | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) t… |
+| [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | 17,033 | Python | — | AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。\| AI-era Be… |
+| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | 16,995 | TypeScript | GitHub Actions | Open-source generative UI framework: agents stream layout data, and apps render it with n… |
+| [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16,816 | Go | Docker, GitHub Actions, gRPC | MCP Toolbox for Databases is an open source MCP server for databases. |
+| [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | 16,725 | Python | GitHub Actions | A collection of projects showcasing RAG, agents, workflows, and other AI use cases |
+| [budtmo/docker-android](https://github.com/budtmo/docker-android) | 16,095 | Python | GitHub Actions | Android in docker solution with noVNC supported, video recording, mcp server and AI-agent |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 15,752 | C# | Docker Compose, GitHub Actions | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM too… |
+| [corsairdev/corsair](https://github.com/corsairdev/corsair) | 15,696 | TypeScript | GitHub Actions | Connect your users to their apps |
+| [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | 15,334 | TypeScript | GitHub Actions, MCP SDK, React | 本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer U… |
+| [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) | 15,002 | TypeScript | Docker, Express, GitHub Actions, MCP SDK | The Apify MCP server enables your AI agents to extract data from social media, search eng… |
+| [casdoor/casdoor](https://github.com/casdoor/casdoor) | 14,773 | Go | Docker, Docker Compose, GitHub Actions, gRPC | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP &amp; agent gateway… |
+| [browseros-ai/BrowserOS](https://github.com/browseros-ai/BrowserOS) | 14,264 | TypeScript | GitHub Actions | 🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia. |
+| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 13,392 | Python | — | HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copil… |
+| [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | 13,382 | Python | GitHub Actions | AI-powered reverse engineering assistant that bridges IDA Pro with language models throug… |
+| [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) | 12,026 | Python | FastAPI, GitHub Actions, Pydantic | Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth! |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 11,710 | TypeScript | GitHub Actions | Practical patterns, starters &amp; CLI tools for loop engineering with AI coding agents. Desi… |
+| [holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS) | 11,441 | TypeScript | GitHub Actions | Open-source agentic workspace enterprises can make their own. Connect the systems you alr… |
+| [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code) | 11,112 | TypeScript | Docker, GitHub Actions | One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get… |
 | [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot) | 11,068 | TypeScript | GitHub Actions | Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural l… |
 | [ValueCell-ai/valuecell](https://github.com/ValueCell-ai/valuecell) | 11,043 | Python | GitHub Actions | ValueCell is a community-driven, multi-agent platform for financial applications. |
-| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | 10,849 | TypeScript | GitHub Actions | The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude &amp; MCP Servers for AI… |
-| [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | 10,319 | TypeScript | Docker, Express, GitHub Actions | Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emu… |
-| [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 10,306 | JavaScript | GitHub Actions | 45+ tips for getting the most out of Claude Code, from basics to advanced - includes a cu… |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | 10,850 | TypeScript | GitHub Actions | The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude &amp; MCP Servers for AI… |
+| [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) | 10,341 | TypeScript | Docker, Express, GitHub Actions | Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emu… |
+| [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 10,312 | JavaScript | GitHub Actions | 45+ tips for getting the most out of Claude Code, from basics to advanced - includes a cu… |
 | [astrid-runtime/astrid](https://github.com/astrid-runtime/astrid) | 10,291 | Rust | GitHub Actions, Tokio | Astrid is a portable, capability-secure operating system for composable software. |
-| [awslabs/mcp](https://github.com/awslabs/mcp) | 9,882 | Python | GitHub Actions | Open source MCP Servers for AWS |
-| [homarr-labs/dashboard-icons](https://github.com/homarr-labs/dashboard-icons) | 9,011 | TypeScript | GitHub Actions | 3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free… |
-| [google/adk-go](https://github.com/google/adk-go) | 8,942 | Go | GitHub Actions, gRPC | An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticat… |
+| [awslabs/mcp](https://github.com/awslabs/mcp) | 9,885 | Python | GitHub Actions | Open source MCP Servers for AWS |
+| [homarr-labs/dashboard-icons](https://github.com/homarr-labs/dashboard-icons) | 9,014 | TypeScript | GitHub Actions | 3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free… |
+| [google/adk-go](https://github.com/google/adk-go) | 8,944 | Go | GitHub Actions, gRPC | An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticat… |
 | [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent) | 8,577 | Python | FastAPI, GitHub Actions, LangChain, Pydantic | Build effective agents using Model Context Protocol and simple workflow patterns |
-| [idosal/git-mcp](https://github.com/idosal/git-mcp) | 8,504 | TypeScript | GitHub Actions, MCP SDK, React | Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for a… |
-| [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 8,483 | JavaScript | GitHub Actions | 🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot C… |
-| [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | 8,402 | Go | GitHub Actions | Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode,… |
-| [osaurus-ai/osaurus](https://github.com/osaurus-ai/osaurus) | 8,131 | Swift | GitHub Actions | Own your AI. The native macOS harness for AI agents -- any model, persistent memory, auto… |
-| [Upsonic/Upsonic](https://github.com/Upsonic/Upsonic) | 7,967 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | Build autonomous AI agents in Python. |
-| [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) | 7,928 | TypeScript | Docker, Docker Compose, Fastify, GitHub Actions | 🔥 Open Source Browser API for AI Agents &amp; Apps. Steel Browser is a batteries-included br… |
+| [idosal/git-mcp](https://github.com/idosal/git-mcp) | 8,503 | TypeScript | GitHub Actions, MCP SDK, React | Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for a… |
+| [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 8,487 | JavaScript | GitHub Actions | 🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot C… |
+| [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | 8,452 | Go | GitHub Actions | Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode,… |
+| [osaurus-ai/osaurus](https://github.com/osaurus-ai/osaurus) | 8,133 | Swift | GitHub Actions | Own your AI. The native macOS harness for AI agents -- any model, persistent memory, auto… |
+| [Upsonic/Upsonic](https://github.com/Upsonic/Upsonic) | 7,966 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | Build autonomous AI agents in Python. |
+| [steel-dev/steel-browser](https://github.com/steel-dev/steel-browser) | 7,930 | TypeScript | Docker, Docker Compose, Fastify, GitHub Actions | 🔥 Open Source Browser API for AI Agents &amp; Apps. Steel Browser is a batteries-included br… |
 | [flyteorg/flyte](https://github.com/flyteorg/flyte) | 7,842 | Go | Docker, GitHub Actions, gRPC | Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference on… |
-| [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) | 7,765 | JavaScript | Docker, GitHub Actions, MCP SDK, TypeScript | Official Firecrawl MCP server, the context API for AI agents: search, scrape, and interac… |
-| [XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt) | 7,659 | TypeScript | Express, MCP SDK | ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex ha… |
-| [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) | 7,623 | TypeScript | GitHub Actions, React | A framework for building agentic apps |
+| [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) | 7,768 | JavaScript | Docker, GitHub Actions, MCP SDK, TypeScript | Official Firecrawl MCP server, the context API for AI agents: search, scrape, and interac… |
+| [XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt) | 7,669 | TypeScript | Express, MCP SDK | ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex ha… |
+| [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) | 7,631 | TypeScript | GitHub Actions, React | A framework for building agentic apps |
 | [Zipstack/unstract](https://github.com/Zipstack/unstract) | 7,421 | Python | GitHub Actions | LLM-Driven Extraction of Unstructured Data — Built for API Deployments &amp; ETL Pipeline Wor… |
-| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7,391 | Python | Docker, Docker Compose, Gin, GitHub Actions | A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan,… |
-| [beenuar/AiSOC](https://github.com/beenuar/AiSOC) | 7,270 | Python | Docker Compose, GitHub Actions, TypeScript | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK i… |
-| [superdesigndev/treg](https://github.com/superdesigndev/treg) | 7,213 | Python | FastAPI, GitHub Actions, Pydantic | OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn |
-| [TokenRhythm/opensquilla](https://github.com/TokenRhythm/opensquilla) | 7,103 | Python | Docker, GitHub Actions, Pydantic | OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density |
-| [grab/cursor-talk-to-figma-mcp](https://github.com/grab/cursor-talk-to-figma-mcp) | 7,085 | JavaScript | Docker, MCP SDK, TypeScript | TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, all… |
-| [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | 7,079 | Rust | GitHub Actions, Tokio | The world&#39;s first open-source AI-native vector design tool and the first to feature concu… |
-| [irinabuht12-oss/google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) | 7,020 | — | — | Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + Google Analytics MCP (GA4) + Se… |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7,406 | Python | Docker, Docker Compose, Gin, GitHub Actions | A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan,… |
+| [beenuar/AiSOC](https://github.com/beenuar/AiSOC) | 7,309 | Python | Docker Compose, GitHub Actions, TypeScript | Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK i… |
+| [superdesigndev/treg](https://github.com/superdesigndev/treg) | 7,270 | Python | FastAPI, GitHub Actions, Pydantic | OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn |
+| [TokenRhythm/opensquilla](https://github.com/TokenRhythm/opensquilla) | 7,106 | Python | Docker, GitHub Actions, Pydantic | OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density |
+| [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | 7,091 | Rust | GitHub Actions, Tokio | The world&#39;s first open-source AI-native vector design tool and the first to feature concu… |
+| [grab/cursor-talk-to-figma-mcp](https://github.com/grab/cursor-talk-to-figma-mcp) | 7,086 | JavaScript | Docker, MCP SDK, TypeScript | TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, all… |
+| [irinabuht12-oss/google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) | 7,034 | — | — | Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + Google Analytics MCP (GA4) + Se… |
 | [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 6,348 | TypeScript | GitHub Actions | Tutorials, Guides and Agent Skills Directories |
-| [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere) | 6,347 | C# | GitHub Actions | On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, a… |
-| [Q00/ouroboros](https://github.com/Q00/ouroboros) | 6,326 | Python | GitHub Actions, Pydantic | Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, stag… |
-| [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) | 6,187 | TypeScript | Docker Compose, GitHub Actions | Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, M… |
-| [ashishps1/learn-ai-engineering](https://github.com/ashishps1/learn-ai-engineering) | 6,169 | — | — | Learn AI and LLMs from scratch using free resources |
-| [macro-inc/macro](https://github.com/macro-inc/macro) | 6,168 | Rust | GitHub Actions, Tokio | Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM… |
-| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | 5,966 | — | GitHub Actions | Independent directory of useful skills, plugins, memory providers, tools, surfaces, and g… |
+| [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere) | 6,348 | C# | GitHub Actions | On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, a… |
+| [Q00/ouroboros](https://github.com/Q00/ouroboros) | 6,325 | Python | GitHub Actions, Pydantic | Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, stag… |
+| [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) | 6,191 | TypeScript | Docker Compose, GitHub Actions | Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, M… |
+| [macro-inc/macro](https://github.com/macro-inc/macro) | 6,178 | Rust | GitHub Actions, Tokio | Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM… |
+| [ashishps1/learn-ai-engineering](https://github.com/ashishps1/learn-ai-engineering) | 6,168 | — | — | Learn AI and LLMs from scratch using free resources |
+| [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | 5,969 | — | GitHub Actions | Independent directory of useful skills, plugins, memory providers, tools, surfaces, and g… |
 | [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | 5,829 | Python | GitHub Actions | [DEPRECATED] Legacy Klavis AI MCP integrations. See klavis.ai for RL environments and tra… |
-| [awarexone/Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter) | 5,629 | Python | GitHub Actions | AI-powered bug bounty hunting toolkit that works with or without subscription. |
-| [callstack/agent-device](https://github.com/callstack/agent-device) | 5,278 | TypeScript | GitHub Actions | Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API t… |
-| [icip-cas/PPTAgent](https://github.com/icip-cas/PPTAgent) | 5,204 | Python | GitHub Actions | An Agentic Framework for Reflective PowerPoint Generation |
+| [awarexone/Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter) | 5,637 | Python | GitHub Actions | AI-powered bug bounty hunting toolkit that works with or without subscription. |
+| [callstack/agent-device](https://github.com/callstack/agent-device) | 5,283 | TypeScript | GitHub Actions | Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API t… |
+| [icip-cas/PPTAgent](https://github.com/icip-cas/PPTAgent) | 5,208 | Python | GitHub Actions | An Agentic Framework for Reflective PowerPoint Generation |
 | [GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node) | 5,016 | Rust | GitHub Actions | Install, run and deploy your own decentralized AI agent service |
 | [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | 4,930 | Python | GitHub Actions | ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agenti… |
-| [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills) | 4,904 | — | — | A builder, not just a researcher. Agent skills that turn top-grossing app patterns into n… |
+| [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills) | 4,925 | — | — | A builder, not just a researcher. Agent skills that turn top-grossing app patterns into n… |
 | [pguso/ai-agents-from-scratch](https://github.com/pguso/ai-agents-from-scratch) | 4,902 | JavaScript | — | Demystify AI agents by building them yourself. Local LLMs, no black boxes, real understan… |
-| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 4,605 | Python | GitHub Actions | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract an… |
+| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 4,634 | Python | GitHub Actions | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract an… |
 | [panaversity/learn-agentic-ai](https://github.com/panaversity/learn-agentic-ai) | 4,396 | Python | — | Learn Agentic AI using Dapr Agentic Cloud Ascent (DACA) Design Pattern and Agent-Native C… |
-| [lintsinghua/claude-code-book](https://github.com/lintsinghua/claude-code-book) | 4,352 | Python | GitHub Actions | 《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的… |
-| [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) | 4,119 | Python | Docker, Docker Compose, GitHub Actions, Pydantic | Open-source MCP server for LinkedIn. Give Claude and any MCP-compatible AI agent access t… |
-| [skyhook-io/radar](https://github.com/skyhook-io/radar) | 4,052 | Go | Docker, GitHub Actions, gRPC | The missing open-source Kubernetes UI with a built-in MCP server for AI agents. See what&#39;… |
-| [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude) | 4,044 | JavaScript | GitHub Actions | Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent ver… |
-| [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) | 3,973 | Python | Docker, GitHub Actions | The open-source context layer for AI agents. PipesHub turns your company&#39;s knowledge (Sla… |
+| [lintsinghua/claude-code-book](https://github.com/lintsinghua/claude-code-book) | 4,355 | Python | GitHub Actions | 《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的… |
+| [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) | 4,124 | Python | Docker, Docker Compose, GitHub Actions, Pydantic | Open-source MCP server for LinkedIn. Give Claude and any MCP-compatible AI agent access t… |
+| [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude) | 4,083 | JavaScript | GitHub Actions | Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent ver… |
+| [skyhook-io/radar](https://github.com/skyhook-io/radar) | 4,061 | Go | Docker, GitHub Actions, gRPC | The missing open-source Kubernetes UI with a built-in MCP server for AI agents. See what&#39;… |
+| [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) | 4,011 | Python | Docker, GitHub Actions | The open-source context layer for AI agents. PipesHub turns your company&#39;s knowledge (Sla… |
 | [evalstate/fast-agent](https://github.com/evalstate/fast-agent) | 3,959 | Python | GitHub Actions, Pydantic | Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support |
-| [google-antigravity/antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python) | 3,945 | Python | GitHub Actions, Pydantic | A Python library for building AI agents that leverage the full power of Google Antigravit… |
-| [ascending-llc/jarvis-registry](https://github.com/ascending-llc/jarvis-registry) | 3,811 | Python | Docker Compose, FastAPI, GitHub Actions | Connect any AI copilot or autonomous agent to your enterprise tools — through a single, s… |
+| [google-antigravity/antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python) | 3,949 | Python | GitHub Actions, Pydantic | A Python library for building AI agents that leverage the full power of Google Antigravit… |
+| [ascending-llc/jarvis-registry](https://github.com/ascending-llc/jarvis-registry) | 3,819 | Python | Docker Compose, FastAPI, GitHub Actions | Connect any AI copilot or autonomous agent to your enterprise tools — through a single, s… |
 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 3,724 | JavaScript | GitHub Actions | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (P… |
 | [onecli/onecli](https://github.com/onecli/onecli) | 3,625 | TypeScript | GitHub Actions | Open-source sandboxed agent harness for teams. Giving every employee a secured personal a… |
-| [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | 3,511 | TypeScript | GitHub Actions | An open-source research agent system for your Zotero library. |
+| [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | 3,514 | TypeScript | GitHub Actions | An open-source research agent system for your Zotero library. |
 | [metorial/metorial](https://github.com/metorial/metorial) | 3,374 | TypeScript | GitHub Actions | Connect any AI model to 1200+ integrations (MCP, CLI, API) |
-| [samugit83/redamon](https://github.com/samugit83/redamon) | 3,300 | Python | Docker Compose | Open-source, self-hosted AI penetration testing framework: maps your attack surface into… |
-| [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) | 3,254 | Python | GitHub Actions | Designer Skills Collection: agentic skills, commands, and plugins for design — from resea… |
+| [samugit83/redamon](https://github.com/samugit83/redamon) | 3,308 | Python | Docker Compose | Open-source, self-hosted AI penetration testing framework: maps your attack surface into… |
+| [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) | 3,260 | Python | GitHub Actions | Designer Skills Collection: agentic skills, commands, and plugins for design — from resea… |
 | [dosco/graphjin](https://github.com/dosco/graphjin) | 3,234 | Go | GitHub Actions | One governed graph for AI agents — GraphQL + MCP over your databases, files, APIs, and co… |
-| [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) | 2,930 | TypeScript | GitHub Actions, MCP SDK, React | Open-source, local-first conversational AI video editor with a professional multi-track t… |
+| [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) | 2,946 | TypeScript | GitHub Actions, MCP SDK, React | Open-source, local-first conversational AI video editor with a professional multi-track t… |
 | [nitrocloudofficial/nitrostack](https://github.com/nitrocloudofficial/nitrostack) | 2,567 | TypeScript | — | The full-stack TypeScript framework to build, test, and deploy production-ready MCP serve… |
-| [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 2,524 | C++ | GitHub Actions | The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Fi… |
-| [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | 2,415 | — | — | Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design. |
+| [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 2,526 | C++ | GitHub Actions | The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Fi… |
+| [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | 2,417 | — | — | Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design. |
 | [NVIDIA-NeMo/DataDesigner](https://github.com/NVIDIA-NeMo/DataDesigner) | 2,399 | Python | GitHub Actions, Pydantic | 🎨 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed dat… |
-| [Open-Curiosity/gini-agent](https://github.com/Open-Curiosity/gini-agent) | 2,304 | TypeScript | Docker, Docker Compose, GitHub Actions | The agent that remembers and learns. |
-| [atomicstrata/llm-wiki-compiler](https://github.com/atomicstrata/llm-wiki-compiler) | 2,239 | TypeScript | GitHub Actions, MCP SDK | The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy&#39;s LLM… |
-| [skalesapp/skales](https://github.com/skalesapp/skales) | 2,228 | — | — | Personal AI agent harness for macOS, Windows, Linux, Android &amp; iOS. New: Skales Scout, la… |
-| [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent) | 2,199 | TypeScript | GitHub Actions | 🍙  A personal AI agent &amp; local memory hub for all AI agents, gives every AI one shared,… |
+| [Open-Curiosity/gini-agent](https://github.com/Open-Curiosity/gini-agent) | 2,318 | TypeScript | Docker, Docker Compose, GitHub Actions | The agent that remembers and learns. |
+| [atomicstrata/llm-wiki-compiler](https://github.com/atomicstrata/llm-wiki-compiler) | 2,241 | TypeScript | GitHub Actions, MCP SDK | The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy&#39;s LLM… |
+| [skalesapp/skales](https://github.com/skalesapp/skales) | 2,229 | — | — | Personal AI agent harness for macOS, Windows, Linux, Android &amp; iOS. New: Skales Scout, la… |
+| [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent) | 2,201 | TypeScript | GitHub Actions | 🍙  A personal AI agent &amp; local memory hub for all AI agents, gives every AI one shared,… |
 | [Anil-matcha/open-agent-email](https://github.com/Anil-matcha/open-agent-email) | 2,126 | Python | GitHub Actions | Open-source email infrastructure for AI agents: secure inboxes, REST and MCP APIs, SMTP,… |
 | [video-db/call.md](https://github.com/video-db/call.md) | 2,058 | TypeScript | MCP SDK, React | Turn meetings into live agent loops. Record, transcribe, and analyze meetings with real-t… |
 | [adtexterry-lgtm/unigit-ecosystem](https://github.com/adtexterry-lgtm/unigit-ecosystem) | 1,978 | JavaScript | GitHub Actions | UNIGIT public brand and ecosystem hub — AI should work for everyone. |
 | [SqueezeAILab/LLMCompiler](https://github.com/SqueezeAILab/LLMCompiler) | 1,902 | Python | LangChain | [ICML 2024] LLMCompiler: An LLM Compiler for Parallel Function Calling |
-| [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | 1,861 | TypeScript | Docker, Docker Compose, Fastify, GitHub Actions | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools |
-| [aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code) | 1,860 | Go | GitHub Actions | A persistent, Git-versioned map of your whole codebase and database schema that coding ag… |
-| [zhu1090093659/deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) | 1,849 | TypeScript | GitHub Actions, React | DeepSeek Web browser extension: AI agent workspace with MCP tools, memory, Skills, automa… |
-| [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell) | 1,804 | TypeScript | GitHub Actions | Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel codi… |
+| [aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code) | 1,865 | Go | GitHub Actions | A persistent, Git-versioned map of your whole codebase and database schema that coding ag… |
+| [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | 1,863 | TypeScript | Docker, Docker Compose, Fastify, GitHub Actions | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools |
+| [Gentleman-Programming/gentle-shell](https://github.com/Gentleman-Programming/gentle-shell) | 1,858 | TypeScript | GitHub Actions | Gentle Shell is a Pi-native workspace for AI-assisted development, bringing parallel codi… |
+| [zhu1090093659/deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) | 1,848 | TypeScript | GitHub Actions, React | DeepSeek Web browser extension: AI agent workspace with MCP tools, memory, Skills, automa… |
 | [bubbuild/bub](https://github.com/bubbuild/bub) | 1,698 | Python | Docker, Docker Compose, GitHub Actions, Pydantic | Bub it. Build it. A tiny agent runtime, composable with plugins. |
 | [codeaholicguy/ai-devkit](https://github.com/codeaholicguy/ai-devkit) | 1,657 | TypeScript | GitHub Actions | The control plane for AI coding agents. |
 | [langwatch/better-agents](https://github.com/langwatch/better-agents) | 1,560 | TypeScript | GitHub Actions | Standards for building agents, better |
 | [VersusControl/devops-ai-guidelines](https://github.com/VersusControl/devops-ai-guidelines) | 1,559 | Python | — | First AI Journey for DevOps - with comprehensive learning paths, practical tips, and ente… |
-| [PaperDebugger/paperdebugger](https://github.com/PaperDebugger/paperdebugger) | 1,553 | TypeScript | Docker, Gin, GitHub Actions, gRPC | A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing |
+| [PaperDebugger/paperdebugger](https://github.com/PaperDebugger/paperdebugger) | 1,554 | TypeScript | Docker, Gin, GitHub Actions, gRPC | A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing |
 | [RTGS2017/NagaAgent](https://github.com/RTGS2017/NagaAgent) | 1,545 | Python | FastAPI, GitHub Actions, LangChain, Pydantic | A simple yet powerful agent framework for personal assistants, designed to enable intelli… |
-| [nvk/llm-wiki](https://github.com/nvk/llm-wiki) | 1,509 | Python | — | LLM-compiled knowledge bases for any AI agent. Parallel multi-agent research, thesis-driv… |
-| [limecloud/lime](https://github.com/limecloud/lime) | 1,494 | TypeScript | GitHub Actions, React | Full-stack AI agent for coding, files, terminals, tools, research, content, multimodal wo… |
-| [inkeep/agents](https://github.com/inkeep/agents) | 1,489 | TypeScript | Docker Compose, GitHub Actions | Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For… |
-| [RyanAlberts/best-of-Agent-Harnesses](https://github.com/RyanAlberts/best-of-Agent-Harnesses) | 1,461 | Python | GitHub Actions | 🏆 Ranked list of 187 AI agent harnesses, plus templates, playbooks, MCP, and learning re… |
-| [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | 1,426 | TypeScript | GitHub Actions | An AI co-scientist running on your desktop. Claude Science but better. |
+| [nvk/llm-wiki](https://github.com/nvk/llm-wiki) | 1,510 | Python | — | LLM-compiled knowledge bases for any AI agent. Parallel multi-agent research, thesis-driv… |
+| [limecloud/lime](https://github.com/limecloud/lime) | 1,493 | TypeScript | GitHub Actions, React | Full-stack AI agent for coding, files, terminals, tools, research, content, multimodal wo… |
+| [inkeep/agents](https://github.com/inkeep/agents) | 1,490 | TypeScript | Docker Compose, GitHub Actions | Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For… |
+| [RyanAlberts/best-of-Agent-Harnesses](https://github.com/RyanAlberts/best-of-Agent-Harnesses) | 1,463 | Python | GitHub Actions | 🏆 Ranked list of 187 AI agent harnesses, plus templates, playbooks, MCP, and learning re… |
+| [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | 1,429 | TypeScript | GitHub Actions | An AI co-scientist running on your desktop. Claude Science but better. |
 | [Houseofmvps/codesight](https://github.com/Houseofmvps/codesight) | 1,423 | TypeScript | GitHub Actions | Universal AI context generator. Saves thousands of tokens per conversation in Claude Code… |
 | [justrach/codedb](https://github.com/justrach/codedb) | 1,401 | Zig | GitHub Actions | Zig code intelligence server and MCP toolset for AI agents. Fast tree, outline, symbol, s… |
 | [2akouwu/reverify](https://github.com/2akouwu/reverify) | 1,327 | Python | GitHub Actions | Stop your AI from making things up — it proposes, deterministic tools decide, every claim… |
 | [apecloud/ApeRAG](https://github.com/apecloud/ApeRAG) | 1,318 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | ApeRAG: Production-ready GraphRAG with multi-modal indexing, AI agents, MCP support, and… |
-| [conorluddy/ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill) | 1,312 | Python | GitHub Actions | An IOS Simulator Skill for Agents. Use it to optimise their ability to build, run and int… |
-| [thClaws/thClaws](https://github.com/thClaws/thClaws) | 1,251 | Rust | Docker, Docker Compose, GitHub Actions | Open-source AI agent harness in native Rust — GUI, CLI, headless, and webapp from one bin… |
+| [conorluddy/ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill) | 1,314 | Python | GitHub Actions | An IOS Simulator Skill for Agents. Use it to optimise their ability to build, run and int… |
+| [thClaws/thClaws](https://github.com/thClaws/thClaws) | 1,252 | Rust | Docker, Docker Compose, GitHub Actions | Open-source AI agent harness in native Rust — GUI, CLI, headless, and webapp from one bin… |
 | [inclusionAI/AWorld](https://github.com/inclusionAI/AWorld) | 1,244 | Python | FastAPI, GitHub Actions, Pydantic | Search, understand, reproduce, and improve an idea with ease |
+| [heymrun/heym](https://github.com/heymrun/heym) | 1,237 | Python | Docker Compose, GitHub Actions | Build agentic systems. Run them with confidence. Orchestrate agents, automate business pr… |
 | [polterguy/magic](https://github.com/polterguy/magic) | 1,237 | C# | Docker Compose, GitHub Actions | Instant SECURE Full Stack Apps and AI Agents |
 | [Zen4-bit/Proxima](https://github.com/Zen4-bit/Proxima) | 1,203 | JavaScript | GitHub Actions, MCP SDK | Multi-AI MCP Server - Connect ChatGPT, Claude, Gemini &amp; Perplexity to your coding tools w… |
-| [heymrun/heym](https://github.com/heymrun/heym) | 1,195 | Python | Docker Compose, GitHub Actions | Build agentic systems. Run them with confidence. Orchestrate agents, automate business pr… |
 | [agentrq/agentrq](https://github.com/agentrq/agentrq) | 1,178 | Go | Docker, Docker Compose, GitHub Actions | AgentRQ: Human-in-loop realtime conversational task manager for AI Agents. Self-hosted! C… |
 | [platonai/Browser4](https://github.com/platonai/Browser4) | 1,176 | Kotlin | Docker, Docker Compose, GitHub Actions | Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and… |
 | [AI-QL/tuui](https://github.com/AI-QL/tuui) | 1,159 | TypeScript | GitHub Actions, MCP SDK | A desktop MCP client designed as a tool unitary utility integration, accelerating AI adop… |
-| [ruc-datalab/EvoOntology](https://github.com/ruc-datalab/EvoOntology) | 1,153 | Python | — | EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/… |
-| [splx-ai/agentic-radar](https://github.com/splx-ai/agentic-radar) | 1,066 | Python | GitHub Actions, Pydantic | A security scanner for your LLM agentic workflows |
+| [ruc-datalab/EvoOntology](https://github.com/ruc-datalab/EvoOntology) | 1,159 | Python | — | EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/… |
+| [splx-ai/agentic-radar](https://github.com/splx-ai/agentic-radar) | 1,067 | Python | GitHub Actions, Pydantic | A security scanner for your LLM agentic workflows |
 | [melandlabs/openloomi](https://github.com/melandlabs/openloomi) | 1,040 | TypeScript | GitHub Actions | OpenLoomi is an open-source AI coworker. It connects your work tools, understands what yo… |
 | [agentic-community/mcp-gateway-registry](https://github.com/agentic-community/mcp-gateway-registry) | 1,038 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Enterprise-ready MCP Gateway &amp; Registry that centralizes AI development tools with secure… |
-| [Harvil1/codeAgent](https://github.com/Harvil1/codeAgent) | 1,019 | Python | — | CodeAgent is an open-source coding agent that lives in your terminal. It understands your… |
+| [Harvil1/codeAgent](https://github.com/Harvil1/codeAgent) | 1,015 | Python | — | CodeAgent is an open-source coding agent that lives in your terminal. It understands your… |
 | [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | 1,008 | Python | GitHub Actions | MCP servers &amp; Graph API for the UniFi suite of applications, Network, Protect, and Access |
 | [qiz029/dscode](https://github.com/qiz029/dscode) | 998 | JavaScript | GitHub Actions, MCP SDK, React, TypeScript | A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome… |
-| [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | 980 | — | GitHub Actions | Curated list of LLM-driven trading agents, MCP servers, and agent skills for market resea… |
+| [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | 983 | — | GitHub Actions | Curated list of LLM-driven trading agents, MCP servers, and agent skills for market resea… |
 | [repoprompt/repoprompt-ce](https://github.com/repoprompt/repoprompt-ce) | 979 | Swift | GitHub Actions | Community edition of RepoPrompt: a native macOS context engineering app for AI coding age… |
 | [kardolus/chatgpt-cli](https://github.com/kardolus/chatgpt-cli) | 965 | Go | GitHub Actions | ChatGPT CLI is a powerful, multi-provider command-line interface for working with modern… |
-| [Gitruck/cli](https://github.com/Gitruck/cli) | 962 | TypeScript | — | 一条命令，把口播毛片变成可二次精修的剪辑工程。 |
-| [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin) | 953 | Python | GitHub Actions, TypeScript | Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a loca… |
+| [Gitruck/cli](https://github.com/Gitruck/cli) | 963 | TypeScript | — | 一条命令，把口播毛片变成可二次精修的剪辑工程。 |
+| [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin) | 956 | Python | GitHub Actions, TypeScript | Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a loca… |
 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 948 | Python | — | DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF） |
 | [SethGammon/Citadel](https://github.com/SethGammon/Citadel) | 927 | JavaScript | GitHub Actions, Next.js | The operating layer for Claude Code + OpenAI Codex: persistent project memory, intent rou… |
 | [promptise-com/Foundry](https://github.com/promptise-com/Foundry) | 894 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | The foundation layer for agentic intelligence. |
 | [riponcm/projectmem](https://github.com/riponcm/projectmem) | 877 | Python | — | Open-source coding agents memory. Records issues, attempts, fixes and decisions, then war… |
 | [feder-cr/invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp) | 871 | Python | GitHub Actions, Pydantic | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on a… |
-| [asamassekou10/ship-safe](https://github.com/asamassekou10/ship-safe) | 869 | JavaScript | GitHub Actions | The independent security agent for AI-written software. Finds issues, investigates whethe… |
+| [asamassekou10/ship-safe](https://github.com/asamassekou10/ship-safe) | 870 | JavaScript | GitHub Actions | The independent security agent for AI-written software. Finds issues, investigates whethe… |
 | [golf-mcp/golf](https://github.com/golf-mcp/golf) | 841 | Python | GitHub Actions, Pydantic | Production-Ready MCP Server Framework • Build, deploy &amp; scale secure AI agent infrastruct… |
 | [risa-labs-inc/BossConsole](https://github.com/risa-labs-inc/BossConsole) | 815 | Kotlin | GitHub Actions | Open-source, multi-platform harness for AI agents - a native, multi-threaded operator&#39;s c… |
 | [context-space/context-space](https://github.com/context-space/context-space) | 814 | Go | GitHub Actions | Ultimate Context Engineering Infrastructure, starting from MCPs and Integrations |
-| [aeonfun/aeon](https://github.com/aeonfun/aeon) | 787 | JavaScript | GitHub Actions | The most autonomous AI agent framework: runs unattended on GitHub Actions, self-healing s… |
-| [chipfighter/framekeeper](https://github.com/chipfighter/framekeeper) | 782 | TypeScript | GitHub Actions | Stop paying the multimodal tax. Your AI agent keeps every image it has seen but only send… |
-| [chenxiachan/thoughtdag](https://github.com/chenxiachan/thoughtdag) | 742 | TypeScript | Express, GitHub Actions, React | Your thinking deserves a map: an infinite canvas where LLM conversations grow into an edi… |
-| [ruvnet/metaharness](https://github.com/ruvnet/metaharness) | 737 | TypeScript | GitHub Actions | 🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness wit… |
-| [Snailclimb/AIGuide](https://github.com/Snailclimb/AIGuide) | 724 | — | — | AI 应用开发、AI 编程实战与面试指南，涵盖 LLM、Agent、RAG、MCP、Claude Code、Codex 等核心技术与工程实践。 |
-| [miuuyy/Octopus-SI-OS](https://github.com/miuuyy/Octopus-SI-OS) | 705 | Rust | GitHub Actions, Tokio | A self-evolving agentic OS. A new architecture for agent execution, built on operating-sy… |
+| [aeonfun/aeon](https://github.com/aeonfun/aeon) | 789 | JavaScript | GitHub Actions | The most autonomous AI agent framework: runs unattended on GitHub Actions, self-healing s… |
+| [chipfighter/framekeeper](https://github.com/chipfighter/framekeeper) | 788 | TypeScript | GitHub Actions | Stop paying the multimodal tax. Your AI agent keeps every image it has seen but only send… |
+| [chenxiachan/thoughtdag](https://github.com/chenxiachan/thoughtdag) | 743 | TypeScript | Express, GitHub Actions, React | Your thinking deserves a map: an infinite canvas where LLM conversations grow into an edi… |
+| [ruvnet/metaharness](https://github.com/ruvnet/metaharness) | 739 | TypeScript | GitHub Actions | 🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness wit… |
+| [Snailclimb/AIGuide](https://github.com/Snailclimb/AIGuide) | 726 | — | — | AI 应用开发、AI 编程实战与面试指南，涵盖 LLM、Agent、RAG、MCP、Claude Code、Codex 等核心技术与工程实践。 |
+| [miuuyy/Octopus-SI-OS](https://github.com/miuuyy/Octopus-SI-OS) | 707 | Rust | GitHub Actions, Tokio | A self-evolving agentic OS. A new architecture for agent execution, built on operating-sy… |
 | [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw) | 678 | Python | Docker, FastAPI, GitHub Actions, Pydantic | Shell and coding agent on mcp clients |
-| [Tura-AI/tura](https://github.com/Tura-AI/tura) | 664 | Rust | GitHub Actions, Tokio | Build agent that uses 80% less token and delivers better results. |
-| [truffle-ai/dexto](https://github.com/truffle-ai/dexto) | 659 | — | Docker, GitHub Actions, MCP SDK, TypeScript | Agent harness and tookit for building AI agents and agentic applications. CLI and SDKs in… |
+| [Tura-AI/tura](https://github.com/Tura-AI/tura) | 665 | Rust | GitHub Actions, Tokio | Build agent that uses 80% less token and delivers better results. |
+| [truffle-ai/dexto](https://github.com/truffle-ai/dexto) | 659 | TypeScript | Docker, GitHub Actions, MCP SDK | Agent harness and tookit for building AI agents and agentic applications. CLI and SDKs in… |
 | [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) | 640 | TypeScript | GitHub Actions, MCP SDK, React | Local-first, self-hosted AI agent runtime and MCP bridge with sandboxed sessions, memory,… |
 | [lemma-work/lemma-platform](https://github.com/lemma-work/lemma-platform) | 639 | Python | GitHub Actions | Multiplayer harness that shapes around your work. Agents, apps and workflows your team sh… |
 | [daydreamsai/daydreams](https://github.com/daydreamsai/daydreams) | 624 | TypeScript | GitHub Actions, MCP SDK | Daydreams is a set of tools for building agents for commerce |
 | [modiqo/waggle](https://github.com/modiqo/waggle) | 615 | Rust | GitHub Actions, Tokio | Attributed, resolvable artifact references for agent handoffs — a ~30-byte token instead… |
 | [harish-gaggar/mcp-server-gateway](https://github.com/harish-gaggar/mcp-server-gateway) | 587 | Python | GitHub Actions | MCP gateway &amp; OAuth MCP servers. LangGraph agent: memory, eval/tracking, PII guard, conte… |
-| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 563 | — | — | Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, int… |
-| [pardnchiu/Agenvoy](https://github.com/pardnchiu/Agenvoy) | 556 | Go | Gin, GitHub Actions | A local AI agent harness in Go that runs 24/7 with auto-built tools, MCP, and Ollama |
+| [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) | 564 | — | — | Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, int… |
+| [pardnchiu/Agenvoy](https://github.com/pardnchiu/Agenvoy) | 559 | Go | Gin, GitHub Actions | A local AI agent harness in Go that runs 24/7 with auto-built tools, MCP, and Ollama |
 | [ai-driven-dev/framework](https://github.com/ai-driven-dev/framework) | 550 | TypeScript | GitHub Actions | Marketplace Framework AI-Driven Dev : Context Engineering, Plugins, Agents, Skills, Hooks… |
-| [nossa-y/activity-frames](https://github.com/nossa-y/activity-frames) | 531 | Python | GitHub Actions | Turn your workday into structured workflows agents can execute. 100% local, served over M… |
-| [Graphicle-AI/graphicle](https://github.com/Graphicle-AI/graphicle) | 509 | Rust | GitHub Actions | Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex… |
+| [nossa-y/activity-frames](https://github.com/nossa-y/activity-frames) | 530 | Python | GitHub Actions | Turn your workday into structured workflows agents can execute. 100% local, served over M… |
+| [Graphicle-AI/graphicle](https://github.com/Graphicle-AI/graphicle) | 510 | Rust | GitHub Actions | Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex… |
 | [deonmenezes/mantishack](https://github.com/deonmenezes/mantishack) | 503 | Rust | GitHub Actions, MCP SDK | Mantis Hack |
 | [juyterman1000/entroly](https://github.com/juyterman1000/entroly) | 483 | Python | Docker, GitHub Actions | Cut AI context cost without trusting the compressor. Every reduction is reversible, byte-… |
-| [Soodok/Deepseek-Harness-Local-Android](https://github.com/Soodok/Deepseek-Harness-Local-Android) | 480 | Kotlin | GitHub Actions | Run the DeepSeek Harness AI agent natively on Android — no root, no Termux, extension cen… |
+| [Soodok/Deepseek-Harness-Local-Android](https://github.com/Soodok/Deepseek-Harness-Local-Android) | 482 | Kotlin | GitHub Actions | Run the DeepSeek Harness AI agent natively on Android — no root, no Termux, extension cen… |
 | [beilusaiying/always-accompany](https://github.com/beilusaiying/always-accompany) | 459 | JavaScript | Express, MCP SDK | Companionship, chat, coding, and work share one memory and context framework — the kind o… |
-| [SAOS-3624/dsh-video-storyboard](https://github.com/SAOS-3624/dsh-video-storyboard) | 442 | JavaScript | GitHub Actions | Scene-aware storyboard for DeepSeek Harness: 9-16 numbered cells with timestamps + transc… |
-| [prekuter/dryforge](https://github.com/prekuter/dryforge) | 439 | Python | GitHub Actions | Bounded-autonomy plugin harness for agents. Intent to implementation: ready, then go. |
+| [SAOS-3624/dsh-video-storyboard](https://github.com/SAOS-3624/dsh-video-storyboard) | 445 | JavaScript | GitHub Actions | Scene-aware storyboard for DeepSeek Harness: 9-16 numbered cells with timestamps + transc… |
+| [prekuter/dryforge](https://github.com/prekuter/dryforge) | 440 | Python | GitHub Actions | Bounded-autonomy plugin harness for agents. Intent to implementation: ready, then go. |
 | [gotalab/skillport](https://github.com/gotalab/skillport) | 421 | Python | GitHub Actions | Bring Agent Skills to Any AI Agent and Coding Agent — via CLI or MCP. Manage once, serve… |
 | [PM-Shawn/Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) | 419 | TypeScript | GitHub Actions, MCP SDK, React | Open-source AI office assistant for your desktop: describe the result or file you want in… |
 | [shamspias/customizable-gpt-chatbot](https://github.com/shamspias/customizable-gpt-chatbot) | 407 | Python | Docker, FastAPI, Pydantic | Veldra — talk an agent into existence, then watch it grow. A self-hostable, local-first a… |
 | [Arenukvern/mcp_flutter](https://github.com/Arenukvern/mcp_flutter) | 395 | Dart | GitHub Actions | MCP Toolkit for Flutter AI Agent Driven Development (MCP/CLI + custom client side tools)… |
+| [CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy) | 393 | JavaScript | Docker, Docker Compose, Express, GitHub Actions | 本机优先的 AI 办公工作台 · A local-first AI office workbench. Turn requests and source material int… |
 | [XiaoPuOuO/openchatx-mcp](https://github.com/XiaoPuOuO/openchatx-mcp) | 393 | TypeScript | Express, GitHub Actions | Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover… |
-| [CatCatUncle/openworkbuddy](https://github.com/CatCatUncle/openworkbuddy) | 391 | JavaScript | Docker, Docker Compose, Express, GitHub Actions | 本机优先的 AI 办公工作台 · A local-first AI office workbench. Turn requests and source material int… |
 | [yologdev/yoagent](https://github.com/yologdev/yoagent) | 369 | Rust | GitHub Actions, Tokio | The agent loop for Rust — stream from 7 LLM protocols, run tools, loop until done. From a… |
+| [libukai/awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) | 359 | — | — | DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickS… |
 | [jahala/tilth](https://github.com/jahala/tilth) | 358 | Rust | GitHub Actions | Smart code reading for humans and AI agents. Definitions, callers, dependencies and funct… |
-| [libukai/awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) | 357 | — | — | DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickS… |
 | [ChristopherKahler/base](https://github.com/ChristopherKahler/base) | 356 | Rust | GitHub Actions, Tokio | AI builder operating system. Turn Claude Code from a per-session tool into a workspace th… |
 | [SirAllap/agentglass](https://github.com/SirAllap/agentglass) | 347 | TypeScript | GitHub Actions | 🛰 Every AI coding agent on your machine, on one screen — live cost, tokens and tool call… |
 | [7df-lab/devo](https://github.com/7df-lab/devo) | 345 | Rust | GitHub Actions, Tokio | A self-improving agent. Tested on DeepSeek, Qwen, Kimi, GLM models. Supports MCP,  Skills. |
@@ -670,8 +671,8 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [imfeh2/fora](https://github.com/imfeh2/fora) | 318 | Python | GitHub Actions | Run your own organization of agents |
 | [FootprintAI/Containarium](https://github.com/FootprintAI/Containarium) | 316 | Go | GitHub Actions, Terraform, gRPC | Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC ba… |
 | [jin-bo/agentao](https://github.com/jin-bo/agentao) | 310 | Python | GitHub Actions, Pydantic | Local-first, governed AI agent runtime for Python — embed it in your app, or run it as a… |
-| [CodelyTV/agent-harness](https://github.com/CodelyTV/agent-harness) | 301 | TypeScript | — | Our agent harness: Skills, plugins, hooks, and utilities to improve the quality of your a… |
-| [yonatangross/orchestkit](https://github.com/yonatangross/orchestkit) | 300 | TypeScript | Docker, FastAPI, GitHub Actions, LangChain | The Complete AI Development Toolkit for Claude Code. 115 skills, 36 agents, 161 hooks. In… |
+| [CodelyTV/agent-harness](https://github.com/CodelyTV/agent-harness) | 303 | TypeScript | — | Our agent harness: Skills, plugins, hooks, and utilities to improve the quality of your a… |
+| [yonatangross/orchestkit](https://github.com/yonatangross/orchestkit) | 299 | TypeScript | Docker, FastAPI, GitHub Actions, LangChain | The Complete AI Development Toolkit for Claude Code. 115 skills, 36 agents, 161 hooks. In… |
 | [NeuZhou/awesome-ai-anatomy](https://github.com/NeuZhou/awesome-ai-anatomy) | 260 | D2 | — | Source code teardowns of 15 AI coding agents. What is actually inside Claude Code, Dify,… |
 | [hexinfo/dat](https://github.com/hexinfo/dat) | 258 | Java | GitHub Actions | Asking yours data in a natural language way through pre-modeling (data models and semanti… |
 | [sandbaseai/deepseek-harness-handbook](https://github.com/sandbaseai/deepseek-harness-handbook) | 245 | JavaScript | GitHub Actions | Agent-first DeepSeek Harness handbook: 173 source-backed runtime, plugin, MCP, sandbox, e… |
@@ -685,24 +686,24 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [AnastasiyaW/codex-claude-code-config](https://github.com/AnastasiyaW/codex-claude-code-config) | 214 | Python | GitHub Actions | Claude Code, Codex, and multi-agent configuration system: principles, hooks, skills, and… |
 | [techygarg/lattice](https://github.com/techygarg/lattice) | 210 | JavaScript | GitHub Actions | Install engineering discipline into any AI coding assistant. Composable skills for design… |
 | [skrun-dev/skrun](https://github.com/skrun-dev/skrun) | 209 | TypeScript | GitHub Actions | Deploy any Agent Skill as an API via POST /run. The open-source multi-model alternative t… |
-| [bigfish1913/pi-rust](https://github.com/bigfish1913/pi-rust) | 205 | Rust | GitHub Actions, Tokio | Rust-native, library-first coding-agent runtime and terminal CLI inspired by Pi, with com… |
+| [bigfish1913/pi-rust](https://github.com/bigfish1913/pi-rust) | 207 | Rust | GitHub Actions, Tokio | Rust-native, library-first coding-agent runtime and terminal CLI inspired by Pi, with com… |
 | [phil65/agentpool](https://github.com/phil65/agentpool) | 200 | Python | Docker, FastAPI, GitHub Actions, Pydantic | A unified agent orchestration hub that lets you configure and manage multiple AI agents (… |
 | [sd0xdev/sd0x-harness](https://github.com/sd0xdev/sd0x-harness) | 194 | JavaScript | GitHub Actions | The harness layer for Claude Code — a reference implementation of harness engineering wit… |
-| [congchuanling-dot/Cohort](https://github.com/congchuanling-dot/Cohort) | 188 | Go | GitHub Actions | Local-first Agent Runtime connecting LLMs to controlled tools, Chrome, desktop automation… |
-| [nodecode-ai/nodecode](https://github.com/nodecode-ai/nodecode) | 182 | Common Lisp | GitHub Actions | A living agent organism in Lisp. |
+| [congchuanling-dot/Cohort](https://github.com/congchuanling-dot/Cohort) | 190 | Go | GitHub Actions | Local-first Agent Runtime connecting LLMs to controlled tools, Chrome, desktop automation… |
+| [nodecode-ai/nodecode](https://github.com/nodecode-ai/nodecode) | 183 | Common Lisp | GitHub Actions | A living agent organism in Lisp. |
 | [ztt0216/MyAgent](https://github.com/ztt0216/MyAgent) | 173 | Python | Docker, GitHub Actions | 从零实现的通用 Agent Runtime：Agent Loop、权限、MCP、子 Agent、上下文折叠与 Skills 自进化 |
+| [arcships/rutis](https://github.com/arcships/rutis) | 169 | Rust | GitHub Actions, Tokio | A plugin runtime for software that iterates on itself — the substrate where agents write,… |
 | [DerekYRC/mini-claude-code](https://github.com/DerekYRC/mini-claude-code) | 169 | Java | — | mini-claude-code: a simplified Java Claude Code agent distilling core Agent Harness mecha… |
-| [SALT-NLP/collaborative-gym](https://github.com/SALT-NLP/collaborative-gym) | 168 | Python | FastAPI, Pydantic | Framework and toolkits for building and evaluating collaborative agents that can work tog… |
+| [SALT-NLP/collaborative-gym](https://github.com/SALT-NLP/collaborative-gym) | 169 | Python | FastAPI, Pydantic | Framework and toolkits for building and evaluating collaborative agents that can work tog… |
 | [RollingGo-AI/rollinggo-hotel-skill-cn](https://github.com/RollingGo-AI/rollinggo-hotel-skill-cn) | 167 | Python | GitHub Actions | 全球酒店预订&amp;低价监控提醒Skill，200万+精选酒店，独家优惠价格，让你的Agent轻松预订品质酒店，支持支付宝下单+查询历史订单，24 小时客服支持，全天候响应。 |
-| [arcships/rutis](https://github.com/arcships/rutis) | 166 | Rust | GitHub Actions, Tokio | A plugin runtime for software that iterates on itself — the substrate where agents write,… |
 | [ZSeven-W/rish-app](https://github.com/ZSeven-W/rish-app) | 163 | Objective-C++ | GitHub Actions | Your pocket agent. Local-first AI agents on iOS and Android — real workspaces, tool execu… |
 | [wulawulu/learn-claude-code-rs](https://github.com/wulawulu/learn-claude-code-rs) | 155 | Rust | GitHub Actions, Tokio | Build an AI agent harness in Rust, from a minimal loop to tools, subagents, memory, teams… |
-| [runzhliu/deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) | 149 | JavaScript | Docker, GitHub Actions | Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a… |
+| [runzhliu/deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) | 153 | JavaScript | Docker, GitHub Actions | Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a… |
+| [xiaonancs/codex-source-analysis](https://github.com/xiaonancs/codex-source-analysis) | 148 | JavaScript | GitHub Actions | OpenAI Codex 源码深度研究 (Rust + TS + Python)：2 总纲 + 25 章 + 3 附录, ~51 万字 + 149 张 Mermaid 架构图 |
 | [genai-io/san](https://github.com/genai-io/san) | 147 | Go | GitHub Actions, gRPC | Open-source terminal agent runtime. Lean context, native speed, open all the way down — i… |
-| [xiaonancs/codex-source-analysis](https://github.com/xiaonancs/codex-source-analysis) | 145 | JavaScript | GitHub Actions | OpenAI Codex 源码深度研究 (Rust + TS + Python)：2 总纲 + 25 章 + 3 附录, ~51 万字 + 149 张 Mermaid 架构图 |
 | [muhammadalicusit56-glitch/otto-cognitive-nudge](https://github.com/muhammadalicusit56-glitch/otto-cognitive-nudge) | 140 | HTML | GitHub Actions | Smart Promise Tracker AI 2026 – Commit Memory Engine |
+| [linuztx/alter-zero](https://github.com/linuztx/alter-zero) | 137 | Rust | GitHub Actions, Tokio | RAM efficient terminal agent harness for coding, cybersecurity, and automation. |
 | [weiwei966/awesome-ai-harness](https://github.com/weiwei966/awesome-ai-harness) | 137 | — | — | The model is the engine; the harness is the car. Curated knowledge on harness engineering… |
-| [linuztx/alter-zero](https://github.com/linuztx/alter-zero) | 135 | Rust | GitHub Actions, Tokio | RAM efficient terminal agent harness for coding, cybersecurity, and automation. |
 | [yuxinlaile/McD-saver](https://github.com/yuxinlaile/McD-saver) | 135 | Python | GitHub Actions | 🍟 麦麦省钱助手 —— 麦当劳中国官方 MCP 的省钱点餐 Agent Skill：官方 calculate-price 实时核价 + 券组合优化 + 沉默成本体检与多单用券排… |
 | [davidpc007/solana-agent-kit](https://github.com/davidpc007/solana-agent-kit) | 130 | TypeScript | GitHub Actions | solana ai agent toolkit for modular monorepo with plugin architecture, first-class suppor… |
 | [Foxtailsss-Andy/Anna-Agent](https://github.com/Foxtailsss-Andy/Anna-Agent) | 130 | TypeScript | FastAPI, GitHub Actions, Pydantic, React | A governed, local-first AI agent for enterprise Chat, Workflows, Associate, and MCP-conne… |
@@ -718,7 +719,7 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [skwallace36/Pepper](https://github.com/skwallace36/Pepper) | 105 | Swift | GitHub Actions | iOS dynamic library MCP for agents |
 | [EvannZhongg/Nosis](https://github.com/EvannZhongg/Nosis) | 103 | Python | FastAPI | Nosis is a lightweight personal agent runtime: per-session execution boundaries with OS-l… |
 | [friday-platform/friday-studio](https://github.com/friday-platform/friday-studio) | 103 | TypeScript | Docker, Docker Compose, GitHub Actions | Agent Harness Platform — shareable workspaces, MCP tools, skills, memory, and cron/webhoo… |
-| [jarvislee90s-dot/tuvis](https://github.com/jarvislee90s-dot/tuvis) | 99 | Rust | GitHub Actions, React, TypeScript | Tuvis(兔维斯) — desktop mission control for AI coding agents: live session monitoring, remot… |
+| [jarvislee90s-dot/tuvis](https://github.com/jarvislee90s-dot/tuvis) | 100 | Rust | GitHub Actions, React, TypeScript | Tuvis(兔维斯) — desktop mission control for AI coding agents: live session monitoring, remot… |
 | [sandydasari/openacme](https://github.com/sandydasari/openacme) | 89 | TypeScript | GitHub Actions | An AI workforce platform: role-specialized agents with multi-provider LLM, MCP, tasks, an… |
 | [todoforai/edge](https://github.com/todoforai/edge) | 87 | TypeScript | GitHub Actions | Open-source AI agent that runs on your own computer and does your tasks. Any model (Claud… |
 | [grainulation/grainulator](https://github.com/grainulation/grainulator) | 86 | JavaScript | GitHub Actions | Research that compiles. |
@@ -734,24 +735,24 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [pepe-agent/pepe](https://github.com/pepe-agent/pepe) | 72 | Elixir | Docker, Docker Compose, GitHub Actions | An Elixir/OTP AI agent runtime: define agents, connect any OpenAI-compatible model, and r… |
 | [Kong-lh-rgb/vesta](https://github.com/Kong-lh-rgb/vesta) | 68 | Python | GitHub Actions | Agent Harness for long-running agents that remember, continue, and learn from real work. |
 | [hamidra/yamcp](https://github.com/hamidra/yamcp) | 67 | TypeScript | MCP SDK | Organize your MCP servers in local workspaces, share them as Yet-Another-MCP through a si… |
+| [Leihb/learn-agent-the-hard-way](https://github.com/Leihb/learn-agent-the-hard-way) | 66 | Go | GitHub Actions | 笨办法学 Agent · 亲手打造一个 harness——不用框架，32 个练习亲手写出一个 agent harness 的每一层。系列第一本，全书已完结，三本各自独立不分先后。 |
 | [yarenty/kowalski](https://github.com/yarenty/kowalski) | 66 | Rust | GitHub Actions, Tokio | Hordes of small AI agents that do real work on your machine — free, private, one download… |
-| [Leihb/learn-agent-the-hard-way](https://github.com/Leihb/learn-agent-the-hard-way) | 65 | Go | GitHub Actions | 笨办法学 Agent · 亲手打造一个 harness——不用框架，32 个练习亲手写出一个 agent harness 的每一层。系列第一本，全书已完结，三本各自独立不分先后。 |
 | [MohitGoyal09/AgentForge](https://github.com/MohitGoyal09/AgentForge) | 65 | Python | Pydantic | Open-source terminal AI coding-agent harness for studying agent loops, tools, MCP, skills… |
 | [spacehendrix/universal-intelligence](https://github.com/spacehendrix/universal-intelligence) | 64 | Python | PyTorch, TypeScript | ◉ Universal Intelligence: AI made simple. |
 | [whyihaveyou/dsh-suite](https://github.com/whyihaveyou/dsh-suite) | 64 | JavaScript | GitHub Actions | The living DeepSeek Harness plugin directory — refreshed hourly, compat-tested daily, wit… |
 | [0xmariowu/AgentLint](https://github.com/0xmariowu/AgentLint) | 63 | JavaScript | GitHub Actions | The linter for your agent harness. Works with Claude Code, Codex, and Cursor. |
-| [griffinwork40/agent-afk](https://github.com/griffinwork40/agent-afk) | 62 | TypeScript | GitHub Actions, MCP SDK | The coding agent you don’t have to watch. Start a task and walk away. AFK builds the feat… |
+| [griffinwork40/agent-afk](https://github.com/griffinwork40/agent-afk) | 63 | TypeScript | GitHub Actions, MCP SDK | The coding agent you don’t have to watch. Start a task and walk away. AFK builds the feat… |
 | [ahwurm/localharness](https://github.com/ahwurm/localharness) | 59 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | An open-source, coding agent harness designed specifically for local LLMs. Designed as ev… |
 | [HumphreySun98/Smart-Study-Agent](https://github.com/HumphreySun98/Smart-Study-Agent) | 58 | JavaScript | — | The AI study agent that learns how you learn — RL picks the action, FSRS picks the timing… |
 | [xyaz1313/phoenix](https://github.com/xyaz1313/phoenix) | 58 | Python | — | 不死鸟 Phoenix — Hermes Agent 插件：路由分档/风险防线/自愈/存档点提醒/审批策略自适应，官方钩子接入，不改 Hermes 核心代码 |
 | [xianyu-sheng/Xenon](https://github.com/xianyu-sheng/Xenon) | 56 | Python | GitHub Actions | Verifiable AI coding agent harness / 可验证的 AI 编码代理：evidence hash-chain · hollow-answer gat… |
+| [HaseebKhalid1507/SynapsCLI](https://github.com/HaseebKhalid1507/SynapsCLI) | 55 | Rust | GitHub Actions, Tokio | A terminal-native AI agent runtime built in Rust. Interactive chat, parallel agent orches… |
 | [KeWang0622/agent-zero-to-hero](https://github.com/KeWang0622/agent-zero-to-hero) | 55 | Python | GitHub Actions | Build an agent harness from scratch. 21 runnable Python lessons, 3 reliability design lab… |
 | [agentcathq/agentcat-python-sdk](https://github.com/agentcathq/agentcat-python-sdk) | 53 | Python | GitHub Actions, Pydantic | AgentCat is an analytics platform for MCP server owners 🐱. |
-| [HaseebKhalid1507/SynapsCLI](https://github.com/HaseebKhalid1507/SynapsCLI) | 53 | Rust | GitHub Actions, Tokio | A terminal-native AI agent runtime built in Rust. Interactive chat, parallel agent orches… |
 | [aiurda/devcontext](https://github.com/aiurda/devcontext) | 49 | JavaScript | MCP SDK | DevContext is a cutting-edge Model Context Protocol (MCP) server designed to provide deve… |
+| [patrick-toulme/harnessgym](https://github.com/patrick-toulme/harnessgym) | 49 | Python | GitHub Actions | Iterative agent harness improvement: run a coding agent on a hard task, generate the reus… |
 | [vitoworleone/claude-code-handbook](https://github.com/vitoworleone/claude-code-handbook) | 49 | Python | — | A practical knowledge base and Agent Runtime workshop for moving from using Claude Code t… |
 | [Ed-Marcavage/awesome-security-agent-harnesses](https://github.com/Ed-Marcavage/awesome-security-agent-harnesses) | 48 | — | GitHub Actions | AI agents for pentesting, code audit, fuzzing, vulnerability discovery, and reverse engin… |
-| [patrick-toulme/harnessgym](https://github.com/patrick-toulme/harnessgym) | 48 | Python | GitHub Actions | Iterative agent harness improvement: run a coding agent on a hard task, generate the reus… |
 | [floomhq/floom](https://github.com/floomhq/floom) | 47 | Python | GitHub Actions | Build and supervise scheduled AI workers with an open-source runtime, human approvals, ru… |
 | [maomaochong-ai/open-astravia](https://github.com/maomaochong-ai/open-astravia) | 46 | TypeScript | GitHub Actions | 开源 · 本地优先的 AI 智能体：编程与实干兼备。 自带模型密钥，内置 MCP、技能、插件、工作流、知识库以及数据库。 |
 | [alexk-dev/golemcore-bot](https://github.com/alexk-dev/golemcore-bot) | 42 | Java | GitHub Actions | Agent Platform for AI-Native Companies |
@@ -764,115 +765,115 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [SeoNaRu/nulnul-harness](https://github.com/SeoNaRu/nulnul-harness) | 34 | Python | GitHub Actions | A minimal, evidence-gated harness for Codex and Claude Code: reuse what works, add only w… |
 | [carbon-design-system/Carbon-Monitor](https://github.com/carbon-design-system/Carbon-Monitor) | 32 | JavaScript | Docker, Docker Compose, GitHub Actions, React | Agentic PR reviews for the IBM Carbon Design System, run by IBM Bob or Claude from a codi… |
 | [retrofor/iamai](https://github.com/retrofor/iamai) | 32 | Python | GitHub Actions, Pydantic | Cross-platform AI agent and chatbot runtime with a Rust core, Python plugins, and normali… |
-| [tomcounsell/ai](https://github.com/tomcounsell/ai) | 32 | Python | — | A productive AI coworker that learns, self-improves, and ships work. |
+| [tomcounsell/ai](https://github.com/tomcounsell/ai) | 32 | Python | — | AI product manager and engineer at Yudame: runs backlogs and client work, tracks decision… |
 | [vite-hub/vitehub](https://github.com/vite-hub/vitehub) | 28 | TypeScript | GitHub Actions | Agents for any host, composed with server primitives through one Vite plugin. |
 | [Kyne0328/rel-ai-chatgpt-web-harness](https://github.com/Kyne0328/rel-ai-chatgpt-web-harness) | 27 | JavaScript | GitHub Actions, React, TypeScript | Local agency/runtime harness for ChatGPT Web: repositories, tasks, commands, validation,… |
 
-## Other (174)
+## Other (175)
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187,912 | Python | GitHub Actions | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission… |
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 77,097 | Python | FastAPI, GitHub Actions | World&#39;s first open-source, agentic video production system. 12 production pipelines, 100+… |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 70,871 | Python | — | Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Cla… |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 68,594 | Python | — | from vibe coding to agentic engineering - practice makes claude perfect |
-| [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) | 36,268 | TypeScript | Docker Compose, GitHub Actions | 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. |
-| [charmbracelet/crush](https://github.com/charmbracelet/crush) | 28,968 | Go | GitHub Actions, gRPC | Glamourous agentic coding for all 💘 |
-| [Fosowl/agenticSeek](https://github.com/Fosowl/agenticSeek) | 27,628 | Python | Docker Compose, FastAPI, PyTorch, Pydantic | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thin… |
-| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 26,355 | Shell | GitHub Actions | A collection of 100+ specialized Claude Code subagents covering a wide range of developme… |
-| [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 18,905 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | The absolute trainer to light up AI agents. |
-| [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | 15,098 | TypeScript | GitHub Actions | The best agent harness. |
-| [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | 7,747 | TypeScript | GitHub Actions, React | Vibe code with pi in a lightweight, real IDE that customises itself around the way you wo… |
-| [zai-org/GLM-5](https://github.com/zai-org/GLM-5) | 7,433 | — | — | GLM-5: From Vibe Coding to Agentic Engineering |
-| [mahseema/awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) | 6,546 | — | — | A curated list of Artificial Intelligence Top Tools |
-| [truefoundry/trueforge](https://github.com/truefoundry/trueforge) | 6,439 | TypeScript | Docker, Docker Compose, GitHub Actions | The open-source agent harness - the runtime layer that turns an LLM into a working agent. |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187,921 | Python | GitHub Actions | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission… |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 77,430 | Python | FastAPI, GitHub Actions | World&#39;s first open-source, agentic video production system. 12 production pipelines, 100+… |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 70,909 | Python | — | Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Cla… |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 68,648 | Python | — | from vibe coding to agentic engineering - practice makes claude perfect |
+| [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT) | 36,266 | TypeScript | Docker Compose, GitHub Actions | 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. |
+| [charmbracelet/crush](https://github.com/charmbracelet/crush) | 28,977 | Go | GitHub Actions, gRPC | Glamourous agentic coding for all 💘 |
+| [Fosowl/agenticSeek](https://github.com/Fosowl/agenticSeek) | 27,631 | Python | Docker Compose, FastAPI, PyTorch, Pydantic | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thin… |
+| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 26,371 | Shell | GitHub Actions | A collection of 100+ specialized Claude Code subagents covering a wide range of developme… |
+| [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 18,907 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | The absolute trainer to light up AI agents. |
+| [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) | 15,102 | TypeScript | GitHub Actions | The best agent harness. |
+| [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | 7,818 | TypeScript | GitHub Actions, React | Vibe code with pi in a lightweight, real IDE that customises itself around the way you wo… |
+| [zai-org/GLM-5](https://github.com/zai-org/GLM-5) | 7,435 | — | — | GLM-5: From Vibe Coding to Agentic Engineering |
+| [mahseema/awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) | 6,547 | — | — | A curated list of Artificial Intelligence Top Tools |
+| [truefoundry/trueforge](https://github.com/truefoundry/trueforge) | 6,446 | TypeScript | Docker, Docker Compose, GitHub Actions | The open-source agent harness - the runtime layer that turns an LLM into a working agent. |
 | [samchon/typia](https://github.com/samchon/typia) | 5,962 | TypeScript | GitHub Actions | Super-fast/easy runtime validators and serializers via transformation |
-| [apache/maka](https://github.com/apache/maka) | 5,943 | TypeScript | GitHub Actions | Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete reco… |
+| [apache/maka](https://github.com/apache/maka) | 5,944 | TypeScript | GitHub Actions | Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete reco… |
 | [rllm-org/rllm](https://github.com/rllm-org/rllm) | 5,910 | Python | Docker, GitHub Actions, LangChain, LangGraph | Democratizing Reinforcement Learning for LLMs |
-| [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) | 5,638 | Python | GitHub Actions | Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding Lin… |
+| [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) | 5,652 | Python | GitHub Actions | Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding Lin… |
 | [katanaml/sparrow](https://github.com/katanaml/sparrow) | 5,232 | Python | — | Structured data extraction, instruction calling and agentic workflows with ML, LLM and Vi… |
-| [walkinglabs/hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl) | 4,862 | Python | GitHub Actions | 🚀 An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM ali… |
-| [kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew) | 4,798 | Python | GitHub Actions | A persistent workspace for development work that self-improves and continues beyond one s… |
-| [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | 4,784 | Python | FastAPI | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键… |
-| [walkinglabs/awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering) | 4,636 | — | GitHub Actions | 🛠️ Awesome tools &amp; guides for harness engineering. |
-| [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | 3,521 | — | — | List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claud… |
-| [eracle/OpenOutreach](https://github.com/eracle/OpenOutreach) | 3,518 | Python | GitHub Actions, Pydantic | Open-source AI agent for B2B lead generation — describe your product, it finds the people… |
+| [walkinglabs/hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl) | 4,867 | Python | GitHub Actions | 🚀 An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM ali… |
+| [kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew) | 4,810 | Python | GitHub Actions | A persistent workspace for development work that self-improves and continues beyond one s… |
+| [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | 4,786 | Python | FastAPI | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键… |
+| [walkinglabs/awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering) | 4,639 | — | GitHub Actions | 🛠️ Awesome tools &amp; guides for harness engineering. |
+| [eracle/OpenOutreach](https://github.com/eracle/OpenOutreach) | 3,530 | Python | GitHub Actions, Pydantic | Open-source AI agent for B2B lead generation — describe your product, it finds the people… |
+| [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | 3,529 | — | — | List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claud… |
 | [DSXiangLi/DecryptPrompt](https://github.com/DSXiangLi/DecryptPrompt) | 3,451 | — | — | 总结Prompt&amp;LLM论文，开源数据&amp;模型，AIGC应用 |
 | [Intelligent-Internet/ii-agent](https://github.com/Intelligent-Internet/ii-agent) | 3,391 | Python | FastAPI, LangChain, Pydantic | II-Agent: a new open-source framework to build and deploy intelligent agents |
-| [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness) | 3,152 | TypeScript | Docker, GitHub Actions | 🐧 Unified and Stable RSI Platform |
-| [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 3,147 | JavaScript | Express, GitHub Actions, MCP SDK, React | A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voic… |
-| [visa/visa-vulnerability-agentic-harness](https://github.com/visa/visa-vulnerability-agentic-harness) | 3,051 | Python | GitHub Actions, LangChain, LangGraph, Pydantic | Visa Vulnerability Agentic Harness |
-| [mll-lab-nu/RAGEN](https://github.com/mll-lab-nu/RAGEN) | 2,838 | Python | — | Agent RL framework for LLM agents: multi-turn reinforcement learning with StarPO and reas… |
+| [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness) | 3,162 | TypeScript | Docker, GitHub Actions | 🐧 Unified and Stable RSI Platform |
+| [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 3,150 | JavaScript | Express, GitHub Actions, MCP SDK, React | A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voic… |
+| [visa/visa-vulnerability-agentic-harness](https://github.com/visa/visa-vulnerability-agentic-harness) | 3,055 | Python | GitHub Actions, LangChain, LangGraph, Pydantic | Visa Vulnerability Agentic Harness |
+| [mll-lab-nu/RAGEN](https://github.com/mll-lab-nu/RAGEN) | 2,839 | Python | — | Agent RL framework for LLM agents: multi-turn reinforcement learning with StarPO and reas… |
 | [wquguru/nof0](https://github.com/wquguru/nof0) | 2,756 | Go | — | Open-source AI trading arena. A full reproduction of NOF1 Alpha Arena for running and com… |
-| [AMAP-ML/SkillClaw](https://github.com/AMAP-ML/SkillClaw) | 2,744 | Python | FastAPI, GitHub Actions | Let Skills Evolve Collectively with Agentic Evolver |
+| [AMAP-ML/SkillClaw](https://github.com/AMAP-ML/SkillClaw) | 2,745 | Python | FastAPI, GitHub Actions | Let Skills Evolve Collectively with Agentic Evolver |
 | [Leonxlnx/agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) | 2,566 | — | — | Research into how agentic AI coding assistants work. Reconstructed prompt patterns, agent… |
 | [AGI-Edgerunners/LLM-Agents-Papers](https://github.com/AGI-Edgerunners/LLM-Agents-Papers) | 2,356 | Python | — | A repo lists papers related to LLM based agent |
-| [antoinezambelli/forge](https://github.com/antoinezambelli/forge) | 2,266 | Python | Docker, GitHub Actions, Pydantic | A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows |
-| [getnao/nao](https://github.com/getnao/nao) | 1,992 | TypeScript | Docker, Docker Compose, GitHub Actions | 👾 nao is the #1 open source agentic BI. (1) Create context with nao-core cli, (2) deploy… |
-| [tuya/TuyaOpen](https://github.com/tuya/TuyaOpen) | 1,922 | C | Docker, GitHub Actions | Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware… |
-| [stakpak/agent](https://github.com/stakpak/agent) | 1,854 | Rust | Docker, GitHub Actions, Tokio | Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and k… |
-| [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) | 1,718 | Python | GitHub Actions | A curated list of public-source, research, and commercial tools for AI security and AI-as… |
+| [antoinezambelli/forge](https://github.com/antoinezambelli/forge) | 2,265 | Python | Docker, GitHub Actions, Pydantic | A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows |
+| [getnao/nao](https://github.com/getnao/nao) | 1,995 | TypeScript | Docker, Docker Compose, GitHub Actions | 👾 nao is the #1 open source agentic BI. (1) Create context with nao-core cli, (2) deploy… |
+| [tuya/TuyaOpen](https://github.com/tuya/TuyaOpen) | 1,929 | C | Docker, GitHub Actions | Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware… |
+| [stakpak/agent](https://github.com/stakpak/agent) | 1,855 | Rust | Docker, GitHub Actions, Tokio | Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and k… |
+| [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) | 1,720 | Python | GitHub Actions | A curated list of public-source, research, and commercial tools for AI security and AI-as… |
 | [xingyaoww/code-act](https://github.com/xingyaoww/code-act) | 1,716 | Python | LangChain | Official Repo for ICML 2024 paper &quot;Executable Code Actions Elicit Better LLM Agents&quot; by X… |
-| [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | 1,679 | — | — | Collection of n8n workflows, n8n templates, AI automations, and AI agents created for The… |
-| [Roy3838/Observer](https://github.com/Roy3838/Observer) | 1,668 | TypeScript | GitHub Actions | The agent that monitors your screen using local models, so you don&#39;t have to. |
-| [exoharness/exo](https://github.com/exoharness/exo) | 1,617 | Rust | GitHub Actions, MCP SDK, Tokio, TypeScript | Exo is an agent + harness architecture that is fully recursive, able to safely edit all a… |
-| [jsmastery-pro/skills](https://github.com/jsmastery-pro/skills) | 1,602 | JavaScript | GitHub Actions | Agentic Development skills behind the JS Mastery workflow |
+| [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | 1,680 | — | — | Collection of n8n workflows, n8n templates, AI automations, and AI agents created for The… |
+| [Roy3838/Observer](https://github.com/Roy3838/Observer) | 1,670 | TypeScript | GitHub Actions | The agent that monitors your screen using local models, so you don&#39;t have to. |
+| [exoharness/exo](https://github.com/exoharness/exo) | 1,633 | Rust | GitHub Actions, MCP SDK, Tokio, TypeScript | Exo is an agent + harness architecture that is fully recursive, able to safely edit all a… |
+| [jsmastery-pro/skills](https://github.com/jsmastery-pro/skills) | 1,603 | JavaScript | GitHub Actions | Agentic Development skills behind the JS Mastery workflow |
 | [hexdocom/lemonai](https://github.com/hexdocom/lemonai) | 1,573 | JavaScript | Docker Compose, GitHub Actions, MCP SDK | Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a f… |
 | [Mirascope/mirascope](https://github.com/Mirascope/mirascope) | 1,535 | Python | GitHub Actions | The LLM Anti-Framework |
-| [openonion/connectonion](https://github.com/openonion/connectonion) | 1,506 | Python | GitHub Actions, Pydantic | CLI is all you need. The agent CLI harness. |
-| [withoneai/pica](https://github.com/withoneai/pica) | 1,483 | Rust | GitHub Actions | The community edition of Pica, the agentic tooling platform. |
+| [openonion/connectonion](https://github.com/openonion/connectonion) | 1,507 | Python | GitHub Actions, Pydantic | CLI is all you need. The agent CLI harness. |
+| [withoneai/pica](https://github.com/withoneai/pica) | 1,482 | Rust | GitHub Actions | The community edition of Pica, the agentic tooling platform. |
 | [weitianxin/Awesome-Agentic-Reasoning](https://github.com/weitianxin/Awesome-Agentic-Reasoning) | 1,427 | — | — | A curated list of papers and resources based on the survey &quot;Agentic Reasoning for Large L… |
 | [tmgthb/Autonomous-Agents](https://github.com/tmgthb/Autonomous-Agents) | 1,388 | — | — | Autonomous Agents (LLMs) research papers. Updated Daily. |
-| [huiliyi37/Tianshu-harness](https://github.com/huiliyi37/Tianshu-harness) | 1,305 | TypeScript | GitHub Actions, MCP SDK | 天枢harness是一个的终端编程智能体，它要回答的核心问题是：模型何以稳定地交付——目标不漂移、完成有证据、验证有闭环，不说&quot;应该修好了&quot;。为此它在模型与真实世界之间建立一层认… |
+| [huiliyi37/Tianshu-harness](https://github.com/huiliyi37/Tianshu-harness) | 1,309 | TypeScript | GitHub Actions, MCP SDK | 天枢harness是一个的终端编程智能体，它要回答的核心问题是：模型何以稳定地交付——目标不漂移、完成有证据、验证有闭环，不说&quot;应该修好了&quot;。为此它在模型与真实世界之间建立一层认… |
 | [puppyone-ai/puppyone-cloud](https://github.com/puppyone-ai/puppyone-cloud) | 1,296 | Python | GitHub Actions | The cloud infrastructure behind puppyone. Hosts projects as Git repositories for your tea… |
 | [AgenticHealthAI/Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) | 1,282 | — | — | Latest Advances on Agentic AI &amp; AI Agents for Healthcare |
 | [hoangnb24/repository-harness](https://github.com/hoangnb24/repository-harness) | 1,264 | Rust | GitHub Actions | Turn any repo into an agent-ready workspace for Claude Code, Codex, Cursor, and other cod… |
-| [rasbt/mini-coding-agent](https://github.com/rasbt/mini-coding-agent) | 1,223 | Python | GitHub Actions | Minimal and readable coding agent harness implementation in Python to explain the core co… |
-| [hardness1020/learn-agent-architecture](https://github.com/hardness1020/learn-agent-architecture) | 1,207 | Python | — | Learn AI agents from scratch. |
+| [rasbt/mini-coding-agent](https://github.com/rasbt/mini-coding-agent) | 1,224 | Python | GitHub Actions | Minimal and readable coding agent harness implementation in Python to explain the core co… |
+| [hardness1020/learn-agent-architecture](https://github.com/hardness1020/learn-agent-architecture) | 1,211 | Python | — | Learn AI agents from scratch. |
 | [ctxrs/ctx](https://github.com/ctxrs/ctx) | 1,179 | Rust | — | Instant recall for coding agents. Search the history already on your machine. Git blame,… |
 | [DeepMyst/Mysti](https://github.com/DeepMyst/Mysti) | 1,154 | TypeScript | GitHub Actions, MCP SDK | AI coding dream team of agents for VS Code. Claude Code + openai Codex collaborate in bra… |
 | [qualisero/awesome-pi-agent](https://github.com/qualisero/awesome-pi-agent) | 1,095 | JavaScript | GitHub Actions | Awesome list of add-ons, hooks, tools, skills, and resources for the pi coding agent (pi-… |
 | [Anil-matcha/awesome-agent-apis](https://github.com/Anil-matcha/awesome-agent-apis) | 1,066 | Python | GitHub Actions | 660+ muapi-hosted generative-media models plus community-submitted third-party API tools… |
-| [ranxi2001/zero2Agent](https://github.com/ranxi2001/zero2Agent) | 1,026 | Python | GitHub Actions | 面向大厂Agent研发岗位求职的agent教程网站，涵盖技术路线与面试八股文 |
-| [shanraisshan/codex-cli-best-practice](https://github.com/shanraisshan/codex-cli-best-practice) | 1,020 | Python | — | from vibe coding to agentic engineering - practice makes codex perfect |
+| [ranxi2001/zero2Agent](https://github.com/ranxi2001/zero2Agent) | 1,032 | Python | GitHub Actions | 面向大厂Agent研发岗位求职的agent教程网站，涵盖技术路线与面试八股文 |
+| [shanraisshan/codex-cli-best-practice](https://github.com/shanraisshan/codex-cli-best-practice) | 1,024 | Python | — | from vibe coding to agentic engineering - practice makes codex perfect |
 | [Evolink-AI/awesome-openclaw-usecases-moltbook](https://github.com/Evolink-AI/awesome-openclaw-usecases-moltbook) | 1,013 | — | — | 📚 Real-world OpenClaw automation examples from Moltbook |
-| [OpenSparX/MasterAgent](https://github.com/OpenSparX/MasterAgent) | 993 | C++ | GitHub Actions | Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud de… |
+| [OpenSparX/MasterAgent](https://github.com/OpenSparX/MasterAgent) | 992 | C++ | GitHub Actions | Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud de… |
 | [guanyang/open-agent-hub](https://github.com/guanyang/open-agent-hub) | 986 | TypeScript | GitHub Actions | A lightweight, zero-dependency CLI tool to manage and activate capabilities for AI coding… |
 | [psi-oss/get-physics-done](https://github.com/psi-oss/get-physics-done) | 973 | Python | GitHub Actions, Pydantic | The first open-source agentic AI physicist, by Physical Superintelligence PBC (PSI). |
 | [fainir/most-capable-agent-system-prompt](https://github.com/fainir/most-capable-agent-system-prompt) | 882 | — | — | A copy-paste system prompt that has your coding agent (Claude Code, Codex, Cursor) build… |
 | [mereyabdenbekuly-ctrl/clodex-ide](https://github.com/mereyabdenbekuly-ctrl/clodex-ide) | 870 | TypeScript | GitHub Actions | Local-first, zero-trust agentic IDE for verifiable autonomous software development. |
 | [AgnosticUI/agnosticui](https://github.com/AgnosticUI/agnosticui) | 833 | TypeScript | GitHub Actions | AgnosticUI Local (v2) is a CLI-based UI component library that copies components directly… |
-| [nealbridges/VulnHunter](https://github.com/nealbridges/VulnHunter) | 802 | Python | GitHub Actions | Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, pro… |
+| [nealbridges/VulnHunter](https://github.com/nealbridges/VulnHunter) | 803 | Python | GitHub Actions | Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, pro… |
 | [AkshitIreddy/Interactive-LLM-Powered-NPCs](https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs) | 736 | Rust | GitHub Actions | Interactive LLM Powered NPCs, is an open-source project that completely transforms your i… |
 | [datagallery-ai/dataagent](https://github.com/datagallery-ai/dataagent) | 727 | TypeScript | GitHub Actions, React | DataFoundry is an open-source AI workbench for data analysis, unifying data sources, know… |
 | [skillmatic-ai/awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) | 693 | — | — | The definitive resource for Agent Skills - modular capabilities revolutionizing AI agent… |
-| [nicepkg/ctxport](https://github.com/nicepkg/ctxport) | 652 | TypeScript | GitHub Actions | Copy AI conversations as clean Markdown Context Bundles — one click from ChatGPT, Claude,… |
+| [nicepkg/ctxport](https://github.com/nicepkg/ctxport) | 651 | TypeScript | GitHub Actions | Copy AI conversations as clean Markdown Context Bundles — one click from ChatGPT, Claude,… |
 | [AgentEra/Agently-Daily-News-Collector](https://github.com/AgentEra/Agently-Daily-News-Collector) | 645 | Python | Docker | An open-source LLM based automatically daily news collecting workflow showcase powered by… |
 | [nadimtuhin/claude-token-optimizer](https://github.com/nadimtuhin/claude-token-optimizer) | 644 | JavaScript | GitHub Actions | Cut the tokens Claude Code loads at session start. CLI that sets up a small CLAUDE.md wit… |
-| [Agent-Field/CodeAF](https://github.com/Agent-Field/CodeAF) | 640 | Go | GitHub Actions | Open-Source Software factory for Open Models |
+| [Agent-Field/CodeAF](https://github.com/Agent-Field/CodeAF) | 643 | Go | GitHub Actions | Open-Source Software factory for Open Models |
 | [ZJU-REAL/HugAgentOS](https://github.com/ZJU-REAL/HugAgentOS) | 628 | Python | Docker Compose, FastAPI, GitHub Actions, LangChain | HugAgentOS: the open-source Agent Harness that runs 24/7 |
+| [Balanov/uncut](https://github.com/Balanov/uncut) | 610 | Go | GitHub Actions | The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain st… |
 | [Pravko-Solutions/FlashLearn](https://github.com/Pravko-Solutions/FlashLearn) | 608 | Python | Pydantic | Integrate LLM in any pipeline - fit/predict pattern, JSON driven flows, and built in conc… |
-| [Balanov/uncut](https://github.com/Balanov/uncut) | 607 | Go | GitHub Actions | The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain st… |
 | [agentic-in/inferoa](https://github.com/agentic-in/inferoa) | 567 | TypeScript | GitHub Actions | Inference-native Tokenmaxxing Agent Harness for Loop Engineering |
-| [shanraisshan/claude-code-hooks](https://github.com/shanraisshan/claude-code-hooks) | 565 | Python | — | claude code hooks - adding voice on each hook |
+| [shanraisshan/claude-code-hooks](https://github.com/shanraisshan/claude-code-hooks) | 566 | Python | — | claude code hooks - adding voice on each hook |
 | [BlockRunAI/Franklin](https://github.com/BlockRunAI/Franklin) | 562 | TypeScript | GitHub Actions, MCP SDK, React | The AI agent with a wallet — spends USDC autonomously to get real work done. Apache-2.0,… |
-| [expectedparrot/edsl](https://github.com/expectedparrot/edsl) | 513 | Python | FastAPI, GitHub Actions, Pydantic | Design, conduct and analyze results of AI-powered surveys and experiments. Simulate socia… |
-| [zrt-ai-lab/ViNote](https://github.com/zrt-ai-lab/ViNote) | 481 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | ViNote（视记AI）｜DeepSeek Harness SDK 驱动的开源视频知识 Agent。以工具编排、SQLite 会话恢复和流式交互，串联 YouTube / Bil… |
+| [expectedparrot/edsl](https://github.com/expectedparrot/edsl) | 514 | Python | FastAPI, GitHub Actions, Pydantic | Design, conduct and analyze results of AI-powered surveys and experiments. Simulate socia… |
+| [zrt-ai-lab/ViNote](https://github.com/zrt-ai-lab/ViNote) | 482 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | ViNote（视记AI）｜DeepSeek Harness SDK 驱动的开源视频知识 Agent。以工具编排、SQLite 会话恢复和流式交互，串联 YouTube / Bil… |
 | [appautomaton/latex-arxiv-SKILL](https://github.com/appautomaton/latex-arxiv-SKILL) | 478 | TeX | GitHub Actions | A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). I… |
+| [SpatiaOS/Procedura](https://github.com/SpatiaOS/Procedura) | 440 | TypeScript | — | Agentic 3D Modeling with Procedural Control — turns a text prompt into an editable parame… |
 | [ultracontext/ultracontext](https://github.com/ultracontext/ultracontext) | 440 | JavaScript | GitHub Actions | Open Source Context infrastructure for AI agents. Auto-capture and share your agents&#39; con… |
 | [baskduf/FableCodex](https://github.com/baskduf/FableCodex) | 439 | Python | GitHub Actions | 🗿 FableCodex is a Codex-style coding agent workflow that plans like Fable. |
-| [SpatiaOS/Procedura](https://github.com/SpatiaOS/Procedura) | 437 | TypeScript | — | Agentic 3D Modeling with Procedural Control — turns a text prompt into an editable parame… |
 | [yifanlu0227/ChatSim](https://github.com/yifanlu0227/ChatSim) | 435 | Python | — | [CVPR2024 Highlight] Editable Scene Simulation for Autonomous Driving via LLM-Agent Colla… |
-| [rsi-gear/gear](https://github.com/rsi-gear/gear) | 417 | TypeScript | GitHub Actions | Scikit-learn for Recursive Self-improvement (RSI). A modular framework for recursive harn… |
+| [rsi-gear/gear](https://github.com/rsi-gear/gear) | 420 | TypeScript | GitHub Actions | Scikit-learn for Recursive Self-improvement (RSI). A modular framework for recursive harn… |
 | [xiaomoBoy/pi-bluebook](https://github.com/xiaomoBoy/pi-bluebook) | 343 | JavaScript | GitHub Actions | Pi Coding Agent 中文学习蓝皮书：从安装与第一个可验收任务开始，逐步掌握 Session、Context、Skill、Extension、Subagent 与长期… |
-| [dnouri/pilish](https://github.com/dnouri/pilish) | 319 | Emacs Lisp | GitHub Actions | The ergonomic agent harness for Emacs. |
+| [dnouri/pilish](https://github.com/dnouri/pilish) | 320 | Emacs Lisp | GitHub Actions | The ergonomic agent harness for Emacs. |
 | [ai-hpc/ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap) | 301 | Python | GitHub Actions | Master AI inference, AI agent harness systems, and hardware engineering — then design a p… |
 | [vizra-ai/vizra-adk](https://github.com/vizra-ai/vizra-adk) | 296 | PHP | — | Build, test, and deploy intelligent AI agents the Laravel way |
 | [7-e1even/learn-agent](https://github.com/7-e1even/learn-agent) | 289 | JavaScript | — | 学习Agent开发的笔记，尝试让Agent从可用到可靠 |
 | [microsoft/Sico](https://github.com/microsoft/Sico) | 284 | Python | GitHub Actions | An open-source Digital Worker platform for reliable execution, continuous co-evolution, a… |
 | [vixues/LeAgent](https://github.com/vixues/LeAgent) | 239 | Python | GitHub Actions | Open-source desktop AI agent that gets work done — plans &amp; self-corrects, agentic visual… |
 | [RUCAIBox/awesome-agent-harness](https://github.com/RUCAIBox/awesome-agent-harness) | 229 | — | — | The official GitHub page for the paper &quot;Agent Systems with Harness Engineering&quot; |
-| [mini-harness/mini-harness](https://github.com/mini-harness/mini-harness) | 220 | Python | GitHub Actions, Pydantic | A small, complete Python agent harness: tools, compaction, retries, and a single-file TUI… |
+| [mini-harness/mini-harness](https://github.com/mini-harness/mini-harness) | 221 | Python | GitHub Actions, Pydantic | A small, complete Python agent harness: tools, compaction, retries, and a single-file TUI… |
 | [SALT-NLP/DyLAN](https://github.com/SALT-NLP/DyLAN) | 220 | Python | — | Official Implementation of Dynamic LLM-Agent Network: An LLM-agent Collaboration Framewor… |
 | [Zleap-AI/Zleap-Agent](https://github.com/Zleap-AI/Zleap-Agent) | 220 | TypeScript | Docker Compose, GitHub Actions | Agent Harness developed specifically for local small-parameter models. |
 | [Sidiora-Labs/centra-gideon-agent](https://github.com/Sidiora-Labs/centra-gideon-agent) | 212 | Python | GitHub Actions, PyTorch, React, Tokio | The companion AI agent that learns, adapts and gets the work done no matter the task |
@@ -890,25 +891,25 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [warmsum/deepseek-harness-python-tutorial](https://github.com/warmsum/deepseek-harness-python-tutorial) | 150 | Python | — | DeepSeek Harness (DSH) Python 教程：17 章从零实现 Agent Loop、插件系统、工具调用、Session、上下文工程、Subagent 与 H… |
 | [zoyluoblue/mc_aiplayer](https://github.com/zoyluoblue/mc_aiplayer) | 148 | Java | GitHub Actions | Autonomous AI agent that plays Minecraft on its own — a server-side Fabric mod (MC 1.21.3… |
 | [ClawMobile/ClawMobile](https://github.com/ClawMobile/ClawMobile) | 147 | TypeScript | GitHub Actions | An agent-first mobile runtime built on OpenClaw: control apps, learn reusable skills, and… |
+| [dengmengmian/CodeLeveler](https://github.com/dengmengmian/CodeLeveler) | 147 | Rust | GitHub Actions, Tokio | A local-first coding agent that works in your repository and leaves reviewable changes |
 | [Gen-Verse/DiscoveryRSI](https://github.com/Gen-Verse/DiscoveryRSI) | 146 | Python | — | DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses |
+| [TencentCloud/octop-harness](https://github.com/TencentCloud/octop-harness) | 143 | Python | GitHub Actions, LangChain, LangGraph, Pydantic | A production-grade agent runtime engineered from the Harness Engineering philosophy. |
 | [UnicomAI/UniHarness](https://github.com/UnicomAI/UniHarness) | 142 | Python | GitHub Actions | UniHarness (formerly HexAgent) – An agent harness that gives any LLM a computer to comple… |
 | [CUTEPKQ/NEWTON](https://github.com/CUTEPKQ/NEWTON) | 139 | Python | — | NEWTON: Agentic Planning for Physically Grounded Video Generation |
-| [dengmengmian/CodeLeveler](https://github.com/dengmengmian/CodeLeveler) | 138 | Rust | GitHub Actions, Tokio | A local-first coding agent that works in your repository and leaves reviewable changes |
-| [TencentCloud/octop-harness](https://github.com/TencentCloud/octop-harness) | 138 | Python | GitHub Actions, LangChain, LangGraph, Pydantic | A production-grade agent runtime engineered from the Harness Engineering philosophy. |
 | [loop-js/loop.js](https://github.com/loop-js/loop.js) | 137 | TypeScript | GitHub Actions | A loop engineering framework — state a Goal; Rounds run until a skeptical, read-only Veri… |
 | [Zfinix/aster](https://github.com/Zfinix/aster) | 137 | Rust | GitHub Actions, Tokio | An open-source agent harness for software work. |
-| [metaevo-ai/harness-zero](https://github.com/metaevo-ai/harness-zero) | 135 | Python | LangChain, PyTorch | Harness-Zero: Harness Distillation via Agent-as-Harness |
+| [metaevo-ai/harness-zero](https://github.com/metaevo-ai/harness-zero) | 136 | Python | LangChain, PyTorch | Harness-Zero: Harness Distillation via Agent-as-Harness |
 | [dralgorhythm/claude-agentic-framework](https://github.com/dralgorhythm/claude-agentic-framework) | 130 | Shell | GitHub Actions | A More Effective Agent Harness for Claude |
 | [chrispangg/deepagentsdk](https://github.com/chrispangg/deepagentsdk) | 129 | TypeScript | GitHub Actions, React | A Deep Agent Harness framework built with Vercel&#39;s AI SDK v6 |
-| [datamllab/HarborRL](https://github.com/datamllab/HarborRL) | 125 | Python | GitHub Actions | An end-to-end framework for Agentic Reinforcement Learning. |
+| [datamllab/HarborRL](https://github.com/datamllab/HarborRL) | 129 | Python | GitHub Actions | An end-to-end framework for Agentic Reinforcement Learning. |
 | [WecoAI/weco-cli](https://github.com/WecoAI/weco-cli) | 121 | Python | GitHub Actions | Production-Grade Autoresearch. Ideal for agent harness engineering, prompt engineering, M… |
 | [yisar/shishan_agent](https://github.com/yisar/shishan_agent) | 118 | Python | FastAPI, Pydantic | 🎅 一个简单的 Agent 架构 |
 | [kodustech/awesome-agent-skills](https://github.com/kodustech/awesome-agent-skills) | 117 | — | — | Curated list of Agent Skills for AI coding agents like Claude Code, Codex and Cursor. |
 | [OnlyTerp/prompt-cache-skills](https://github.com/OnlyTerp/prompt-cache-skills) | 117 | Python | GitHub Actions | Drop-in prompt-caching fixes for the LLM agent harness you use. Point your AI coding agen… |
 | [futuregene/future-os](https://github.com/futuregene/future-os) | 114 | Rust | GitHub Actions, Tokio | One AI agent, everywhere you work — terminal, desktop, mobile, and your chat apps. Rust c… |
+| [YuhuaJiang2002/HarnessMM](https://github.com/YuhuaJiang2002/HarnessMM) | 112 | Python | GitHub Actions | HarnessMM: recursive self-improvement for harness token efficiency |
 | [sola-st/RepairAgent](https://github.com/sola-st/RepairAgent) | 109 | Python | GitHub Actions | RepairAgent is an autonomous LLM-based agent for software repair. |
 | [SuperagenticAI/pyflue](https://github.com/SuperagenticAI/pyflue) | 108 | Python | FastAPI, GitHub Actions, Pydantic | Python port of the Flue: The Agent Harness Framework |
-| [YuhuaJiang2002/HarnessMM](https://github.com/YuhuaJiang2002/HarnessMM) | 107 | Python | GitHub Actions | HarnessMM: recursive self-improvement for harness token efficiency |
 | [StepfenShawn/kota](https://github.com/StepfenShawn/kota) | 101 | Rust | GitHub Actions, Tokio | A lightweight, hackable agent harness written in Rust. |
 | [holny/Agent-Harness-Develop-Book](https://github.com/holny/Agent-Harness-Develop-Book) | 92 | HTML | — | Agent Harness (Loop Engineering) dev guide — complete architecture &amp; core modules, based… |
 | [Adyen/agent-marketplace](https://github.com/Adyen/agent-marketplace) | 88 | Go | GitHub Actions, gRPC | agent-marketplace is a command-line tool that installs shared AI agent resources into the… |
@@ -926,7 +927,7 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [Blackfrost-AI/Cyber-Frost-Harness](https://github.com/Blackfrost-AI/Cyber-Frost-Harness) | 59 | Python | GitHub Actions | Native red, blue, and purple security-agent harness for CYBER-FROST |
 | [mari8711/agent-runtime-kit](https://github.com/mari8711/agent-runtime-kit) | 58 | HTML | GitHub Actions | Typed Python Runtime API for Claude Agent OpenAI Codex and Google Antigravity SDKs |
 | [HabitGraylight/NanoHarness](https://github.com/HabitGraylight/NanoHarness) | 56 | Python | Pydantic | A minimal, composable AI agent harness framework in Python. |
-| [lvndry/jazz](https://github.com/lvndry/jazz) | 54 | TypeScript | GitHub Actions, React | One agent. Every surface. Your rules. |
+| [lvndry/jazz](https://github.com/lvndry/jazz) | 55 | TypeScript | GitHub Actions, React | One agent. Every surface. Your rules. |
 | [voodootikigod/adlc](https://github.com/voodootikigod/adlc) | 54 | JavaScript | GitHub Actions, TypeScript | Agentic Development Lifecycle |
 | [seungmanchoi/react-native-fsd-agent-template](https://github.com/seungmanchoi/react-native-fsd-agent-template) | 52 | TypeScript | GitHub Actions, React | React Native + Expo template with Feature-Sliced Design (FSD) architecture and AI Agent H… |
 | [HowProgrammingWorks/Agent](https://github.com/HowProgrammingWorks/Agent) | 46 | JavaScript | — | Small, modular coding-agent harness for Node.js |
@@ -935,119 +936,120 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [xiaonancs/hermes-agent-study](https://github.com/xiaonancs/hermes-agent-study) | 44 | JavaScript | GitHub Actions | Hermes Agent 深度研究：从机制本质到代码实现，从 OpenClaw 渊源到 EvoMap 争议 |
 | [dtcxzyw/llvm-harness](https://github.com/dtcxzyw/llvm-harness) | 43 | Python | Docker | Agentic Harness for the LLVM Compiler |
 | [lawrencewzen/hero-coding](https://github.com/lawrencewzen/hero-coding) | 41 | Go | — | 极简自主编码 Agent：丢需求进 inbox，出 git commit · Minimal autonomous coding agent harness |
+| [cccat6/iphone-agent-harness](https://github.com/cccat6/iphone-agent-harness) | 38 | C | GitHub Actions | Automate your real iPhone from Safari with a $2 ESP32. No Mac, no APP, and no jailbreak.… |
 | [hetpatel-11/agent-hop](https://github.com/hetpatel-11/agent-hop) | 36 | Rust | GitHub Actions, Tokio | Runtime for coding-agent harnesses. Run Claude Code, Codex, OpenCode, Pi, and Grok in one… |
 | [matrixorigin/Astra](https://github.com/matrixorigin/Astra) | 36 | Rust | Docker, GitHub Actions, Tokio | Astra — The context-to-execution runtime for enterprise agents. https://matrixorigin.io/a… |
-| [simple-agent-lab/simple-long-horizon-agent](https://github.com/simple-agent-lab/simple-long-horizon-agent) | 35 | Python | GitHub Actions | Simple Long Horizon Agent - A simple yet effective AI agent for learning, experimentation… |
+| [simple-agent-lab/simple-long-horizon-agent](https://github.com/simple-agent-lab/simple-long-horizon-agent) | 36 | Python | GitHub Actions | Simple Long Horizon Agent - A simple yet effective AI agent for learning, experimentation… |
 | [timazed/CodexKit](https://github.com/timazed/CodexKit) | 33 | Swift | GitHub Actions | CodexKit is an iOS SDK for building OpenAI-powered Codex agents with secure auth, threade… |
 | [beyondworks/castra](https://github.com/beyondworks/castra) | 32 | Python | GitHub Actions | Execution posture harness for Claude Code. Your coding agent stops one step early; Castra… |
 | [ganimjeong/Harness-for-claude](https://github.com/ganimjeong/Harness-for-claude) | 32 | Shell | GitHub Actions | A minimal, language-agnostic harness for Claude Code and   AGENTS.md-compatible coding ag… |
 | [HsienW/gun-harness-engineering](https://github.com/HsienW/gun-harness-engineering) | 31 | — | — | Curated knowledge, design principles, and architectural mental models for AI Agent Harnes… |
+| [hubooooooo/claude-code-harness-study](https://github.com/hubooooooo/claude-code-harness-study) | 31 | Python | GitHub Actions | Agent Harness 工程学习手册。Agency 来自模型。Harness 让 agency 落地。造好 Harness，模型会完成剩下的。 |
 | [MatthewZMD/agent-digivolve-harness-loop](https://github.com/MatthewZMD/agent-digivolve-harness-loop) | 31 | Python | — | Agent Digivolve Harness is built around a simple observation: for many agent workflows, t… |
 | [IceWhaleTech/ZimaOS-Blue](https://github.com/IceWhaleTech/ZimaOS-Blue) | 29 | Go | GitHub Actions | ZimaOS Blue - A Local-First Agent Runtime for Bold Builders. Out-of-the-Box, Open-Source,… |
-| [hubooooooo/claude-code-harness-study](https://github.com/hubooooooo/claude-code-harness-study) | 28 | Python | GitHub Actions | Agent Harness 工程学习手册。Agency 来自模型。Harness 让 agency 落地。造好 Harness，模型会完成剩下的。 |
 | [move-hoon/sober](https://github.com/move-hoon/sober) | 28 | JavaScript | — | Keeps Claude Code and Codex CLI sober-minded: calm, constrained, and evidence-driven. |
 
 ## Memory & Context (142)
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 142,917 | Python | Docker, GitHub Actions | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowle… |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 113,494 | TypeScript | Docker Compose, Express, GitHub Actions, MCP SDK | Persistent Context Across Sessions for Every Agent –  Captures everything your agent does… |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 93,614 | Go | Docker, Gin, GitHub Actions, LangGraph | RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that g… |
-| [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 79,846 | MDX | GitHub Actions, Next.js, React, TypeScript | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engin… |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 68,474 | Python | GitHub Actions, LangChain, Pydantic | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Co… |
-| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 67,975 | JavaScript | GitHub Actions | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerf… |
-| [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | 59,112 | Python | GitHub Actions, Next.js, PyTorch | Hindsight: Agent Memory That Learns |
-| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 57,257 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,628 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skill… |
-| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 40,030 | Python | GitHub Actions | 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG |
-| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 37,057 | Python | GitHub Actions | Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use… |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 36,584 | Go | Docker Compose, Gin, GitHub Actions, gRPC | Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomou… |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 33,093 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Cognee is the open-source AI memory platform for agents. Give your AI agents persistent l… |
-| [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 30,532 | TypeScript | GitHub Actions | TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations,… |
-| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 30,162 | TypeScript | Docker Compose, GitHub Actions | #1 Persistent memory for AI coding agents based on real-world benchmarks |
-| [labring/FastGPT](https://github.com/labring/FastGPT) | 29,993 | TypeScript | GitHub Actions | FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of… |
-| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26,931 | Python | GitHub Actions, PyTorch, Pydantic | Open-source AI orchestration framework for building context-engineered, production-ready… |
-| [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 23,115 | Python | GitHub Actions, LangChain, LangGraph, PyTorch | 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平… |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 21,040 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, ev… |
-| [xerj-org/xerj](https://github.com/xerj-org/xerj) | 19,049 | Rust | GitHub Actions | AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs,… |
-| [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) | 15,563 | — | — | A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits w… |
-| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | 14,604 | Python | GitHub Actions, Pydantic | Personal memory across agents |
-| [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 14,448 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Graph-Native Infrastructure for Context and Accountable AI Systems |
-| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,394 | Python | — | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control… |
-| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,824 | Python | FastAPI, GitHub Actions, Pydantic | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, a… |
-| [neuml/txtai](https://github.com/neuml/txtai) | 13,064 | Python | GitHub Actions | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model work… |
-| [simular-ai/Agent-S](https://github.com/simular-ai/Agent-S) | 12,886 | Python | FastAPI, GitHub Actions | Agent S: the state-of-the-art open source computer use agents |
-| [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | 12,673 | TypeScript | GitHub Actions | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. |
-| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,270 | TypeScript | Docker, FastAPI, GitHub Actions, LangChain | Self-evolving memory OS for LLM &amp; AI Agents: ultra-persistent memory, hybrid-retrieval, a… |
-| [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | 11,826 | Rust | GitHub Actions, PyTorch, Pydantic, Tokio | Incremental engine for long horizon agents 🌟 Star if you like it! |
-| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 11,701 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | A smarter, self-hosted AI assistant — multi-user, multi-agent. |
-| [sigoden/aichat](https://github.com/sigoden/aichat) | 10,545 | Rust | GitHub Actions, Tokio | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools &amp; Agents, wit… |
-| [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) | 9,177 | Python | GitHub Actions | Curated prompts, frameworks and papers for LLMs and agents, with an engineering bias. Pro… |
-| [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | 7,958 | Python | Docker, FastAPI, GitHub Actions, Pydantic | Memory library for building stateful agents |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 143,229 | Python | Docker, GitHub Actions | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowle… |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 113,750 | TypeScript | Docker Compose, Express, GitHub Actions, MCP SDK | Persistent Context Across Sessions for Every Agent –  Captures everything your agent does… |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 93,667 | Go | Docker, Gin, GitHub Actions, LangGraph | RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that g… |
+| [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 79,860 | MDX | GitHub Actions, Next.js, React, TypeScript | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engin… |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 68,505 | Python | GitHub Actions, LangChain, Pydantic | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Co… |
+| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 67,999 | JavaScript | GitHub Actions | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerf… |
+| [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | 59,278 | Python | GitHub Actions, Next.js, PyTorch | Hindsight: Agent Memory That Learns |
+| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 57,313 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 41,681 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skill… |
+| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 40,096 | Python | GitHub Actions | 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG |
+| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 37,115 | Python | GitHub Actions | Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use… |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 36,661 | Go | Docker Compose, Gin, GitHub Actions, gRPC | Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomou… |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 33,109 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Cognee is the open-source AI memory platform for agents. Give your AI agents persistent l… |
+| [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 30,565 | TypeScript | GitHub Actions | TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations,… |
+| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 30,166 | TypeScript | Docker Compose, GitHub Actions | #1 Persistent memory for AI coding agents based on real-world benchmarks |
+| [labring/FastGPT](https://github.com/labring/FastGPT) | 30,000 | TypeScript | GitHub Actions | FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of… |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26,935 | Python | GitHub Actions, PyTorch, Pydantic | Open-source AI orchestration framework for building context-engineered, production-ready… |
+| [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 23,121 | Python | GitHub Actions, LangChain, LangGraph, PyTorch | 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平… |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 21,054 | Python | FastAPI, GitHub Actions, LangChain, PyTorch | How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, ev… |
+| [xerj-org/xerj](https://github.com/xerj-org/xerj) | 19,102 | Rust | GitHub Actions | AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs,… |
+| [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) | 15,583 | — | — | A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits w… |
+| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | 14,607 | Python | GitHub Actions, Pydantic | Personal memory across agents |
+| [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 14,455 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Graph-Native Infrastructure for Context and Accountable AI Systems |
+| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 14,396 | Python | — | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control… |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 13,834 | Python | FastAPI, GitHub Actions, Pydantic | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, a… |
+| [neuml/txtai](https://github.com/neuml/txtai) | 13,065 | Python | GitHub Actions | 💡 All-in-one AI framework for semantic search, LLM orchestration and language model work… |
+| [simular-ai/Agent-S](https://github.com/simular-ai/Agent-S) | 12,892 | Python | FastAPI, GitHub Actions | Agent S: the state-of-the-art open source computer use agents |
+| [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | 12,674 | TypeScript | GitHub Actions | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) | 12,296 | TypeScript | Docker, FastAPI, GitHub Actions, LangChain | Self-evolving memory OS for LLM &amp; AI Agents: ultra-persistent memory, hybrid-retrieval, a… |
+| [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | 11,830 | Rust | GitHub Actions, PyTorch, Pydantic, Tokio | Incremental engine for long horizon agents 🌟 Star if you like it! |
+| [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 11,730 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | A smarter, self-hosted AI assistant — multi-user, multi-agent. |
+| [sigoden/aichat](https://github.com/sigoden/aichat) | 10,548 | Rust | GitHub Actions, Tokio | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools &amp; Agents, wit… |
+| [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) | 9,183 | Python | GitHub Actions | Curated prompts, frameworks and papers for LLMs and agents, with an engineering bias. Pro… |
+| [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | 7,969 | Python | Docker, FastAPI, GitHub Actions, Pydantic | Memory library for building stateful agents |
 | [gsd-build/gsd-2](https://github.com/gsd-build/gsd-2) | 7,749 | TypeScript | Docker, GitHub Actions, MCP SDK | A powerful meta-prompting, context engineering and spec-driven development system that en… |
-| [julep-ai/julep](https://github.com/julep-ai/julep) | 6,574 | Python | FastAPI, GitHub Actions, Pydantic | Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and exp… |
+| [julep-ai/julep](https://github.com/julep-ai/julep) | 6,575 | Python | FastAPI, GitHub Actions, Pydantic | Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and exp… |
 | [airweave-ai/airweave](https://github.com/airweave-ai/airweave) | 6,545 | Python | GitHub Actions | Open-source context retrieval layer for AI agents |
-| [potpie-ai/potpie](https://github.com/potpie-ai/potpie) | 5,788 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | Context Graph for AI Native SDLC |
+| [potpie-ai/potpie](https://github.com/potpie-ai/potpie) | 5,790 | Python | FastAPI, GitHub Actions, PyTorch, Pydantic | Context Graph for AI Native SDLC |
 | [the-open-agent/openagent](https://github.com/the-open-agent/openagent) | 5,730 | Go | Docker, Docker Compose, GitHub Actions, gRPC | ⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting c… |
 | [volcengine/MineContext](https://github.com/volcengine/MineContext) | 5,543 | Python | FastAPI, GitHub Actions, Pydantic | MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse） |
-| [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) | 5,174 | Python | GitHub Actions | Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown… |
-| [FellouAI/eko](https://github.com/FellouAI/eko) | 4,960 | TypeScript | — | Eko (Eko Keeps Operating) - Build Production-ready Agentic Workflow with Natural Language… |
-| [memgraph/memgraph](https://github.com/memgraph/memgraph) | 4,648 | C++ | GitHub Actions | High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI… |
-| [CaviraOSS/LongMemory](https://github.com/CaviraOSS/LongMemory) | 4,567 | TypeScript | Docker, Docker Compose, GitHub Actions, MCP SDK | Local persistent memory store for LLM applications including claude desktop, github copil… |
+| [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) | 5,188 | Python | GitHub Actions | Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown… |
+| [FellouAI/eko](https://github.com/FellouAI/eko) | 4,962 | TypeScript | — | Eko (Eko Keeps Operating) - Build Production-ready Agentic Workflow with Natural Language… |
+| [memgraph/memgraph](https://github.com/memgraph/memgraph) | 4,649 | C++ | GitHub Actions | High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI… |
+| [CaviraOSS/LongMemory](https://github.com/CaviraOSS/LongMemory) | 4,569 | TypeScript | Docker, Docker Compose, GitHub Actions, MCP SDK | Local persistent memory store for LLM applications including claude desktop, github copil… |
 | [FlowElement-xinliuyuansu/m_flow](https://github.com/FlowElement-xinliuyuansu/m_flow) | 4,508 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | A bio-inspired cognitive memory engine — a new paradigm for Graph RAG. |
 | [crmne/ruby_llm](https://github.com/crmne/ruby_llm) | 4,496 | Ruby | GitHub Actions | The Ruby AI framework. |
 | [gptme/gptme](https://github.com/gptme/gptme) | 4,468 | Python | Docker Compose, GitHub Actions, LangChain, PyTorch | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, b… |
-| [GiovanniPasq/agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies) | 4,338 | Python | LangChain, LangGraph | A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents… |
-| [tigerless-labs/agent-memory](https://github.com/tigerless-labs/agent-memory) | 4,307 | Python | GitHub Actions | Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ran… |
+| [GiovanniPasq/agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies) | 4,342 | Python | LangChain, LangGraph | A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents… |
+| [tigerless-labs/agent-memory](https://github.com/tigerless-labs/agent-memory) | 4,309 | Python | GitHub Actions | Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ran… |
 | [langroid/langroid](https://github.com/langroid/langroid) | 4,126 | Python | Docker, GitHub Actions, PyTorch, Pydantic | Harness LLMs with Multi-Agent Programming |
-| [NVIDIA/skills](https://github.com/NVIDIA/skills) | 3,872 | Python | GitHub Actions | Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agen… |
-| [awslabs/agentcore-samples](https://github.com/awslabs/agentcore-samples) | 3,513 | Python | GitHub Actions, LangChain, LangGraph | Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliabilit… |
+| [NVIDIA/skills](https://github.com/NVIDIA/skills) | 3,876 | Python | GitHub Actions | Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agen… |
+| [awslabs/agentcore-samples](https://github.com/awslabs/agentcore-samples) | 3,514 | Python | GitHub Actions, LangChain, LangGraph | Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliabilit… |
 | [Meirtz/Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | 3,335 | — | — | 🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-gra… |
 | [LLMQuant/quant-mind](https://github.com/LLMQuant/quant-mind) | 3,125 | Python | GitHub Actions, Pydantic | QuantMind is an open source agent-native knowledge extraction and retrieval framework for… |
-| [MemMachine/MemMachine](https://github.com/MemMachine/MemMachine) | 3,086 | Python | Docker, Docker Compose, GitHub Actions, LangChain | Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable… |
-| [MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials](https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials) | 2,945 | Python | — | Multi-agent systems, memory, planning, reasoning loops |
+| [MemMachine/MemMachine](https://github.com/MemMachine/MemMachine) | 3,085 | Python | Docker, Docker Compose, GitHub Actions, LangChain | Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable… |
+| [MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials](https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials) | 2,946 | Python | — | Multi-agent systems, memory, planning, reasoning loops |
 | [kayba-ai/agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine) | 2,608 | Python | GitHub Actions, LangChain, LangGraph, PyTorch | 🧠 Make your agents learn from experience. Now available as a hosted solution at kayba.ai |
 | [cortexkit/magic-context](https://github.com/cortexkit/magic-context) | 2,478 | TypeScript | GitHub Actions, Tokio | Unbounded context. Memory that manages itself. One session, for life. The hippocampus for… |
-| [lioensky/VCPToolBox](https://github.com/lioensky/VCPToolBox) | 2,430 | JavaScript | Docker, Docker Compose, Express, GitHub Actions | VCP 部署在 AI 模型 API 与前端应用之间，是面向AGI OS开发和探索的工业级基建示范项目。通过统一指令协议、多层级持久化记忆、分布式插件引擎及多 Agent 协作框架… |
+| [lioensky/VCPToolBox](https://github.com/lioensky/VCPToolBox) | 2,431 | JavaScript | Docker, Docker Compose, Express, GitHub Actions | VCP 部署在 AI 模型 API 与前端应用之间，是面向AGI OS开发和探索的工业级基建示范项目。通过统一指令协议、多层级持久化记忆、分布式插件引擎及多 Agent 协作框架… |
 | [cytostack/openwolf](https://github.com/cytostack/openwolf) | 2,398 | TypeScript | Express, GitHub Actions, React | Portable project memory across Claude Code, Codex and OpenCode, plus token accounting mea… |
-| [UnicomAI/wanwu](https://github.com/UnicomAI/wanwu) | 2,384 | Go | Gin, gRPC | China Unicom&#39;s Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agen… |
+| [UnicomAI/wanwu](https://github.com/UnicomAI/wanwu) | 2,386 | Go | Gin, gRPC | China Unicom&#39;s Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agen… |
 | [neuron-core/neuron-ai](https://github.com/neuron-core/neuron-ai) | 2,166 | PHP | Docker, Docker Compose, GitHub Actions, TypeScript | The Agentic Framework of the PHP ecosystem to build production-ready AI driven applicatio… |
-| [axoviq-ai/synthadoc](https://github.com/axoviq-ai/synthadoc) | 1,877 | Python | Docker, FastAPI, GitHub Actions, Pydantic | Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into… |
-| [asinghcsu/AgenticRAG-Survey](https://github.com/asinghcsu/AgenticRAG-Survey) | 1,744 | — | — | Agentic-RAG explores advanced Retrieval-Augmented Generation systems enhanced with AI LLM… |
-| [gi-dellav/zerostack](https://github.com/gi-dellav/zerostack) | 1,743 | Rust | GitHub Actions, Tokio | Lightweight coding agent written in Rust, optimized for memory footprint and performance |
-| [video-db/Director](https://github.com/video-db/Director) | 1,573 | Python | Docker Compose, GitHub Actions | AI video agents framework for next-gen video interactions and workflows. |
+| [axoviq-ai/synthadoc](https://github.com/axoviq-ai/synthadoc) | 1,893 | Python | Docker, FastAPI, GitHub Actions, Pydantic | Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into… |
+| [asinghcsu/AgenticRAG-Survey](https://github.com/asinghcsu/AgenticRAG-Survey) | 1,745 | — | — | Agentic-RAG explores advanced Retrieval-Augmented Generation systems enhanced with AI LLM… |
+| [gi-dellav/zerostack](https://github.com/gi-dellav/zerostack) | 1,744 | Rust | GitHub Actions, Tokio | Lightweight coding agent written in Rust, optimized for memory footprint and performance |
+| [video-db/Director](https://github.com/video-db/Director) | 1,575 | Python | Docker Compose, GitHub Actions | AI video agents framework for next-gen video interactions and workflows. |
 | [Open-Source-Legal/OpenContracts](https://github.com/Open-Source-Legal/OpenContracts) | 1,532 | Python | GitHub Actions | The open document intelligence platform for builders and hackers - DMS for the agentic wo… |
 | [vellum-ai/vellum-assistant](https://github.com/vellum-ai/vellum-assistant) | 1,477 | TypeScript | GitHub Actions | An AI Assistant that’s easy to setup, does your work 24/7, knows your preferences and get… |
 | [Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory) | 1,424 | Python | Docker Compose, GitHub Actions | A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodb… |
-| [hhyqhh/inno-agent](https://github.com/hhyqhh/inno-agent) | 1,382 | TypeScript | Docker, Docker Compose, GitHub Actions | An open-source personal learning agent with three-layer memory (learner profile / wiki kn… |
-| [open-gsd/gsd-pi](https://github.com/open-gsd/gsd-pi) | 1,357 | TypeScript | Docker, GitHub Actions, MCP SDK | A powerful meta-prompting, context engineering and spec-driven development system that en… |
+| [hhyqhh/inno-agent](https://github.com/hhyqhh/inno-agent) | 1,389 | TypeScript | Docker, Docker Compose, GitHub Actions | An open-source personal learning agent with three-layer memory (learner profile / wiki kn… |
+| [open-gsd/gsd-pi](https://github.com/open-gsd/gsd-pi) | 1,359 | TypeScript | Docker, GitHub Actions, MCP SDK | A powerful meta-prompting, context engineering and spec-driven development system that en… |
 | [chunxiaoxx/nautilus-compass](https://github.com/chunxiaoxx/nautilus-compass) | 1,256 | Python | Docker, Docker Compose, GitHub Actions | Open memory &amp; reliability layer for AI agents + independent judging/verification (NACRE j… |
 | [Azure/agent-landing-zone](https://github.com/Azure/agent-landing-zone) | 1,204 | Python | GitHub Actions | Enterprise-grade landing zone for AI agent applications on Azure. Deploy the secure infra… |
-| [Xiangyue-Zhang/auto-deep-researcher-24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) | 1,143 | Python | GitHub Actions | 🔥 An autonomous AI agent that runs your deep learning experiments 24/7 while you sleep.… |
+| [Xiangyue-Zhang/auto-deep-researcher-24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) | 1,142 | Python | GitHub Actions | 🔥 An autonomous AI agent that runs your deep learning experiments 24/7 while you sleep.… |
 | [souvikmajumder26/Multi-Agent-Medical-Assistant](https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant) | 1,007 | Python | Docker, FastAPI, GitHub Actions, LangChain | ⚕️GenAI powered multi-agentic medical diagnostics and healthcare research assistance chat… |
-| [openmemind/memind](https://github.com/openmemind/memind) | 904 | Java | Docker Compose, GitHub Actions | Self-evolving cognitive memory and context engine for AI agents in Java. Empowering 24/7… |
-| [DavidZWZ/Awesome-Deep-Research](https://github.com/DavidZWZ/Awesome-Deep-Research) | 876 | — | — | [ACL 2026 KnowFM] Awesome Agentic Deep Research Resources |
-| [mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon) | 692 | Go | Docker, Docker Compose, GitHub Actions | LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowle… |
-| [framerslab/agentos](https://github.com/framerslab/agentos) | 682 | TypeScript | GitHub Actions | TypeScript AI agent framework: cognitive memory, dynamic personalities, emergent behavior… |
+| [openmemind/memind](https://github.com/openmemind/memind) | 905 | Java | Docker Compose, GitHub Actions | Self-evolving cognitive memory and context engine for AI agents in Java. Empowering 24/7… |
+| [DavidZWZ/Awesome-Deep-Research](https://github.com/DavidZWZ/Awesome-Deep-Research) | 875 | — | — | [ACL 2026 KnowFM] Awesome Agentic Deep Research Resources |
+| [mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon) | 695 | Go | Docker, Docker Compose, GitHub Actions | LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowle… |
+| [framerslab/agentos](https://github.com/framerslab/agentos) | 683 | TypeScript | GitHub Actions | TypeScript AI agent framework: cognitive memory, dynamic personalities, emergent behavior… |
 | [Cluster444/agentic](https://github.com/Cluster444/agentic) | 659 | TypeScript | GitHub Actions | An agentic workflow tool that provides context engineering support for opencode |
 | [jaylfc/taOS](https://github.com/jaylfc/taOS) | 603 | Python | FastAPI, GitHub Actions | Self-hosted AI agent OS. Your memory, chat, agents, and files stay on hardware you own, o… |
-| [mindmuxai/brain.md](https://github.com/mindmuxai/brain.md) | 593 | JavaScript | GitHub Actions | A persistent, file-based memory layer for coding agents — give Claude Code, Codex &amp; other… |
+| [mindmuxai/brain.md](https://github.com/mindmuxai/brain.md) | 594 | JavaScript | GitHub Actions | A persistent, file-based memory layer for coding agents — give Claude Code, Codex &amp; other… |
 | [clawdotnet/openclaw.net](https://github.com/clawdotnet/openclaw.net) | 532 | C# | Docker, Docker Compose, GitHub Actions | Self-hosted Enterprise and Personal  AI + agent runtime in .NET (NativeAOT-friendly) |
-| [410979729/scope-recall-hermes](https://github.com/410979729/scope-recall-hermes) | 531 | Python | GitHub Actions, Pydantic | Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLi… |
+| [410979729/scope-recall-hermes](https://github.com/410979729/scope-recall-hermes) | 529 | Python | GitHub Actions, Pydantic | Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLi… |
 | [chandra447/pi-hermes-memory](https://github.com/chandra447/pi-hermes-memory) | 514 | TypeScript | GitHub Actions | Hermes-style persistent memory and learning loop for Pi coding agent |
 | [adongwanai/learn-workbuddy](https://github.com/adongwanai/learn-workbuddy) | 511 | Python | GitHub Actions | 从 0 复刻 WorkBuddy-style 桌面 AI 助手 Harness：24 章 Python 教程，覆盖 Agent Loop、工具调用、记忆系统、Sidecar、沙盒… |
 | [atomicstrata/atomicmemory](https://github.com/atomicstrata/atomicmemory) | 439 | TypeScript | GitHub Actions, Tokio | Portable semantic memory for AI agents: core engine, TypeScript SDK, framework adapters,… |
 | [LnYo-Cly/ai4j](https://github.com/LnYo-Cly/ai4j) | 437 | Java | GitHub Actions | Java 8+ agentic SDK: unified LLM access (OpenAI/Anthropic/DashScope/Doubao/DeepSeek...),u… |
 | [kimtth/azure-openai-llm-notes](https://github.com/kimtth/azure-openai-llm-notes) | 422 | Python | GitHub Actions | A curated collection of resources for 🌌 Azure OpenAI, 🦙 LLMs (+RAG, Agents). Monthly Up… |
 | [GizClaw/flowcraft](https://github.com/GizClaw/flowcraft) | 410 | Go | GitHub Actions | Production-grade Go SDK for building AI agents with long-term memory, knowledge retrieval… |
-| [OnlyTerp/openclaw-optimization-guide](https://github.com/OnlyTerp/openclaw-optimization-guide) | 391 | JavaScript | GitHub Actions | Make your OpenClaw AI agent faster, smarter, and cheaper. Speed optimization, memory arch… |
-| [uclanlp/OpenVLHarness](https://github.com/uclanlp/OpenVLHarness) | 389 | Python | FastAPI, GitHub Actions, Pydantic | Official Code for OpenVLHarness: Real-World Visual Agentic Tool‑Use with Multimodal Memory |
-| [agenticloops-ai/agentic-ai-engineering](https://github.com/agenticloops-ai/agentic-ai-engineering) | 383 | Python | GitHub Actions | Hands-on tutorials for building AI agents from scratch. Learn LLM APIs, prompt engineerin… |
+| [uclanlp/OpenVLHarness](https://github.com/uclanlp/OpenVLHarness) | 394 | Python | FastAPI, GitHub Actions, Pydantic | Official Code for OpenVLHarness: Real-World Visual Agentic Tool‑Use with Multimodal Memory |
+| [OnlyTerp/openclaw-optimization-guide](https://github.com/OnlyTerp/openclaw-optimization-guide) | 393 | JavaScript | GitHub Actions | Make your OpenClaw AI agent faster, smarter, and cheaper. Speed optimization, memory arch… |
+| [agenticloops-ai/agentic-ai-engineering](https://github.com/agenticloops-ai/agentic-ai-engineering) | 384 | Python | GitHub Actions | Hands-on tutorials for building AI agents from scratch. Learn LLM APIs, prompt engineerin… |
 | [fajarhide/contexere](https://github.com/fajarhide/contexere) | 377 | Rust | GitHub Actions, Tokio | The one place for the skills, keys and memory of every agent you use. Formerly OMNI. |
 | [JamesShi96/project-butler](https://github.com/JamesShi96/project-butler) | 374 | Shell | — | Project memory system for AI coding assistants (Claude Code, Cursor, Codex): session logs… |
 | [shibing624/agentica](https://github.com/shibing624/agentica) | 360 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | One person, a team of agents: CLI, Web, Desktop &amp; Python SDK with multi-session collabora… |
-| [datarobot/syftr](https://github.com/datarobot/syftr) | 345 | Python | GitHub Actions, LangChain, PyTorch, Pydantic | syftr is an agent optimizer that helps you find the best agentic workflows for your budge… |
+| [datarobot/syftr](https://github.com/datarobot/syftr) | 346 | Python | GitHub Actions, LangChain, PyTorch, Pydantic | syftr is an agent optimizer that helps you find the best agentic workflows for your budge… |
 | [m92vyas/llm-reader](https://github.com/m92vyas/llm-reader) | 314 | Python | — | Turn Webpage to LLM friendly input text. Similar to Firecrawl and Jina Reader API. Makes… |
 | [keli-wen/agentic-harness-patterns-skill](https://github.com/keli-wen/agentic-harness-patterns-skill) | 309 | — | — | Agent skill for harness engineering — memory, permissions, context engineering, multi-age… |
 | [TIMAN-group/PlugMem](https://github.com/TIMAN-group/PlugMem) | 309 | Python | FastAPI, Pydantic | ICML 2026 \| PALM@NeurIPS2026 Oral \| Plug-and-play long-term memory for LLM agents |
@@ -1062,27 +1064,27 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [Bino5150/lumina](https://github.com/Bino5150/lumina) | 189 | Python | GitHub Actions | A full featured, powerful, and efficient AI Agentic Harness/Desktop Agent app designed fr… |
 | [Mintplex-Labs/anythingllm-mobile](https://github.com/Mintplex-Labs/anythingllm-mobile) | 188 | TypeScript | GitHub Actions, React | An AI Agent that lives in your pocket. Local-first and privacy focused. |
 | [sheawinkler/ContextLattice](https://github.com/sheawinkler/ContextLattice) | 155 | Go | Docker Compose, GitHub Actions | The local-first intelligence layer that gives AI agents durable continuity, explainable r… |
-| [AskTheWay/dsh-auto-memory](https://github.com/AskTheWay/dsh-auto-memory) | 123 | TypeScript | GitHub Actions, React | Claude Code-style auto-memory plugin for DeepSeek Harness (dsh): typed memory files + MEM… |
+| [AskTheWay/dsh-auto-memory](https://github.com/AskTheWay/dsh-auto-memory) | 122 | TypeScript | GitHub Actions, React | Claude Code-style auto-memory plugin for DeepSeek Harness (dsh): typed memory files + MEM… |
+| [Goldziher/basemind](https://github.com/Goldziher/basemind) | 117 | Rust | GitHub Actions, Tokio | Full AI context and content layer for coding agents over one MCP server — tree-sitter cod… |
+| [AtlasFO/Atlas-Community](https://github.com/AtlasFO/Atlas-Community) | 116 | Python | Docker, Docker Compose, GitHub Actions | Autonomous DFIR agent: point it at disk images, memory dumps or log exports and get back… |
 | [dimknaf/braindb](https://github.com/dimknaf/braindb) | 116 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | An &quot;LLM wiki&quot; upgraded to a real database — typed entities, graph relations, HTTP API, an… |
-| [Goldziher/basemind](https://github.com/Goldziher/basemind) | 116 | Rust | GitHub Actions, Tokio | Full AI context and content layer for coding agents over one MCP server — tree-sitter cod… |
-| [AtlasFO/Atlas-Community](https://github.com/AtlasFO/Atlas-Community) | 115 | Python | Docker, Docker Compose, GitHub Actions | Autonomous DFIR agent: point it at disk images, memory dumps or log exports and get back… |
 | [garyqlin/gbase](https://github.com/garyqlin/gbase) | 115 | Python | GitHub Actions | GBase — Recursive Self-Improvement Agent Framework. Memory, evolution, quality gates, ide… |
 | [ChrisVip001/joyczl-agent](https://github.com/ChrisVip001/joyczl-agent) | 112 | Rust | Docker, GitHub Actions | Joy — a local-first personal assistant. Rust core (loop / memory / tools / graph / evals)… |
-| [proteus-evolve/Proteus](https://github.com/proteus-evolve/Proteus) | 111 | Python | GitHub Actions | Self-evolution for any agent harness. Plug in. Evolve. Measure. |
+| [proteus-evolve/Proteus](https://github.com/proteus-evolve/Proteus) | 112 | Python | GitHub Actions | Self-evolution for any agent harness. Plug in. Evolve. Measure. |
 | [swarmauri/swarmauri-sdk](https://github.com/swarmauri/swarmauri-sdk) | 105 | Python | GitHub Actions | Modular Python SDK and monorepo for AI agents, LLM integrations, tools, parsers, embeddin… |
 | [sirquy/bestie](https://github.com/sirquy/bestie) | 103 | TypeScript | GitHub Actions, MCP SDK, React | Local-first AI action assistant for operators: memory, skills, tools, and permission gate… |
 | [malevrigns/atlas-agent-control-plane](https://github.com/malevrigns/atlas-agent-control-plane) | 99 | Python | Docker Compose, GitHub Actions | AtlasAgent - an auditable AI agent control plane: evidence-backed memory, governed tool r… |
 | [BennettSchwartz/membrane](https://github.com/BennettSchwartz/membrane) | 96 | Go | Docker Compose, GitHub Actions, React, gRPC | A selective learning and memory substrate for agentic systems — typed, revisable, decayab… |
 | [Vaan21th/daemonkey-agent](https://github.com/Vaan21th/daemonkey-agent) | 95 | Python | FastAPI, GitHub Actions | Local-first AI companion daemon — an agent harness with its own long-term memory. Remembe… |
-| [2182977liu-bit/awesome-ai-agent-learning](https://github.com/2182977liu-bit/awesome-ai-agent-learning) | 92 | — | — | AI Agent 从入门到实战 - 原创保姆级中文教学，不依赖框架从零构建Agent \| 作者：青松与桑叶 |
+| [2182977liu-bit/awesome-ai-agent-learning](https://github.com/2182977liu-bit/awesome-ai-agent-learning) | 93 | — | — | AI Agent 从入门到实战 - 原创保姆级中文教学，不依赖框架从零构建Agent \| 作者：青松与桑叶 |
 | [JKHeadley/instar](https://github.com/JKHeadley/instar) | 85 | TypeScript | Express, GitHub Actions, MCP SDK | Persistent Claude Code agents with scheduling, sessions, memory, and Telegram. |
-| [sinaptik-ai/starpod](https://github.com/sinaptik-ai/starpod) | 81 | Rust | GitHub Actions | Open-source AI agent runtime built in Rust. Define once, deploy isolated instances per te… |
+| [sinaptik-ai/starpod](https://github.com/sinaptik-ai/starpod) | 82 | Rust | GitHub Actions | Open-source AI agent runtime built in Rust. Define once, deploy isolated instances per te… |
 | [beniedev/moonbite](https://github.com/beniedev/moonbite) | 75 | Python | GitHub Actions | Memory, working state, heartbeat, and bounded autonomy for long-running AI agents. |
 | [LittleBlacky/AgenticFORGE](https://github.com/LittleBlacky/AgenticFORGE) | 72 | TypeScript | GitHub Actions | A TypeScript Agent Framework Driven by Tool Invocation |
 | [Opendray/opendray](https://github.com/Opendray/opendray) | 69 | Dart | GitHub Actions | Self-hosted gateway for Claude Code, Codex, Antigravity, Grok Build, OpenCode. Run AI cod… |
 | [getsynkora/synkora-ai](https://github.com/getsynkora/synkora-ai) | 56 | Python | Docker Compose, GitHub Actions, Kubernetes | Open-source AI agent platform for building, deploying, and managing AI teammates. Role-ba… |
+| [jeffreycayao/Dev-Labs](https://github.com/jeffreycayao/Dev-Labs) | 53 | TypeScript | GitHub Actions, React | DevLabs™ Free, open source and local-first. A multi-agent harness that works with the AI… |
 | [kingbee-helix/helix-agent](https://github.com/kingbee-helix/helix-agent) | 48 | Python | FastAPI | Personal AI agent harness powered by Claude Code. Always-on access through Discord, Teleg… |
-| [jeffreycayao/Dev-Labs](https://github.com/jeffreycayao/Dev-Labs) | 45 | TypeScript | GitHub Actions, React | DevLabs™ Free, open source and local-first. A multi-agent harness that works with the AI… |
 | [strangeadvancedmarketing/Adam](https://github.com/strangeadvancedmarketing/Adam) | 45 | Python | GitHub Actions | Adam Framework for OpenClaw — 5-layer persistent memory and identity architecture for AI… |
 | [MichelKerkmeester/skilled-agent-harness_spec-driven-loops](https://github.com/MichelKerkmeester/skilled-agent-harness_spec-driven-loops) | 40 | JavaScript | GitHub Actions | AI-assisted coding setup that helps you spend less time re-explaining context, and more t… |
 | [whut09/paper_agent](https://github.com/whut09/paper_agent) | 38 | Python | GitHub Actions | 论文解析 Agent 系统（Agent Harness + Loop Engineering），实现结构化抽取与闭环验证优化。 |
@@ -1094,46 +1096,46 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [HKUDS/AutoMemory](https://github.com/HKUDS/AutoMemory) | 26 | Python | — | Build the memory your agent actually needs — automatically. |
 | [srimallya/subgrapher](https://github.com/srimallya/subgrapher) | 25 | JavaScript | GitHub Actions | Subgrapher is a local-first semantic browser workspace where references become runnable m… |
 
-## Eval & Tracing (68)
+## Eval & Tracing (69)
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 37,064 | TypeScript | Docker Compose, GitHub Actions | 🪢 Open source agent evals &amp; observability: Trace, evaluate, and improve LLM applications… |
-| [raga-ai-hub/RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | 16,185 | Python | GitHub Actions, LangChain | Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes feat… |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 37,093 | TypeScript | Docker Compose, GitHub Actions | 🪢 Open source agent evals &amp; observability: Trace, evaluate, and improve LLM applications… |
+| [raga-ai-hub/RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | 16,186 | Python | GitHub Actions, LangChain | Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes feat… |
 | [oumi-ai/oumi](https://github.com/oumi-ai/oumi) | 9,425 | Python | Docker, GitHub Actions, PyTorch, Pydantic | Easily fine-tune (SFT/RL), evaluate, and deploy Qwen, Gemma, or any open agentic LLM/VLM! |
-| [FailproofAI/failproofai](https://github.com/FailproofAI/failproofai) | 8,064 | TypeScript | GitHub Actions, Next.js, React | Observability and enforcement for AI agent harnesses. Capture every run and runtime relia… |
-| [jeinlee1991/chinese-llm-benchmark](https://github.com/jeinlee1991/chinese-llm-benchmark) | 6,505 | — | — | 非线智能 NoneLinear - ReLE评测：中文AI大模型能力评测（持续更新）：目前已囊括374个大模型，覆盖chatgpt、gpt-5.4、谷歌gemini-3.1-pr… |
-| [ombharatiya/ai-system-design-guide](https://github.com/ombharatiya/ai-system-design-guide) | 4,185 | — | — | AI system design guide for engineers building production AI systems and evals. |
-| [THUDM/AgentBench](https://github.com/THUDM/AgentBench) | 3,816 | Python | FastAPI, GitHub Actions | A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR&#39;24) |
-| [HolmesGPT/holmesgpt](https://github.com/HolmesGPT/holmesgpt) | 3,798 | Python | Docker, FastAPI, GitHub Actions, Pydantic | SRE Agent - CNCF Sandbox Project |
+| [FailproofAI/failproofai](https://github.com/FailproofAI/failproofai) | 8,114 | TypeScript | GitHub Actions, Next.js, React | Observability and enforcement for AI agent harnesses. Capture every run and runtime relia… |
+| [jeinlee1991/chinese-llm-benchmark](https://github.com/jeinlee1991/chinese-llm-benchmark) | 6,507 | — | — | 非线智能 NoneLinear - ReLE评测：中文AI大模型能力评测（持续更新）：目前已囊括374个大模型，覆盖chatgpt、gpt-5.4、谷歌gemini-3.1-pr… |
+| [ombharatiya/ai-system-design-guide](https://github.com/ombharatiya/ai-system-design-guide) | 4,191 | — | — | AI system design guide for engineers building production AI systems and evals. |
+| [THUDM/AgentBench](https://github.com/THUDM/AgentBench) | 3,817 | Python | FastAPI, GitHub Actions | A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR&#39;24) |
+| [HolmesGPT/holmesgpt](https://github.com/HolmesGPT/holmesgpt) | 3,803 | Python | Docker, FastAPI, GitHub Actions, Pydantic | SRE Agent - CNCF Sandbox Project |
 | [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | 3,698 | JavaScript | GitHub Actions | Agent Skills as a Memory Layer |
-| [openlit/openlit](https://github.com/openlit/openlit) | 2,944 | TypeScript | Docker Compose, GitHub Actions | OpenLIT is the open-source agent harness engineering platform: trace, evaluate, guard, an… |
+| [openlit/openlit](https://github.com/openlit/openlit) | 2,953 | TypeScript | Docker Compose, GitHub Actions | Same agent Smaller bill. The tools and infrastructure to get more work from your AI. Fewe… |
 | [bionic-gpt/bionic-gpt](https://github.com/bionic-gpt/bionic-gpt) | 2,406 | Rust | GitHub Actions, Tokio | Bionic is sovereign Agentic AI for the enterprise — Runs on-premise and can securely work… |
-| [ShenSeanChen/waku-agent](https://github.com/ShenSeanChen/waku-agent) | 2,138 | Python | GitHub Actions, LangGraph, PyTorch | Waku Waku! Waku Agent is a local-first AI agent harness you actually own, including loop,… |
+| [ShenSeanChen/waku-agent](https://github.com/ShenSeanChen/waku-agent) | 2,141 | Python | GitHub Actions, LangGraph, PyTorch | Waku Waku! Waku Agent is a local-first AI agent harness you actually own, including loop,… |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 2,040 | Python | FastAPI, GitHub Actions, Pydantic | Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪 |
-| [SemiAnalysisAI/InferenceX](https://github.com/SemiAnalysisAI/InferenceX) | 1,984 | Python | GitHub Actions | Open Source AI Accelerator Research Platform Standard / 开源推理研究平台 |
+| [SemiAnalysisAI/InferenceX](https://github.com/SemiAnalysisAI/InferenceX) | 1,993 | Python | GitHub Actions | Open Source AI Accelerator Research Platform Standard / 开源推理研究平台 |
+| [trpc-group/trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | 1,909 | Go | GitHub Actions, gRPC | A Go framework for building production agent systems with graph workflows, tools, memory,… |
 | [Picrew/awesome-agent-harness](https://github.com/Picrew/awesome-agent-harness) | 1,908 | Python | — | An awesome list of Agent Harness engineering resources, including GitHub projects, tools,… |
-| [trpc-group/trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | 1,906 | Go | GitHub Actions, gRPC | A Go framework for building production agent systems with graph workflows, tools, memory,… |
 | [AgentEra/Agently](https://github.com/AgentEra/Agently) | 1,663 | Python | FastAPI, GitHub Actions, Pydantic | [GenAI Application Development Framework]  🚀 Build GenAI application quick and easy 💬 E… |
 | [strands-agents/tools](https://github.com/strands-agents/tools) | 1,345 | Python | GitHub Actions | A set of tools that gives agents powerful capabilities. |
-| [TIGER-AI-Lab/ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) | 1,207 | Python | GitHub Actions | Open-source benchmark for browser AI agents on daily tasks. |
+| [TIGER-AI-Lab/ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) | 1,214 | Python | GitHub Actions | Open-source benchmark for browser AI agents on daily tasks. |
 | [Ricky-7-Yan/intelligent-audit-system](https://github.com/Ricky-7-Yan/intelligent-audit-system) | 1,180 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | AuditPilot: auditable enterprise AI agents for evidence-grounded workflows, governed tool… |
 | [JudgmentLabs/judgeval](https://github.com/JudgmentLabs/judgeval) | 1,073 | Python | GitHub Actions | The Continuous-Improvement Stack for Agents. Our environment data and evals power agent i… |
-| [china-qijizhifeng/agentic-harness-engineering](https://github.com/china-qijizhifeng/agentic-harness-engineering) | 960 | Python | — | Official AHE code — Agentic Harness Engineering: observability-driven automatic evolution… |
-| [strands-agents/samples](https://github.com/strands-agents/samples) | 925 | Python | GitHub Actions | Agent samples built using the Strands Agents SDK. |
+| [china-qijizhifeng/agentic-harness-engineering](https://github.com/china-qijizhifeng/agentic-harness-engineering) | 961 | Python | — | Official AHE code — Agentic Harness Engineering: observability-driven automatic evolution… |
+| [strands-agents/samples](https://github.com/strands-agents/samples) | 926 | Python | GitHub Actions | Agent samples built using the Strands Agents SDK. |
 | [agentic-os-org/ANOLISA](https://github.com/agentic-os-org/ANOLISA) | 659 | Rust | GitHub Actions | ANOLISA (Agentic Nexus Operating Layer &amp; Interface System Architecture) \| Agentic OS wit… |
 | [ValueByte-AI/Awesome-LLM-in-Social-Science](https://github.com/ValueByte-AI/Awesome-LLM-in-Social-Science) | 653 | — | — | Awesome papers involving LLMs in Social Science. |
-| [S1N6H/pentest-harness](https://github.com/S1N6H/pentest-harness) | 459 | TypeScript | GitHub Actions | Pentest Harness — Heaven for Hackers. A self-hosted AI agent harness for authorized pente… |
-| [zgcagi/Harness-RSI](https://github.com/zgcagi/Harness-RSI) | 434 | TeX | — | Harness self-evolution: update targets, theory, evaluation, and reported evidence. Biling… |
-| [Gloriaameng/Awesome-Agent-Harness](https://github.com/Gloriaameng/Awesome-Agent-Harness) | 378 | — | — | Official repository for Agent Harness for Large Language Model Agents: A Survey — 168 ref… |
+| [S1N6H/pentest-harness](https://github.com/S1N6H/pentest-harness) | 460 | TypeScript | GitHub Actions | Pentest Harness — Heaven for Hackers. A self-hosted AI agent harness for authorized pente… |
+| [zgcagi/Harness-RSI](https://github.com/zgcagi/Harness-RSI) | 437 | TeX | — | Harness self-evolution: update targets, theory, evaluation, and reported evidence. Biling… |
+| [Gloriaameng/Awesome-Agent-Harness](https://github.com/Gloriaameng/Awesome-Agent-Harness) | 378 | Python | — | The first survey dedicated to LLM agent harnesses — 168 references, 34 evidence-coded sys… |
 | [monocle2ai/monocle](https://github.com/monocle2ai/monocle) | 346 | Python | GitHub Actions | Monocle is a framework for tracing GenAI app code. This repo contains implementation of M… |
 | [palico-ai/palico-ai](https://github.com/palico-ai/palico-ai) | 342 | TypeScript | Express, GitHub Actions, Next.js, React | Build, Improve Performance, and Productionize your AI Application |
 | [runtm-ai/runtm](https://github.com/runtm-ai/runtm) | 303 | Python | GitHub Actions, Pydantic, Terraform | Open-source sandboxes where coding agents build and deploy. Spin up isolated environments… |
 | [iMeanAI/WebCanvas](https://github.com/iMeanAI/WebCanvas) | 282 | Python | — | All-in-one Web Agent framework for post-training. Start building with a few clicks! |
-| [KaiWU5/Awesome-AI4AI](https://github.com/KaiWU5/Awesome-AI4AI) | 208 | Python | — | Updated weekly — until humanity achieves AI4AI. 965 curated papers across Benchmarks, Har… |
-| [acodercat/cave-agent](https://github.com/acodercat/cave-agent) | 207 | Python | GitHub Actions, Pydantic | Stateful runtime management for LLM agents—inject, manipulate, and retrieve Python object… |
+| [acodercat/cave-agent](https://github.com/acodercat/cave-agent) | 219 | Python | GitHub Actions, Pydantic | Stateful runtime management for LLM agents—inject, manipulate, and retrieve Python object… |
+| [KaiWU5/Awesome-AI4AI](https://github.com/KaiWU5/Awesome-AI4AI) | 210 | Python | — | Updated weekly — until humanity achieves AI4AI. 965 curated papers across Benchmarks, Har… |
 | [Sanssssssssssssssss/ERP-agent](https://github.com/Sanssssssssssssssss/ERP-agent) | 199 | Python | GitHub Actions, Pydantic | A Windows workbench and native Python Pi harness for Odoo 19: approved business actions,… |
-| [bitcloud-ai/Bittune](https://github.com/bitcloud-ai/Bittune) | 189 | TypeScript | GitHub Actions | Local-first engineering agent that deploys, benchmarks and tunes vLLM/SGLang inference se… |
+| [bitcloud-ai/Bittune](https://github.com/bitcloud-ai/Bittune) | 193 | TypeScript | GitHub Actions | Local-first engineering agent that deploys, benchmarks and tunes vLLM/SGLang inference se… |
 | [enmanuelmag/agent-harness-kit](https://github.com/enmanuelmag/agent-harness-kit) | 184 | TypeScript | GitHub Actions | A provider-agnostic scaffolding kit for running structured multi-agent workflows in your… |
 | [nssmd/RoboRSI](https://github.com/nssmd/RoboRSI) | 174 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Robot-agent harness with a CLI and local Web console for LIBERO short evaluation |
 | [fuxiAIlab/CivAgent](https://github.com/fuxiAIlab/CivAgent) | 168 | Python | Pydantic | CivAgent is an LLM-based Human-like Agent acting as a Digital Player within the Strategy… |
@@ -1149,11 +1151,12 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [awakenworks/awaken](https://github.com/awakenworks/awaken) | 100 | Rust | GitHub Actions, Tokio | AI agent runtime for Rust — type-safe state, multi-protocol serving, plugin extensibility. |
 | [alloy-ex/alloy](https://github.com/alloy-ex/alloy) | 92 | Elixir | GitHub Actions | Model-agnostic agent harness for Elixir |
 | [TGYD-helige/pi](https://github.com/TGYD-helige/pi) | 92 | TypeScript | GitHub Actions | Pluggable extension packages for the Pi AI-agent runtime. Each package exposes LLM-callab… |
+| [beipo-ai/NorthCUA](https://github.com/beipo-ai/NorthCUA) | 91 | Python | GitHub Actions, Pydantic | Turn intent into work. Open-source Desktop/Web agent harness with long-horizon memory, li… |
 | [dx-corp/dspy-micro-agent](https://github.com/dx-corp/dspy-micro-agent) | 78 | Python | Docker, FastAPI, GitHub Actions, Pydantic | Minimal agent runtime built with DSPy modules and a thin Python loop. Includes CLI, FastA… |
 | [reacher-z/HarnessBench](https://github.com/reacher-z/HarnessBench) | 64 | Python | GitHub Actions | Benchmark for comparing agent harnesses on everyday online tasks — fixes the base model,… |
-| [beipo-ai/NorthCUA](https://github.com/beipo-ai/NorthCUA) | 56 | Python | GitHub Actions, Pydantic | Turn intent into work. Open-source Desktop/Web agent harness with long-horizon memory, li… |
 | [Coral-Bricks-AI/reef](https://github.com/Coral-Bricks-AI/reef) | 56 | Python | GitHub Actions | A harness framework for building domain-specific agents, the worked finance instance that… |
 | [Hyr1sky/TheGrandQuiz](https://github.com/Hyr1sky/TheGrandQuiz) | 56 | Python | FastAPI, GitHub Actions, Pydantic | Assessment-driven, local-first learning agent built on an observable Agent Runtime and ev… |
+| [ikooky/LiteCoder](https://github.com/ikooky/LiteCoder) | 56 | Python | GitHub Actions, Pydantic | A practical coding agent for terminal workflows. |
 | [InternScience/ResearchHarness](https://github.com/InternScience/ResearchHarness) | 51 | Python | FastAPI, GitHub Actions | A lightweight, general-purpose harness for tool-using LLM agents, fair benchmark evaluati… |
 | [danieltamas/axon](https://github.com/danieltamas/axon) | 49 | Rust | GitHub Actions, Tokio | Axon reads the logs your AI coding-agent harnesses already write — Claude Code, Codex, Op… |
 | [WhitzardAgent/WhitzardOS](https://github.com/WhitzardAgent/WhitzardOS) | 48 | Python | GitHub Actions | Let&#39;s Qitos! A torch-like agent-native framework for researchers. |
@@ -1171,25 +1174,25 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [nocobase/nocobase](https://github.com/nocobase/nocobase) | 24,842 | TypeScript | GitHub Actions | NocoBase is the open-source platform for building, running, and evolving business systems… |
+| [nocobase/nocobase](https://github.com/nocobase/nocobase) | 24,853 | TypeScript | GitHub Actions | NocoBase is the open-source platform for building, running, and evolving business systems… |
 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | 8,722 | JavaScript | GitHub Actions | The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsu… |
-| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | 6,521 | Python | Docker, Docker Compose, GitHub Actions | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxi… |
-| [yvgude/lean-ctx](https://github.com/yvgude/lean-ctx) | 3,929 | Rust | GitHub Actions | LeanCTX is the Context Gateway for AI Systems. Select task-relevant context, apply suppor… |
-| [trustgraph-ai/trustgraph](https://github.com/trustgraph-ai/trustgraph) | 2,892 | Python | GitHub Actions | The AI Governance Platform for Agents, Knowledge, and Context |
+| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | 6,525 | Python | Docker, Docker Compose, GitHub Actions | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxi… |
+| [yvgude/lean-ctx](https://github.com/yvgude/lean-ctx) | 3,932 | Rust | GitHub Actions | LeanCTX is the Context Gateway for AI Systems. Select task-relevant context, apply suppor… |
+| [trustgraph-ai/trustgraph](https://github.com/trustgraph-ai/trustgraph) | 2,896 | Python | GitHub Actions | The AI Governance Platform for Agents, Knowledge, and Context |
 | [langfengQ/verl-agent](https://github.com/langfengQ/verl-agent) | 2,431 | Python | FastAPI, GitHub Actions | verl-agent is an extension of veRL, designed for training LLM/VLM agents via RL. verl-age… |
-| [Anil-matcha/awesome-muse-connectors](https://github.com/Anil-matcha/awesome-muse-connectors) | 1,412 | Python | — | A source-backed catalog of Meta Muse integrations and community connector skills, with ca… |
+| [Anil-matcha/awesome-muse-connectors](https://github.com/Anil-matcha/awesome-muse-connectors) | 1,417 | Python | — | A source-backed catalog of Meta Muse integrations and community connector skills, with ca… |
 | [larlarua/AutoCVE](https://github.com/larlarua/AutoCVE) | 1,211 | Python | Docker Compose, GitHub Actions | Agent-driven automated CVE discovery platform for source code auditing, vulnerability ver… |
 | [TechNomadCode/AI-Product-Development-Toolkit](https://github.com/TechNomadCode/AI-Product-Development-Toolkit) | 1,053 | — | — | Plan, build and launch products with AI: guided planning prompts, an AI App Starter for N… |
 | [ZhangJinHaHaHa/AgentLens](https://github.com/ZhangJinHaHaHa/AgentLens) | 1,013 | TypeScript | GitHub Actions | Agentlens is a trusted agent trading platform.  Here, you can quickly find the Agent that… |
-| [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp) | 754 | TypeScript | Docker, Docker Compose, GitHub Actions | Enterprise Agent Harness &amp; MCP Gateway: connect APIs, databases, file servers and 600+ co… |
+| [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp) | 755 | TypeScript | Docker, Docker Compose, GitHub Actions | Enterprise Agent Harness &amp; MCP Gateway: connect APIs, databases, file servers and 600+ co… |
 | [open-gitagent/clawless](https://github.com/open-gitagent/clawless) | 544 | TypeScript | — | ClawLess — A serverless browser-based runtime for Claw AI Agents powered by WebContainers |
 | [cordum-io/cordum](https://github.com/cordum-io/cordum) | 509 | Go | Docker, Docker Compose, GitHub Actions, gRPC | The action firewall for AI agents. Enforce policy and human approval before risky tool ca… |
-| [aiming-lab/AutoHarness](https://github.com/aiming-lab/AutoHarness) | 467 | Python | LangChain, Pydantic | AutoHarness: Automated Harness Engineering for AI Agents |
+| [aiming-lab/AutoHarness](https://github.com/aiming-lab/AutoHarness) | 468 | Python | LangChain, Pydantic | AutoHarness: Automated Harness Engineering for AI Agents |
 | [SponsioLabs/Sponsio](https://github.com/SponsioLabs/Sponsio) | 454 | Python | FastAPI, GitHub Actions, LangChain, LangGraph | Deterministic safety solutions for probabilistic AI agents |
 | [ucsandman/DashClaw](https://github.com/ucsandman/DashClaw) | 315 | TypeScript | Docker, Docker Compose, GitHub Actions, Next.js | Remote approvals, policy checks, and execution evidence for unattended AI agents. |
 | [Keesan12/martin-loop](https://github.com/Keesan12/martin-loop) | 313 | TypeScript | GitHub Actions | Run coding agents without babysitting them. Keep jobs focused, bounded, checked and accou… |
-| [ros-claw/rosclaw](https://github.com/ros-claw/rosclaw) | 238 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Physical AI runtime for embodied agents — governed action, verified experience, physical… |
-| [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 226 | Python | GitHub Actions | Governance framework for AI coding agents. It runs them through a five-step workflow (pla… |
+| [ros-claw/rosclaw](https://github.com/ros-claw/rosclaw) | 239 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | Physical AI runtime for embodied agents — governed action, verified experience, physical… |
+| [KbWen/agentic-os](https://github.com/KbWen/agentic-os) | 227 | Python | GitHub Actions | Governance framework for AI coding agents. It runs them through a five-step workflow (pla… |
 | [AndrewAltimit/template-repo](https://github.com/AndrewAltimit/template-repo) | 136 | Rust | Docker Compose, GitHub Actions, PyTorch | Agent orchestration &amp; security template featuring MCP tool building, agent2agent workflow… |
 | [Bande-a-Bonnot/Boucle-framework](https://github.com/Bande-a-Bonnot/Boucle-framework) | 126 | Python | Docker, GitHub Actions, Tokio | Autonomous agent framework with structured memory, safety hooks, and loop management. Bui… |
 | [OrlojHQ/orloj](https://github.com/OrlojHQ/orloj) | 126 | Go | Docker, Docker Compose, GitHub Actions, gRPC | An orchestration runtime for multi-agent AI systems. Declare agents, tools, and policies… |
@@ -1215,19 +1218,19 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [daytonaio/daytona](https://github.com/daytonaio/daytona) | 71,375 | — | — | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code |
-| [trycua/cua](https://github.com/trycua/cua) | 31,814 | Rust | GitHub Actions, Pydantic | Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for t… |
-| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | 30,803 | — | — | A list of AI autonomous agents |
-| [keploy/keploy](https://github.com/keploy/keploy) | 19,463 | Go | Docker, GitHub Actions, gRPC | Open-source platform for creating safe, isolated production sandboxes for API, integratio… |
-| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | 14,728 | Python | GitHub Actions, TypeScript | Open-source, secure environment with real-world tools for enterprise-grade agents. |
+| [daytonaio/daytona](https://github.com/daytonaio/daytona) | 71,369 | — | — | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code |
+| [trycua/cua](https://github.com/trycua/cua) | 31,856 | Rust | GitHub Actions, Pydantic | Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for t… |
+| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | 30,813 | — | — | A list of AI autonomous agents |
+| [keploy/keploy](https://github.com/keploy/keploy) | 19,488 | Go | Docker, GitHub Actions, gRPC | Open-source platform for creating safe, isolated production sandboxes for API, integratio… |
+| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | 14,741 | Python | GitHub Actions, TypeScript | Open-source, secure environment with real-world tools for enterprise-grade agents. |
 | [ntegrals/openbrowser](https://github.com/ntegrals/openbrowser) | 9,581 | TypeScript | GitHub Actions | Let AI agents browse the web. An autonomous toolkit for browser-based AI agents. |
-| [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 9,428 | TypeScript | GitHub Actions | ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skill… |
-| [nolabs-ai/nono](https://github.com/nolabs-ai/nono) | 4,861 | Rust | GitHub Actions, Tokio | agent runtime security - zero trust, zero setup, zero latency agent sandboxing |
+| [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 9,437 | TypeScript | GitHub Actions | ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skill… |
+| [nolabs-ai/nono](https://github.com/nolabs-ai/nono) | 4,868 | Rust | GitHub Actions, Tokio | agent runtime security - zero trust, zero setup, zero latency agent sandboxing |
 | [vstorm-co/pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents) | 1,115 | Python | FastAPI, GitHub Actions, Pydantic | Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework b… |
 | [jayminwest/warren](https://github.com/jayminwest/warren) | 513 | TypeScript | Docker, Docker Compose, GitHub Actions | Run coding agents like infrastructure, not terminal sessions. Warren manages isolation, l… |
 | [NotASithLord/peerd](https://github.com/NotASithLord/peerd) | 425 | JavaScript | GitHub Actions, TypeScript | The first AI agent harness native to the browser. A browser extension that runs a full ag… |
 | [cohere-ai/cohere-terrarium](https://github.com/cohere-ai/cohere-terrarium) | 312 | Python | Docker, Express, TypeScript | A simple Python sandbox for helpful LLM data agents |
-| [rudderlabs/devbox](https://github.com/rudderlabs/devbox) | 297 | TypeScript | GitHub Actions | Open source autonomous engineering harness in your cloud. One sandbox per task, no real s… |
+| [rudderlabs/devbox](https://github.com/rudderlabs/devbox) | 301 | TypeScript | GitHub Actions | Open source autonomous engineering harness in your cloud. One sandbox per task, no real s… |
 | [BIGPPWONG/EdgeBox](https://github.com/BIGPPWONG/EdgeBox) | 212 | TypeScript | GitHub Actions, React | A fully-featured, GUI-powered local LLM Agent sandbox with complete MCP protocol support.… |
 | [mattolson/agent-sandbox](https://github.com/mattolson/agent-sandbox) | 212 | Python | GitHub Actions | Secure local dev environment for collaboration with AI coding agents |
 | [langgenius/mosoo](https://github.com/langgenius/mosoo) | 166 | TypeScript | GitHub Actions | Open-source managed runtime for OpenAI Codex, Claude Agent SDK, OpenCode, and Pi Agent. R… |
@@ -1236,29 +1239,29 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 | [llm-platform-security/SecGPT](https://github.com/llm-platform-security/SecGPT) | 128 | Python | LangChain | An Execution Isolation Architecture for LLM-Based Agentic Systems |
 | [av/mi](https://github.com/av/mi) | 105 | JavaScript | Docker, GitHub Actions | self-extending sandboxed agentic harness. a loop, two tools and an llm |
 | [HCF-STUDIOS/openhermit](https://github.com/HCF-STUDIOS/openhermit) | 90 | TypeScript | Docker Compose | OpenHermit is the open-source platform for deploying fleets of AI agents as production se… |
+| [demi-sh/demi](https://github.com/demi-sh/demi) | 29 | Rust | GitHub Actions, Tokio, TypeScript | Your agent, across all your machines. A self-hosted, web-based AI agent: one server holds… |
 | [runloopai/api-client-python](https://github.com/runloopai/api-client-python) | 28 | Python | GitHub Actions, Pydantic | Official Python SDK for Runloop — secure Linux sandboxes (Devboxes) where AI agents run c… |
 | [sin-ack/agent-run](https://github.com/sin-ack/agent-run) | 28 | Rust | GitHub Actions | Run a coding agent in a sandboxed environment |
-| [demi-sh/demi](https://github.com/demi-sh/demi) | 26 | Rust | GitHub Actions, Tokio, TypeScript | Your agent, across all your machines. A self-hosted, web-based AI agent: one server holds… |
 
 ## Runtime (24)
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 27,908 | Python | GitHub Actions | Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof m… |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 27,920 | Python | GitHub Actions | Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof m… |
 | [dapr/dapr](https://github.com/dapr/dapr) | 26,175 | Go | GitHub Actions, gRPC | Dapr is a portable runtime for building distributed applications across cloud and edge, c… |
-| [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 6,265 | Java | GitHub Actions | Build distributed, production-grade, long-running agents. |
+| [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 6,275 | Java | GitHub Actions | Build distributed, production-grade, long-running agents. |
 | [OpenAdaptAI/OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt) | 1,863 | Python | GitHub Actions | For EHRs, payer portals, and any app your team clicks through. A person or an agent shows… |
 | [golemcloud/golem](https://github.com/golemcloud/golem) | 1,521 | Rust | GitHub Actions, Tokio | Golem is a secure, reliable runtime for agents, tools, and artifacts, powered by lightwei… |
 | [ThousandBirdsInc/chidori](https://github.com/ThousandBirdsInc/chidori) | 1,372 | Rust | GitHub Actions | The agent framework where every run is durable, replayable, and resumable by default. |
 | [i365dev/free4chat](https://github.com/i365dev/free4chat) | 1,227 | TypeScript | GitHub Actions | Temporary rooms for Humans and AI Agents — run, supervise and steer Agent Tasks without a… |
 | [CodeSoul-co/Hypha](https://github.com/CodeSoul-co/Hypha) | 451 | TypeScript | Express, GitHub Actions, MCP SDK | Harness-oriented agent system framework for production-grade LLM agent applications |
-| [synergycodes/workflowbuilder](https://github.com/synergycodes/workflowbuilder) | 431 | TypeScript | GitHub Actions | Workflow orchestration framework for your product, open source: a white-label React workf… |
-| [patriceckhart/zot](https://github.com/patriceckhart/zot) | 358 | Go | GitHub Actions | Yet another coding agent harness, lightweight and written in go. |
+| [synergycodes/workflowbuilder](https://github.com/synergycodes/workflowbuilder) | 434 | TypeScript | GitHub Actions | Workflow orchestration framework for your product, open source: a white-label React workf… |
+| [patriceckhart/zot](https://github.com/patriceckhart/zot) | 360 | Go | GitHub Actions | Yet another coding agent harness, lightweight and written in go. |
 | [huisezhiyin/sdd-riper](https://github.com/huisezhiyin/sdd-riper) | 341 | Python | — | Lightweight AI Agent Harness for agentic coding: let strong models explore while humans s… |
 | [zenml-io/kitaru](https://github.com/zenml-io/kitaru) | 317 | Python | Docker Compose, FastAPI, GitHub Actions, LangGraph | Instill trust in your agent evals. |
-| [vercel-labs/durable-harness](https://github.com/vercel-labs/durable-harness) | 293 | TypeScript | Docker Compose, GitHub Actions | Durable coding-agent harnesses (Claude Code, Codex, OpenCode, Pi, fx) on a Workflow SDK W… |
+| [vercel-labs/durable-harness](https://github.com/vercel-labs/durable-harness) | 294 | TypeScript | Docker Compose, GitHub Actions | Durable coding-agent harnesses (Claude Code, Codex, OpenCode, Pi, fx) on a Workflow SDK W… |
 | [smartcomputer-ai/lightspeed](https://github.com/smartcomputer-ai/lightspeed) | 271 | Rust | GitHub Actions, TypeScript | Deterministic agent harness for Temporal (in Rust) |
-| [Cloudgeni-ai/opengeni](https://github.com/Cloudgeni-ai/opengeni) | 215 | TypeScript | Docker Compose, GitHub Actions | Open, self-hostable agentic service for organizations — durable, replayable agent session… |
+| [Cloudgeni-ai/opengeni](https://github.com/Cloudgeni-ai/opengeni) | 216 | TypeScript | Docker Compose, GitHub Actions | Open, self-hostable agentic service for organizations — durable, replayable agent session… |
 | [inngest/utah](https://github.com/inngest/utah) | 138 | TypeScript | — | Universally Triggered Agent Harness - An OpenClaw-like Inngest-powered personal agent |
 | [NarraFork/NarraFork](https://github.com/NarraFork/NarraFork) | 123 | TypeScript | GitHub Actions, MCP SDK, React | An efficient durable harness for collaboration across people, models, and devices |
 | [yecchen/MIRAI](https://github.com/yecchen/MIRAI) | 115 | Python | LangChain | Code and Data for &quot;MIRAI: Evaluating LLM Agents for Event Forecasting&quot; |
@@ -1273,19 +1276,19 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 38,532 | TypeScript | Express, GitHub Actions, MCP SDK, React | The Frontend Stack for Agents &amp; Generative UI. React, Angular, Mobile, Slack, and more.… |
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 17,035 | TypeScript | GitHub Actions | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 38,539 | TypeScript | Express, GitHub Actions, MCP SDK, React | The Frontend Stack for Agents &amp; Generative UI. React, Angular, Mobile, Slack, and more.… |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 17,043 | TypeScript | GitHub Actions | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. |
 | [SolaceProducts/solace-agent-mesh](https://github.com/SolaceProducts/solace-agent-mesh) | 4,921 | PowerShell | — | Platform for building and running AI agents across the full lifecycle — build, test, depl… |
-| [HarnessRouter/harnessrouter](https://github.com/HarnessRouter/harnessrouter) | 4,222 | Python | Docker, Docker Compose, GitHub Actions | HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified inter… |
+| [HarnessRouter/harnessrouter](https://github.com/HarnessRouter/harnessrouter) | 4,251 | Python | Docker, Docker Compose, GitHub Actions | HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified inter… |
 | [yomorun/yomo](https://github.com/yomorun/yomo) | 1,930 | Rust | GitHub Actions, Tokio | 🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra. |
 | [google/agentmesh](https://github.com/google/agentmesh) | 1,186 | Go | GitHub Actions, gRPC | Agent Mesh |
 | [EvoMap/awesome-agent-evolution](https://github.com/EvoMap/awesome-agent-evolution) | 237 | JavaScript | GitHub Actions | A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self… |
 | [ForestHubAI/edge-agents](https://github.com/ForestHubAI/edge-agents) | 109 | TypeScript | GitHub Actions | The 30 MB open-source edge AI agent runtime. Run AI agents offline on Linux (Raspberry Pi… |
 | [Scottcjn/awesome-agents](https://github.com/Scottcjn/awesome-agents) | 106 | — | — | A curated list of AI agent platforms, frameworks, protocols, tools, and resources |
+| [Protocol-zero-0/evolution-kernel](https://github.com/Protocol-zero-0/evolution-kernel) | 92 | Python | GitHub Actions | Self-improving code for any git repo: give it a measurable goal, a coding agent (Claude C… |
 | [anxuanzi/bua](https://github.com/anxuanzi/bua) | 85 | Go | gRPC | AI-powered browser automation for Go — describe tasks in plain English, let the agent han… |
 | [langgenius/mosoo-agent-driver](https://github.com/langgenius/mosoo-agent-driver) | 82 | TypeScript | GitHub Actions | Runtime-neutral AI execution bridge for Claude Agent SDK, Codex app-server, and Agent Cli… |
 | [SuperagenticAI/superqode](https://github.com/SuperagenticAI/superqode) | 65 | Python | Docker, FastAPI, GitHub Actions, LangChain | The harness interoperability layer for coding agent. Agent to Agent connect over ACP, A2A… |
-| [Protocol-zero-0/evolution-kernel](https://github.com/Protocol-zero-0/evolution-kernel) | 60 | Python | GitHub Actions | Self-improving code for any git repo: give it a measurable goal, a coding agent (Claude C… |
 | [agent-session-protocol/universal-session-log](https://github.com/agent-session-protocol/universal-session-log) | 55 | TypeScript | GitHub Actions | USL is the storage-first reference implementation of the Agent Session Protocol (ASP). AC… |
 | [neuroglia-io/a2a-net](https://github.com/neuroglia-io/a2a-net) | 55 | C# | GitHub Actions | .NET implementation of the Agent2Agent (A2A) protocol to enable secure, interoperable com… |
 | [Aley3567/Agent-Hub](https://github.com/Aley3567/Agent-Hub) | 45 | Python | GitHub Actions | Local runtime for Claude Code and Codex — provider management, isolated sessions, routing… |
@@ -1296,15 +1299,15 @@ Regenerate with `node collect.mjs && node render.mjs`. Do not edit by hand.
 
 | Project | Stars | Language | Stack | Description |
 | --- | ---: | --- | --- | --- |
-| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 85,649 | Rust | GitHub Actions, Tokio | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rus… |
-| [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 84,826 | TypeScript | Docker, Docker Compose, Express, GitHub Actions | Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ m… |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 62,783 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (… |
-| [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) | 13,327 | TypeScript | Docker, GitHub Actions | A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardr… |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 85,702 | Rust | GitHub Actions, Tokio | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rus… |
+| [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 84,982 | TypeScript | Docker, Docker Compose, Express, GitHub Actions | Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ m… |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 62,818 | Python | Docker, Docker Compose, FastAPI, GitHub Actions | The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (… |
+| [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) | 13,333 | TypeScript | Docker, GitHub Actions | A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardr… |
 | [TykTechnologies/tyk](https://github.com/TykTechnologies/tyk) | 10,876 | Go | Docker, Docker Compose, GitHub Actions, gRPC | Open Source API and AI Gateway supporting REST, GraphQL, TCP, gRPC and MCP (Model Context… |
 | [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) | 6,652 | TypeScript | GitHub Actions | The agent-native LLM router for autonomous agents. Every frontier model behind one wallet… |
-| [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | 4,838 | Python | GitHub Actions | Experience-Driven Black-Box Cost Control for Coding Agents |
+| [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | 4,861 | Python | GitHub Actions | Experience-Driven Black-Box Cost Control for Coding Agents |
 | [algorithmicsuperintelligence/optillm](https://github.com/algorithmicsuperintelligence/optillm) | 4,338 | Python | Docker, GitHub Actions, PyTorch | Optimizing inference proxy for LLMs |
-| [proxysoul/Empryo](https://github.com/proxysoul/Empryo) | 1,560 | TypeScript | GitHub Actions, MCP SDK, React | AI coding harness for desktop, terminal and CI. Maps your repo, edits code by symbol thro… |
+| [proxysoul/Empryo](https://github.com/proxysoul/Empryo) | 1,564 | TypeScript | GitHub Actions, MCP SDK, React | AI coding harness for desktop, terminal and CI. Maps your repo, edits code by symbol thro… |
 | [kellyvv/PhoneClaw](https://github.com/kellyvv/PhoneClaw) | 1,290 | Swift | GitHub Actions | PhoneClaw turns phones into local AI agent runtimes with on-device models, native mobile… |
 | [bitrouter/bitrouter](https://github.com/bitrouter/bitrouter) | 238 | Rust | GitHub Actions, Tokio | elastic inference for your agentic workloads, on your terms |
 | [codeking-ai/cligate](https://github.com/codeking-ai/cligate) | 135 | JavaScript | Express, GitHub Actions | Private AI assistant, AI agent, and unified model proxy for Claude Code, Codex CLI, Gemin… |
